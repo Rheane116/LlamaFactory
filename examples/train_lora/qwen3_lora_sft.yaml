@@ -7,24 +7,24 @@ stage: sft
 do_train: true
 finetuning_type: lora
 lora_rank: 8
-lora_target: all
+lora_target: all  # LoRA 应用的目标层。 all 表示应用于所有可训练层
 
 ### dataset
 dataset: identity,alpaca_en_demo
 template: qwen3_nothink
 cutoff_len: 2048
 max_samples: 1000
-preprocessing_num_workers: 16
+preprocessing_num_workers: 16 # 数据预处理的进程数。值越大，预处理速度越快
 dataloader_num_workers: 4
 
 ### output
-output_dir: saves/qwen3-4b/lora/sft
-logging_steps: 10
-save_steps: 500
-plot_loss: true
-overwrite_output_dir: true
-save_only_model: false
-report_to: none  # choices: [none, wandb, tensorboard, swanlab, mlflow]
+output_dir: saves/qwen3-4b/lora/sft # 模型保存目录。训练好的模型将保存在此目录
+logging_steps: 10 # 日志打印间隔。每训练 10 步打印一次日志
+save_steps: 500 # 模型保存间隔。每训练 500 步保存一次模型
+plot_loss: true # 是否绘制损失曲线。 true 表示训练完成后生成损失曲线图
+overwrite_output_dir: true  # 是否覆盖输出目录。 true 表示如果目录已存在则覆盖
+save_only_model: false  # 是否只保存模型文件。 false 表示保存所有训练相关文件
+report_to: none  # choices: [none, wandb, tensorboard, swanlab, mlflow] # 日志报告工具。 none 表示不使用任何报告工具
 
 ### train
 per_device_train_batch_size: 1
