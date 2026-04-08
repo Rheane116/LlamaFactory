@@ -25,8 +25,10 @@ from ...extras.packages import is_transformers_version_greater_than
 from ...extras.ploting import plot_loss
 from ...model import load_model, load_tokenizer
 from ..trainer_utils import create_modelcard_and_push, create_ref_model
-from .metric import ComputeAccuracy, ComputeSimilarity, eval_logit_processor
+from .metric import ComputeAccuracy, ComputeSimilarity, DfsF1Metric, DfsJsonF1Metric, JsonNaiveF1Metric, JsonTypeF1Metric, JsonSpanTypeF1Metric, SelF1Metric, eval_logit_processor
 from .trainer import CustomSeq2SeqTrainer
+
+import sys
 
 
 if TYPE_CHECKING:
@@ -46,8 +48,16 @@ def run_sft(
     generating_args: "GeneratingArguments",
     callbacks: Optional[list["TrainerCallback"]] = None,
 ):
+    # sys.exit("DEBUG: Reached run_sft! Exiting early to check for output.")
     tokenizer_module = load_tokenizer(model_args)
     tokenizer = tokenizer_module["tokenizer"]
+    import os
+    debug_log_dir = "/data/wengxiaolong/zhouyuanyun/LlamaFactory/tmp"
+    os.makedirs(debug_log_dir, exist_ok=True)
+    debug_log_file = os.path.join(debug_log_dir, f"llamafactory_debug_rank_{os.getenv('LOCAL_RANK', '0')}.log")
+    with open(debug_log_file, "w") as f:
+        f.write(f"[DEBUG workflow] LOCAL_RANK: {os.getenv('LOCAL_RANK')}\n")
+        f.write(f"[DEBUG workflow] Tokenizer (after loading): {tokenizer.padding_side}\n\n")
     template = get_template_and_fix_tokenizer(tokenizer, data_args)
     dataset_module = get_dataset(template, model_args, data_args, training_args, stage="sft", **tokenizer_module)
     model = load_model(tokenizer, model_args, finetuning_args, training_args.do_train)
@@ -80,7 +90,22 @@ def run_sft(
             raise NotImplementedError("`compute_accuracy` is not supported in KTransformers SFT yet.")
 
     if training_args.predict_with_generate:
-        metric_module["compute_metrics"] = ComputeSimilarity(tokenizer=tokenizer)
+        print("DEBUG: About to create JsonF1Metric")
+        if finetuning_args.compute_relation_f1:
+            if finetuning_args.f1_format == "json":
+                metric_module["compute_metrics"] = JsonNaiveF1Metric(tokenizer=tokenizer)
+            elif finetuning_args.f1_format == "jsontype":
+                metric_module["compute_metrics"] = JsonTypeF1Metric(tokenizer=tokenizer)
+            elif finetuning_args.f1_format == "jsonspantype":
+                metric_module["compute_metrics"] = JsonSpanTypeF1Metric(tokenizer=tokenizer)
+            elif finetuning_args.f1_format == "dfsjson":
+                metric_module["compute_metrics"] = DfsJsonF1Metric(tokenizer=tokenizer)
+            elif finetuning_args.f1_format == "dfs":
+                metric_module["compute_metrics"] = DfsF1Metric(tokenizer=tokenizer)
+            elif finetuning_args.f1_format == "sel":
+                metric_module["compute_metrics"] = SelF1Metric(tokenizer=tokenizer)
+        else:
+            metric_module["compute_metrics"] = ComputeSimilarity(tokenizer=tokenizer)
     elif finetuning_args.compute_accuracy:
         metric_module["compute_metrics"] = ComputeAccuracy()
         metric_module["preprocess_logits_for_metrics"] = eval_logit_processor
@@ -122,6 +147,10 @@ def run_sft(
         model.config.use_cache = False
 
     else:
+        # Post-process
+        #if not training_args.do_train and training_args.do_eval:
+        #    tokenizer.padding_side = "left"
+        logger.info_rank0(f" data_collator.tokenizer.padding_side (before trainer initialization): {data_collator.tokenizer.padding_side}\n\n")
         trainer = CustomSeq2SeqTrainer(
             model=model,
             args=training_args,
@@ -137,6 +166,8 @@ def run_sft(
 
     # Training
     if training_args.do_train:
+        # tokenizer.padding_side = "left"
+        #print(tokenizer.padding_side)
         train_result = trainer.train(resume_from_checkpoint=training_args.resume_from_checkpoint)
         trainer.save_model()
         if finetuning_args.include_effective_tokens_per_second:
@@ -158,9 +189,10 @@ def run_sft(
 
             plot_loss(training_args.output_dir, keys=keys)
 
+
     if training_args.predict_with_generate:
         tokenizer.padding_side = "left"  # use left-padding in generation
-
+        
     # Evaluation
     if training_args.do_eval:
         metrics = trainer.evaluate(metric_key_prefix="eval", **gen_kwargs)

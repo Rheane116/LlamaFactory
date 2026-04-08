@@ -1,0 +1,12 @@
+{
+  "peop": "People",
+  "org": "Organization",
+  "loc": "Location",
+  "other": "Other",
+
+  "work_for": "WorkFor",
+  "orgbased_in": "OrganizationBasedIn",
+  "located_in": "LocatedIn",
+  "live_in": "LiveIn",
+  "kill": "Kill"
+}

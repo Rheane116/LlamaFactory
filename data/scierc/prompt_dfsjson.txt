@@ -1,0 +1,83 @@
+You are an expert NLP system specialized in extracting structured knowledge from text. Your task is to perform Joint Entity and Relation Extraction on the provided input text. You must accurately extract specific entity types and the semantic relations between them, strictly adhering to the definitions and the specially designed output format below.
+
+### 1. Target Entity Types
+You must identify and extract entities belonging ONLY to the following categories:
+(1) **Task**: Applications, goals, or problems being solved.
+Example: machine translation, text classification, robust visual tracking, silent speech enhancement, MT evaluation.
+(2) **Method**: Algorithms, models, systems, or techniques proposed or utilized.
+Example: neural networks, SVM, language models, Bayesian framework, algorithm, HMM-based TTS system.
+(3) **Metric**: Measures or metrics used to evaluate the performance of a method or task.
+Example: F1-score, accuracy, BLEU.
+(4) **Material**: Datasets, corpora, or resources used in the research.
+Example: English text, images, Penn Treebank, textual corpora, Wallstreet Journal data.
+(5) **OtherScientificTerm**: Specific scientific concepts, theories, linguistic phenomena, or jargon that do not fall into the above categories.
+Example: syntactic agreement, trans-context-free, sound quality, redundant copying, cyclic structures.
+(6) **Generic**: General terms or pronouns used in a scientific context to refer to a broad class or previously mentioned entity.
+Example: method, approach, baseline system, the model, it.
+
+### 2. Target Relation Types
+You must identify relationships between the extracted entities belonging ONLY to the following categories:
+(1) **UsedFor**: The head entity (e.g., Method/Material) is utilized to accomplish or process the tail entity (e.g., Task). 
+Example: (method, paraphrase), (real-time VC, speech enhancement systems), (DSP, real-time VC)
+(2) **EvaluateFor**: The head entity (e.g., Metric) is used to evaluate the tail entity (e.g., Method/Task).
+Example: (accuracy, parser), (sound quality, NAM), (multiple standard datasets, method).
+(3) **FeatureOf**: The head entity is a characteristic, property, or feature belonging to the tail entity (e.g., Task/Method/Material). 
+Example: (grammatical gender, languages), (computational resources, devices), (joint intensity distribution, prior knowledge).
+(4) **PartOf**: The head entity is a structural component, module, or sub-part of the tail entity.
+Example: (Graph unification, grammar parsing), (speed-up element, unification algorithms), (internal model, hypothesis network).
+(5) **HyponymOf**: The head entity is a specific instance, sub-type, or subclass of the tail entity (i.e., Head "is a kind of" Tail).
+Example: (French, languages), (BLEU, evaluation measures), (InfoMagnets, exploration tool).
+(6) **Compare**: The head entity and tail entity are,d against each other. This relation is symmetric.
+Example: (approach, state-of-the-art methods), (system, baseline system).
+(7) **Conjunction**: The head entity and tail entity are used in conjunction, coordinated, or treated as parallel/equivalent. This is a symmetric relation.
+
+Note: For Symmetric relations (Compare, Conjunction), extract the pair only once; you do not need to output both directions.
+
+### 3. Output Format Constraints
+You must output ONLY a valid, raw JSON object. Do not include any markdown formatting blocks (like ```json), explanations, or introductory text. The output must strictly follow this exact JSON rule:
+
+(1) Graph traversal logic: Traverse the graph structure using Depth-First Search. Entities correspond to graph nodes, and relations correspond to directed edges from head entity to tail entity.
+(2) Overall structure: The output is a JSON list []. Each element in the list represents an independent connected DFS traverse tree or an isolated entity.
+(3) Field specifications:
+- span: A field of node, showing the original text of the entity mention.
+- type: A field of node, showing the type label of the entity.
+- targets: A field of node, showing the list of downstream edges related to the current node. Each element (edge) within the list contains the corresponding relation type and tail entity. 
+- relation: A field of edge, showing the relation type connecting the head to corresponding tail entity.      
+- ref: Repeated access marker. When the DFS path points to a previously defined node, use {"relation": <Relation_Type>, "ref": <entity_span>} without recursively outputting its type and targets.
+(4) Sorting priority: Within the top-level list or the same-level targets, entities must be ordered strictly according to their first occurrence in the original text.
+(5) Top-level node deduplication: If an entity has been visited and defined in a previous DFS path, it is prohibited to appear again as an independent element in the top-level list.
+(6) Empty result handling: If the entity extraction result is empty, output [] directly.
+
+Demonstration: If <entity_span1>,<entity_span2>,<entity_span3>,<entity_span4>,<entity_span5> appear in the original text in given order, given the gold entity set {(<entity_span1>, <Entity_Type1>), (<entity_span2>, <Entity_Type2>), (<entity_span3>, <Entity_Type3>), (<entity_span4>, <Entity_Type4>)}, and the gold relation set {(<entity_span2>, <Relation_Type1>, <entity_span3>), (<entity_span2>, <Relation_Type2>, <entity_span5>), (<entity_span4>, <Relation_Type2>, <entity_span3>)}, the serialized output is:
+[
+  {
+    "span": <entity_span1>, 
+    "type": <Entity_Type1>
+  }, 
+  {
+    "span": <entity_span2>, 
+    "type": <Entity_Type2>, 
+    "targets": [
+      {
+        "relation": <Relation_Type1>, 
+        "span": <entity_span3>, 
+        "type": <Entity_Type3>
+      },
+      {
+        "relation": <Relation_Type2>, 
+        "span": <entity_span5>, 
+        "type": <Entity_Type5>
+      }]
+  }, 
+  {
+    "span": <entity_span4>, 
+    "type": <Entity_Type4>, 
+    "targets": [
+    {
+      "relation": <Relation_Type2>, 
+      "ref": <entity_span3>
+    }]
+  }
+]
+
+**Input**

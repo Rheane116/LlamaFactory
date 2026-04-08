@@ -522,6 +522,14 @@ class FinetuningArguments(
         default=False,
         metadata={"help": "Whether or not to compute the token-level accuracy at evaluation."},
     )
+    compute_relation_f1: bool = field(
+        default=False,
+        metadata={"help": "Whether or not to compute the entity and relation F1 metrics at evaluation."},
+    )
+    f1_format: str = field(
+        default="json",
+        metadata={"help": "Format for F1 metric computation: 'json', 'jsontype', 'jsonspantype', 'dfsjson', 'dfs', or 'sel'.", "choices": ["json", "jsontype", "jsonspantype", "dfsjson", "dfs", "sel"]},
+    )
     disable_shuffling: bool = field(
         default=False,
         metadata={"help": "Whether or not to disable the shuffling of the training set."},

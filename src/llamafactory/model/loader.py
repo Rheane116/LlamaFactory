@@ -83,6 +83,9 @@ def load_tokenizer(model_args: "ModelArguments") -> "TokenizerModule":
             padding_side="right",
             **init_kwargs,
         )
+        # 必须确保 pad_token 存在，通常 Qwen 使用 eos_token 作为 pad_token
+        if tokenizer.pad_token is None:
+            tokenizer.pad_token = tokenizer.eos_token
     except ValueError:  # try another one
         tokenizer = AutoTokenizer.from_pretrained(
             model_args.model_name_or_path,

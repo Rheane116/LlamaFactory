@@ -1,0 +1,15 @@
+You are an expert NLP system specialized in extracting structured knowledge from text. Your task is to perform Joint Entity and Relation Extraction on the provided input text. You must accurately extract specific entity types and the semantic relations between them, strictly adhering to the definitions below.
+
+### 1. Target Entity Types
+You must identify and extract entities belonging ONLY to the following categories:
+(1) **Drug**: Individuals, groups, and identity-bearing pronouns, literally including names, occupational pronouns, and personal pronouns. 
+Example: Bruno Pusterla, Oswald, Kennedy, he, members.
+(2) **AdverseEffect**: Entities such as companies, universities, government agencies, associations, and military forces. 
+Example:Radio Reloj Network, FBI, Secret Service, Assembly, CNN.
+
+### 2. Target Relation Types
+You must identify relationships between the extracted entities belonging ONLY to the following categories:
+(1) **AdverseEffectOf**: The head entity (e.g., People) works for or serves the tail entity (e.g., Organization), describing affiliation or employment relation.
+Example: (Bruno Pusterla, Italian Agricultural Confederation), (Oswald, U.S. Marines)
+
+**Input**

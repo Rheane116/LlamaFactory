@@ -1,0 +1,35 @@
+You are an expert NLP system specialized in extracting structured knowledge from text. Your task is to perform Joint Entity and Relation Extraction on the provided input text. You must accurately extract specific entity types and the semantic relations between them, strictly adhering to the definitions below. Moreover, you should adhere to the specially designed output format.
+
+### 1. Target Entity Types
+You must identify and extract entities belonging ONLY to the following categories:
+(1) **Person**: individuals, roles, titles, pronouns or specific groups.
+Example: Mohammad Atrianfar, he, mayor, doctors, everyone.
+(2) **Organization**: Legal entities, companies, government agencies, military units, political parties, sports teams, schools, etc.
+Example: AFP (news agency), newspaper, Congress, Google.
+(3) **GeographicalSocialPolitical**: Geopolitical entities, such as namely countries, cities, provinces, states, etc. with clear boundaries and governments
+Example: Iran, Tehran, Texas, America, Iraq.
+(4) **Location**: Usually non-political places and geographic concepts not belonging to GeographicalSocialPolitical, including geographic locations, water bodies, locative adverbs, and pronouns. 
+Example: downtown, border, world, sub-Saharan.
+(5) **Facility**: Man-made facilities or buildings.
+Example: hospitals, downtown hotels, base, White House, cafe, airport.
+(6) **Vehicle**:  vehicles, physical equipment used to transport people or goods.
+Example: car, van, rocket, cockpit, helicopter.
+(7) **Weapon**: Weapons including firearms, explosives, missiles and other offensive devices. 
+Example: bomb, knife, artillery, missiles.
+
+### 2. Target Relation Types
+You must identify relationships between the extracted entities belonging ONLY to the following categories:
+(1) **OrganizationAffiliation**: The affiliation relation (employment, membership ownership, etc.) between the head entity (e.g., Person/Organization) and the tail entity (e.g. Organization).
+Example: (director, newspaper), (Mohammad Atrianfar, Hamshahri), (CEO, company)
+(2) **PersonalSocial**: Social relations (personal, family, professional, social connections, etc.)  between two Person entities.
+Example: (baby, mother), (woman, husband), (Our, colleagues).
+(3) **Physical**: The head entity (e.g. Person) is physically located in the tail entity (e.g., Location). 
+Example: (I, Oklahoma), (Andrew Luster, Los Angeles International Airport), (Bush, White House), (people, cafe).
+(4) **Artifact**: Refers to artifact relation, describing the use or possession of the tail entity (facilities, weapons or vehicles) by the head entity (e.g., Person/ Organization/GeographicalSocialPolitical),
+Example:  (McDonald's, restaurant), (your, states).
+(5) **GeneralAffiliation**: The general affiliation (citizenship, residency, origin, etc.) relation between the head entity (e.g., Person/ Organizaiton) and the tail entity (e.g. GeographicalSocialPolitical). 
+Example: (newspaper, Iran), (doctors, where), (men, American), (physician, Iraqi).
+(6) **PartWhole**: The head entity is a component of the tail entity.
+Example:  (boards, state), (Public School of Health, Harvard), (border, Iraq).
+
+**Input**

@@ -128,6 +128,57 @@ class CustomSeq2SeqTrainer(Seq2SeqTrainer):
             verify_fp8_status(self.accelerator, training_args)
 
     @override
+    def evaluate(
+        self,
+        eval_dataset: Optional["Dataset"] = None,
+        ignore_keys: Optional[list[str]] = None,
+        metric_key_prefix: str = "eval",
+        **gen_kwargs,
+    ) -> dict[str, float]:
+        r"""Override evaluate to set padding_side for generation."""
+        # Save original padding_side
+        original_padding_side = self.processing_class.padding_side
+        original_model_padding_side = None
+
+        if hasattr(self.model, "tokenizer"):
+            original_model_padding_side = self.model.tokenizer.padding_side
+        # Set padding_side to left for generation
+        self.processing_class.padding_side = "left"
+        if hasattr(self.model, "tokenizer"):
+            self.model.tokenizer.padding_side = "left"
+
+        # Clear cached eval dataloaders so they rebuild with new padding_side
+        if hasattr(self, "_eval_dataloaders"):
+            self._eval_dataloaders = {}
+
+        # Also update the data collator's tokenizer padding_side
+        if hasattr(self, "data_collator") and hasattr(self.data_collator, "tokenizer"):
+            self.data_collator.tokenizer.padding_side = "left"
+
+        try:
+            result = super().evaluate(
+                eval_dataset=eval_dataset,
+                ignore_keys=ignore_keys,
+                metric_key_prefix=metric_key_prefix,
+                **gen_kwargs,
+            )
+        finally:
+            # Restore original padding_side after evaluation
+            self.processing_class.padding_side = original_padding_side
+            if hasattr(self.model, "tokenizer") and original_model_padding_side is not None:
+                self.model.tokenizer.padding_side = original_model_padding_side
+
+            # Restore data collator's padding_side
+            if hasattr(self, "data_collator") and hasattr(self.data_collator, "tokenizer"):
+                self.data_collator.tokenizer.padding_side = original_padding_side
+
+            # Clear cached eval dataloaders again
+            if hasattr(self, "_eval_dataloaders"):
+                self._eval_dataloaders = {}
+
+        return result
+
+    @override
     def create_optimizer(self) -> "torch.optim.Optimizer":
         if self.optimizer is None:
             self.optimizer = create_custom_optimizer(self.model, self.args, self.finetuning_args)

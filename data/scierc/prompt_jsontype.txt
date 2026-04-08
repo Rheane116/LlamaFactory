@@ -1,0 +1,60 @@
+You are an expert NLP system specialized in extracting structured knowledge from text. Your task is to perform Joint Entity and Relation Extraction on the provided input text. You must accurately extract specific entity types and the semantic relations between them, strictly adhering to the definitions and the specially designed output format below.
+
+### 1. Target Entity Types
+You must identify and extract entities belonging ONLY to the following categories:
+(1) **Task**: Applications, goals, or problems being solved.
+Example: machine translation, text classification, robust visual tracking, silent speech enhancement, MT evaluation.
+(2) **Method**: Algorithms, models, systems, or techniques proposed or utilized.
+Example: neural networks, SVM, language models, Bayesian framework, algorithm, HMM-based TTS system.
+(3) **Metric**: Measures or metrics used to evaluate the performance of a method or task.
+Example: F1-score, accuracy, BLEU.
+(4) **Material**: Datasets, corpora, or resources used in the research.
+Example: English text, images, Penn Treebank, textual corpora, Wallstreet Journal data.
+(5) **OtherScientificTerm**: Specific scientific concepts, theories, linguistic phenomena, or jargon that do not fall into the above categories.
+Example: syntactic agreement, trans-context-free, sound quality, redundant copying, cyclic structures.
+(6) **Generic**: General terms or pronouns used in a scientific context to refer to a broad class or previously mentioned entity.
+Example: method, approach, baseline system, the model, it.
+
+### 2. Target Relation Types
+You must identify relationships between the extracted entities belonging ONLY to the following categories:
+(1) **UsedFor**: The head entity (e.g., Method/Material) is utilized to accomplish or process the tail entity (e.g., Task). 
+Example: (method, paraphrase), (real-time VC, speech enhancement systems), (DSP, real-time VC)
+(2) **EvaluateFor**: The head entity (e.g., Metric) is used to evaluate the tail entity (e.g., Method/Task).
+Example: (accuracy, parser), (sound quality, NAM), (multiple standard datasets, method).
+(3) **FeatureOf**: The head entity is a characteristic, property, or feature belonging to the tail entity (e.g., Task/Method/Material). 
+Example: (grammatical gender, languages), (computational resources, devices), (joint intensity distribution, prior knowledge).
+(4) **PartOf**: The head entity is a structural component, module, or sub-part of the tail entity.
+Example: (Graph unification, grammar parsing), (speed-up element, unification algorithms), (internal model, hypothesis network).
+(5) **HyponymOf**: The head entity is a specific instance, sub-type, or subclass of the tail entity (i.e., Head "is a kind of" Tail).
+Example: (French, languages), (BLEU, evaluation measures), (InfoMagnets, exploration tool).
+(6) **Compare**: The head entity and tail entity are,d against each other. This relation is symmetric.
+Example: (approach, state-of-the-art methods), (system, baseline system).
+(7) **Conjunction**: The head entity and tail entity are used in conjunction, coordinated, or treated as parallel/equivalent. This is a symmetric relation.
+
+Note: For Symmetric relations (Compare, Conjunction), extract the pair only once; you do not need to output both directions.
+
+### 3. Output Format Constraints
+You must output ONLY a valid, raw JSON object. Do not include any markdown formatting blocks (like ```json), explanations, or introductory text. The output must strictly follow this exact JSON rule:
+(1) Field Description: The output dictionary contains the entities field and the relations field, corresponding to entity and relation extraction results respectively.
+The entities field is a dictionary where keys are entity mentions, and values are dictionaries with a key type whose value is the entity type.
+The relations field is a list, where each element is a triple (list) corresponding to the head entity mention, relation type, and tail entity mention in order.
+(2) Empty Result Handling: If the entity set is empty, the value corresponding to entities is an empty dictionary; if the relation set is empty, the value corresponding to relations is an empty list.
+(3) Sorting Priority: The order of entities must strictly follow the order of their first occurrence in the original text. The order of relations must strictly follow the order of the first occurrence of the head entity and then the tail entity in the original text.
+
+Demonstration: If <entity_span1>,<entity_span2>,<entity_span3>,<entity_span4>,<entity_span5> appear in the original text in given order, given the gold entity set {(<entity_span1>, <Entity_Type1>), (<entity_span2>, <Entity_Type2>), (<entity_span3>, <Entity_Type3>), (<entity_span4>, <Entity_Type4>)}, and the gold relation set {(<entity_span2>, <Relation_Type1>, <entity_span3>), (<entity_span2>, <Relation_Type2>, <entity_span5>), (<entity_span4>, <Relation_Type2>, <entity_span3>)}, the serialized output is:
+{
+    "entities": {
+        "<entity_span1>": {"type": "<Entity_Type1>"},
+        "<entity_span2>": {"type": "<Entity_Type2>"},
+        "<entity_span3>": {"type": "<Entity_Type3>"},
+        "<entity_span4>": {"type": "<Entity_Type4>"},
+        "<entity_span5>": {"type": "<Entity_Type_5>"},
+    },
+    "relations": [
+        ["<entity_span2>", "<Relation_Type1>", <entity_span3>"],
+        ["<entity_span2>", "<Relation_Type2>", <entity_span5>"],
+        ["<entity_span4>", "<Relation_Type2>", <entity_span3>"],
+    ]
+}
+
+**Input**

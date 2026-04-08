@@ -1,0 +1,16 @@
+{
+  "Task": "Task",
+  "Method": "Method",
+  "Material": "Material",
+  "Metric": "Metric",
+  "Generic": "Generic",
+  "OtherScientificTerm": "OtherScientificTerm",
+
+  "USED-FOR": "UsedFor",
+  "PART-OF": "PartOf",
+  "HYPONYM-OF": "HyponymOf",
+  "CONJUNCTION": "Conjunction",
+  "FEATURE-OF": "FeatureOf",
+  "EVALUATE-FOR": "EvaluateFor",
+  "COMPARE": "Compare"
+}

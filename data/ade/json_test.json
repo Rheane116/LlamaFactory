@@ -1,0 +1,2142 @@
+[
+  {
+    "instruction": "",
+    "input": "CONCLUSION : Gemcitabine - induced recall pneumonitis is a rarely reported phenomenon and should be taken into account even after extended time interval to the previous radiotherapy .",
+    "output": "{\"entities\": {\"Gemcitabine\": {\"type\": \"Drug\"}, \"recall pneumonitis\": {\"type\": \"Adverse-Effect\"}}, \"relations\": [[\"recall pneumonitis\", \"adverse-reaction-of\", \"Gemcitabine\"]]}"
+  },
+  {
+    "instruction": "",
+    "input": "CONCLUSION : The present findings suggest that fluvoxamine can cause increased libido in some patients .",
+    "output": "{\"entities\": {\"fluvoxamine\": {\"type\": \"Drug\"}, \"increased libido\": {\"type\": \"Adverse-Effect\"}}, \"relations\": [[\"increased libido\", \"adverse-reaction-of\", \"fluvoxamine\"]]}"
+  },
+  {
+    "instruction": "",
+    "input": "Malignant mixed mullerian tumor of the uterus in a patient taking raloxifene .",
+    "output": "{\"entities\": {\"Malignant mixed mullerian tumor of the uterus\": {\"type\": \"Adverse-Effect\"}, \"raloxifene\": {\"type\": \"Drug\"}}, \"relations\": [[\"Malignant mixed mullerian tumor of the uterus\", \"adverse-reaction-of\", \"raloxifene\"]]}"
+  },
+  {
+    "instruction": "",
+    "input": "Pneumocystis carinii pneumonia as a complication of methotrexate treatment of asthma .",
+    "output": "{\"entities\": {\"Pneumocystis carinii pneumonia\": {\"type\": \"Adverse-Effect\"}, \"methotrexate\": {\"type\": \"Drug\"}}, \"relations\": [[\"Pneumocystis carinii pneumonia\", \"adverse-reaction-of\", \"methotrexate\"]]}"
+  },
+  {
+    "instruction": "",
+    "input": "BACKGROUND : How to best treat psychotic patients who have had past clozapine - induced agranulocytosis or granulocytopenia remains a problem .",
+    "output": "{\"entities\": {\"clozapine\": {\"type\": \"Drug\"}, \"granulocytopenia\": {\"type\": \"Adverse-Effect\"}}, \"relations\": [[\"granulocytopenia\", \"adverse-reaction-of\", \"clozapine\"]]}"
+  },
+  {
+    "instruction": "",
+    "input": "We suggest that meloxicam might have intestinal toxic effects when taken in high doses , because of reduced COX-2 selectivity .",
+    "output": "{\"entities\": {\"meloxicam\": {\"type\": \"Drug\"}, \"intestinal toxic effects\": {\"type\": \"Adverse-Effect\"}}, \"relations\": [[\"intestinal toxic effects\", \"adverse-reaction-of\", \"meloxicam\"]]}"
+  },
+  {
+    "instruction": "",
+    "input": "A study of in vitro reactivity to L - T4 , as assessed by peripheral blood lymphocyte transformation , was carried out in a patient with Hashimoto 's disease who developed leukopenia during treatment with L - T4 .",
+    "output": "{\"entities\": {\"L - T4\": {\"type\": \"Drug\"}, \"leukopenia\": {\"type\": \"Adverse-Effect\"}}, \"relations\": [[\"leukopenia\", \"adverse-reaction-of\", \"L - T4\"]]}"
+  },
+  {
+    "instruction": "",
+    "input": "Nine eyes from 6 patients , 74 years to 90 years of age , referred by ophthalmologists for repair of cicatricial entropion after at least 2 years of twice - a - day application of dipivefrin .",
+    "output": "{\"entities\": {\"cicatricial entropion\": {\"type\": \"Adverse-Effect\"}, \"dipivefrin\": {\"type\": \"Drug\"}}, \"relations\": [[\"cicatricial entropion\", \"adverse-reaction-of\", \"dipivefrin\"]]}"
+  },
+  {
+    "instruction": "",
+    "input": "Thrombocytopenia with or without microangiopathy following quinine is often referred to as quinine \" hypersensitivity . \" When schistocytes are present it is frequently termed \" quinine - associated TTP / HUS . \" A severe deficiency of the vWF - cleaving protease , ADAMTS13 , is associated with idiopathic TTP .",
+    "output": "{\"entities\": {\"Thrombocytopenia\": {\"type\": \"Adverse-Effect\"}, \"quinine\": {\"type\": \"Drug\"}, \"TTP / HUS\": {\"type\": \"Adverse-Effect\"}}, \"relations\": [[\"Thrombocytopenia\", \"adverse-reaction-of\", \"quinine\"], [\"TTP / HUS\", \"adverse-reaction-of\", \"quinine\"]]}"
+  },
+  {
+    "instruction": "",
+    "input": "In these patients , long - acting octreotide may trigger serious hypoglycemia .",
+    "output": "{\"entities\": {\"octreotide\": {\"type\": \"Drug\"}, \"serious hypoglycemia\": {\"type\": \"Adverse-Effect\"}}, \"relations\": [[\"serious hypoglycemia\", \"adverse-reaction-of\", \"octreotide\"]]}"
+  },
+  {
+    "instruction": "",
+    "input": "Tigecycline - induced acute pancreatitis : case report and literature review .",
+    "output": "{\"entities\": {\"Tigecycline\": {\"type\": \"Drug\"}, \"acute pancreatitis\": {\"type\": \"Adverse-Effect\"}}, \"relations\": [[\"acute pancreatitis\", \"adverse-reaction-of\", \"Tigecycline\"]]}"
+  },
+  {
+    "instruction": "",
+    "input": "We observed 3 diabetic patients with intolerable dizziness followed by nausea and vomiting immediately after an initial administration of the alpha - glucosidase inhibitor , voglibose .",
+    "output": "{\"entities\": {\"intolerable dizziness\": {\"type\": \"Adverse-Effect\"}, \"nausea\": {\"type\": \"Adverse-Effect\"}, \"vomiting\": {\"type\": \"Adverse-Effect\"}, \"voglibose\": {\"type\": \"Drug\"}}, \"relations\": [[\"intolerable dizziness\", \"adverse-reaction-of\", \"voglibose\"], [\"nausea\", \"adverse-reaction-of\", \"voglibose\"], [\"vomiting\", \"adverse-reaction-of\", \"voglibose\"]]}"
+  },
+  {
+    "instruction": "",
+    "input": "Methadone - induced myoclonus in advanced cancer .",
+    "output": "{\"entities\": {\"Methadone\": {\"type\": \"Drug\"}, \"myoclonus\": {\"type\": \"Adverse-Effect\"}}, \"relations\": [[\"myoclonus\", \"adverse-reaction-of\", \"Methadone\"]]}"
+  },
+  {
+    "instruction": "",
+    "input": "Until additional data are available , if intravenous acyclovir is administered concurrently with lithium , we recommend closely monitoring patients for signs of lithium toxicity and measuring serum lithium levels every second or third day .",
+    "output": "{\"entities\": {\"acyclovir\": {\"type\": \"Drug\"}, \"lithium\": {\"type\": \"Drug\"}, \"lithium toxicity\": {\"type\": \"Adverse-Effect\"}}, \"relations\": [[\"lithium toxicity\", \"adverse-reaction-of\", \"acyclovir\"], [\"lithium toxicity\", \"adverse-reaction-of\", \"lithium\"]]}"
+  },
+  {
+    "instruction": "",
+    "input": "Docetaxel induced Meibomian duct inflammation and blockage is the likely cause of this presentation in a patient with no history of eyelid masses in the past .",
+    "output": "{\"entities\": {\"Docetaxel\": {\"type\": \"Drug\"}, \"Meibomian duct inflammation and blockage\": {\"type\": \"Adverse-Effect\"}}, \"relations\": [[\"Meibomian duct inflammation and blockage\", \"adverse-reaction-of\", \"Docetaxel\"]]}"
+  },
+  {
+    "instruction": "",
+    "input": "In this article , we describe a Japanese patient with severe interstitial pneumonia probably caused by sorafenib treatment for metastatic renal cell carcinoma .",
+    "output": "{\"entities\": {\"severe interstitial pneumonia\": {\"type\": \"Adverse-Effect\"}, \"sorafenib\": {\"type\": \"Drug\"}}, \"relations\": [[\"severe interstitial pneumonia\", \"adverse-reaction-of\", \"sorafenib\"]]}"
+  },
+  {
+    "instruction": "",
+    "input": "Rapamycin / sirolimus - induced pneumonitis has been described previously in renal transplant recipients , and this report describes a stable heart - lung transplant recipient who developed a pulmonary infiltrate that reversed after ceasing SR therapy .",
+    "output": "{\"entities\": {\"Rapamycin\": {\"type\": \"Drug\"}, \"sirolimus\": {\"type\": \"Drug\"}, \"pneumonitis\": {\"type\": \"Adverse-Effect\"}, \"pulmonary infiltrate\": {\"type\": \"Adverse-Effect\"}, \"SR\": {\"type\": \"Drug\"}}, \"relations\": [[\"pneumonitis\", \"adverse-reaction-of\", \"Rapamycin\"], [\"pneumonitis\", \"adverse-reaction-of\", \"sirolimus\"], [\"pulmonary infiltrate\", \"adverse-reaction-of\", \"Rapamycin\"], [\"pulmonary infiltrate\", \"adverse-reaction-of\", \"sirolimus\"], [\"pulmonary infiltrate\", \"adverse-reaction-of\", \"SR\"]]}"
+  },
+  {
+    "instruction": "",
+    "input": "The time course of events suggested that amphotericin B was the cause of the seizures in this AIDS patient .",
+    "output": "{\"entities\": {\"amphotericin B\": {\"type\": \"Drug\"}, \"seizures\": {\"type\": \"Adverse-Effect\"}}, \"relations\": [[\"seizures\", \"adverse-reaction-of\", \"amphotericin B\"]]}"
+  },
+  {
+    "instruction": "",
+    "input": "To our knowledge , this is the first case of griseofulvin - exacerbated lupus in which nephrotic syndrome has been observed .",
+    "output": "{\"entities\": {\"griseofulvin\": {\"type\": \"Drug\"}, \"lupus\": {\"type\": \"Adverse-Effect\"}, \"nephrotic syndrome\": {\"type\": \"Adverse-Effect\"}}, \"relations\": [[\"lupus\", \"adverse-reaction-of\", \"griseofulvin\"], [\"nephrotic syndrome\", \"adverse-reaction-of\", \"griseofulvin\"]]}"
+  },
+  {
+    "instruction": "",
+    "input": "Acute hepatic failure is a rare and potentially lethal complication of propylthiouracil ( PTU ) use for hyperthyroidism .",
+    "output": "{\"entities\": {\"Acute hepatic failure\": {\"type\": \"Adverse-Effect\"}, \"propylthiouracil\": {\"type\": \"Drug\"}, \"PTU\": {\"type\": \"Drug\"}}, \"relations\": [[\"Acute hepatic failure\", \"adverse-reaction-of\", \"propylthiouracil\"], [\"Acute hepatic failure\", \"adverse-reaction-of\", \"PTU\"]]}"
+  },
+  {
+    "instruction": "",
+    "input": "Charcoal haemoperfusion and cysteamine therapy led to the rapid removal of the paracetamol from the body and consequently prevented the development of severe hepatic necrosis .",
+    "output": "{\"entities\": {\"paracetamol\": {\"type\": \"Drug\"}, \"severe hepatic necrosis\": {\"type\": \"Adverse-Effect\"}}, \"relations\": [[\"severe hepatic necrosis\", \"adverse-reaction-of\", \"paracetamol\"]]}"
+  },
+  {
+    "instruction": "",
+    "input": "Although interferon gamma has been implicated in the pathogenesis of sarcoidosis , only a few cases of sarcoidosis associated with interferon alpha therapy have been reported .",
+    "output": "{\"entities\": {\"sarcoidosis\": {\"type\": \"Adverse-Effect\"}, \"interferon alpha\": {\"type\": \"Drug\"}}, \"relations\": [[\"sarcoidosis\", \"adverse-reaction-of\", \"interferon alpha\"]]}"
+  },
+  {
+    "instruction": "",
+    "input": "Retinal dysfunction and anterior segment deposits in a patient treated with rifabutin .",
+    "output": "{\"entities\": {\"Retinal dysfunction\": {\"type\": \"Adverse-Effect\"}, \"anterior segment deposits\": {\"type\": \"Adverse-Effect\"}, \"rifabutin\": {\"type\": \"Drug\"}}, \"relations\": [[\"Retinal dysfunction\", \"adverse-reaction-of\", \"rifabutin\"], [\"anterior segment deposits\", \"adverse-reaction-of\", \"rifabutin\"]]}"
+  },
+  {
+    "instruction": "",
+    "input": "Other potential causes of renal failure were not present in our patient and his renal function gradually recovered with the cessation of suramin treatment .",
+    "output": "{\"entities\": {\"renal failure\": {\"type\": \"Adverse-Effect\"}, \"suramin\": {\"type\": \"Drug\"}}, \"relations\": [[\"renal failure\", \"adverse-reaction-of\", \"suramin\"]]}"
+  },
+  {
+    "instruction": "",
+    "input": "With the increasing use of Cyclosporine A in transplant patients , the incidence of herpes esophagitis may increase .",
+    "output": "{\"entities\": {\"Cyclosporine A\": {\"type\": \"Drug\"}, \"herpes esophagitis\": {\"type\": \"Adverse-Effect\"}}, \"relations\": [[\"herpes esophagitis\", \"adverse-reaction-of\", \"Cyclosporine A\"]]}"
+  },
+  {
+    "instruction": "",
+    "input": "Sudden cardiac death due to hypersensitivity myocarditis during clozapine treatment .",
+    "output": "{\"entities\": {\"Sudden cardiac death\": {\"type\": \"Adverse-Effect\"}, \"hypersensitivity myocarditis\": {\"type\": \"Adverse-Effect\"}, \"clozapine\": {\"type\": \"Drug\"}}, \"relations\": [[\"Sudden cardiac death\", \"adverse-reaction-of\", \"clozapine\"], [\"hypersensitivity myocarditis\", \"adverse-reaction-of\", \"clozapine\"]]}"
+  },
+  {
+    "instruction": "",
+    "input": "We present a fatal case of subacute methanol toxicity with associated diffuse brain involvement , including bilateral putaminal necrosis and cerebral edema with ventricular compression .",
+    "output": "{\"entities\": {\"fatal\": {\"type\": \"Adverse-Effect\"}, \"methanol\": {\"type\": \"Drug\"}, \"methanol toxicity\": {\"type\": \"Adverse-Effect\"}, \"diffuse brain involvement\": {\"type\": \"Adverse-Effect\"}, \"bilateral putaminal necrosis\": {\"type\": \"Adverse-Effect\"}, \"cerebral edema\": {\"type\": \"Adverse-Effect\"}, \"ventricular compression\": {\"type\": \"Adverse-Effect\"}}, \"relations\": [[\"fatal\", \"adverse-reaction-of\", \"methanol\"], [\"methanol toxicity\", \"adverse-reaction-of\", \"methanol\"], [\"diffuse brain involvement\", \"adverse-reaction-of\", \"methanol\"], [\"bilateral putaminal necrosis\", \"adverse-reaction-of\", \"methanol\"], [\"cerebral edema\", \"adverse-reaction-of\", \"methanol\"], [\"ventricular compression\", \"adverse-reaction-of\", \"methanol\"]]}"
+  },
+  {
+    "instruction": "",
+    "input": "Livedo reticularis associated with interferon alpha therapy in two melanoma patients .",
+    "output": "{\"entities\": {\"Livedo reticularis\": {\"type\": \"Adverse-Effect\"}, \"interferon alpha\": {\"type\": \"Drug\"}}, \"relations\": [[\"Livedo reticularis\", \"adverse-reaction-of\", \"interferon alpha\"]]}"
+  },
+  {
+    "instruction": "",
+    "input": "Lethargy in a newborn : lithium toxicity or lab error ?",
+    "output": "{\"entities\": {\"Lethargy\": {\"type\": \"Adverse-Effect\"}, \"lithium\": {\"type\": \"Drug\"}, \"lithium toxicity\": {\"type\": \"Adverse-Effect\"}}, \"relations\": [[\"Lethargy\", \"adverse-reaction-of\", \"lithium\"], [\"lithium toxicity\", \"adverse-reaction-of\", \"lithium\"]]}"
+  },
+  {
+    "instruction": "",
+    "input": "Fixed drug eruption of the scrotum due to methylphenidate .",
+    "output": "{\"entities\": {\"Fixed drug eruption of the scrotum\": {\"type\": \"Adverse-Effect\"}, \"methylphenidate\": {\"type\": \"Drug\"}}, \"relations\": [[\"Fixed drug eruption of the scrotum\", \"adverse-reaction-of\", \"methylphenidate\"]]}"
+  },
+  {
+    "instruction": "",
+    "input": "Neurological side effects in two patients receiving gold injections for rheumatoid arthritis .",
+    "output": "{\"entities\": {\"Neurological side effects\": {\"type\": \"Adverse-Effect\"}, \"gold\": {\"type\": \"Drug\"}}, \"relations\": [[\"Neurological side effects\", \"adverse-reaction-of\", \"gold\"]]}"
+  },
+  {
+    "instruction": "",
+    "input": "Withdrawal of Depakote resulted in resolution of the effusion .",
+    "output": "{\"entities\": {\"Depakote\": {\"type\": \"Drug\"}, \"effusion\": {\"type\": \"Adverse-Effect\"}}, \"relations\": [[\"effusion\", \"adverse-reaction-of\", \"Depakote\"]]}"
+  },
+  {
+    "instruction": "",
+    "input": "A case of colchicine - induced rhabdomyolysis is reported .",
+    "output": "{\"entities\": {\"colchicine\": {\"type\": \"Drug\"}, \"rhabdomyolysis\": {\"type\": \"Adverse-Effect\"}}, \"relations\": [[\"rhabdomyolysis\", \"adverse-reaction-of\", \"colchicine\"]]}"
+  },
+  {
+    "instruction": "",
+    "input": "In patients with a known access to INH , seizures should be considered to be caused by INH toxicity unless proved otherwise .",
+    "output": "{\"entities\": {\"INH\": {\"type\": \"Drug\"}, \"seizures\": {\"type\": \"Adverse-Effect\"}}, \"relations\": [[\"seizures\", \"adverse-reaction-of\", \"INH\"]]}"
+  },
+  {
+    "instruction": "",
+    "input": "METHODS : A 76-year - old woman with primary open - angle glaucoma and no history of ocular surgery developed a choroidal detachment 12 hours after initiation of therapy with dorzolamide eye drops .",
+    "output": "{\"entities\": {\"choroidal detachment\": {\"type\": \"Adverse-Effect\"}, \"dorzolamide\": {\"type\": \"Drug\"}}, \"relations\": [[\"choroidal detachment\", \"adverse-reaction-of\", \"dorzolamide\"]]}"
+  },
+  {
+    "instruction": "",
+    "input": "Fulminant hepatic failure developed in a 24-year - old black woman who had been treated with propylthiouracil and propranolol for hyperthyroidism .",
+    "output": "{\"entities\": {\"Fulminant hepatic failure\": {\"type\": \"Adverse-Effect\"}, \"propylthiouracil\": {\"type\": \"Drug\"}, \"propranolol\": {\"type\": \"Drug\"}}, \"relations\": [[\"Fulminant hepatic failure\", \"adverse-reaction-of\", \"propylthiouracil\"], [\"Fulminant hepatic failure\", \"adverse-reaction-of\", \"propranolol\"]]}"
+  },
+  {
+    "instruction": "",
+    "input": "The induction of hypoglycaemia with PAS in this patient suggests a potential role for PAS in the treatment of diabetes mellitus .",
+    "output": "{\"entities\": {\"hypoglycaemia\": {\"type\": \"Adverse-Effect\"}, \"PAS\": {\"type\": \"Drug\"}}, \"relations\": [[\"hypoglycaemia\", \"adverse-reaction-of\", \"PAS\"]]}"
+  },
+  {
+    "instruction": "",
+    "input": "The probability of developing acute leukemia in this study was not significantly correlated to the total cumulative dosage of Treosulfan .",
+    "output": "{\"entities\": {\"acute leukemia\": {\"type\": \"Adverse-Effect\"}, \"Treosulfan\": {\"type\": \"Drug\"}}, \"relations\": [[\"acute leukemia\", \"adverse-reaction-of\", \"Treosulfan\"]]}"
+  },
+  {
+    "instruction": "",
+    "input": "We report here a case of cardiovascular and neurological depression induced by oxymetalzoline in a toddler .",
+    "output": "{\"entities\": {\"neurological depression\": {\"type\": \"Adverse-Effect\"}, \"oxymetalzoline\": {\"type\": \"Drug\"}}, \"relations\": [[\"neurological depression\", \"adverse-reaction-of\", \"oxymetalzoline\"]]}"
+  },
+  {
+    "instruction": "",
+    "input": "Here , we report a case of angio - oedema associated with VRC therapy .",
+    "output": "{\"entities\": {\"angio - oedema\": {\"type\": \"Adverse-Effect\"}, \"VRC\": {\"type\": \"Drug\"}}, \"relations\": [[\"angio - oedema\", \"adverse-reaction-of\", \"VRC\"]]}"
+  },
+  {
+    "instruction": "",
+    "input": "The syndrome of irreversible lithium - effectuated neurotoxicity ( SILENT ) .",
+    "output": "{\"entities\": {\"lithium\": {\"type\": \"Drug\"}, \"neurotoxicity\": {\"type\": \"Adverse-Effect\"}}, \"relations\": [[\"neurotoxicity\", \"adverse-reaction-of\", \"lithium\"]]}"
+  },
+  {
+    "instruction": "",
+    "input": "This article presents a case of an atypical localized cutaneous eruption with an unusual course and protracted resolution time associated with sorafenib therapy .",
+    "output": "{\"entities\": {\"atypical localized cutaneous eruption\": {\"type\": \"Adverse-Effect\"}, \"sorafenib\": {\"type\": \"Drug\"}}, \"relations\": [[\"atypical localized cutaneous eruption\", \"adverse-reaction-of\", \"sorafenib\"]]}"
+  },
+  {
+    "instruction": "",
+    "input": "This report presents a potential case of risperidone - induced tardive dyskinesia .",
+    "output": "{\"entities\": {\"risperidone\": {\"type\": \"Drug\"}, \"tardive dyskinesia\": {\"type\": \"Adverse-Effect\"}}, \"relations\": [[\"tardive dyskinesia\", \"adverse-reaction-of\", \"risperidone\"]]}"
+  },
+  {
+    "instruction": "",
+    "input": "Myoclonic spasms following intrathecal morphine .",
+    "output": "{\"entities\": {\"Myoclonic spasms\": {\"type\": \"Adverse-Effect\"}, \"morphine\": {\"type\": \"Drug\"}}, \"relations\": [[\"Myoclonic spasms\", \"adverse-reaction-of\", \"morphine\"]]}"
+  },
+  {
+    "instruction": "",
+    "input": "An 8-year - old girl , who had been vaccinated with BCG without subsequent regional reactions , developed osteomyelitis in the left calcaneus 7 months later .",
+    "output": "{\"entities\": {\"BCG\": {\"type\": \"Drug\"}, \"osteomyelitis in the left calcaneus\": {\"type\": \"Adverse-Effect\"}}, \"relations\": [[\"osteomyelitis in the left calcaneus\", \"adverse-reaction-of\", \"BCG\"]]}"
+  },
+  {
+    "instruction": "",
+    "input": "After having received gemcitabine on day 1 of the second course , the patient developed dry cough , subfebrile temperatures and dyspnea within 48 h .",
+    "output": "{\"entities\": {\"gemcitabine\": {\"type\": \"Drug\"}, \"dry cough\": {\"type\": \"Adverse-Effect\"}, \"subfebrile temperatures\": {\"type\": \"Adverse-Effect\"}, \"dyspnea\": {\"type\": \"Adverse-Effect\"}}, \"relations\": [[\"dry cough\", \"adverse-reaction-of\", \"gemcitabine\"], [\"subfebrile temperatures\", \"adverse-reaction-of\", \"gemcitabine\"], [\"dyspnea\", \"adverse-reaction-of\", \"gemcitabine\"]]}"
+  },
+  {
+    "instruction": "",
+    "input": "Serotonin syndrome induced by transitioning from phenelzine to venlafaxine : four patient reports .",
+    "output": "{\"entities\": {\"Serotonin syndrome\": {\"type\": \"Adverse-Effect\"}, \"phenelzine\": {\"type\": \"Drug\"}, \"venlafaxine\": {\"type\": \"Drug\"}}, \"relations\": [[\"Serotonin syndrome\", \"adverse-reaction-of\", \"phenelzine\"], [\"Serotonin syndrome\", \"adverse-reaction-of\", \"venlafaxine\"]]}"
+  },
+  {
+    "instruction": "",
+    "input": "Both colchicine and statin therapy may be associated with myopathy , which usually occurs after several months of therapy .",
+    "output": "{\"entities\": {\"colchicine\": {\"type\": \"Drug\"}, \"statin\": {\"type\": \"Drug\"}, \"myopathy\": {\"type\": \"Adverse-Effect\"}}, \"relations\": [[\"myopathy\", \"adverse-reaction-of\", \"colchicine\"], [\"myopathy\", \"adverse-reaction-of\", \"statin\"]]}"
+  },
+  {
+    "instruction": "",
+    "input": "Amiodarone hydrochloride , a new antiarrhythmic agent , has been associated with pulmonary toxicity characterized by cough , dyspnea and diffuse pulmonary infiltrates .",
+    "output": "{\"entities\": {\"Amiodarone hydrochloride\": {\"type\": \"Drug\"}, \"pulmonary toxicity\": {\"type\": \"Adverse-Effect\"}, \"cough\": {\"type\": \"Adverse-Effect\"}, \"dyspnea\": {\"type\": \"Adverse-Effect\"}, \"diffuse pulmonary infiltrates\": {\"type\": \"Adverse-Effect\"}}, \"relations\": [[\"pulmonary toxicity\", \"adverse-reaction-of\", \"Amiodarone hydrochloride\"], [\"cough\", \"adverse-reaction-of\", \"Amiodarone hydrochloride\"], [\"dyspnea\", \"adverse-reaction-of\", \"Amiodarone hydrochloride\"], [\"diffuse pulmonary infiltrates\", \"adverse-reaction-of\", \"Amiodarone hydrochloride\"]]}"
+  },
+  {
+    "instruction": "",
+    "input": "Pregabalin - induced cortical negative myoclonus in a patient with neuropathic pain .",
+    "output": "{\"entities\": {\"Pregabalin\": {\"type\": \"Drug\"}, \"cortical negative myoclonus\": {\"type\": \"Adverse-Effect\"}}, \"relations\": [[\"cortical negative myoclonus\", \"adverse-reaction-of\", \"Pregabalin\"]]}"
+  },
+  {
+    "instruction": "",
+    "input": "We report a male patient with advanced AIDS who developed hypercalcemia 2 weeks after institution of rhGH therapy .",
+    "output": "{\"entities\": {\"hypercalcemia\": {\"type\": \"Adverse-Effect\"}, \"rhGH\": {\"type\": \"Drug\"}}, \"relations\": [[\"hypercalcemia\", \"adverse-reaction-of\", \"rhGH\"]]}"
+  },
+  {
+    "instruction": "",
+    "input": "Massive CBZ OD may produce a reversible encephalopathy that includes cortical hyperexcitability , a profound burst - suppression EEG pattern , and cranial nerve areflexia .",
+    "output": "{\"entities\": {\"CBZ\": {\"type\": \"Drug\"}, \"reversible encephalopathy\": {\"type\": \"Adverse-Effect\"}, \"cortical hyperexcitability\": {\"type\": \"Adverse-Effect\"}, \"profound burst - suppression EEG pattern\": {\"type\": \"Adverse-Effect\"}, \"cranial nerve areflexia\": {\"type\": \"Adverse-Effect\"}}, \"relations\": [[\"reversible encephalopathy\", \"adverse-reaction-of\", \"CBZ\"], [\"cortical hyperexcitability\", \"adverse-reaction-of\", \"CBZ\"], [\"profound burst - suppression EEG pattern\", \"adverse-reaction-of\", \"CBZ\"], [\"cranial nerve areflexia\", \"adverse-reaction-of\", \"CBZ\"]]}"
+  },
+  {
+    "instruction": "",
+    "input": "A 35-year - old man with seropositive rheumatoid arthritis developed selective IgA deficiency during treatment with fenclofenac .",
+    "output": "{\"entities\": {\"IgA deficiency\": {\"type\": \"Adverse-Effect\"}, \"fenclofenac\": {\"type\": \"Drug\"}}, \"relations\": [[\"IgA deficiency\", \"adverse-reaction-of\", \"fenclofenac\"]]}"
+  },
+  {
+    "instruction": "",
+    "input": "Minor electrocardiographical changes were noted in five out of six patients who were not receiving a cardiac glycoside and four out of six who were receiving ouabain , and none of the 16 who were receiving digoxin .",
+    "output": "{\"entities\": {\"Minor electrocardiographical changes\": {\"type\": \"Adverse-Effect\"}, \"ouabain\": {\"type\": \"Drug\"}}, \"relations\": [[\"Minor electrocardiographical changes\", \"adverse-reaction-of\", \"ouabain\"]]}"
+  },
+  {
+    "instruction": "",
+    "input": "Severe hepatotoxicity from phenobarbital occurred in an infant boy who had a complicated illness with chronic bilateral subdural hematomas and sepsis .",
+    "output": "{\"entities\": {\"Severe hepatotoxicity\": {\"type\": \"Adverse-Effect\"}, \"phenobarbital\": {\"type\": \"Drug\"}}, \"relations\": [[\"Severe hepatotoxicity\", \"adverse-reaction-of\", \"phenobarbital\"]]}"
+  },
+  {
+    "instruction": "",
+    "input": "We observed 2 cases of hepatotoxicity after a high - dose methylprednisolone treatment of a demyelinating disease and evaluated the potential relationship in the light of available evidence .",
+    "output": "{\"entities\": {\"hepatotoxicity\": {\"type\": \"Adverse-Effect\"}, \"methylprednisolone\": {\"type\": \"Drug\"}}, \"relations\": [[\"hepatotoxicity\", \"adverse-reaction-of\", \"methylprednisolone\"]]}"
+  },
+  {
+    "instruction": "",
+    "input": "In both cases , high fever , skin rash , liver dysfunction and atypical lymphocytosis developed 3 weeks after initiating treatment with SASP .",
+    "output": "{\"entities\": {\"high fever\": {\"type\": \"Adverse-Effect\"}, \"skin rash\": {\"type\": \"Adverse-Effect\"}, \"liver dysfunction\": {\"type\": \"Adverse-Effect\"}, \"atypical lymphocytosis\": {\"type\": \"Adverse-Effect\"}, \"SASP\": {\"type\": \"Drug\"}}, \"relations\": [[\"high fever\", \"adverse-reaction-of\", \"SASP\"], [\"skin rash\", \"adverse-reaction-of\", \"SASP\"], [\"liver dysfunction\", \"adverse-reaction-of\", \"SASP\"], [\"atypical lymphocytosis\", \"adverse-reaction-of\", \"SASP\"]]}"
+  },
+  {
+    "instruction": "",
+    "input": "A patient with severe cholestatic jaundice induced by captopril is presented .",
+    "output": "{\"entities\": {\"severe cholestatic jaundice\": {\"type\": \"Adverse-Effect\"}, \"captopril\": {\"type\": \"Drug\"}}, \"relations\": [[\"severe cholestatic jaundice\", \"adverse-reaction-of\", \"captopril\"]]}"
+  },
+  {
+    "instruction": "",
+    "input": "We present a case of a sustained monomorphic ventricular tachycardia following adenosine infusion .",
+    "output": "{\"entities\": {\"sustained monomorphic ventricular tachycardia\": {\"type\": \"Adverse-Effect\"}, \"adenosine\": {\"type\": \"Drug\"}}, \"relations\": [[\"sustained monomorphic ventricular tachycardia\", \"adverse-reaction-of\", \"adenosine\"]]}"
+  },
+  {
+    "instruction": "",
+    "input": "Acute hemorrhagic gastritis associated with acetazolamide intoxication in a patient with chronic renal failure .",
+    "output": "{\"entities\": {\"Acute hemorrhagic gastritis\": {\"type\": \"Adverse-Effect\"}, \"acetazolamide intoxication\": {\"type\": \"Adverse-Effect\"}, \"acetazolamide\": {\"type\": \"Drug\"}}, \"relations\": [[\"Acute hemorrhagic gastritis\", \"adverse-reaction-of\", \"acetazolamide\"], [\"acetazolamide intoxication\", \"adverse-reaction-of\", \"acetazolamide\"]]}"
+  },
+  {
+    "instruction": "",
+    "input": "Ramipril - induced cutaneous vasculitis is particularly rare and our case was atypical because the patient had tolerated lisinopril before .",
+    "output": "{\"entities\": {\"Ramipril\": {\"type\": \"Drug\"}, \"cutaneous vasculitis\": {\"type\": \"Adverse-Effect\"}}, \"relations\": [[\"cutaneous vasculitis\", \"adverse-reaction-of\", \"Ramipril\"]]}"
+  },
+  {
+    "instruction": "",
+    "input": "Gabapentin toxicity in renal failure : the importance of dose adjustment .",
+    "output": "{\"entities\": {\"Gabapentin\": {\"type\": \"Drug\"}, \"renal failure\": {\"type\": \"Adverse-Effect\"}}, \"relations\": [[\"renal failure\", \"adverse-reaction-of\", \"Gabapentin\"]]}"
+  },
+  {
+    "instruction": "",
+    "input": "Five patients are described in whom only gentamicin sulfate appeared responsible for acute renal failure .",
+    "output": "{\"entities\": {\"gentamicin sulfate\": {\"type\": \"Drug\"}, \"acute renal failure\": {\"type\": \"Adverse-Effect\"}}, \"relations\": [[\"acute renal failure\", \"adverse-reaction-of\", \"gentamicin sulfate\"]]}"
+  },
+  {
+    "instruction": "",
+    "input": "Based on the Naranjo algorithm , the adverse reaction observed was probably related to the hydroxyurea treatment ( score = 6 ) ; however , the hydroxyurea chemotherapy could not be discontinued because of the myeloproliferative disorder .",
+    "output": "{\"entities\": {\"hydroxyurea\": {\"type\": \"Drug\"}, \"myeloproliferative disorder\": {\"type\": \"Adverse-Effect\"}}, \"relations\": [[\"myeloproliferative disorder\", \"adverse-reaction-of\", \"hydroxyurea\"]]}"
+  },
+  {
+    "instruction": "",
+    "input": "Use of the Naranjo probability scale determined the association between cephalosporin use and leukopenia to be probable .",
+    "output": "{\"entities\": {\"cephalosporin\": {\"type\": \"Drug\"}, \"leukopenia\": {\"type\": \"Adverse-Effect\"}}, \"relations\": [[\"leukopenia\", \"adverse-reaction-of\", \"cephalosporin\"]]}"
+  },
+  {
+    "instruction": "",
+    "input": "Fatal interstitial pneumonitis following high - dose intermittent chlorambucil therapy for chronic lymphocyte leukemia .",
+    "output": "{\"entities\": {\"Fatal interstitial pneumonitis\": {\"type\": \"Adverse-Effect\"}, \"chlorambucil\": {\"type\": \"Drug\"}}, \"relations\": [[\"Fatal interstitial pneumonitis\", \"adverse-reaction-of\", \"chlorambucil\"]]}"
+  },
+  {
+    "instruction": "",
+    "input": "Pulmonary fibrosis subsequent to high doses of CCNU for chronic myeloid leukemia .",
+    "output": "{\"entities\": {\"Pulmonary fibrosis\": {\"type\": \"Adverse-Effect\"}, \"CCNU\": {\"type\": \"Drug\"}}, \"relations\": [[\"Pulmonary fibrosis\", \"adverse-reaction-of\", \"CCNU\"]]}"
+  },
+  {
+    "instruction": "",
+    "input": "Nitrofurantoin - induced acute liver damage in pregnancy .",
+    "output": "{\"entities\": {\"Nitrofurantoin\": {\"type\": \"Drug\"}, \"acute liver damage\": {\"type\": \"Adverse-Effect\"}}, \"relations\": [[\"acute liver damage\", \"adverse-reaction-of\", \"Nitrofurantoin\"]]}"
+  },
+  {
+    "instruction": "",
+    "input": "The use of pamidronate for hypercalcemia secondary to acute vitamin D intoxication .",
+    "output": "{\"entities\": {\"vitamin D intoxication\": {\"type\": \"Adverse-Effect\"}, \"vitamin D\": {\"type\": \"Drug\"}}, \"relations\": [[\"vitamin D intoxication\", \"adverse-reaction-of\", \"vitamin D\"]]}"
+  },
+  {
+    "instruction": "",
+    "input": "We report a case of a women in whom a malignant mixed mesodermal tumor was diagnosed while she was taking raloxifene , which is also a selective estrogen receptor modulator .",
+    "output": "{\"entities\": {\"malignant mixed mesodermal tumor\": {\"type\": \"Adverse-Effect\"}, \"raloxifene\": {\"type\": \"Drug\"}}, \"relations\": [[\"malignant mixed mesodermal tumor\", \"adverse-reaction-of\", \"raloxifene\"]]}"
+  },
+  {
+    "instruction": "",
+    "input": "CONCLUSION : There are only a few confirmed cases of gemcitabine - associated HUS despite the widespread use of the drug .",
+    "output": "{\"entities\": {\"gemcitabine\": {\"type\": \"Drug\"}, \"HUS\": {\"type\": \"Adverse-Effect\"}}, \"relations\": [[\"HUS\", \"adverse-reaction-of\", \"gemcitabine\"]]}"
+  },
+  {
+    "instruction": "",
+    "input": "Onset of male gynaecomastia in a patient treated with sunitinib for metastatic renal cell carcinoma .",
+    "output": "{\"entities\": {\"gynaecomastia\": {\"type\": \"Adverse-Effect\"}, \"sunitinib\": {\"type\": \"Drug\"}}, \"relations\": [[\"gynaecomastia\", \"adverse-reaction-of\", \"sunitinib\"]]}"
+  },
+  {
+    "instruction": "",
+    "input": "A case of fluoxetine induced seizures , in a person with Down syndrome , is described .",
+    "output": "{\"entities\": {\"fluoxetine\": {\"type\": \"Drug\"}, \"seizures\": {\"type\": \"Adverse-Effect\"}}, \"relations\": [[\"seizures\", \"adverse-reaction-of\", \"fluoxetine\"]]}"
+  },
+  {
+    "instruction": "",
+    "input": "We report a case of a 60-year - old woman affected by squamous lung carcinoma , who developed paroxysmal supraventricular tachycardia during cisplatin and etoposide combination chemotherapy .",
+    "output": "{\"entities\": {\"paroxysmal supraventricular tachycardia\": {\"type\": \"Adverse-Effect\"}, \"cisplatin\": {\"type\": \"Drug\"}, \"etoposide\": {\"type\": \"Drug\"}}, \"relations\": [[\"paroxysmal supraventricular tachycardia\", \"adverse-reaction-of\", \"cisplatin\"], [\"paroxysmal supraventricular tachycardia\", \"adverse-reaction-of\", \"etoposide\"]]}"
+  },
+  {
+    "instruction": "",
+    "input": "Common adverse events ( frequency 10 % ) of lacosamide doses up to 600 mg / day include nonspecific central nervous system effects ( e.g. , dizziness , ataxia , diplopia , and somnolence ) .",
+    "output": "{\"entities\": {\"lacosamide\": {\"type\": \"Drug\"}, \"dizziness\": {\"type\": \"Adverse-Effect\"}, \"ataxia\": {\"type\": \"Adverse-Effect\"}, \"diplopia\": {\"type\": \"Adverse-Effect\"}, \"somnolence\": {\"type\": \"Adverse-Effect\"}}, \"relations\": [[\"dizziness\", \"adverse-reaction-of\", \"lacosamide\"], [\"ataxia\", \"adverse-reaction-of\", \"lacosamide\"], [\"diplopia\", \"adverse-reaction-of\", \"lacosamide\"], [\"somnolence\", \"adverse-reaction-of\", \"lacosamide\"]]}"
+  },
+  {
+    "instruction": "",
+    "input": "We report a case of a patient with rheumatoid arthritis treated with low - dose methotrexate ( 15 mg / week ) who developed infection with both M. tuberculosis and M. chelonae after the revision of a prosthetic hip .",
+    "output": "{\"entities\": {\"methotrexate\": {\"type\": \"Drug\"}, \"infection with both M. tuberculosis and M. chelonae\": {\"type\": \"Adverse-Effect\"}}, \"relations\": [[\"infection with both M. tuberculosis and M. chelonae\", \"adverse-reaction-of\", \"methotrexate\"]]}"
+  },
+  {
+    "instruction": "",
+    "input": "Two patients had ampicillin - associated seizures .",
+    "output": "{\"entities\": {\"ampicillin\": {\"type\": \"Drug\"}, \"seizures\": {\"type\": \"Adverse-Effect\"}}, \"relations\": [[\"seizures\", \"adverse-reaction-of\", \"ampicillin\"]]}"
+  },
+  {
+    "instruction": "",
+    "input": "Valproate embryopathy in three sets of siblings : further proof of hereditary susceptibility .",
+    "output": "{\"entities\": {\"Valproate embryopathy\": {\"type\": \"Adverse-Effect\"}, \"Valproate\": {\"type\": \"Drug\"}}, \"relations\": [[\"Valproate embryopathy\", \"adverse-reaction-of\", \"Valproate\"]]}"
+  },
+  {
+    "instruction": "",
+    "input": "A literature review revealed 83 other reported cases of rifampicin - induced renal insufficiency .",
+    "output": "{\"entities\": {\"rifampicin\": {\"type\": \"Drug\"}, \"renal insufficiency\": {\"type\": \"Adverse-Effect\"}}, \"relations\": [[\"renal insufficiency\", \"adverse-reaction-of\", \"rifampicin\"]]}"
+  },
+  {
+    "instruction": "",
+    "input": "A 60-year - old white man with chronic bronchitis was noted to develop acute respiratory failure and metabolic acidosis four days after being started on methazolamide ( Neptazane ) for an ophthalmologic problem .",
+    "output": "{\"entities\": {\"acute respiratory failure\": {\"type\": \"Adverse-Effect\"}, \"metabolic acidosis\": {\"type\": \"Adverse-Effect\"}, \"methazolamide\": {\"type\": \"Drug\"}, \"Neptazane\": {\"type\": \"Drug\"}}, \"relations\": [[\"acute respiratory failure\", \"adverse-reaction-of\", \"methazolamide\"], [\"acute respiratory failure\", \"adverse-reaction-of\", \"Neptazane\"], [\"metabolic acidosis\", \"adverse-reaction-of\", \"methazolamide\"], [\"metabolic acidosis\", \"adverse-reaction-of\", \"Neptazane\"]]}"
+  },
+  {
+    "instruction": "",
+    "input": "On the fifth day of tocolysis with magnesium sulfate , nifedipine , terbutaline and betamethasone , edema developed in both labia .",
+    "output": "{\"entities\": {\"magnesium sulfate\": {\"type\": \"Drug\"}, \"nifedipine\": {\"type\": \"Drug\"}, \"terbutaline\": {\"type\": \"Drug\"}, \"betamethasone\": {\"type\": \"Drug\"}, \"edema\": {\"type\": \"Adverse-Effect\"}}, \"relations\": [[\"edema\", \"adverse-reaction-of\", \"magnesium sulfate\"], [\"edema\", \"adverse-reaction-of\", \"nifedipine\"], [\"edema\", \"adverse-reaction-of\", \"terbutaline\"], [\"edema\", \"adverse-reaction-of\", \"betamethasone\"]]}"
+  },
+  {
+    "instruction": "",
+    "input": "Thrombotic microangiopathy with renal failure in two patients undergoing gemcitabine chemotherapy .",
+    "output": "{\"entities\": {\"Thrombotic microangiopathy\": {\"type\": \"Adverse-Effect\"}, \"renal failure\": {\"type\": \"Adverse-Effect\"}, \"gemcitabine\": {\"type\": \"Drug\"}}, \"relations\": [[\"Thrombotic microangiopathy\", \"adverse-reaction-of\", \"gemcitabine\"], [\"renal failure\", \"adverse-reaction-of\", \"gemcitabine\"]]}"
+  },
+  {
+    "instruction": "",
+    "input": "Acute esmolol toxicity may be self - limiting because of its extremely short half - life .",
+    "output": "{\"entities\": {\"esmolol toxicity\": {\"type\": \"Adverse-Effect\"}, \"esmolol\": {\"type\": \"Drug\"}}, \"relations\": [[\"esmolol toxicity\", \"adverse-reaction-of\", \"esmolol\"]]}"
+  },
+  {
+    "instruction": "",
+    "input": "We describe the exceptional development of AML and lung cancer in a patient with previously diagnosed CLL in minimal residual disease status after fludarabine treatment followed by autologous peripheral blood stem - cell transplantation .",
+    "output": "{\"entities\": {\"AML\": {\"type\": \"Adverse-Effect\"}, \"lung cancer\": {\"type\": \"Adverse-Effect\"}, \"fludarabine\": {\"type\": \"Drug\"}}, \"relations\": [[\"AML\", \"adverse-reaction-of\", \"fludarabine\"], [\"lung cancer\", \"adverse-reaction-of\", \"fludarabine\"]]}"
+  },
+  {
+    "instruction": "",
+    "input": "Continuous EEG monitoring is helpful in managing seizures that occur as a complication of CBZ OD , after the course of recovery or worsening , and in providing assistance with prognosis .",
+    "output": "{\"entities\": {\"seizures\": {\"type\": \"Adverse-Effect\"}, \"CBZ\": {\"type\": \"Drug\"}}, \"relations\": [[\"seizures\", \"adverse-reaction-of\", \"CBZ\"]]}"
+  },
+  {
+    "instruction": "",
+    "input": "DATA SYNTHESIS : Genetic deficiencies in DPD , the rate - limiting enzyme responsible for 5-FU catabolism , may occur in 3 % or more of patients with cancer putting them at increased risk for unusually severe adverse reactions ( e.g. , diarrhea , stomatitis , mucositis , myelosuppression , neurotoxicity ) to standard doses of 5-FU .",
+    "output": "{\"entities\": {\"5-FU\": {\"type\": \"Drug\"}, \"diarrhea\": {\"type\": \"Adverse-Effect\"}, \"stomatitis\": {\"type\": \"Adverse-Effect\"}, \"mucositis\": {\"type\": \"Adverse-Effect\"}, \"myelosuppression\": {\"type\": \"Adverse-Effect\"}, \"neurotoxicity\": {\"type\": \"Adverse-Effect\"}}, \"relations\": [[\"diarrhea\", \"adverse-reaction-of\", \"5-FU\"], [\"stomatitis\", \"adverse-reaction-of\", \"5-FU\"], [\"mucositis\", \"adverse-reaction-of\", \"5-FU\"], [\"myelosuppression\", \"adverse-reaction-of\", \"5-FU\"], [\"neurotoxicity\", \"adverse-reaction-of\", \"5-FU\"]]}"
+  },
+  {
+    "instruction": "",
+    "input": "Clofibrate - induced myopathy in patients with diabetes insipidus .",
+    "output": "{\"entities\": {\"Clofibrate\": {\"type\": \"Drug\"}, \"myopathy\": {\"type\": \"Adverse-Effect\"}}, \"relations\": [[\"myopathy\", \"adverse-reaction-of\", \"Clofibrate\"]]}"
+  },
+  {
+    "instruction": "",
+    "input": "This is the first case of HBV reactivation occurring during the year following rituximab monotherapy in the absence of any other immunosuppressive factor .",
+    "output": "{\"entities\": {\"HBV reactivation\": {\"type\": \"Adverse-Effect\"}, \"rituximab\": {\"type\": \"Drug\"}}, \"relations\": [[\"HBV reactivation\", \"adverse-reaction-of\", \"rituximab\"]]}"
+  },
+  {
+    "instruction": "",
+    "input": "Theophylline intoxication mimicking diabetic ketoacidosis in a child .",
+    "output": "{\"entities\": {\"Theophylline intoxication\": {\"type\": \"Adverse-Effect\"}, \"Theophylline\": {\"type\": \"Drug\"}}, \"relations\": [[\"Theophylline intoxication\", \"adverse-reaction-of\", \"Theophylline\"]]}"
+  },
+  {
+    "instruction": "",
+    "input": "Four patients who manifested symptoms of the antiepileptic drug ( AED ) hypersensitivity syndrome during therapy with carbamazepine are reported .",
+    "output": "{\"entities\": {\"hypersensitivity syndrome\": {\"type\": \"Adverse-Effect\"}, \"carbamazepine\": {\"type\": \"Drug\"}}, \"relations\": [[\"hypersensitivity syndrome\", \"adverse-reaction-of\", \"carbamazepine\"]]}"
+  },
+  {
+    "instruction": "",
+    "input": "A 53-year - old man developed NMS without rigidity while taking olanzapine .",
+    "output": "{\"entities\": {\"NMS\": {\"type\": \"Adverse-Effect\"}, \"olanzapine\": {\"type\": \"Drug\"}}, \"relations\": [[\"NMS\", \"adverse-reaction-of\", \"olanzapine\"]]}"
+  },
+  {
+    "instruction": "",
+    "input": "The authors describe pericardial hemorrhage , which is related to the use of low - dose acetylsalicylic acid in a patient with essential thrombocythemia .",
+    "output": "{\"entities\": {\"pericardial hemorrhage\": {\"type\": \"Adverse-Effect\"}, \"acetylsalicylic acid\": {\"type\": \"Drug\"}}, \"relations\": [[\"pericardial hemorrhage\", \"adverse-reaction-of\", \"acetylsalicylic acid\"]]}"
+  },
+  {
+    "instruction": "",
+    "input": "Three of 50 patients treated with isotretinoin ( 1 mg / kg / day ) for cystic acne complained of poor night vision and/or excessive glare sensitivity .",
+    "output": "{\"entities\": {\"isotretinoin\": {\"type\": \"Drug\"}, \"poor night vision\": {\"type\": \"Adverse-Effect\"}, \"excessive glare sensitivity\": {\"type\": \"Adverse-Effect\"}}, \"relations\": [[\"poor night vision\", \"adverse-reaction-of\", \"isotretinoin\"], [\"excessive glare sensitivity\", \"adverse-reaction-of\", \"isotretinoin\"]]}"
+  },
+  {
+    "instruction": "",
+    "input": "When measured , the serum lithium level had increased 4-fold during acyclovir therapy .",
+    "output": "{\"entities\": {\"serum lithium level had increased\": {\"type\": \"Adverse-Effect\"}, \"lithium\": {\"type\": \"Drug\"}, \"acyclovir\": {\"type\": \"Drug\"}}, \"relations\": [[\"serum lithium level had increased\", \"adverse-reaction-of\", \"lithium\"], [\"serum lithium level had increased\", \"adverse-reaction-of\", \"acyclovir\"]]}"
+  },
+  {
+    "instruction": "",
+    "input": "Alopecia , nausea , and vomiting were attributed to the cyclophosphamide component of the therapy .",
+    "output": "{\"entities\": {\"Alopecia\": {\"type\": \"Adverse-Effect\"}, \"nausea\": {\"type\": \"Adverse-Effect\"}, \"vomiting\": {\"type\": \"Adverse-Effect\"}, \"cyclophosphamide\": {\"type\": \"Drug\"}}, \"relations\": [[\"Alopecia\", \"adverse-reaction-of\", \"cyclophosphamide\"], [\"nausea\", \"adverse-reaction-of\", \"cyclophosphamide\"], [\"vomiting\", \"adverse-reaction-of\", \"cyclophosphamide\"]]}"
+  },
+  {
+    "instruction": "",
+    "input": "We report here a case of TEN after administration of ciprofloxacin .",
+    "output": "{\"entities\": {\"TEN\": {\"type\": \"Adverse-Effect\"}, \"ciprofloxacin\": {\"type\": \"Drug\"}}, \"relations\": [[\"TEN\", \"adverse-reaction-of\", \"ciprofloxacin\"]]}"
+  },
+  {
+    "instruction": "",
+    "input": "We believe this is the first report of intrathecal diamorphine causing anaphylaxis .",
+    "output": "{\"entities\": {\"diamorphine\": {\"type\": \"Drug\"}, \"anaphylaxis\": {\"type\": \"Adverse-Effect\"}}, \"relations\": [[\"anaphylaxis\", \"adverse-reaction-of\", \"diamorphine\"]]}"
+  },
+  {
+    "instruction": "",
+    "input": "A 35-year - old nephrotic man developed acute renal failure with serum creatinine to 1543 micromol / l after a month of therapy with enalapril .",
+    "output": "{\"entities\": {\"acute renal failure\": {\"type\": \"Adverse-Effect\"}, \"enalapril\": {\"type\": \"Drug\"}}, \"relations\": [[\"acute renal failure\", \"adverse-reaction-of\", \"enalapril\"]]}"
+  },
+  {
+    "instruction": "",
+    "input": "Fluoxetine - related death in a child with cytochrome P-450 2D6 genetic deficiency .",
+    "output": "{\"entities\": {\"Fluoxetine\": {\"type\": \"Drug\"}, \"death\": {\"type\": \"Adverse-Effect\"}}, \"relations\": [[\"death\", \"adverse-reaction-of\", \"Fluoxetine\"]]}"
+  },
+  {
+    "instruction": "",
+    "input": "Lithium neurotoxicity should be considered in Creutzfeldt - Jakob disease differential diagnosis , serial electroencephalograms being the most valuable .",
+    "output": "{\"entities\": {\"Lithium\": {\"type\": \"Drug\"}, \"Lithium neurotoxicity\": {\"type\": \"Adverse-Effect\"}, \"Creutzfeldt - Jakob disease\": {\"type\": \"Adverse-Effect\"}}, \"relations\": [[\"Lithium neurotoxicity\", \"adverse-reaction-of\", \"Lithium\"], [\"Creutzfeldt - Jakob disease\", \"adverse-reaction-of\", \"Lithium\"]]}"
+  },
+  {
+    "instruction": "",
+    "input": "OBJECTIVE : To report a case of multiple episodes of seizure activity in an AIDS patent following amphotericin B infusion .",
+    "output": "{\"entities\": {\"seizure\": {\"type\": \"Adverse-Effect\"}, \"amphotericin B\": {\"type\": \"Drug\"}}, \"relations\": [[\"seizure\", \"adverse-reaction-of\", \"amphotericin B\"]]}"
+  },
+  {
+    "instruction": "",
+    "input": "DATA SYNTHESIS : A 49-year - old man developed symptoms of severe psychosis concomitant with ciprofloxacin ( 250 mg bid ) treatment .",
+    "output": "{\"entities\": {\"severe psychosis\": {\"type\": \"Adverse-Effect\"}, \"ciprofloxacin\": {\"type\": \"Drug\"}}, \"relations\": [[\"severe psychosis\", \"adverse-reaction-of\", \"ciprofloxacin\"]]}"
+  },
+  {
+    "instruction": "",
+    "input": "We describe a patient who became hypothyroid while taking ferrous sulfate .",
+    "output": "{\"entities\": {\"hypothyroid\": {\"type\": \"Adverse-Effect\"}, \"ferrous sulfate\": {\"type\": \"Drug\"}}, \"relations\": [[\"hypothyroid\", \"adverse-reaction-of\", \"ferrous sulfate\"]]}"
+  },
+  {
+    "instruction": "",
+    "input": "Goiter and hypothyroidism during re - treatment with amiodarone in a patient who previously experienced amiodarone - induced thyrotoxicosis .",
+    "output": "{\"entities\": {\"Goiter\": {\"type\": \"Adverse-Effect\"}, \"hypothyroidism\": {\"type\": \"Adverse-Effect\"}, \"amiodarone\": {\"type\": \"Drug\"}, \"thyrotoxicosis\": {\"type\": \"Adverse-Effect\"}}, \"relations\": [[\"Goiter\", \"adverse-reaction-of\", \"amiodarone\"], [\"hypothyroidism\", \"adverse-reaction-of\", \"amiodarone\"], [\"thyrotoxicosis\", \"adverse-reaction-of\", \"amiodarone\"]]}"
+  },
+  {
+    "instruction": "",
+    "input": "Schneiderian first - rank symptoms associated with fluvoxamine treatment : a case report .",
+    "output": "{\"entities\": {\"Schneiderian first - rank symptoms\": {\"type\": \"Adverse-Effect\"}, \"fluvoxamine\": {\"type\": \"Drug\"}}, \"relations\": [[\"Schneiderian first - rank symptoms\", \"adverse-reaction-of\", \"fluvoxamine\"]]}"
+  },
+  {
+    "instruction": "",
+    "input": "Acute renal failure in a child associated with acyclovir .",
+    "output": "{\"entities\": {\"Acute renal failure\": {\"type\": \"Adverse-Effect\"}, \"acyclovir\": {\"type\": \"Drug\"}}, \"relations\": [[\"Acute renal failure\", \"adverse-reaction-of\", \"acyclovir\"]]}"
+  },
+  {
+    "instruction": "",
+    "input": "The clinical picture was identical to that of chloroquine and hydroxychloroquine maculopathy .",
+    "output": "{\"entities\": {\"chloroquine\": {\"type\": \"Drug\"}, \"hydroxychloroquine\": {\"type\": \"Drug\"}, \"maculopathy\": {\"type\": \"Adverse-Effect\"}}, \"relations\": [[\"maculopathy\", \"adverse-reaction-of\", \"chloroquine\"], [\"maculopathy\", \"adverse-reaction-of\", \"hydroxychloroquine\"]]}"
+  },
+  {
+    "instruction": "",
+    "input": "One patient who received clindamycin had liver biopsy findings of marked cholestasis , portal inflammation , bile duct injury and bile duct paucity ( ductopenia ) .",
+    "output": "{\"entities\": {\"clindamycin\": {\"type\": \"Drug\"}, \"marked cholestasis\": {\"type\": \"Adverse-Effect\"}, \"portal inflammation\": {\"type\": \"Adverse-Effect\"}, \"bile duct injury\": {\"type\": \"Adverse-Effect\"}, \"bile duct paucity\": {\"type\": \"Adverse-Effect\"}, \"ductopenia\": {\"type\": \"Adverse-Effect\"}}, \"relations\": [[\"marked cholestasis\", \"adverse-reaction-of\", \"clindamycin\"], [\"portal inflammation\", \"adverse-reaction-of\", \"clindamycin\"], [\"bile duct injury\", \"adverse-reaction-of\", \"clindamycin\"], [\"bile duct paucity\", \"adverse-reaction-of\", \"clindamycin\"], [\"ductopenia\", \"adverse-reaction-of\", \"clindamycin\"]]}"
+  },
+  {
+    "instruction": "",
+    "input": "Since this amount of FAB was insufficient to bind all DGTX present in the serum , cardiac DGTX toxicity ( total AV - block ) persisted .",
+    "output": "{\"entities\": {\"DGTX\": {\"type\": \"Drug\"}, \"cardiac DGTX toxicity\": {\"type\": \"Adverse-Effect\"}, \"total AV - block\": {\"type\": \"Adverse-Effect\"}}, \"relations\": [[\"cardiac DGTX toxicity\", \"adverse-reaction-of\", \"DGTX\"], [\"total AV - block\", \"adverse-reaction-of\", \"DGTX\"]]}"
+  },
+  {
+    "instruction": "",
+    "input": "However here we reported two patients , presenting with PD during high dose colchicine treatment for familiar mediterranean fever ( FMF ) .",
+    "output": "{\"entities\": {\"PD\": {\"type\": \"Adverse-Effect\"}, \"colchicine\": {\"type\": \"Drug\"}}, \"relations\": [[\"PD\", \"adverse-reaction-of\", \"colchicine\"]]}"
+  },
+  {
+    "instruction": "",
+    "input": "Doxycycline - induced hypoglycemia in a nondiabetic young man .",
+    "output": "{\"entities\": {\"Doxycycline\": {\"type\": \"Drug\"}, \"hypoglycemia\": {\"type\": \"Adverse-Effect\"}}, \"relations\": [[\"hypoglycemia\", \"adverse-reaction-of\", \"Doxycycline\"]]}"
+  },
+  {
+    "instruction": "",
+    "input": "Severe acidosis from acetazolamide in a diabetic patient .",
+    "output": "{\"entities\": {\"Severe acidosis\": {\"type\": \"Adverse-Effect\"}, \"acetazolamide\": {\"type\": \"Drug\"}}, \"relations\": [[\"Severe acidosis\", \"adverse-reaction-of\", \"acetazolamide\"]]}"
+  },
+  {
+    "instruction": "",
+    "input": "Diphenhydramine - induced wide complex dysrhythmia responds to treatment with sodium bicarbonate .",
+    "output": "{\"entities\": {\"Diphenhydramine\": {\"type\": \"Drug\"}, \"dysrhythmia\": {\"type\": \"Adverse-Effect\"}}, \"relations\": [[\"dysrhythmia\", \"adverse-reaction-of\", \"Diphenhydramine\"]]}"
+  },
+  {
+    "instruction": "",
+    "input": "After a second dose of metoclopramide , these symptoms recurred and were associated with confusion , agitation , fever , diaphoresis , tachypnea , tachycardia , and hypertension .",
+    "output": "{\"entities\": {\"metoclopramide\": {\"type\": \"Drug\"}, \"confusion\": {\"type\": \"Adverse-Effect\"}, \"agitation\": {\"type\": \"Adverse-Effect\"}, \"fever\": {\"type\": \"Adverse-Effect\"}, \"diaphoresis\": {\"type\": \"Adverse-Effect\"}, \"tachypnea\": {\"type\": \"Adverse-Effect\"}, \"tachycardia\": {\"type\": \"Adverse-Effect\"}, \"hypertension\": {\"type\": \"Adverse-Effect\"}}, \"relations\": [[\"confusion\", \"adverse-reaction-of\", \"metoclopramide\"], [\"agitation\", \"adverse-reaction-of\", \"metoclopramide\"], [\"fever\", \"adverse-reaction-of\", \"metoclopramide\"], [\"diaphoresis\", \"adverse-reaction-of\", \"metoclopramide\"], [\"tachypnea\", \"adverse-reaction-of\", \"metoclopramide\"], [\"tachycardia\", \"adverse-reaction-of\", \"metoclopramide\"], [\"hypertension\", \"adverse-reaction-of\", \"metoclopramide\"]]}"
+  },
+  {
+    "instruction": "",
+    "input": "Colchicine - induced rhabdomyolysis .",
+    "output": "{\"entities\": {\"Colchicine\": {\"type\": \"Drug\"}, \"rhabdomyolysis\": {\"type\": \"Adverse-Effect\"}}, \"relations\": [[\"rhabdomyolysis\", \"adverse-reaction-of\", \"Colchicine\"]]}"
+  },
+  {
+    "instruction": "",
+    "input": "Like other atypical neuroleptics olanzapine is considered to show a reduced prevalence of extrapyramidal side effects when compared to classical neuroleptic drugs .",
+    "output": "{\"entities\": {\"olanzapine\": {\"type\": \"Drug\"}, \"extrapyramidal side effects\": {\"type\": \"Adverse-Effect\"}}, \"relations\": [[\"extrapyramidal side effects\", \"adverse-reaction-of\", \"olanzapine\"]]}"
+  },
+  {
+    "instruction": "",
+    "input": "We report the case of an 87-year - old white woman with myasthenia gravis who presented with nausea , shortness of breath , azotemia , and hyperkalemia shortly after completing a course of intravenous immunoglobulin ( IVIG ) .",
+    "output": "{\"entities\": {\"nausea\": {\"type\": \"Adverse-Effect\"}, \"shortness of breath\": {\"type\": \"Adverse-Effect\"}, \"azotemia\": {\"type\": \"Adverse-Effect\"}, \"hyperkalemia\": {\"type\": \"Adverse-Effect\"}, \"immunoglobulin\": {\"type\": \"Drug\"}, \"IVIG\": {\"type\": \"Drug\"}}, \"relations\": [[\"nausea\", \"adverse-reaction-of\", \"immunoglobulin\"], [\"nausea\", \"adverse-reaction-of\", \"IVIG\"], [\"shortness of breath\", \"adverse-reaction-of\", \"immunoglobulin\"], [\"shortness of breath\", \"adverse-reaction-of\", \"IVIG\"], [\"azotemia\", \"adverse-reaction-of\", \"immunoglobulin\"], [\"azotemia\", \"adverse-reaction-of\", \"IVIG\"], [\"hyperkalemia\", \"adverse-reaction-of\", \"immunoglobulin\"], [\"hyperkalemia\", \"adverse-reaction-of\", \"IVIG\"]]}"
+  },
+  {
+    "instruction": "",
+    "input": "Ballistic movements due to ischemic infarcts after intravenous heroin overdose : report of two cases .",
+    "output": "{\"entities\": {\"Ballistic movements\": {\"type\": \"Adverse-Effect\"}, \"ischemic infarcts\": {\"type\": \"Adverse-Effect\"}, \"heroin\": {\"type\": \"Drug\"}}, \"relations\": [[\"Ballistic movements\", \"adverse-reaction-of\", \"heroin\"], [\"ischemic infarcts\", \"adverse-reaction-of\", \"heroin\"]]}"
+  },
+  {
+    "instruction": "",
+    "input": "CONCLUSION : Marked visual field constriction appears to be associated with vigabatrin therapy .",
+    "output": "{\"entities\": {\"visual field constriction\": {\"type\": \"Adverse-Effect\"}, \"vigabatrin\": {\"type\": \"Drug\"}}, \"relations\": [[\"visual field constriction\", \"adverse-reaction-of\", \"vigabatrin\"]]}"
+  },
+  {
+    "instruction": "",
+    "input": "There are now reports of liver failure following treatment of childhood cancers with AMD .",
+    "output": "{\"entities\": {\"liver failure\": {\"type\": \"Adverse-Effect\"}, \"AMD\": {\"type\": \"Drug\"}}, \"relations\": [[\"liver failure\", \"adverse-reaction-of\", \"AMD\"]]}"
+  },
+  {
+    "instruction": "",
+    "input": "Acyclovir - induced neurotoxicity : concentration - side effect relationship in acyclovir overdose .",
+    "output": "{\"entities\": {\"Acyclovir\": {\"type\": \"Drug\"}, \"neurotoxicity\": {\"type\": \"Adverse-Effect\"}}, \"relations\": [[\"neurotoxicity\", \"adverse-reaction-of\", \"Acyclovir\"]]}"
+  },
+  {
+    "instruction": "",
+    "input": "We propose a mechanism of vancomycin - induced mast cell degranulation and subsequent release of eosinophil chemotactic factor as a cause of CSFE .",
+    "output": "{\"entities\": {\"vancomycin\": {\"type\": \"Drug\"}, \"CSFE\": {\"type\": \"Adverse-Effect\"}}, \"relations\": [[\"CSFE\", \"adverse-reaction-of\", \"vancomycin\"]]}"
+  },
+  {
+    "instruction": "",
+    "input": "Eosinophilic cystitis after bladder instillation with dimethyl sulfoxide .",
+    "output": "{\"entities\": {\"Eosinophilic cystitis\": {\"type\": \"Adverse-Effect\"}, \"dimethyl sulfoxide\": {\"type\": \"Drug\"}}, \"relations\": [[\"Eosinophilic cystitis\", \"adverse-reaction-of\", \"dimethyl sulfoxide\"]]}"
+  },
+  {
+    "instruction": "",
+    "input": "We describe a case of PRES in a patient with collapsing focal glomeruloesclerosis ( collapsing FGS ) with complete recovery after withdrawal of cyclosporine ( CSA ) .",
+    "output": "{\"entities\": {\"PRES\": {\"type\": \"Adverse-Effect\"}, \"cyclosporine\": {\"type\": \"Drug\"}, \"CSA\": {\"type\": \"Drug\"}}, \"relations\": [[\"PRES\", \"adverse-reaction-of\", \"cyclosporine\"], [\"PRES\", \"adverse-reaction-of\", \"CSA\"]]}"
+  },
+  {
+    "instruction": "",
+    "input": "A patient with the Wolff - Parkinson - White syndrome presented with incessant orthodromic atrioventricular tachycardia following initiation of procainamide therapy .",
+    "output": "{\"entities\": {\"incessant orthodromic atrioventricular tachycardia\": {\"type\": \"Adverse-Effect\"}, \"procainamide\": {\"type\": \"Drug\"}}, \"relations\": [[\"incessant orthodromic atrioventricular tachycardia\", \"adverse-reaction-of\", \"procainamide\"]]}"
+  },
+  {
+    "instruction": "",
+    "input": "A case report of fatal dapsone - induced agranulocytosis in an Indian mid - borderline leprosy patient .",
+    "output": "{\"entities\": {\"dapsone\": {\"type\": \"Drug\"}, \"agranulocytosis\": {\"type\": \"Adverse-Effect\"}}, \"relations\": [[\"agranulocytosis\", \"adverse-reaction-of\", \"dapsone\"]]}"
+  },
+  {
+    "instruction": "",
+    "input": "A 62-year - old woman treated with pranlukast for 2 months developed interstitial pneumonitis with a high fever .",
+    "output": "{\"entities\": {\"pranlukast\": {\"type\": \"Drug\"}, \"interstitial pneumonitis\": {\"type\": \"Adverse-Effect\"}, \"high fever\": {\"type\": \"Adverse-Effect\"}}, \"relations\": [[\"interstitial pneumonitis\", \"adverse-reaction-of\", \"pranlukast\"], [\"high fever\", \"adverse-reaction-of\", \"pranlukast\"]]}"
+  },
+  {
+    "instruction": "",
+    "input": "We report a case of interstitial pulmonary disease that occurred together with lymphocytic colitis during treatment with ticlopidine .",
+    "output": "{\"entities\": {\"interstitial pulmonary disease\": {\"type\": \"Adverse-Effect\"}, \"lymphocytic colitis\": {\"type\": \"Adverse-Effect\"}, \"ticlopidine\": {\"type\": \"Drug\"}}, \"relations\": [[\"interstitial pulmonary disease\", \"adverse-reaction-of\", \"ticlopidine\"], [\"lymphocytic colitis\", \"adverse-reaction-of\", \"ticlopidine\"]]}"
+  },
+  {
+    "instruction": "",
+    "input": "BACKGROUND : The risk / benefit ratio of warfarin therapy changes in the over 75s , when haemorrhagic side - effects become more common .",
+    "output": "{\"entities\": {\"warfarin\": {\"type\": \"Drug\"}, \"haemorrhagic side - effects\": {\"type\": \"Adverse-Effect\"}}, \"relations\": [[\"haemorrhagic side - effects\", \"adverse-reaction-of\", \"warfarin\"]]}"
+  },
+  {
+    "instruction": "",
+    "input": "Although they had complex medical problems , the high serum concentrations of ampicillin at the time of seizures without their recurrence after discontinuing the antibiotic suggest that the seizures were related to the ampicillin therapy .",
+    "output": "{\"entities\": {\"ampicillin\": {\"type\": \"Drug\"}, \"seizures\": {\"type\": \"Adverse-Effect\"}}, \"relations\": [[\"seizures\", \"adverse-reaction-of\", \"ampicillin\"]]}"
+  },
+  {
+    "instruction": "",
+    "input": "In one case , disulfiram was the only potential teratogen exposed to the fetus .",
+    "output": "{\"entities\": {\"disulfiram\": {\"type\": \"Drug\"}, \"teratogen\": {\"type\": \"Adverse-Effect\"}}, \"relations\": [[\"teratogen\", \"adverse-reaction-of\", \"disulfiram\"]]}"
+  },
+  {
+    "instruction": "",
+    "input": "Early - onset pentamidine - associated second - degree heart block and sinus bradycardia : case report and review of the literature .",
+    "output": "{\"entities\": {\"pentamidine\": {\"type\": \"Drug\"}, \"second - degree heart block\": {\"type\": \"Adverse-Effect\"}, \"sinus bradycardia\": {\"type\": \"Adverse-Effect\"}}, \"relations\": [[\"second - degree heart block\", \"adverse-reaction-of\", \"pentamidine\"], [\"sinus bradycardia\", \"adverse-reaction-of\", \"pentamidine\"]]}"
+  },
+  {
+    "instruction": "",
+    "input": "After intravitreal injection of triamcinolone acetonide , cataract may rapidly develop in eyes that have been intensively treated , topically and systemically , by corticosteroids for several years .",
+    "output": "{\"entities\": {\"triamcinolone acetonide\": {\"type\": \"Drug\"}, \"cataract\": {\"type\": \"Adverse-Effect\"}}, \"relations\": [[\"cataract\", \"adverse-reaction-of\", \"triamcinolone acetonide\"]]}"
+  },
+  {
+    "instruction": "",
+    "input": "Thiopurine methyltransferase deficiency occurs at a frequency of one in 300 and is associated with profound myelosuppression after a short course of azathioprine .",
+    "output": "{\"entities\": {\"myelosuppression\": {\"type\": \"Adverse-Effect\"}, \"azathioprine\": {\"type\": \"Drug\"}}, \"relations\": [[\"myelosuppression\", \"adverse-reaction-of\", \"azathioprine\"]]}"
+  },
+  {
+    "instruction": "",
+    "input": "Progression of chronic myeloid leukemia to blast crisis during treatment with imatinib mesylate .",
+    "output": "{\"entities\": {\"blast crisis\": {\"type\": \"Adverse-Effect\"}, \"imatinib mesylate\": {\"type\": \"Drug\"}}, \"relations\": [[\"blast crisis\", \"adverse-reaction-of\", \"imatinib mesylate\"]]}"
+  },
+  {
+    "instruction": "",
+    "input": "A 16-year - old white male with acute biphenotypic leukemia developed evidence of the eosinophilia myalgia syndrome associated with total parenteral nutritional support with solutions containing tryptophan , which were given during his initial induction chemotherapy and also after autologous marrow transplantation .",
+    "output": "{\"entities\": {\"eosinophilia myalgia syndrome\": {\"type\": \"Adverse-Effect\"}, \"tryptophan\": {\"type\": \"Drug\"}}, \"relations\": [[\"eosinophilia myalgia syndrome\", \"adverse-reaction-of\", \"tryptophan\"]]}"
+  },
+  {
+    "instruction": "",
+    "input": "Graft versus host - like illness in a child with phenobarbital hypersensitivity .",
+    "output": "{\"entities\": {\"Graft versus host - like illness\": {\"type\": \"Adverse-Effect\"}, \"phenobarbital\": {\"type\": \"Drug\"}, \"hypersensitivity\": {\"type\": \"Adverse-Effect\"}}, \"relations\": [[\"Graft versus host - like illness\", \"adverse-reaction-of\", \"phenobarbital\"], [\"hypersensitivity\", \"adverse-reaction-of\", \"phenobarbital\"]]}"
+  },
+  {
+    "instruction": "",
+    "input": "DISCUSSION : Central nervous system ( CNS ) toxicity has been described with ifosfamide , with most cases reported in the pediatric population .",
+    "output": "{\"entities\": {\"Central nervous system ( CNS ) toxicity\": {\"type\": \"Adverse-Effect\"}, \"ifosfamide\": {\"type\": \"Drug\"}}, \"relations\": [[\"Central nervous system ( CNS ) toxicity\", \"adverse-reaction-of\", \"ifosfamide\"]]}"
+  },
+  {
+    "instruction": "",
+    "input": "CONCLUSIONS : Anastrozole may be the causative factor in patients with sclerosing glomerulonephritis .",
+    "output": "{\"entities\": {\"Anastrozole\": {\"type\": \"Drug\"}, \"sclerosing glomerulonephritis\": {\"type\": \"Adverse-Effect\"}}, \"relations\": [[\"sclerosing glomerulonephritis\", \"adverse-reaction-of\", \"Anastrozole\"]]}"
+  },
+  {
+    "instruction": "",
+    "input": "In our patient , an objective causality scale showed that therapeutic doses of colchicine for FMF were the definite cause of myopathy , even though his renal and hepatic function were normal .",
+    "output": "{\"entities\": {\"colchicine\": {\"type\": \"Drug\"}, \"myopathy\": {\"type\": \"Adverse-Effect\"}}, \"relations\": [[\"myopathy\", \"adverse-reaction-of\", \"colchicine\"]]}"
+  },
+  {
+    "instruction": "",
+    "input": "Hepatotoxicity resolved once erlotinib was discontinued and serum transaminases returned to baseline normal values .",
+    "output": "{\"entities\": {\"Hepatotoxicity\": {\"type\": \"Adverse-Effect\"}, \"erlotinib\": {\"type\": \"Drug\"}}, \"relations\": [[\"Hepatotoxicity\", \"adverse-reaction-of\", \"erlotinib\"]]}"
+  },
+  {
+    "instruction": "",
+    "input": "A case is reported of an elderly woman who developed febrile agranulocytosis several weeks after commencing ticlopidine but who had a favorable outcome after cessation of that drug and treatment with filgastrim .",
+    "output": "{\"entities\": {\"febrile agranulocytosis\": {\"type\": \"Adverse-Effect\"}, \"ticlopidine\": {\"type\": \"Drug\"}}, \"relations\": [[\"febrile agranulocytosis\", \"adverse-reaction-of\", \"ticlopidine\"]]}"
+  },
+  {
+    "instruction": "",
+    "input": "Development of nephrotic syndrome in a patient with acute myeloblastic leukemia after treatment with macrophage - colony - stimulating factor .",
+    "output": "{\"entities\": {\"nephrotic syndrome\": {\"type\": \"Adverse-Effect\"}, \"macrophage - colony - stimulating factor\": {\"type\": \"Drug\"}}, \"relations\": [[\"nephrotic syndrome\", \"adverse-reaction-of\", \"macrophage - colony - stimulating factor\"]]}"
+  },
+  {
+    "instruction": "",
+    "input": "A 71-year - old man , who had a history of a previous bullous drug reaction to a sulfonamide , began receiving an ophthalmic preparation that contained sulfacetamide sodium .",
+    "output": "{\"entities\": {\"bullous drug reaction\": {\"type\": \"Adverse-Effect\"}, \"sulfonamide\": {\"type\": \"Drug\"}}, \"relations\": [[\"bullous drug reaction\", \"adverse-reaction-of\", \"sulfonamide\"]]}"
+  },
+  {
+    "instruction": "",
+    "input": "Severe aphthous stomatitis associated with oral calcineurin and mTOR inhibitors .",
+    "output": "{\"entities\": {\"Severe aphthous stomatitis\": {\"type\": \"Adverse-Effect\"}, \"calcineurin\": {\"type\": \"Drug\"}}, \"relations\": [[\"Severe aphthous stomatitis\", \"adverse-reaction-of\", \"calcineurin\"]]}"
+  },
+  {
+    "instruction": "",
+    "input": "Our patient was a 72-year - old man with advanced Parkinson 's disease ( PD ) who received levodopa and anti - cholinergic drugs and whose head had become almost completely bald .",
+    "output": "{\"entities\": {\"levodopa\": {\"type\": \"Drug\"}, \"completely bald\": {\"type\": \"Adverse-Effect\"}}, \"relations\": [[\"completely bald\", \"adverse-reaction-of\", \"levodopa\"]]}"
+  },
+  {
+    "instruction": "",
+    "input": "Rifampin - induced hypothyroidism without underlying thyroid disease .",
+    "output": "{\"entities\": {\"Rifampin\": {\"type\": \"Drug\"}, \"hypothyroidism\": {\"type\": \"Adverse-Effect\"}}, \"relations\": [[\"hypothyroidism\", \"adverse-reaction-of\", \"Rifampin\"]]}"
+  },
+  {
+    "instruction": "",
+    "input": "Life - threatening anaphylactoid reaction to amifostine used with concurrent chemoradiotherapy for nasopharyngeal cancer in a patient with dermatomyositis : a case report with literature review .",
+    "output": "{\"entities\": {\"anaphylactoid reaction\": {\"type\": \"Adverse-Effect\"}, \"amifostine\": {\"type\": \"Drug\"}}, \"relations\": [[\"anaphylactoid reaction\", \"adverse-reaction-of\", \"amifostine\"]]}"
+  },
+  {
+    "instruction": "",
+    "input": "We describe a 43-year - old man who developed signs and symptoms of bilateral optic neuropathy during treatment with ethambutol .",
+    "output": "{\"entities\": {\"bilateral optic neuropathy\": {\"type\": \"Adverse-Effect\"}, \"ethambutol\": {\"type\": \"Drug\"}}, \"relations\": [[\"bilateral optic neuropathy\", \"adverse-reaction-of\", \"ethambutol\"]]}"
+  },
+  {
+    "instruction": "",
+    "input": "Simvastatin - induced rhabdomyolysis following cyclosporine treatment for uveitis .",
+    "output": "{\"entities\": {\"Simvastatin\": {\"type\": \"Drug\"}, \"rhabdomyolysis\": {\"type\": \"Adverse-Effect\"}, \"cyclosporine\": {\"type\": \"Drug\"}}, \"relations\": [[\"rhabdomyolysis\", \"adverse-reaction-of\", \"Simvastatin\"], [\"rhabdomyolysis\", \"adverse-reaction-of\", \"cyclosporine\"]]}"
+  },
+  {
+    "instruction": "",
+    "input": "CONCLUSION : While thrombosis has been reported with GnRH - a therapy in men with prostate cancer , its association with treatment in this benign case may have been a consequence of the massive tumor size .",
+    "output": "{\"entities\": {\"thrombosis\": {\"type\": \"Adverse-Effect\"}, \"GnRH - a\": {\"type\": \"Drug\"}}, \"relations\": [[\"thrombosis\", \"adverse-reaction-of\", \"GnRH - a\"]]}"
+  },
+  {
+    "instruction": "",
+    "input": "Angioimmunoblastic lymphadenopathy with dysproteinemia following doxycycline administration .",
+    "output": "{\"entities\": {\"Angioimmunoblastic lymphadenopathy with dysproteinemia\": {\"type\": \"Adverse-Effect\"}, \"doxycycline\": {\"type\": \"Drug\"}}, \"relations\": [[\"Angioimmunoblastic lymphadenopathy with dysproteinemia\", \"adverse-reaction-of\", \"doxycycline\"]]}"
+  },
+  {
+    "instruction": "",
+    "input": "We report a case of pediatric bupropion ingestion resulting in multiple seizures .",
+    "output": "{\"entities\": {\"bupropion\": {\"type\": \"Drug\"}, \"multiple seizures\": {\"type\": \"Adverse-Effect\"}}, \"relations\": [[\"multiple seizures\", \"adverse-reaction-of\", \"bupropion\"]]}"
+  },
+  {
+    "instruction": "",
+    "input": "Propecia - associated bilateral cataract .",
+    "output": "{\"entities\": {\"Propecia\": {\"type\": \"Drug\"}, \"bilateral cataract\": {\"type\": \"Adverse-Effect\"}}, \"relations\": [[\"bilateral cataract\", \"adverse-reaction-of\", \"Propecia\"]]}"
+  },
+  {
+    "instruction": "",
+    "input": "Cutaneous mycobacterial infection post intravesical BCG installation .",
+    "output": "{\"entities\": {\"Cutaneous mycobacterial infection\": {\"type\": \"Adverse-Effect\"}, \"BCG\": {\"type\": \"Drug\"}}, \"relations\": [[\"Cutaneous mycobacterial infection\", \"adverse-reaction-of\", \"BCG\"]]}"
+  },
+  {
+    "instruction": "",
+    "input": "We describe longitudinal diffusion - weighted MRI findings of sub - acute leukoencephalopathy following methotrexate therapy in a 24-year - old man diagnosed with pre - B - cell acute lymphoblastic leukemia ( ALL ) , presenting with right - sided paralysis and aphasia after second consolidation with intrathecal triple - drug therapy given intrathecally .",
+    "output": "{\"entities\": {\"sub - acute leukoencephalopathy\": {\"type\": \"Adverse-Effect\"}, \"methotrexate\": {\"type\": \"Drug\"}}, \"relations\": [[\"sub - acute leukoencephalopathy\", \"adverse-reaction-of\", \"methotrexate\"]]}"
+  },
+  {
+    "instruction": "",
+    "input": "Halothane hepatitis and prompt resolution with methionine therapy : case report .",
+    "output": "{\"entities\": {\"Halothane\": {\"type\": \"Drug\"}, \"hepatitis\": {\"type\": \"Adverse-Effect\"}}, \"relations\": [[\"hepatitis\", \"adverse-reaction-of\", \"Halothane\"]]}"
+  },
+  {
+    "instruction": "",
+    "input": "Symptomatic hypoglycemia secondary to a glipizide - trimethoprim / sulfamethoxazole drug interaction .",
+    "output": "{\"entities\": {\"Symptomatic hypoglycemia\": {\"type\": \"Adverse-Effect\"}, \"glipizide\": {\"type\": \"Drug\"}, \"trimethoprim\": {\"type\": \"Drug\"}, \"sulfamethoxazole\": {\"type\": \"Drug\"}}, \"relations\": [[\"Symptomatic hypoglycemia\", \"adverse-reaction-of\", \"glipizide\"], [\"Symptomatic hypoglycemia\", \"adverse-reaction-of\", \"trimethoprim\"], [\"Symptomatic hypoglycemia\", \"adverse-reaction-of\", \"sulfamethoxazole\"]]}"
+  },
+  {
+    "instruction": "",
+    "input": "This case supports the assessment that MH and diabetes are associated diseases and that cresol could possibly trigger MH .",
+    "output": "{\"entities\": {\"MH\": {\"type\": \"Adverse-Effect\"}, \"cresol\": {\"type\": \"Drug\"}}, \"relations\": [[\"MH\", \"adverse-reaction-of\", \"cresol\"]]}"
+  },
+  {
+    "instruction": "",
+    "input": "DISCUSSION : To our knowledge , this is the first case report illustrating neuralgic amyotrophy triggered by exposure to the antibiotics vancomycin , tobramycin , and piperacillin / tazobactam .",
+    "output": "{\"entities\": {\"neuralgic amyotrophy\": {\"type\": \"Adverse-Effect\"}, \"vancomycin\": {\"type\": \"Drug\"}, \"tobramycin\": {\"type\": \"Drug\"}, \"piperacillin\": {\"type\": \"Drug\"}, \"tazobactam\": {\"type\": \"Drug\"}}, \"relations\": [[\"neuralgic amyotrophy\", \"adverse-reaction-of\", \"vancomycin\"], [\"neuralgic amyotrophy\", \"adverse-reaction-of\", \"tobramycin\"], [\"neuralgic amyotrophy\", \"adverse-reaction-of\", \"piperacillin\"], [\"neuralgic amyotrophy\", \"adverse-reaction-of\", \"tazobactam\"]]}"
+  },
+  {
+    "instruction": "",
+    "input": "A 32-year - old man with a family history of type 2 diabetes mellitus presented with circulatory collapse and deep coma after 9 days of treatment with perospirone hydrochloride , a recently developed atypical antipsychotic agent available only in Japan .",
+    "output": "{\"entities\": {\"circulatory collapse\": {\"type\": \"Adverse-Effect\"}, \"deep coma\": {\"type\": \"Adverse-Effect\"}, \"perospirone hydrochloride\": {\"type\": \"Drug\"}}, \"relations\": [[\"circulatory collapse\", \"adverse-reaction-of\", \"perospirone hydrochloride\"], [\"deep coma\", \"adverse-reaction-of\", \"perospirone hydrochloride\"]]}"
+  },
+  {
+    "instruction": "",
+    "input": "The authors report on two patients with corneal ulcers refractory to conventional treatment while the patients were undergoing oral colchicine therapy .",
+    "output": "{\"entities\": {\"corneal ulcers refractory to conventional treatment\": {\"type\": \"Adverse-Effect\"}, \"colchicine\": {\"type\": \"Drug\"}}, \"relations\": [[\"corneal ulcers refractory to conventional treatment\", \"adverse-reaction-of\", \"colchicine\"]]}"
+  },
+  {
+    "instruction": "",
+    "input": "After administration of Oxybutynin concomitantly with an increase in the dose of Dantrolene , she presented the clinical symptoms and laboratory finding of Carbamazepine intoxication .",
+    "output": "{\"entities\": {\"Oxybutynin\": {\"type\": \"Drug\"}, \"Dantrolene\": {\"type\": \"Drug\"}, \"Carbamazepine intoxication\": {\"type\": \"Adverse-Effect\"}, \"Carbamazepine\": {\"type\": \"Drug\"}}, \"relations\": [[\"Carbamazepine intoxication\", \"adverse-reaction-of\", \"Oxybutynin\"], [\"Carbamazepine intoxication\", \"adverse-reaction-of\", \"Dantrolene\"], [\"Carbamazepine intoxication\", \"adverse-reaction-of\", \"Carbamazepine\"]]}"
+  },
+  {
+    "instruction": "",
+    "input": "A case is described of severe splenic hemorrhage and rupture which developed 3 h after completion of tPA infusion for suspected acute myocardial infarction .",
+    "output": "{\"entities\": {\"severe splenic hemorrhage and rupture\": {\"type\": \"Adverse-Effect\"}, \"tPA\": {\"type\": \"Drug\"}}, \"relations\": [[\"severe splenic hemorrhage and rupture\", \"adverse-reaction-of\", \"tPA\"]]}"
+  },
+  {
+    "instruction": "",
+    "input": "Three days after intravitreal injection of bevacizumab , acute ocular ischemic syndrome occurred .",
+    "output": "{\"entities\": {\"bevacizumab\": {\"type\": \"Drug\"}, \"acute ocular ischemic syndrome\": {\"type\": \"Adverse-Effect\"}}, \"relations\": [[\"acute ocular ischemic syndrome\", \"adverse-reaction-of\", \"bevacizumab\"]]}"
+  },
+  {
+    "instruction": "",
+    "input": "Reversible nonthrombocytopenic palpable purpura associated with metoclopramide .",
+    "output": "{\"entities\": {\"nonthrombocytopenic palpable purpura\": {\"type\": \"Adverse-Effect\"}, \"metoclopramide\": {\"type\": \"Drug\"}}, \"relations\": [[\"nonthrombocytopenic palpable purpura\", \"adverse-reaction-of\", \"metoclopramide\"]]}"
+  },
+  {
+    "instruction": "",
+    "input": "We present a case of photo - onycholysis in a patient treated with doxycycline for acne vulgaris .",
+    "output": "{\"entities\": {\"photo - onycholysis\": {\"type\": \"Adverse-Effect\"}, \"doxycycline\": {\"type\": \"Drug\"}}, \"relations\": [[\"photo - onycholysis\", \"adverse-reaction-of\", \"doxycycline\"]]}"
+  },
+  {
+    "instruction": "",
+    "input": "Nephrogenic diabetes insipidus and renal tubular acidosis secondary to foscarnet therapy .",
+    "output": "{\"entities\": {\"Nephrogenic diabetes insipidus\": {\"type\": \"Adverse-Effect\"}, \"renal tubular acidosis\": {\"type\": \"Adverse-Effect\"}, \"foscarnet\": {\"type\": \"Drug\"}}, \"relations\": [[\"Nephrogenic diabetes insipidus\", \"adverse-reaction-of\", \"foscarnet\"], [\"renal tubular acidosis\", \"adverse-reaction-of\", \"foscarnet\"]]}"
+  },
+  {
+    "instruction": "",
+    "input": "Loperamide poisoning in the dog .",
+    "output": "{\"entities\": {\"Loperamide poisoning\": {\"type\": \"Adverse-Effect\"}, \"Loperamide\": {\"type\": \"Drug\"}}, \"relations\": [[\"Loperamide poisoning\", \"adverse-reaction-of\", \"Loperamide\"]]}"
+  },
+  {
+    "instruction": "",
+    "input": "Three patients who had experienced neuroleptic - induced akathisia in the past reported that the symptoms of fluoxetine - induced akathisia were identical , although somewhat milder .",
+    "output": "{\"entities\": {\"akathisia\": {\"type\": \"Adverse-Effect\"}, \"fluoxetine\": {\"type\": \"Drug\"}}, \"relations\": [[\"akathisia\", \"adverse-reaction-of\", \"fluoxetine\"]]}"
+  },
+  {
+    "instruction": "",
+    "input": "She developed neurotoxicity with an adjustment dosage of valacyclovir for a cutaneous zoster infection .",
+    "output": "{\"entities\": {\"neurotoxicity\": {\"type\": \"Adverse-Effect\"}, \"valacyclovir\": {\"type\": \"Drug\"}}, \"relations\": [[\"neurotoxicity\", \"adverse-reaction-of\", \"valacyclovir\"]]}"
+  },
+  {
+    "instruction": "",
+    "input": "The exacerbation of psoriasis was accompanied by a massive induction of lesional type I interferon activity , detected by MxA expression after imiquimod therapy .",
+    "output": "{\"entities\": {\"exacerbation of psoriasis\": {\"type\": \"Adverse-Effect\"}, \"imiquimod\": {\"type\": \"Drug\"}}, \"relations\": [[\"exacerbation of psoriasis\", \"adverse-reaction-of\", \"imiquimod\"]]}"
+  },
+  {
+    "instruction": "",
+    "input": "FINDINGS : Six children with growth retardation noted after treatment with high - dose fluticasone propionate were found to have adrenal suppression .",
+    "output": "{\"entities\": {\"growth retardation\": {\"type\": \"Adverse-Effect\"}, \"fluticasone propionate\": {\"type\": \"Drug\"}, \"adrenal suppression\": {\"type\": \"Adverse-Effect\"}}, \"relations\": [[\"growth retardation\", \"adverse-reaction-of\", \"fluticasone propionate\"], [\"adrenal suppression\", \"adverse-reaction-of\", \"fluticasone propionate\"]]}"
+  },
+  {
+    "instruction": "",
+    "input": "He was diagnosed with possible serotonin syndrome ; his symptoms resolved after clomipramine was stopped but before clozapine was restarted eight days later .",
+    "output": "{\"entities\": {\"serotonin syndrome\": {\"type\": \"Adverse-Effect\"}, \"clomipramine\": {\"type\": \"Drug\"}}, \"relations\": [[\"serotonin syndrome\", \"adverse-reaction-of\", \"clomipramine\"]]}"
+  },
+  {
+    "instruction": "",
+    "input": "Methotrexate - induced papular eruption following treatment of psoriasis .",
+    "output": "{\"entities\": {\"Methotrexate\": {\"type\": \"Drug\"}, \"papular eruption\": {\"type\": \"Adverse-Effect\"}}, \"relations\": [[\"papular eruption\", \"adverse-reaction-of\", \"Methotrexate\"]]}"
+  },
+  {
+    "instruction": "",
+    "input": "After cessation of amantadine , the edema resolved , and the endothelial cell densities were < or=600/mm .",
+    "output": "{\"entities\": {\"amantadine\": {\"type\": \"Drug\"}, \"edema\": {\"type\": \"Adverse-Effect\"}}, \"relations\": [[\"edema\", \"adverse-reaction-of\", \"amantadine\"]]}"
+  },
+  {
+    "instruction": "",
+    "input": "Palpable purpuric skin lesions on the anterior surface of both legs appeared on the 55th day of amphotericin B treatment .",
+    "output": "{\"entities\": {\"Palpable purpuric skin lesions\": {\"type\": \"Adverse-Effect\"}, \"amphotericin B\": {\"type\": \"Drug\"}}, \"relations\": [[\"Palpable purpuric skin lesions\", \"adverse-reaction-of\", \"amphotericin B\"]]}"
+  },
+  {
+    "instruction": "",
+    "input": "These cases suggest the possibility that , in some patients , leukopenia or agranulocytosis during olanzapine treatment might be dose - related .",
+    "output": "{\"entities\": {\"leukopenia\": {\"type\": \"Adverse-Effect\"}, \"agranulocytosis\": {\"type\": \"Adverse-Effect\"}, \"olanzapine\": {\"type\": \"Drug\"}}, \"relations\": [[\"leukopenia\", \"adverse-reaction-of\", \"olanzapine\"], [\"agranulocytosis\", \"adverse-reaction-of\", \"olanzapine\"]]}"
+  },
+  {
+    "instruction": "",
+    "input": "Hepatotoxicity after high - dose methylprednisolone for demyelinating disease .",
+    "output": "{\"entities\": {\"Hepatotoxicity\": {\"type\": \"Adverse-Effect\"}, \"methylprednisolone\": {\"type\": \"Drug\"}}, \"relations\": [[\"Hepatotoxicity\", \"adverse-reaction-of\", \"methylprednisolone\"]]}"
+  },
+  {
+    "instruction": "",
+    "input": "Pulmonary edema occurred 24 hours after intravenous ritodrine therapy and 10 hours after subcutaneous terbutaline therapy .",
+    "output": "{\"entities\": {\"Pulmonary edema\": {\"type\": \"Adverse-Effect\"}, \"ritodrine\": {\"type\": \"Drug\"}, \"terbutaline\": {\"type\": \"Drug\"}}, \"relations\": [[\"Pulmonary edema\", \"adverse-reaction-of\", \"ritodrine\"], [\"Pulmonary edema\", \"adverse-reaction-of\", \"terbutaline\"]]}"
+  },
+  {
+    "instruction": "",
+    "input": "No explanation for this delay was found , other than the possibility that magnesium sulfate treatment impeded lactogenesis .",
+    "output": "{\"entities\": {\"magnesium sulfate\": {\"type\": \"Drug\"}, \"impeded lactogenesis\": {\"type\": \"Adverse-Effect\"}}, \"relations\": [[\"impeded lactogenesis\", \"adverse-reaction-of\", \"magnesium sulfate\"]]}"
+  },
+  {
+    "instruction": "",
+    "input": "The findings were judged to be consistent with soft - tissue injury associated with intravenous administration of phenytoin , also termed purple glove syndrome .",
+    "output": "{\"entities\": {\"soft - tissue injury\": {\"type\": \"Adverse-Effect\"}, \"phenytoin\": {\"type\": \"Drug\"}, \"purple glove syndrome\": {\"type\": \"Adverse-Effect\"}}, \"relations\": [[\"soft - tissue injury\", \"adverse-reaction-of\", \"phenytoin\"], [\"purple glove syndrome\", \"adverse-reaction-of\", \"phenytoin\"]]}"
+  },
+  {
+    "instruction": "",
+    "input": "Occurrence of withdrawal dyskinesia indicates that the neuroleptic effects of amoxapine may be clinically significant .",
+    "output": "{\"entities\": {\"dyskinesia\": {\"type\": \"Adverse-Effect\"}, \"amoxapine\": {\"type\": \"Drug\"}}, \"relations\": [[\"dyskinesia\", \"adverse-reaction-of\", \"amoxapine\"]]}"
+  },
+  {
+    "instruction": "",
+    "input": "1 . Changes in the plasma cortisol level were reported in a male patient with panic disorder during the period of low - dose alprazolam treatment ( mean 0.62 + /- 0.15 mg / day ) compared with during the period of high - dose period ( mean 1.08 + /- 0.28 mg / day ) .",
+    "output": "{\"entities\": {\"Changes in the plasma cortisol level\": {\"type\": \"Adverse-Effect\"}, \"alprazolam\": {\"type\": \"Drug\"}}, \"relations\": [[\"Changes in the plasma cortisol level\", \"adverse-reaction-of\", \"alprazolam\"]]}"
+  },
+  {
+    "instruction": "",
+    "input": "Two children with rheumatic fever developed anicteric hepatitis while on high - dose aspirin therapy .",
+    "output": "{\"entities\": {\"anicteric hepatitis\": {\"type\": \"Adverse-Effect\"}, \"aspirin\": {\"type\": \"Drug\"}}, \"relations\": [[\"anicteric hepatitis\", \"adverse-reaction-of\", \"aspirin\"]]}"
+  },
+  {
+    "instruction": "",
+    "input": "However , 1 eye had vitreous hemorrhage after repeated injections of tPA .",
+    "output": "{\"entities\": {\"vitreous hemorrhage\": {\"type\": \"Adverse-Effect\"}, \"tPA\": {\"type\": \"Drug\"}}, \"relations\": [[\"vitreous hemorrhage\", \"adverse-reaction-of\", \"tPA\"]]}"
+  },
+  {
+    "instruction": "",
+    "input": "Vancomycin is widely used against methicillin - resistant Staphylococcus aureus infections , but it is associated with many adverse effects such as nephrotoxicity , ototoxicity , gastrointestinal disturbances , blood disorders , and two types of hypersensitivity reactions - an anaphylactoid reaction known as \" red man syndrome \" and anaphylaxis .",
+    "output": "{\"entities\": {\"Vancomycin\": {\"type\": \"Drug\"}, \"nephrotoxicity\": {\"type\": \"Adverse-Effect\"}, \"ototoxicity\": {\"type\": \"Adverse-Effect\"}, \"gastrointestinal disturbances\": {\"type\": \"Adverse-Effect\"}, \"blood disorders\": {\"type\": \"Adverse-Effect\"}, \"hypersensitivity reactions\": {\"type\": \"Adverse-Effect\"}, \"anaphylactoid\": {\"type\": \"Adverse-Effect\"}, \"red man syndrome\": {\"type\": \"Adverse-Effect\"}, \"anaphylaxis\": {\"type\": \"Adverse-Effect\"}}, \"relations\": [[\"nephrotoxicity\", \"adverse-reaction-of\", \"Vancomycin\"], [\"ototoxicity\", \"adverse-reaction-of\", \"Vancomycin\"], [\"gastrointestinal disturbances\", \"adverse-reaction-of\", \"Vancomycin\"], [\"blood disorders\", \"adverse-reaction-of\", \"Vancomycin\"], [\"hypersensitivity reactions\", \"adverse-reaction-of\", \"Vancomycin\"], [\"anaphylactoid\", \"adverse-reaction-of\", \"Vancomycin\"], [\"red man syndrome\", \"adverse-reaction-of\", \"Vancomycin\"], [\"anaphylaxis\", \"adverse-reaction-of\", \"Vancomycin\"]]}"
+  },
+  {
+    "instruction": "",
+    "input": "We report a patient receiving chronic lithium therapy who presented with a transient CDI occurring in the setting of underlying chronic NDI .",
+    "output": "{\"entities\": {\"lithium\": {\"type\": \"Drug\"}, \"CDI\": {\"type\": \"Adverse-Effect\"}}, \"relations\": [[\"CDI\", \"adverse-reaction-of\", \"lithium\"]]}"
+  },
+  {
+    "instruction": "",
+    "input": "PATIENTS : Three patients developed a reproductive endocrine disorder during treatment with valproate .",
+    "output": "{\"entities\": {\"reproductive endocrine disorder\": {\"type\": \"Adverse-Effect\"}, \"valproate\": {\"type\": \"Drug\"}}, \"relations\": [[\"reproductive endocrine disorder\", \"adverse-reaction-of\", \"valproate\"]]}"
+  },
+  {
+    "instruction": "",
+    "input": "Pneumonitis is emerging as one of the most unpredictable and potentially serious , adverse effects of treatment with MTX .",
+    "output": "{\"entities\": {\"Pneumonitis\": {\"type\": \"Adverse-Effect\"}, \"MTX\": {\"type\": \"Drug\"}}, \"relations\": [[\"Pneumonitis\", \"adverse-reaction-of\", \"MTX\"]]}"
+  },
+  {
+    "instruction": "",
+    "input": "A third patient experienced disabling neurotoxicity in the extremity of a prior ulnar nerve and tendon transposition after receiving paclitaxel .",
+    "output": "{\"entities\": {\"disabling neurotoxicity\": {\"type\": \"Adverse-Effect\"}, \"paclitaxel\": {\"type\": \"Drug\"}}, \"relations\": [[\"disabling neurotoxicity\", \"adverse-reaction-of\", \"paclitaxel\"]]}"
+  },
+  {
+    "instruction": "",
+    "input": "The occurrence of severe AIHA in CLL patients treated with fludarabine has been reported by several authors .",
+    "output": "{\"entities\": {\"AIHA\": {\"type\": \"Adverse-Effect\"}, \"fludarabine\": {\"type\": \"Drug\"}}, \"relations\": [[\"AIHA\", \"adverse-reaction-of\", \"fludarabine\"]]}"
+  },
+  {
+    "instruction": "",
+    "input": "Rapamycin / sirolimus ( SR ) , trade named Rapammune ( Wyeth - Ayerst , Sydney , Australia ) , is a potent immunosuppressive drug associated with myelosuppression , hypertension , hyperlipidemia , and infection .",
+    "output": "{\"entities\": {\"Rapamycin\": {\"type\": \"Drug\"}, \"sirolimus\": {\"type\": \"Drug\"}, \"SR\": {\"type\": \"Drug\"}, \"Rapammune\": {\"type\": \"Drug\"}, \"myelosuppression\": {\"type\": \"Adverse-Effect\"}, \"hypertension\": {\"type\": \"Adverse-Effect\"}, \"hyperlipidemia\": {\"type\": \"Adverse-Effect\"}, \"infection\": {\"type\": \"Adverse-Effect\"}}, \"relations\": [[\"myelosuppression\", \"adverse-reaction-of\", \"Rapamycin\"], [\"myelosuppression\", \"adverse-reaction-of\", \"sirolimus\"], [\"myelosuppression\", \"adverse-reaction-of\", \"SR\"], [\"myelosuppression\", \"adverse-reaction-of\", \"Rapammune\"], [\"hypertension\", \"adverse-reaction-of\", \"Rapamycin\"], [\"hypertension\", \"adverse-reaction-of\", \"sirolimus\"], [\"hypertension\", \"adverse-reaction-of\", \"SR\"], [\"hypertension\", \"adverse-reaction-of\", \"Rapammune\"], [\"hyperlipidemia\", \"adverse-reaction-of\", \"Rapamycin\"], [\"hyperlipidemia\", \"adverse-reaction-of\", \"sirolimus\"], [\"hyperlipidemia\", \"adverse-reaction-of\", \"SR\"], [\"hyperlipidemia\", \"adverse-reaction-of\", \"Rapammune\"], [\"infection\", \"adverse-reaction-of\", \"Rapamycin\"], [\"infection\", \"adverse-reaction-of\", \"sirolimus\"], [\"infection\", \"adverse-reaction-of\", \"SR\"], [\"infection\", \"adverse-reaction-of\", \"Rapammune\"]]}"
+  },
+  {
+    "instruction": "",
+    "input": "Following are two clinical case reports demonstrating profound cerebral edema associated with implantation of Gliadel wafers .",
+    "output": "{\"entities\": {\"cerebral edema\": {\"type\": \"Adverse-Effect\"}, \"Gliadel\": {\"type\": \"Drug\"}}, \"relations\": [[\"cerebral edema\", \"adverse-reaction-of\", \"Gliadel\"]]}"
+  },
+  {
+    "instruction": "",
+    "input": "We present a case of ethylenediamine - induced delayed hypersensitivity reaction in a 46-year - old woman who received parenteral aminophylline for an acute asthma exacerbation .",
+    "output": "{\"entities\": {\"ethylenediamine\": {\"type\": \"Drug\"}, \"delayed hypersensitivity reaction\": {\"type\": \"Adverse-Effect\"}, \"aminophylline\": {\"type\": \"Drug\"}}, \"relations\": [[\"delayed hypersensitivity reaction\", \"adverse-reaction-of\", \"ethylenediamine\"], [\"delayed hypersensitivity reaction\", \"adverse-reaction-of\", \"aminophylline\"]]}"
+  },
+  {
+    "instruction": "",
+    "input": "To our knowledge , this is the first case reported in the English literature of a generalized exanthem due to subcutaneous injection of enoxaparin .",
+    "output": "{\"entities\": {\"generalized exanthem\": {\"type\": \"Adverse-Effect\"}, \"enoxaparin\": {\"type\": \"Drug\"}}, \"relations\": [[\"generalized exanthem\", \"adverse-reaction-of\", \"enoxaparin\"]]}"
+  },
+  {
+    "instruction": "",
+    "input": "Methotrexate may rarely provoke serositis , even with low doses and after just a few weeks of therapy .",
+    "output": "{\"entities\": {\"Methotrexate\": {\"type\": \"Drug\"}, \"serositis\": {\"type\": \"Adverse-Effect\"}}, \"relations\": [[\"serositis\", \"adverse-reaction-of\", \"Methotrexate\"]]}"
+  },
+  {
+    "instruction": "",
+    "input": "Myasthenia gravis during low - dose IFN - alpha therapy for chronic hepatitis C .",
+    "output": "{\"entities\": {\"Myasthenia gravis\": {\"type\": \"Adverse-Effect\"}, \"IFN - alpha\": {\"type\": \"Drug\"}}, \"relations\": [[\"Myasthenia gravis\", \"adverse-reaction-of\", \"IFN - alpha\"]]}"
+  },
+  {
+    "instruction": "",
+    "input": "However , the use of lithium should be avoided with any patient who is purging , since it may exacerbate the loss of intracellular potassium , thereby increasing the risk of cardiac toxicity .",
+    "output": "{\"entities\": {\"lithium\": {\"type\": \"Drug\"}, \"loss of intracellular potassium\": {\"type\": \"Adverse-Effect\"}, \"cardiac toxicity\": {\"type\": \"Adverse-Effect\"}}, \"relations\": [[\"loss of intracellular potassium\", \"adverse-reaction-of\", \"lithium\"], [\"cardiac toxicity\", \"adverse-reaction-of\", \"lithium\"]]}"
+  },
+  {
+    "instruction": "",
+    "input": "Studies performed 10 years ago on 25 patients with MTX - induced liver cirrhosis indicated that this type of cirrhosis was not of an aggressive nature .",
+    "output": "{\"entities\": {\"MTX\": {\"type\": \"Drug\"}, \"liver cirrhosis\": {\"type\": \"Adverse-Effect\"}, \"cirrhosis\": {\"type\": \"Adverse-Effect\"}}, \"relations\": [[\"liver cirrhosis\", \"adverse-reaction-of\", \"MTX\"], [\"cirrhosis\", \"adverse-reaction-of\", \"MTX\"]]}"
+  },
+  {
+    "instruction": "",
+    "input": "Although adverse effects are usually mild , the author reports here a case of leucocytopenia and thrombocytopenia with quetiapine treatment that required its discontinuation .",
+    "output": "{\"entities\": {\"leucocytopenia\": {\"type\": \"Adverse-Effect\"}, \"thrombocytopenia\": {\"type\": \"Adverse-Effect\"}, \"quetiapine\": {\"type\": \"Drug\"}}, \"relations\": [[\"leucocytopenia\", \"adverse-reaction-of\", \"quetiapine\"], [\"thrombocytopenia\", \"adverse-reaction-of\", \"quetiapine\"]]}"
+  },
+  {
+    "instruction": "",
+    "input": "Methanol toxicity can cause severe central nervous system insult in which a characteristic pattern of bilateral putaminal injury is noted on brain imaging studies .",
+    "output": "{\"entities\": {\"Methanol\": {\"type\": \"Drug\"}, \"Methanol toxicity\": {\"type\": \"Adverse-Effect\"}, \"severe central nervous system insult\": {\"type\": \"Adverse-Effect\"}, \"bilateral putaminal injury\": {\"type\": \"Adverse-Effect\"}}, \"relations\": [[\"Methanol toxicity\", \"adverse-reaction-of\", \"Methanol\"], [\"severe central nervous system insult\", \"adverse-reaction-of\", \"Methanol\"], [\"bilateral putaminal injury\", \"adverse-reaction-of\", \"Methanol\"]]}"
+  },
+  {
+    "instruction": "",
+    "input": "The authors caution that treatment with alprazolam may be complicated by the induction of mania .",
+    "output": "{\"entities\": {\"alprazolam\": {\"type\": \"Drug\"}, \"mania\": {\"type\": \"Adverse-Effect\"}}, \"relations\": [[\"mania\", \"adverse-reaction-of\", \"alprazolam\"]]}"
+  },
+  {
+    "instruction": "",
+    "input": "CASE PRESENTATION : Three cases of Leishmania infantum leishmaniasis in corticosteroid ( CS ) - treated patients are reported : an isolated lingual leishmaniasis in a farmer treated with CS for asthma , a severe visceral leishmaniasis associated with cutaneous lesions in a woman with myasthenia gravis , and a visceral involvement after cutaneous leishmaniasis in a man receiving CS .",
+    "output": "{\"entities\": {\"Leishmania infantum leishmaniasis\": {\"type\": \"Adverse-Effect\"}, \"corticosteroid\": {\"type\": \"Drug\"}, \"CS\": {\"type\": \"Drug\"}, \"lingual leishmaniasis\": {\"type\": \"Adverse-Effect\"}, \"cutaneous leishmaniasis\": {\"type\": \"Adverse-Effect\"}}, \"relations\": [[\"Leishmania infantum leishmaniasis\", \"adverse-reaction-of\", \"corticosteroid\"], [\"Leishmania infantum leishmaniasis\", \"adverse-reaction-of\", \"CS\"], [\"lingual leishmaniasis\", \"adverse-reaction-of\", \"corticosteroid\"], [\"lingual leishmaniasis\", \"adverse-reaction-of\", \"CS\"], [\"cutaneous leishmaniasis\", \"adverse-reaction-of\", \"CS\"]]}"
+  },
+  {
+    "instruction": "",
+    "input": "No other endogenous or exogenous cause for the gynecomastia could be found except for the theophylline .",
+    "output": "{\"entities\": {\"gynecomastia\": {\"type\": \"Adverse-Effect\"}, \"theophylline\": {\"type\": \"Drug\"}}, \"relations\": [[\"gynecomastia\", \"adverse-reaction-of\", \"theophylline\"]]}"
+  },
+  {
+    "instruction": "",
+    "input": "SLE receded after withdrawal of carbamazepine and treatment with anti - inflammatory drugs .",
+    "output": "{\"entities\": {\"SLE\": {\"type\": \"Adverse-Effect\"}, \"carbamazepine\": {\"type\": \"Drug\"}}, \"relations\": [[\"SLE\", \"adverse-reaction-of\", \"carbamazepine\"]]}"
+  },
+  {
+    "instruction": "",
+    "input": "Decreased plasma cortisol level during alprazolam treatment of panic disorder : a case report .",
+    "output": "{\"entities\": {\"Decreased plasma cortisol level\": {\"type\": \"Adverse-Effect\"}, \"alprazolam\": {\"type\": \"Drug\"}}, \"relations\": [[\"Decreased plasma cortisol level\", \"adverse-reaction-of\", \"alprazolam\"]]}"
+  },
+  {
+    "instruction": "",
+    "input": "Adverse effects of amiodarone including pulmonary toxicity , hepatotoxicity , aggravation of arrhythmia , and thyroid diseases are well understood .",
+    "output": "{\"entities\": {\"amiodarone\": {\"type\": \"Drug\"}, \"pulmonary toxicity\": {\"type\": \"Adverse-Effect\"}, \"hepatotoxicity\": {\"type\": \"Adverse-Effect\"}, \"aggravation of arrhythmia\": {\"type\": \"Adverse-Effect\"}, \"thyroid diseases\": {\"type\": \"Adverse-Effect\"}}, \"relations\": [[\"pulmonary toxicity\", \"adverse-reaction-of\", \"amiodarone\"], [\"hepatotoxicity\", \"adverse-reaction-of\", \"amiodarone\"], [\"aggravation of arrhythmia\", \"adverse-reaction-of\", \"amiodarone\"], [\"thyroid diseases\", \"adverse-reaction-of\", \"amiodarone\"]]}"
+  },
+  {
+    "instruction": "",
+    "input": "We describe a patient who experienced chronic nausea and an episode of confusion while treated with a small , stable dose of oral morphine in the setting of mild renal insufficiency .",
+    "output": "{\"entities\": {\"chronic nausea\": {\"type\": \"Adverse-Effect\"}, \"confusion\": {\"type\": \"Adverse-Effect\"}, \"morphine\": {\"type\": \"Drug\"}}, \"relations\": [[\"chronic nausea\", \"adverse-reaction-of\", \"morphine\"], [\"confusion\", \"adverse-reaction-of\", \"morphine\"]]}"
+  },
+  {
+    "instruction": "",
+    "input": "This is the first report of a disulfiram - like reaction with cefmenoxime .",
+    "output": "{\"entities\": {\"disulfiram - like reaction\": {\"type\": \"Adverse-Effect\"}, \"cefmenoxime\": {\"type\": \"Drug\"}}, \"relations\": [[\"disulfiram - like reaction\", \"adverse-reaction-of\", \"cefmenoxime\"]]}"
+  },
+  {
+    "instruction": "",
+    "input": "Although neurotoxicity is a frequent complication of methotrexate therapy , fatal acute neurotoxicity is extremely uncommon , especially in adults .",
+    "output": "{\"entities\": {\"neurotoxicity\": {\"type\": \"Adverse-Effect\"}, \"methotrexate\": {\"type\": \"Drug\"}, \"fatal acute neurotoxicity\": {\"type\": \"Adverse-Effect\"}}, \"relations\": [[\"neurotoxicity\", \"adverse-reaction-of\", \"methotrexate\"], [\"fatal acute neurotoxicity\", \"adverse-reaction-of\", \"methotrexate\"]]}"
+  },
+  {
+    "instruction": "",
+    "input": "The objective of this report is to describe a case of fixed drug eruption that occurred during omeprazole treatment .",
+    "output": "{\"entities\": {\"eruption\": {\"type\": \"Adverse-Effect\"}, \"omeprazole\": {\"type\": \"Drug\"}}, \"relations\": [[\"eruption\", \"adverse-reaction-of\", \"omeprazole\"]]}"
+  },
+  {
+    "instruction": "",
+    "input": "Possible mechanisms for damage to the urothelium by ketamine are suggested .",
+    "output": "{\"entities\": {\"damage to the urothelium\": {\"type\": \"Adverse-Effect\"}, \"ketamine\": {\"type\": \"Drug\"}}, \"relations\": [[\"damage to the urothelium\", \"adverse-reaction-of\", \"ketamine\"]]}"
+  },
+  {
+    "instruction": "",
+    "input": "The abnormal rhythm disappeared with the withdrawal of propranolol and when the drug was restarted a 2/1 S - A block was seen .",
+    "output": "{\"entities\": {\"abnormal rhythm\": {\"type\": \"Adverse-Effect\"}, \"propranolol\": {\"type\": \"Drug\"}}, \"relations\": [[\"abnormal rhythm\", \"adverse-reaction-of\", \"propranolol\"]]}"
+  },
+  {
+    "instruction": "",
+    "input": "In addition to the recognized arrhythmic complications , the authors emphasize myocardial necrosis as a possible further manifestation of amsacrine - related cardiotoxicity .",
+    "output": "{\"entities\": {\"myocardial necrosis\": {\"type\": \"Adverse-Effect\"}, \"amsacrine\": {\"type\": \"Drug\"}, \"cardiotoxicity\": {\"type\": \"Adverse-Effect\"}}, \"relations\": [[\"myocardial necrosis\", \"adverse-reaction-of\", \"amsacrine\"], [\"cardiotoxicity\", \"adverse-reaction-of\", \"amsacrine\"]]}"
+  },
+  {
+    "instruction": "",
+    "input": "Despite a hematologic response in all 3 patients , none of them achieved cytogenetic remission , and all progressed to blast crisis at 7 to 10 months of imatinib therapy .",
+    "output": "{\"entities\": {\"blast crisis\": {\"type\": \"Adverse-Effect\"}, \"imatinib\": {\"type\": \"Drug\"}}, \"relations\": [[\"blast crisis\", \"adverse-reaction-of\", \"imatinib\"]]}"
+  },
+  {
+    "instruction": "",
+    "input": "Since early symptoms of the toxic effects of theophylline can mimic peptic ulcer disease , cimetidine might be prescribed for the gastrointestinal symptoms with subsequent worsening of theophylline poisoning .",
+    "output": "{\"entities\": {\"theophylline\": {\"type\": \"Drug\"}, \"peptic ulcer disease\": {\"type\": \"Adverse-Effect\"}}, \"relations\": [[\"peptic ulcer disease\", \"adverse-reaction-of\", \"theophylline\"]]}"
+  },
+  {
+    "instruction": "",
+    "input": "Occult quinine - induced thrombocytopenia .",
+    "output": "{\"entities\": {\"quinine\": {\"type\": \"Drug\"}, \"thrombocytopenia\": {\"type\": \"Adverse-Effect\"}}, \"relations\": [[\"thrombocytopenia\", \"adverse-reaction-of\", \"quinine\"]]}"
+  },
+  {
+    "instruction": "",
+    "input": "We report four cases of severe corneal ulceration in methamphetamine abusers .",
+    "output": "{\"entities\": {\"severe corneal ulceration\": {\"type\": \"Adverse-Effect\"}, \"methamphetamine\": {\"type\": \"Drug\"}}, \"relations\": [[\"severe corneal ulceration\", \"adverse-reaction-of\", \"methamphetamine\"]]}"
+  },
+  {
+    "instruction": "",
+    "input": "Despite the known pulmonary side effects of nitrofurantoin , there is no report of this toxicity occurring in pregnant patients .",
+    "output": "{\"entities\": {\"pulmonary side effects\": {\"type\": \"Adverse-Effect\"}, \"nitrofurantoin\": {\"type\": \"Drug\"}}, \"relations\": [[\"pulmonary side effects\", \"adverse-reaction-of\", \"nitrofurantoin\"]]}"
+  },
+  {
+    "instruction": "",
+    "input": "These skin lesions may be induced or worsened during antiviral therapy with interferon - alpha ( IFN ) .",
+    "output": "{\"entities\": {\"skin lesions\": {\"type\": \"Adverse-Effect\"}, \"interferon - alpha\": {\"type\": \"Drug\"}, \"IFN\": {\"type\": \"Drug\"}}, \"relations\": [[\"skin lesions\", \"adverse-reaction-of\", \"interferon - alpha\"], [\"skin lesions\", \"adverse-reaction-of\", \"IFN\"]]}"
+  },
+  {
+    "instruction": "",
+    "input": "A patient with seropositive rheumatoid arthritis developed ascites while taking weekly doses of methotrexate ( MTX ) .",
+    "output": "{\"entities\": {\"ascites\": {\"type\": \"Adverse-Effect\"}, \"methotrexate\": {\"type\": \"Drug\"}, \"MTX\": {\"type\": \"Drug\"}}, \"relations\": [[\"ascites\", \"adverse-reaction-of\", \"methotrexate\"], [\"ascites\", \"adverse-reaction-of\", \"MTX\"]]}"
+  },
+  {
+    "instruction": "",
+    "input": "Cicatricial entropion associated with chronic dipivefrin application .",
+    "output": "{\"entities\": {\"Cicatricial entropion\": {\"type\": \"Adverse-Effect\"}, \"dipivefrin\": {\"type\": \"Drug\"}}, \"relations\": [[\"Cicatricial entropion\", \"adverse-reaction-of\", \"dipivefrin\"]]}"
+  },
+  {
+    "instruction": "",
+    "input": "Severe symptomatic hyponatremia during sibutramine therapy : a case report .",
+    "output": "{\"entities\": {\"Severe symptomatic hyponatremia\": {\"type\": \"Adverse-Effect\"}, \"sibutramine\": {\"type\": \"Drug\"}}, \"relations\": [[\"Severe symptomatic hyponatremia\", \"adverse-reaction-of\", \"sibutramine\"]]}"
+  },
+  {
+    "instruction": "",
+    "input": "Gemcitabine - related radiation recall preferentially involves internal tissue and organs .",
+    "output": "{\"entities\": {\"Gemcitabine\": {\"type\": \"Drug\"}, \"radiation recall\": {\"type\": \"Adverse-Effect\"}}, \"relations\": [[\"radiation recall\", \"adverse-reaction-of\", \"Gemcitabine\"]]}"
+  },
+  {
+    "instruction": "",
+    "input": "A 54-year - old man developed TEN 4 weeks after beginning lamotrigine for complex partial seizures related to a glioblastoma multiforme brain tumor .",
+    "output": "{\"entities\": {\"TEN\": {\"type\": \"Adverse-Effect\"}, \"lamotrigine\": {\"type\": \"Drug\"}}, \"relations\": [[\"TEN\", \"adverse-reaction-of\", \"lamotrigine\"]]}"
+  },
+  {
+    "instruction": "",
+    "input": "A second episode of jaundice followed the intravaginal administration of a mixture of furazolidone and nifuroxime .",
+    "output": "{\"entities\": {\"jaundice\": {\"type\": \"Adverse-Effect\"}, \"furazolidone\": {\"type\": \"Drug\"}, \"nifuroxime\": {\"type\": \"Drug\"}}, \"relations\": [[\"jaundice\", \"adverse-reaction-of\", \"furazolidone\"], [\"jaundice\", \"adverse-reaction-of\", \"nifuroxime\"]]}"
+  },
+  {
+    "instruction": "",
+    "input": "Intracranial haemorrhage from a meningioma in a patient receiving aspirin prophylaxis : a case report .",
+    "output": "{\"entities\": {\"Intracranial haemorrhage\": {\"type\": \"Adverse-Effect\"}, \"aspirin\": {\"type\": \"Drug\"}}, \"relations\": [[\"Intracranial haemorrhage\", \"adverse-reaction-of\", \"aspirin\"]]}"
+  },
+  {
+    "instruction": "",
+    "input": "This case illustrates the potential decoupling of PSA response from disease status in flutamide withdrawal .",
+    "output": "{\"entities\": {\"decoupling of PSA response\": {\"type\": \"Adverse-Effect\"}, \"flutamide\": {\"type\": \"Drug\"}}, \"relations\": [[\"decoupling of PSA response\", \"adverse-reaction-of\", \"flutamide\"]]}"
+  },
+  {
+    "instruction": "",
+    "input": "A 9-year - old boy developed acute renal failure following intravenous acyclovir ( 30 mg / kg per day ) administered for 6 days to treat herpetic encephalitis .",
+    "output": "{\"entities\": {\"acute renal failure\": {\"type\": \"Adverse-Effect\"}, \"acyclovir\": {\"type\": \"Drug\"}}, \"relations\": [[\"acute renal failure\", \"adverse-reaction-of\", \"acyclovir\"]]}"
+  },
+  {
+    "instruction": "",
+    "input": "Methotrexate - induced papular eruption following treatment of psoriasis has not been previously reported .",
+    "output": "{\"entities\": {\"Methotrexate\": {\"type\": \"Drug\"}, \"papular eruption\": {\"type\": \"Adverse-Effect\"}}, \"relations\": [[\"papular eruption\", \"adverse-reaction-of\", \"Methotrexate\"]]}"
+  },
+  {
+    "instruction": "",
+    "input": "CONCLUSIONS : There is very little published information regarding ofloxacin - induced toxic epidermal necrolysis .",
+    "output": "{\"entities\": {\"ofloxacin\": {\"type\": \"Drug\"}, \"toxic epidermal necrolysis\": {\"type\": \"Adverse-Effect\"}}, \"relations\": [[\"toxic epidermal necrolysis\", \"adverse-reaction-of\", \"ofloxacin\"]]}"
+  },
+  {
+    "instruction": "",
+    "input": "Secondary hyperparathyroidism in certain patients with lithium nephrotoxicity is also possible .",
+    "output": "{\"entities\": {\"Secondary hyperparathyroidism\": {\"type\": \"Adverse-Effect\"}, \"lithium\": {\"type\": \"Drug\"}, \"nephrotoxicity\": {\"type\": \"Adverse-Effect\"}}, \"relations\": [[\"Secondary hyperparathyroidism\", \"adverse-reaction-of\", \"lithium\"], [\"nephrotoxicity\", \"adverse-reaction-of\", \"lithium\"]]}"
+  },
+  {
+    "instruction": "",
+    "input": "We describe the development of ischemic colitis in a woman who was treated with tegaserod and review the relationship among ischemic colitis , tegaserod use , and irritable bowel syndrome .",
+    "output": "{\"entities\": {\"ischemic colitis\": {\"type\": \"Adverse-Effect\"}, \"tegaserod\": {\"type\": \"Drug\"}, \"irritable bowel syndrome\": {\"type\": \"Adverse-Effect\"}}, \"relations\": [[\"ischemic colitis\", \"adverse-reaction-of\", \"tegaserod\"], [\"irritable bowel syndrome\", \"adverse-reaction-of\", \"tegaserod\"]]}"
+  },
+  {
+    "instruction": "",
+    "input": "In view of our experience in the present case , it should be stressed that close monitoring of coagulation capacity is necessary in critically ill patients in order to avoid fatal haemorrhage after initiating warfarin therapy regardless of the dosage .",
+    "output": "{\"entities\": {\"fatal haemorrhage\": {\"type\": \"Adverse-Effect\"}, \"warfarin\": {\"type\": \"Drug\"}}, \"relations\": [[\"fatal haemorrhage\", \"adverse-reaction-of\", \"warfarin\"]]}"
+  },
+  {
+    "instruction": "",
+    "input": "For patients who suffer from osteogenic sarcoma and have anaphylactic reactions to MTX , this desensitization protocol will allow these patients to continue with needed therapeutic or palliative chemotherapy .",
+    "output": "{\"entities\": {\"anaphylactic reactions\": {\"type\": \"Adverse-Effect\"}, \"MTX\": {\"type\": \"Drug\"}}, \"relations\": [[\"anaphylactic reactions\", \"adverse-reaction-of\", \"MTX\"]]}"
+  },
+  {
+    "instruction": "",
+    "input": "Three of these patients had convulsions attributed to imipenem / cilastatin ; 3.6 % of the patients had seizure , or 2 % of imipenem / cilastatin administrations was followed by a seizure attack .",
+    "output": "{\"entities\": {\"convulsions\": {\"type\": \"Adverse-Effect\"}, \"imipenem\": {\"type\": \"Drug\"}, \"cilastatin\": {\"type\": \"Drug\"}, \"seizure\": {\"type\": \"Adverse-Effect\"}}, \"relations\": [[\"convulsions\", \"adverse-reaction-of\", \"imipenem\"], [\"convulsions\", \"adverse-reaction-of\", \"cilastatin\"], [\"seizure\", \"adverse-reaction-of\", \"imipenem\"], [\"seizure\", \"adverse-reaction-of\", \"cilastatin\"]]}"
+  },
+  {
+    "instruction": "",
+    "input": "DISCUSSION : Electrolyte disorders associated with foscarnet are reviewed .",
+    "output": "{\"entities\": {\"Electrolyte disorders\": {\"type\": \"Adverse-Effect\"}, \"foscarnet\": {\"type\": \"Drug\"}}, \"relations\": [[\"Electrolyte disorders\", \"adverse-reaction-of\", \"foscarnet\"]]}"
+  },
+  {
+    "instruction": "",
+    "input": "When DSCG was withdrawn , urticaria vanished and the child remained symptom - free .",
+    "output": "{\"entities\": {\"DSCG\": {\"type\": \"Drug\"}, \"urticaria\": {\"type\": \"Adverse-Effect\"}}, \"relations\": [[\"urticaria\", \"adverse-reaction-of\", \"DSCG\"]]}"
+  },
+  {
+    "instruction": "",
+    "input": "A case is presented in which a 68-year - old man became delirious after being withdrawn from a low dosage of alprazolam .",
+    "output": "{\"entities\": {\"delirious\": {\"type\": \"Adverse-Effect\"}, \"alprazolam\": {\"type\": \"Drug\"}}, \"relations\": [[\"delirious\", \"adverse-reaction-of\", \"alprazolam\"]]}"
+  },
+  {
+    "instruction": "",
+    "input": "Capecitabine was discontinued and the allergic reactions resolved after the woman took diphenhydramine for 1 week .",
+    "output": "{\"entities\": {\"Capecitabine\": {\"type\": \"Drug\"}, \"allergic reactions\": {\"type\": \"Adverse-Effect\"}}, \"relations\": [[\"allergic reactions\", \"adverse-reaction-of\", \"Capecitabine\"]]}"
+  },
+  {
+    "instruction": "",
+    "input": "A patient with alcoholic cerebellar degeneration had periodic alternating nystagmus during a period of phenytoin intoxication .",
+    "output": "{\"entities\": {\"periodic alternating nystagmus\": {\"type\": \"Adverse-Effect\"}, \"phenytoin\": {\"type\": \"Drug\"}}, \"relations\": [[\"periodic alternating nystagmus\", \"adverse-reaction-of\", \"phenytoin\"]]}"
+  },
+  {
+    "instruction": "",
+    "input": "When cyanamide - treated alcoholics relapse into drinking , more severe inflammation develops in the liver .",
+    "output": "{\"entities\": {\"cyanamide\": {\"type\": \"Drug\"}, \"inflammation\": {\"type\": \"Adverse-Effect\"}}, \"relations\": [[\"inflammation\", \"adverse-reaction-of\", \"cyanamide\"]]}"
+  },
+  {
+    "instruction": "",
+    "input": "This article describes a patient with suspected ciprofloxacin - induced interstitial nephritis .",
+    "output": "{\"entities\": {\"ciprofloxacin\": {\"type\": \"Drug\"}, \"interstitial nephritis\": {\"type\": \"Adverse-Effect\"}}, \"relations\": [[\"interstitial nephritis\", \"adverse-reaction-of\", \"ciprofloxacin\"]]}"
+  },
+  {
+    "instruction": "",
+    "input": "RESULTS : A patient developed a bilaterally symmetric bull's - eye maculopathy 45 years after taking quinacrine for 18 months as prophylaxis against malaria .",
+    "output": "{\"entities\": {\"bilaterally symmetric bull's - eye maculopathy\": {\"type\": \"Adverse-Effect\"}, \"quinacrine\": {\"type\": \"Drug\"}}, \"relations\": [[\"bilaterally symmetric bull's - eye maculopathy\", \"adverse-reaction-of\", \"quinacrine\"]]}"
+  },
+  {
+    "instruction": "",
+    "input": "Hepatocellular damage following therapeutic intravenous iron sucrose infusion in a child .",
+    "output": "{\"entities\": {\"Hepatocellular damage\": {\"type\": \"Adverse-Effect\"}, \"iron sucrose\": {\"type\": \"Drug\"}}, \"relations\": [[\"Hepatocellular damage\", \"adverse-reaction-of\", \"iron sucrose\"]]}"
+  },
+  {
+    "instruction": "",
+    "input": "Magnesium toxicosis in two horses .",
+    "output": "{\"entities\": {\"Magnesium toxicosis\": {\"type\": \"Adverse-Effect\"}, \"Magnesium\": {\"type\": \"Drug\"}}, \"relations\": [[\"Magnesium toxicosis\", \"adverse-reaction-of\", \"Magnesium\"]]}"
+  },
+  {
+    "instruction": "",
+    "input": "Anaphylaxis to intrathecal diamorphine .",
+    "output": "{\"entities\": {\"Anaphylaxis\": {\"type\": \"Adverse-Effect\"}, \"diamorphine\": {\"type\": \"Drug\"}}, \"relations\": [[\"Anaphylaxis\", \"adverse-reaction-of\", \"diamorphine\"]]}"
+  },
+  {
+    "instruction": "",
+    "input": "This report describes a case of flucytosine - associated ulcerating enteritis in which the small bowel x - ray demonstrated severe luminal narrowing , ulceration , and marked separation of loops of bowel .",
+    "output": "{\"entities\": {\"flucytosine\": {\"type\": \"Drug\"}, \"ulcerating enteritis\": {\"type\": \"Adverse-Effect\"}, \"severe luminal narrowing\": {\"type\": \"Adverse-Effect\"}, \"ulceration\": {\"type\": \"Adverse-Effect\"}, \"marked separation of loops of bowel\": {\"type\": \"Adverse-Effect\"}}, \"relations\": [[\"ulcerating enteritis\", \"adverse-reaction-of\", \"flucytosine\"], [\"severe luminal narrowing\", \"adverse-reaction-of\", \"flucytosine\"], [\"ulceration\", \"adverse-reaction-of\", \"flucytosine\"], [\"marked separation of loops of bowel\", \"adverse-reaction-of\", \"flucytosine\"]]}"
+  },
+  {
+    "instruction": "",
+    "input": "He developed recurrent skin rash , fever , hypereosinophilia , and acute renal failure after rechallenge with chlorambucil .",
+    "output": "{\"entities\": {\"skin rash\": {\"type\": \"Adverse-Effect\"}, \"fever\": {\"type\": \"Adverse-Effect\"}, \"hypereosinophilia\": {\"type\": \"Adverse-Effect\"}, \"acute renal failure\": {\"type\": \"Adverse-Effect\"}, \"chlorambucil\": {\"type\": \"Drug\"}}, \"relations\": [[\"skin rash\", \"adverse-reaction-of\", \"chlorambucil\"], [\"fever\", \"adverse-reaction-of\", \"chlorambucil\"], [\"hypereosinophilia\", \"adverse-reaction-of\", \"chlorambucil\"], [\"acute renal failure\", \"adverse-reaction-of\", \"chlorambucil\"]]}"
+  },
+  {
+    "instruction": "",
+    "input": "A typical case of dextran-40 associated acute renal failure is presented .",
+    "output": "{\"entities\": {\"dextran-40\": {\"type\": \"Drug\"}, \"acute renal failure\": {\"type\": \"Adverse-Effect\"}}, \"relations\": [[\"acute renal failure\", \"adverse-reaction-of\", \"dextran-40\"]]}"
+  },
+  {
+    "instruction": "",
+    "input": "Amphotericin B ( AmB ) is effective , but its use is limited by toxicity : renal impairment , anaemia , fever , malaise , and hypokalaemia are common .",
+    "output": "{\"entities\": {\"Amphotericin B\": {\"type\": \"Drug\"}, \"AmB\": {\"type\": \"Drug\"}, \"renal impairment\": {\"type\": \"Adverse-Effect\"}, \"anaemia\": {\"type\": \"Adverse-Effect\"}, \"fever\": {\"type\": \"Adverse-Effect\"}, \"malaise\": {\"type\": \"Adverse-Effect\"}, \"hypokalaemia\": {\"type\": \"Adverse-Effect\"}}, \"relations\": [[\"renal impairment\", \"adverse-reaction-of\", \"Amphotericin B\"], [\"renal impairment\", \"adverse-reaction-of\", \"AmB\"], [\"anaemia\", \"adverse-reaction-of\", \"Amphotericin B\"], [\"anaemia\", \"adverse-reaction-of\", \"AmB\"], [\"fever\", \"adverse-reaction-of\", \"Amphotericin B\"], [\"fever\", \"adverse-reaction-of\", \"AmB\"], [\"malaise\", \"adverse-reaction-of\", \"Amphotericin B\"], [\"malaise\", \"adverse-reaction-of\", \"AmB\"], [\"hypokalaemia\", \"adverse-reaction-of\", \"Amphotericin B\"], [\"hypokalaemia\", \"adverse-reaction-of\", \"AmB\"]]}"
+  },
+  {
+    "instruction": "",
+    "input": "OBJECTIVE : To report a case of possible foscarnet - induced severe hypomagnesemia and other electrolyte disorders .",
+    "output": "{\"entities\": {\"foscarnet\": {\"type\": \"Drug\"}, \"severe hypomagnesemia\": {\"type\": \"Adverse-Effect\"}, \"electrolyte disorders\": {\"type\": \"Adverse-Effect\"}}, \"relations\": [[\"severe hypomagnesemia\", \"adverse-reaction-of\", \"foscarnet\"], [\"electrolyte disorders\", \"adverse-reaction-of\", \"foscarnet\"]]}"
+  },
+  {
+    "instruction": "",
+    "input": "Ziprasidone is an atypical antipsychotic drug that is believed to have a low propensity for inducing extrapyramidal symptoms , including tardive dyskinesia ( TD ) .",
+    "output": "{\"entities\": {\"Ziprasidone\": {\"type\": \"Drug\"}, \"extrapyramidal symptoms\": {\"type\": \"Adverse-Effect\"}, \"tardive dyskinesia\": {\"type\": \"Adverse-Effect\"}, \"TD\": {\"type\": \"Adverse-Effect\"}}, \"relations\": [[\"extrapyramidal symptoms\", \"adverse-reaction-of\", \"Ziprasidone\"], [\"tardive dyskinesia\", \"adverse-reaction-of\", \"Ziprasidone\"], [\"TD\", \"adverse-reaction-of\", \"Ziprasidone\"]]}"
+  },
+  {
+    "instruction": "",
+    "input": "Reported are three children who developed progressive paraparesis after intrathecal methotrexate administration followed by complete or partial recovery .",
+    "output": "{\"entities\": {\"progressive paraparesis\": {\"type\": \"Adverse-Effect\"}, \"methotrexate\": {\"type\": \"Drug\"}}, \"relations\": [[\"progressive paraparesis\", \"adverse-reaction-of\", \"methotrexate\"]]}"
+  },
+  {
+    "instruction": "",
+    "input": "As far as we know , this is the first case report of acute hemorrhagic gastritis associated with AZ intoxication .",
+    "output": "{\"entities\": {\"acute hemorrhagic gastritis\": {\"type\": \"Adverse-Effect\"}, \"AZ\": {\"type\": \"Drug\"}, \"AZ intoxication\": {\"type\": \"Adverse-Effect\"}}, \"relations\": [[\"acute hemorrhagic gastritis\", \"adverse-reaction-of\", \"AZ\"], [\"AZ intoxication\", \"adverse-reaction-of\", \"AZ\"]]}"
+  },
+  {
+    "instruction": "",
+    "input": "Since recent studies have reported no negative interactions with concurrent use , we here report three cases ( one case of a prolonged seizure , a serotonin syndrome and a focal seizure ) of severe lithium - induced side effects while patients underwent ECT without complications and lithium serum levels were still subtherapeutic .",
+    "output": "{\"entities\": {\"prolonged seizure\": {\"type\": \"Adverse-Effect\"}, \"serotonin syndrome\": {\"type\": \"Adverse-Effect\"}, \"focal seizure\": {\"type\": \"Adverse-Effect\"}, \"lithium\": {\"type\": \"Drug\"}}, \"relations\": [[\"prolonged seizure\", \"adverse-reaction-of\", \"lithium\"], [\"serotonin syndrome\", \"adverse-reaction-of\", \"lithium\"], [\"focal seizure\", \"adverse-reaction-of\", \"lithium\"]]}"
+  },
+  {
+    "instruction": "",
+    "input": "Sensorimotor polyneuropathy with 5-aminosalicylic acid : a case report .",
+    "output": "{\"entities\": {\"Sensorimotor polyneuropathy\": {\"type\": \"Adverse-Effect\"}, \"5-aminosalicylic acid\": {\"type\": \"Drug\"}}, \"relations\": [[\"Sensorimotor polyneuropathy\", \"adverse-reaction-of\", \"5-aminosalicylic acid\"]]}"
+  },
+  {
+    "instruction": "",
+    "input": "Two of the five patients who worsened motorically also developed encephalopathy during risperidone treatment ; the encephalopathy resolved when the patients were switched to clozapine treatment .",
+    "output": "{\"entities\": {\"worsened motorically\": {\"type\": \"Adverse-Effect\"}, \"encephalopathy\": {\"type\": \"Adverse-Effect\"}, \"risperidone\": {\"type\": \"Drug\"}}, \"relations\": [[\"worsened motorically\", \"adverse-reaction-of\", \"risperidone\"], [\"encephalopathy\", \"adverse-reaction-of\", \"risperidone\"]]}"
+  },
+  {
+    "instruction": "",
+    "input": "We strongly suspect that this lethal anuria was mainly due to ifosfamide , occurring in a patient having received previous cisplatin chemotherapy and with poor kidney perfusion due to transient hypotension .",
+    "output": "{\"entities\": {\"lethal anuria\": {\"type\": \"Adverse-Effect\"}, \"ifosfamide\": {\"type\": \"Drug\"}}, \"relations\": [[\"lethal anuria\", \"adverse-reaction-of\", \"ifosfamide\"]]}"
+  },
+  {
+    "instruction": "",
+    "input": "An intertrigo - like eruption from pegylated liposomal doxorubicin .",
+    "output": "{\"entities\": {\"intertrigo - like eruption\": {\"type\": \"Adverse-Effect\"}, \"doxorubicin\": {\"type\": \"Drug\"}}, \"relations\": [[\"intertrigo - like eruption\", \"adverse-reaction-of\", \"doxorubicin\"]]}"
+  },
+  {
+    "instruction": "",
+    "input": "CONCLUSIONS : We present a case of a patient with CML who developed KS 12 months after starting treatment with imatinib 400 mg / d .",
+    "output": "{\"entities\": {\"KS\": {\"type\": \"Adverse-Effect\"}, \"imatinib\": {\"type\": \"Drug\"}}, \"relations\": [[\"KS\", \"adverse-reaction-of\", \"imatinib\"]]}"
+  },
+  {
+    "instruction": "",
+    "input": "Interstitial lung disease ( ILD ) related to therapy with the drug gefitinib has been well reported .",
+    "output": "{\"entities\": {\"Interstitial lung disease\": {\"type\": \"Adverse-Effect\"}, \"ILD\": {\"type\": \"Adverse-Effect\"}, \"gefitinib\": {\"type\": \"Drug\"}}, \"relations\": [[\"Interstitial lung disease\", \"adverse-reaction-of\", \"gefitinib\"], [\"ILD\", \"adverse-reaction-of\", \"gefitinib\"]]}"
+  },
+  {
+    "instruction": "",
+    "input": "A case of acute subdural haematoma originating spontaneously from an angiomatous meningioma in a patient receiving prophylactic aspirin therapy is presented .",
+    "output": "{\"entities\": {\"acute subdural haematoma\": {\"type\": \"Adverse-Effect\"}, \"aspirin\": {\"type\": \"Drug\"}}, \"relations\": [[\"acute subdural haematoma\", \"adverse-reaction-of\", \"aspirin\"]]}"
+  },
+  {
+    "instruction": "",
+    "input": "Flucytosine - associated diarrhea has been previously described in 6%-10 % of patients receiving the drug .",
+    "output": "{\"entities\": {\"Flucytosine\": {\"type\": \"Drug\"}, \"diarrhea\": {\"type\": \"Adverse-Effect\"}}, \"relations\": [[\"diarrhea\", \"adverse-reaction-of\", \"Flucytosine\"]]}"
+  },
+  {
+    "instruction": "",
+    "input": "Comparable adverse effects , such as disorientation and temporary amnesia , have been reported in patients in the analogous agent , propranolol .",
+    "output": "{\"entities\": {\"disorientation\": {\"type\": \"Adverse-Effect\"}, \"temporary amnesia\": {\"type\": \"Adverse-Effect\"}, \"propranolol\": {\"type\": \"Drug\"}}, \"relations\": [[\"disorientation\", \"adverse-reaction-of\", \"propranolol\"], [\"temporary amnesia\", \"adverse-reaction-of\", \"propranolol\"]]}"
+  },
+  {
+    "instruction": "",
+    "input": "Neurophysiological mechanisms which aid in elucidating the role of disulfiram in the etiology of catatonia are discussed .",
+    "output": "{\"entities\": {\"disulfiram\": {\"type\": \"Drug\"}, \"catatonia\": {\"type\": \"Adverse-Effect\"}}, \"relations\": [[\"catatonia\", \"adverse-reaction-of\", \"disulfiram\"]]}"
+  },
+  {
+    "instruction": "",
+    "input": "According to the Naranjo adverse drug reaction probability scale , the likelihood that temozolomide was responsible for the adverse drug reaction of fever was probable ( score of 6 ) .",
+    "output": "{\"entities\": {\"temozolomide\": {\"type\": \"Drug\"}, \"fever\": {\"type\": \"Adverse-Effect\"}}, \"relations\": [[\"fever\", \"adverse-reaction-of\", \"temozolomide\"]]}"
+  },
+  {
+    "instruction": "",
+    "input": "Hemodynamic collapse following labetalol administration in preeclampsia .",
+    "output": "{\"entities\": {\"Hemodynamic collapse\": {\"type\": \"Adverse-Effect\"}, \"labetalol\": {\"type\": \"Drug\"}}, \"relations\": [[\"Hemodynamic collapse\", \"adverse-reaction-of\", \"labetalol\"]]}"
+  },
+  {
+    "instruction": "",
+    "input": "The cause is presumed to be secondary to hypercoagulability due to asparaginase - induced antithrombin III deficiency .",
+    "output": "{\"entities\": {\"asparaginase\": {\"type\": \"Drug\"}, \"antithrombin III deficiency\": {\"type\": \"Adverse-Effect\"}}, \"relations\": [[\"antithrombin III deficiency\", \"adverse-reaction-of\", \"asparaginase\"]]}"
+  },
+  {
+    "instruction": "",
+    "input": "Bisphosphonate induced osteochemonecrosis of the jaw mimicking a tumour .",
+    "output": "{\"entities\": {\"Bisphosphonate\": {\"type\": \"Drug\"}, \"osteochemonecrosis of the jaw\": {\"type\": \"Adverse-Effect\"}}, \"relations\": [[\"osteochemonecrosis of the jaw\", \"adverse-reaction-of\", \"Bisphosphonate\"]]}"
+  },
+  {
+    "instruction": "",
+    "input": "Patients receiving amifostine who develop only fever should be evaluated for an adverse drug reaction , as well as for sepsis and fevers of neutropenia , and it may be necessary to discontinue the drug .",
+    "output": "{\"entities\": {\"amifostine\": {\"type\": \"Drug\"}, \"fever\": {\"type\": \"Adverse-Effect\"}, \"sepsis\": {\"type\": \"Adverse-Effect\"}, \"fevers of neutropenia\": {\"type\": \"Adverse-Effect\"}}, \"relations\": [[\"fever\", \"adverse-reaction-of\", \"amifostine\"], [\"sepsis\", \"adverse-reaction-of\", \"amifostine\"], [\"fevers of neutropenia\", \"adverse-reaction-of\", \"amifostine\"]]}"
+  },
+  {
+    "instruction": "",
+    "input": "Pemphigus foliaceus induced by rifampicin .",
+    "output": "{\"entities\": {\"Pemphigus foliaceus\": {\"type\": \"Adverse-Effect\"}, \"rifampicin\": {\"type\": \"Drug\"}}, \"relations\": [[\"Pemphigus foliaceus\", \"adverse-reaction-of\", \"rifampicin\"]]}"
+  },
+  {
+    "instruction": "",
+    "input": "Heparin - dependent antibodies and thrombosis without heparin - induced thrombocytopenia .",
+    "output": "{\"entities\": {\"heparin\": {\"type\": \"Drug\"}, \"thrombocytopenia\": {\"type\": \"Adverse-Effect\"}}, \"relations\": [[\"thrombocytopenia\", \"adverse-reaction-of\", \"heparin\"]]}"
+  },
+  {
+    "instruction": "",
+    "input": "Experience with five patients in whom impaired renal function developed early during amphotericin B therapy is reported .",
+    "output": "{\"entities\": {\"impaired renal function\": {\"type\": \"Adverse-Effect\"}, \"amphotericin B\": {\"type\": \"Drug\"}}, \"relations\": [[\"impaired renal function\", \"adverse-reaction-of\", \"amphotericin B\"]]}"
+  },
+  {
+    "instruction": "",
+    "input": "Ampicillin - induced interstitial nephritis with generalised exfoliative dermatitis .",
+    "output": "{\"entities\": {\"Ampicillin\": {\"type\": \"Drug\"}, \"interstitial nephritis\": {\"type\": \"Adverse-Effect\"}, \"generalised exfoliative dermatitis\": {\"type\": \"Adverse-Effect\"}}, \"relations\": [[\"interstitial nephritis\", \"adverse-reaction-of\", \"Ampicillin\"], [\"generalised exfoliative dermatitis\", \"adverse-reaction-of\", \"Ampicillin\"]]}"
+  },
+  {
+    "instruction": "",
+    "input": "OBJECTIVE : To report a case of reversible nonthrombocytopenic palpable purpura associated with metoclopramide .",
+    "output": "{\"entities\": {\"nonthrombocytopenic palpable purpura\": {\"type\": \"Adverse-Effect\"}, \"metoclopramide\": {\"type\": \"Drug\"}}, \"relations\": [[\"nonthrombocytopenic palpable purpura\", \"adverse-reaction-of\", \"metoclopramide\"]]}"
+  },
+  {
+    "instruction": "",
+    "input": "Vancomycin - induced vasculitis .",
+    "output": "{\"entities\": {\"Vancomycin\": {\"type\": \"Drug\"}, \"vasculitis\": {\"type\": \"Adverse-Effect\"}}, \"relations\": [[\"vasculitis\", \"adverse-reaction-of\", \"Vancomycin\"]]}"
+  },
+  {
+    "instruction": "",
+    "input": "A new case of Creutzfeldt - Jakob disease associated with human growth hormone therapy in New Zealand .",
+    "output": "{\"entities\": {\"Creutzfeldt - Jakob disease\": {\"type\": \"Adverse-Effect\"}, \"human growth hormone\": {\"type\": \"Drug\"}}, \"relations\": [[\"Creutzfeldt - Jakob disease\", \"adverse-reaction-of\", \"human growth hormone\"]]}"
+  },
+  {
+    "instruction": "",
+    "input": "This eruption emerged after 1 month of therapy with salsalate , persisted for as long as salsalate was administered , and cleared within 3 weeks of discontinuing the medication .",
+    "output": "{\"entities\": {\"eruption\": {\"type\": \"Adverse-Effect\"}, \"salsalate\": {\"type\": \"Drug\"}}, \"relations\": [[\"eruption\", \"adverse-reaction-of\", \"salsalate\"]]}"
+  },
+  {
+    "instruction": "",
+    "input": "A well - recognized complication of ethambutol use is optic neuropathy , but the potential ocular toxicity of isoniazid is often overlooked .",
+    "output": "{\"entities\": {\"ethambutol\": {\"type\": \"Drug\"}, \"optic neuropathy\": {\"type\": \"Adverse-Effect\"}, \"ocular toxicity\": {\"type\": \"Adverse-Effect\"}, \"isoniazid\": {\"type\": \"Drug\"}}, \"relations\": [[\"optic neuropathy\", \"adverse-reaction-of\", \"ethambutol\"], [\"ocular toxicity\", \"adverse-reaction-of\", \"isoniazid\"]]}"
+  },
+  {
+    "instruction": "",
+    "input": "Skin necrosis after extravasation of low - dose vasopressin administered for septic shock .",
+    "output": "{\"entities\": {\"Skin necrosis\": {\"type\": \"Adverse-Effect\"}, \"vasopressin\": {\"type\": \"Drug\"}}, \"relations\": [[\"Skin necrosis\", \"adverse-reaction-of\", \"vasopressin\"]]}"
+  },
+  {
+    "instruction": "",
+    "input": "However , as the use of hepatitis B vaccination is growing , adverse side effects , including mental nerve neuropathy , should be observed with an increased frequency .",
+    "output": "{\"entities\": {\"hepatitis B vaccination\": {\"type\": \"Drug\"}, \"mental nerve neuropathy\": {\"type\": \"Adverse-Effect\"}}, \"relations\": [[\"mental nerve neuropathy\", \"adverse-reaction-of\", \"hepatitis B vaccination\"]]}"
+  },
+  {
+    "instruction": "",
+    "input": "We conclude that MB is an effective treatment for ifosfamide - induced encephalopathy .",
+    "output": "{\"entities\": {\"ifosfamide - induced encephalopathy\": {\"type\": \"Adverse-Effect\"}, \"ifosfamide\": {\"type\": \"Drug\"}}, \"relations\": [[\"ifosfamide - induced encephalopathy\", \"adverse-reaction-of\", \"ifosfamide\"]]}"
+  },
+  {
+    "instruction": "",
+    "input": "Prothipendylhydrochloride - induced priapism : case report .",
+    "output": "{\"entities\": {\"Prothipendylhydrochloride\": {\"type\": \"Drug\"}, \"priapism\": {\"type\": \"Adverse-Effect\"}}, \"relations\": [[\"priapism\", \"adverse-reaction-of\", \"Prothipendylhydrochloride\"]]}"
+  },
+  {
+    "instruction": "",
+    "input": "Tacrolimus ( FK506 ) , an immunosuppressant , has been associated with mutism in adults after liver transplant .",
+    "output": "{\"entities\": {\"Tacrolimus\": {\"type\": \"Drug\"}, \"FK506\": {\"type\": \"Drug\"}, \"mutism\": {\"type\": \"Adverse-Effect\"}}, \"relations\": [[\"mutism\", \"adverse-reaction-of\", \"Tacrolimus\"], [\"mutism\", \"adverse-reaction-of\", \"FK506\"]]}"
+  },
+  {
+    "instruction": "",
+    "input": "Imidazoline intoxication due to overdose or accidental ingestion but also after normal therapeutic usage is frequent in children .",
+    "output": "{\"entities\": {\"Imidazoline intoxication\": {\"type\": \"Adverse-Effect\"}, \"Imidazoline\": {\"type\": \"Drug\"}}, \"relations\": [[\"Imidazoline intoxication\", \"adverse-reaction-of\", \"Imidazoline\"]]}"
+  },
+  {
+    "instruction": "",
+    "input": "Evaluation revealed elevated serum LTG levels and no other etiology for encephalopathy .",
+    "output": "{\"entities\": {\"elevated serum LTG levels\": {\"type\": \"Adverse-Effect\"}, \"LTG\": {\"type\": \"Drug\"}}, \"relations\": [[\"elevated serum LTG levels\", \"adverse-reaction-of\", \"LTG\"]]}"
+  },
+  {
+    "instruction": "",
+    "input": "Central nervous system toxicity associated with meperidine use in hepatic disease .",
+    "output": "{\"entities\": {\"Central nervous system toxicity\": {\"type\": \"Adverse-Effect\"}, \"meperidine\": {\"type\": \"Drug\"}}, \"relations\": [[\"Central nervous system toxicity\", \"adverse-reaction-of\", \"meperidine\"]]}"
+  },
+  {
+    "instruction": "",
+    "input": "Interferon - alpha - induced focal segmental glomerulosclerosis in chronic myelogenous leukemia : a case report and review of the literature .",
+    "output": "{\"entities\": {\"Interferon - alpha\": {\"type\": \"Drug\"}, \"focal segmental glomerulosclerosis\": {\"type\": \"Adverse-Effect\"}}, \"relations\": [[\"focal segmental glomerulosclerosis\", \"adverse-reaction-of\", \"Interferon - alpha\"]]}"
+  },
+  {
+    "instruction": "",
+    "input": "The patient developed occipital infarcts and was found to have extremely elevated levels of PPA in his blood and dialysis fluid .",
+    "output": "{\"entities\": {\"occipital infarcts\": {\"type\": \"Adverse-Effect\"}, \"extremely elevated levels of PPA\": {\"type\": \"Adverse-Effect\"}, \"PPA\": {\"type\": \"Drug\"}}, \"relations\": [[\"occipital infarcts\", \"adverse-reaction-of\", \"PPA\"], [\"extremely elevated levels of PPA\", \"adverse-reaction-of\", \"PPA\"]]}"
+  },
+  {
+    "instruction": "",
+    "input": "L - Thyroxine - induced leukopenia in a patient with Hashimoto 's disease : involvement of suppressor - cytotoxic T cells .",
+    "output": "{\"entities\": {\"L - Thyroxine\": {\"type\": \"Drug\"}, \"leukopenia\": {\"type\": \"Adverse-Effect\"}}, \"relations\": [[\"leukopenia\", \"adverse-reaction-of\", \"L - Thyroxine\"]]}"
+  },
+  {
+    "instruction": "",
+    "input": "Amiodarone was the third drug to induce AVT in this patient ; she received 200 mg / day six days per week for six months .",
+    "output": "{\"entities\": {\"Amiodarone\": {\"type\": \"Drug\"}, \"AVT\": {\"type\": \"Adverse-Effect\"}}, \"relations\": [[\"AVT\", \"adverse-reaction-of\", \"Amiodarone\"]]}"
+  },
+  {
+    "instruction": "",
+    "input": "This is a case of pseudoephedrine - induced intracerebral hemorrhage in a patient with an underlying vascular malformation .",
+    "output": "{\"entities\": {\"pseudoephedrine\": {\"type\": \"Drug\"}, \"intracerebral hemorrhage\": {\"type\": \"Adverse-Effect\"}}, \"relations\": [[\"intracerebral hemorrhage\", \"adverse-reaction-of\", \"pseudoephedrine\"]]}"
+  },
+  {
+    "instruction": "",
+    "input": "A case of basilar invagination which is thought to have arisen from the patient 's intrauterine exposure to phenytoin is presented .",
+    "output": "{\"entities\": {\"basilar invagination\": {\"type\": \"Adverse-Effect\"}, \"phenytoin\": {\"type\": \"Drug\"}}, \"relations\": [[\"basilar invagination\", \"adverse-reaction-of\", \"phenytoin\"]]}"
+  },
+  {
+    "instruction": "",
+    "input": "According to the Naranjo adverse drug reaction probability scale , tigecycline was the probable cause of her acute pancreatitis .",
+    "output": "{\"entities\": {\"tigecycline\": {\"type\": \"Drug\"}, \"acute pancreatitis\": {\"type\": \"Adverse-Effect\"}}, \"relations\": [[\"acute pancreatitis\", \"adverse-reaction-of\", \"tigecycline\"]]}"
+  },
+  {
+    "instruction": "",
+    "input": "One type of SMON is associated with acrodermatitis enteropathica which has a very high frequency of occurrence in association with administration of clioquinol .",
+    "output": "{\"entities\": {\"SMON\": {\"type\": \"Adverse-Effect\"}, \"acrodermatitis enteropathica\": {\"type\": \"Adverse-Effect\"}, \"clioquinol\": {\"type\": \"Drug\"}}, \"relations\": [[\"SMON\", \"adverse-reaction-of\", \"clioquinol\"], [\"acrodermatitis enteropathica\", \"adverse-reaction-of\", \"clioquinol\"]]}"
+  },
+  {
+    "instruction": "",
+    "input": "We report the case of a 20-year - old woman originally from Cameroon who was infected by the L. loa parasite and developed severe hepatitis , identified 1 month after a single dose of ivermectin .",
+    "output": "{\"entities\": {\"severe hepatitis\": {\"type\": \"Adverse-Effect\"}, \"ivermectin\": {\"type\": \"Drug\"}}, \"relations\": [[\"severe hepatitis\", \"adverse-reaction-of\", \"ivermectin\"]]}"
+  },
+  {
+    "instruction": "",
+    "input": "Gabapentin withdrawal presenting as status epilepticus .",
+    "output": "{\"entities\": {\"Gabapentin\": {\"type\": \"Drug\"}, \"status epilepticus\": {\"type\": \"Adverse-Effect\"}}, \"relations\": [[\"status epilepticus\", \"adverse-reaction-of\", \"Gabapentin\"]]}"
+  },
+  {
+    "instruction": "",
+    "input": "However , follow - up revealed that gestational diabetes when associated with norethisterone had a lesser risk of emerging diabetes mellitus and impaired glucose tolerance .",
+    "output": "{\"entities\": {\"gestational diabetes\": {\"type\": \"Adverse-Effect\"}, \"norethisterone\": {\"type\": \"Drug\"}, \"diabetes mellitus\": {\"type\": \"Adverse-Effect\"}, \"impaired glucose tolerance\": {\"type\": \"Adverse-Effect\"}}, \"relations\": [[\"gestational diabetes\", \"adverse-reaction-of\", \"norethisterone\"], [\"diabetes mellitus\", \"adverse-reaction-of\", \"norethisterone\"], [\"impaired glucose tolerance\", \"adverse-reaction-of\", \"norethisterone\"]]}"
+  },
+  {
+    "instruction": "",
+    "input": "We report the case of a 51-year - old man in whom IFN - alpha treatment was followed by recurrence of Graves ' disease 10 years after thyroidectomy was performed and the patient was declared cured .",
+    "output": "{\"entities\": {\"IFN - alpha\": {\"type\": \"Drug\"}, \"Graves ' disease\": {\"type\": \"Adverse-Effect\"}}, \"relations\": [[\"Graves ' disease\", \"adverse-reaction-of\", \"IFN - alpha\"]]}"
+  },
+  {
+    "instruction": "",
+    "input": "Early ritonavir - induced maculopapular eruption .",
+    "output": "{\"entities\": {\"ritonavir\": {\"type\": \"Drug\"}, \"maculopapular eruption\": {\"type\": \"Adverse-Effect\"}}, \"relations\": [[\"maculopapular eruption\", \"adverse-reaction-of\", \"ritonavir\"]]}"
+  },
+  {
+    "instruction": "",
+    "input": "Linear IgA bullous dermatosis occurring after carbamazepine .",
+    "output": "{\"entities\": {\"Linear IgA bullous dermatosis\": {\"type\": \"Adverse-Effect\"}, \"carbamazepine\": {\"type\": \"Drug\"}}, \"relations\": [[\"Linear IgA bullous dermatosis\", \"adverse-reaction-of\", \"carbamazepine\"]]}"
+  },
+  {
+    "instruction": "",
+    "input": "Uveitis associated with rifabutin therapy : a clinical alert .",
+    "output": "{\"entities\": {\"Uveitis\": {\"type\": \"Adverse-Effect\"}, \"rifabutin\": {\"type\": \"Drug\"}}, \"relations\": [[\"Uveitis\", \"adverse-reaction-of\", \"rifabutin\"]]}"
+  },
+  {
+    "instruction": "",
+    "input": "Nephrotic syndrome associated with lithium therapy .",
+    "output": "{\"entities\": {\"Nephrotic syndrome\": {\"type\": \"Adverse-Effect\"}, \"lithium\": {\"type\": \"Drug\"}}, \"relations\": [[\"Nephrotic syndrome\", \"adverse-reaction-of\", \"lithium\"]]}"
+  },
+  {
+    "instruction": "",
+    "input": "Zolpidem ( Ambien ) , a relatively new nonbenzodiazepine sedative - hypnotic , was involved in the death of a 39-year - old obese male who was being treated for depression and insomnia .",
+    "output": "{\"entities\": {\"Zolpidem\": {\"type\": \"Drug\"}, \"Ambien\": {\"type\": \"Drug\"}, \"death\": {\"type\": \"Adverse-Effect\"}}, \"relations\": [[\"death\", \"adverse-reaction-of\", \"Zolpidem\"], [\"death\", \"adverse-reaction-of\", \"Ambien\"]]}"
+  },
+  {
+    "instruction": "",
+    "input": "Reversible sclerotic changes of lumbar spine and femur due to long - term oral isotretinoin therapy .",
+    "output": "{\"entities\": {\"sclerotic changes of lumbar spine and femur\": {\"type\": \"Adverse-Effect\"}, \"isotretinoin\": {\"type\": \"Drug\"}}, \"relations\": [[\"sclerotic changes of lumbar spine and femur\", \"adverse-reaction-of\", \"isotretinoin\"]]}"
+  },
+  {
+    "instruction": "",
+    "input": "We report a case of myoclonus induced by quetiapine .",
+    "output": "{\"entities\": {\"myoclonus\": {\"type\": \"Adverse-Effect\"}, \"quetiapine\": {\"type\": \"Drug\"}}, \"relations\": [[\"myoclonus\", \"adverse-reaction-of\", \"quetiapine\"]]}"
+  },
+  {
+    "instruction": "",
+    "input": "Leflunomide - induced toxic epidermal necrolysis in a patient with rheumatoid arthritis .",
+    "output": "{\"entities\": {\"Leflunomide\": {\"type\": \"Drug\"}, \"toxic epidermal necrolysis\": {\"type\": \"Adverse-Effect\"}}, \"relations\": [[\"toxic epidermal necrolysis\", \"adverse-reaction-of\", \"Leflunomide\"]]}"
+  },
+  {
+    "instruction": "",
+    "input": "Allopurinol - associated hand and foot deformities in chronic tophaceous gout .",
+    "output": "{\"entities\": {\"Allopurinol\": {\"type\": \"Drug\"}, \"hand and foot deformities\": {\"type\": \"Adverse-Effect\"}}, \"relations\": [[\"hand and foot deformities\", \"adverse-reaction-of\", \"Allopurinol\"]]}"
+  },
+  {
+    "instruction": "",
+    "input": "CONCLUSIONS : The administration of prostaglandin E1 to neonates can cause gastric - outlet obstruction due to antral hyperplasia .",
+    "output": "{\"entities\": {\"prostaglandin E1\": {\"type\": \"Drug\"}, \"gastric - outlet obstruction\": {\"type\": \"Adverse-Effect\"}, \"antral hyperplasia\": {\"type\": \"Adverse-Effect\"}}, \"relations\": [[\"gastric - outlet obstruction\", \"adverse-reaction-of\", \"prostaglandin E1\"], [\"antral hyperplasia\", \"adverse-reaction-of\", \"prostaglandin E1\"]]}"
+  },
+  {
+    "instruction": "",
+    "input": "Pilocarpine toxicity and the treatment of xerostomia .",
+    "output": "{\"entities\": {\"Pilocarpine toxicity\": {\"type\": \"Adverse-Effect\"}, \"Pilocarpine\": {\"type\": \"Drug\"}}, \"relations\": [[\"Pilocarpine toxicity\", \"adverse-reaction-of\", \"Pilocarpine\"]]}"
+  },
+  {
+    "instruction": "",
+    "input": "Clinicians should be aware of the signs and symptoms of neurotoxicity during treatment , as well as predisposing factors that put patients receiving methotrexate at risk for neurotoxic effects .",
+    "output": "{\"entities\": {\"neurotoxicity\": {\"type\": \"Adverse-Effect\"}, \"methotrexate\": {\"type\": \"Drug\"}}, \"relations\": [[\"neurotoxicity\", \"adverse-reaction-of\", \"methotrexate\"]]}"
+  },
+  {
+    "instruction": "",
+    "input": "Diffusion - weighted MRI correlates of subacute methotrexate - related neurotoxicity .",
+    "output": "{\"entities\": {\"methotrexate\": {\"type\": \"Drug\"}, \"neurotoxicity\": {\"type\": \"Adverse-Effect\"}}, \"relations\": [[\"neurotoxicity\", \"adverse-reaction-of\", \"methotrexate\"]]}"
+  },
+  {
+    "instruction": "",
+    "input": "The authors suggest that in patients with corneal ulcers refractory to conventional treatment who are receiving colchicine , cessation of colchicine therapy should be considered .",
+    "output": "{\"entities\": {\"corneal ulcers refractory to conventional treatment\": {\"type\": \"Adverse-Effect\"}, \"colchicine\": {\"type\": \"Drug\"}}, \"relations\": [[\"corneal ulcers refractory to conventional treatment\", \"adverse-reaction-of\", \"colchicine\"]]}"
+  },
+  {
+    "instruction": "",
+    "input": "A 52-year - old Black woman on phenytoin therapy for post - traumatic epilepsy developed transient hemiparesis contralateral to the injury .",
+    "output": "{\"entities\": {\"phenytoin\": {\"type\": \"Drug\"}, \"transient hemiparesis\": {\"type\": \"Adverse-Effect\"}}, \"relations\": [[\"transient hemiparesis\", \"adverse-reaction-of\", \"phenytoin\"]]}"
+  },
+  {
+    "instruction": "",
+    "input": "We report a case of unintentional overdose of oral pilocarpine tablets that resulted in bradycardia , mild hypotension , and muscarinic symptoms in a patient with Sjogren 's syndrome .",
+    "output": "{\"entities\": {\"pilocarpine\": {\"type\": \"Drug\"}, \"bradycardia\": {\"type\": \"Adverse-Effect\"}, \"mild hypotension\": {\"type\": \"Adverse-Effect\"}, \"muscarinic symptoms\": {\"type\": \"Adverse-Effect\"}}, \"relations\": [[\"bradycardia\", \"adverse-reaction-of\", \"pilocarpine\"], [\"mild hypotension\", \"adverse-reaction-of\", \"pilocarpine\"], [\"muscarinic symptoms\", \"adverse-reaction-of\", \"pilocarpine\"]]}"
+  },
+  {
+    "instruction": "",
+    "input": "Our report suggested that CBDCA hypersensitivity was correlated with the total dose of previously administered platinum agents and that CBDCA should be excluded in patients who have received multiple platinum - based chemotherapy , even in platinum - sensitive cases , because CBDCA hypersensitivity can occur even with low - dose CBDCA administration .",
+    "output": "{\"entities\": {\"CBDCA\": {\"type\": \"Drug\"}, \"hypersensitivity\": {\"type\": \"Adverse-Effect\"}}, \"relations\": [[\"hypersensitivity\", \"adverse-reaction-of\", \"CBDCA\"]]}"
+  },
+  {
+    "instruction": "",
+    "input": "We report the first case of a patient in a promethazine - induced coma responding to treatment with flumazenil .",
+    "output": "{\"entities\": {\"promethazine\": {\"type\": \"Drug\"}, \"coma\": {\"type\": \"Adverse-Effect\"}}, \"relations\": [[\"coma\", \"adverse-reaction-of\", \"promethazine\"]]}"
+  },
+  {
+    "instruction": "",
+    "input": "Heparin - induced hyperkalemia .",
+    "output": "{\"entities\": {\"Heparin\": {\"type\": \"Drug\"}, \"hyperkalemia\": {\"type\": \"Adverse-Effect\"}}, \"relations\": [[\"hyperkalemia\", \"adverse-reaction-of\", \"Heparin\"]]}"
+  },
+  {
+    "instruction": "",
+    "input": "Tardive dyskinesia in 2 patients treated with ziprasidone .",
+    "output": "{\"entities\": {\"Tardive dyskinesia\": {\"type\": \"Adverse-Effect\"}, \"ziprasidone\": {\"type\": \"Drug\"}}, \"relations\": [[\"Tardive dyskinesia\", \"adverse-reaction-of\", \"ziprasidone\"]]}"
+  },
+  {
+    "instruction": "",
+    "input": "When the disease recurred conventional amphotericin B was used again , but had to be stopped because of severe side effects .",
+    "output": "{\"entities\": {\"amphotericin B\": {\"type\": \"Drug\"}, \"severe side effects\": {\"type\": \"Adverse-Effect\"}}, \"relations\": [[\"severe side effects\", \"adverse-reaction-of\", \"amphotericin B\"]]}"
+  },
+  {
+    "instruction": "",
+    "input": "Major points illustrated are , ( 1 ) occurrence of HIT with any dose or form of heparin ; ( 2 ) misperceptions on the diagnostic criteria ; ( 3 ) correct ( thrombin inhibitors ) and incorrect ( platelet transfusions and warfarin ) management ; ( 4 ) influence of management strategy on clinical outcomes ; ( 5 ) severity of the syndrome ; and ( 6 ) potential for both anamnestic response to heparin and disappearance of HIT antibodies over time .",
+    "output": "{\"entities\": {\"HIT\": {\"type\": \"Adverse-Effect\"}, \"heparin\": {\"type\": \"Drug\"}}, \"relations\": [[\"HIT\", \"adverse-reaction-of\", \"heparin\"]]}"
+  },
+  {
+    "instruction": "",
+    "input": "Of the four patients who responded to HU with an increase in total Hb , all reported symptomatic improvement and three have not required further transfusions .",
+    "output": "{\"entities\": {\"HU\": {\"type\": \"Drug\"}, \"increase in total Hb\": {\"type\": \"Adverse-Effect\"}}, \"relations\": [[\"increase in total Hb\", \"adverse-reaction-of\", \"HU\"]]}"
+  },
+  {
+    "instruction": "",
+    "input": "Although differential diagnostic alternatives can be considered in all described cases it is very likely that vincristine does cause severe visual loss in a small number of patients .",
+    "output": "{\"entities\": {\"vincristine\": {\"type\": \"Drug\"}, \"severe visual loss\": {\"type\": \"Adverse-Effect\"}}, \"relations\": [[\"severe visual loss\", \"adverse-reaction-of\", \"vincristine\"]]}"
+  },
+  {
+    "instruction": "",
+    "input": "Pulmonary hemorrhage as a clinical manifestation of hemolytic - uremic syndrome associated with mitomycin C therapy .",
+    "output": "{\"entities\": {\"Pulmonary hemorrhage\": {\"type\": \"Adverse-Effect\"}, \"hemolytic - uremic syndrome\": {\"type\": \"Adverse-Effect\"}, \"mitomycin C\": {\"type\": \"Drug\"}}, \"relations\": [[\"Pulmonary hemorrhage\", \"adverse-reaction-of\", \"mitomycin C\"], [\"hemolytic - uremic syndrome\", \"adverse-reaction-of\", \"mitomycin C\"]]}"
+  },
+  {
+    "instruction": "",
+    "input": "Ceftriaxone - induced fixed drug eruption : first report .",
+    "output": "{\"entities\": {\"Ceftriaxone\": {\"type\": \"Drug\"}, \"fixed drug eruption\": {\"type\": \"Adverse-Effect\"}}, \"relations\": [[\"fixed drug eruption\", \"adverse-reaction-of\", \"Ceftriaxone\"]]}"
+  },
+  {
+    "instruction": "",
+    "input": "Thalidomide neuropathy in childhood .",
+    "output": "{\"entities\": {\"Thalidomide\": {\"type\": \"Drug\"}, \"neuropathy\": {\"type\": \"Adverse-Effect\"}}, \"relations\": [[\"neuropathy\", \"adverse-reaction-of\", \"Thalidomide\"]]}"
+  },
+  {
+    "instruction": "",
+    "input": "Thyroid dysfunction has been reported in patients with malignant disease treated with recombinant alpha interferon .",
+    "output": "{\"entities\": {\"Thyroid dysfunction\": {\"type\": \"Adverse-Effect\"}, \"recombinant alpha interferon\": {\"type\": \"Drug\"}}, \"relations\": [[\"Thyroid dysfunction\", \"adverse-reaction-of\", \"recombinant alpha interferon\"]]}"
+  },
+  {
+    "instruction": "",
+    "input": "On the second day of hospitalization , it was noted that the patient 's dyspnea and sinus bradycardia could be related to a recent increase in his timolol dosage .",
+    "output": "{\"entities\": {\"dyspnea\": {\"type\": \"Adverse-Effect\"}, \"sinus bradycardia\": {\"type\": \"Adverse-Effect\"}, \"timolol\": {\"type\": \"Drug\"}}, \"relations\": [[\"dyspnea\", \"adverse-reaction-of\", \"timolol\"], [\"sinus bradycardia\", \"adverse-reaction-of\", \"timolol\"]]}"
+  },
+  {
+    "instruction": "",
+    "input": "Torsade de pointes during loading with amiodarone .",
+    "output": "{\"entities\": {\"Torsade de pointes\": {\"type\": \"Adverse-Effect\"}, \"amiodarone\": {\"type\": \"Drug\"}}, \"relations\": [[\"Torsade de pointes\", \"adverse-reaction-of\", \"amiodarone\"]]}"
+  },
+  {
+    "instruction": "",
+    "input": "OBJECTIVE : To study therapy with indapamide impairing carbohydrate metabolism in essential hypertension patients and achieve earlier prevention , diagnoses and treatment of diabetes induced by indapamide .",
+    "output": "{\"entities\": {\"indapamide\": {\"type\": \"Drug\"}, \"impairing carbohydrate metabolism\": {\"type\": \"Adverse-Effect\"}, \"diabetes\": {\"type\": \"Adverse-Effect\"}}, \"relations\": [[\"impairing carbohydrate metabolism\", \"adverse-reaction-of\", \"indapamide\"], [\"diabetes\", \"adverse-reaction-of\", \"indapamide\"]]}"
+  },
+  {
+    "instruction": "",
+    "input": "Subcutaneous IL-2 is safe and well tolerated , with a mortality rate <3 % .",
+    "output": "{\"entities\": {\"IL-2\": {\"type\": \"Drug\"}, \"mortality rate <3\": {\"type\": \"Adverse-Effect\"}}, \"relations\": [[\"mortality rate <3\", \"adverse-reaction-of\", \"IL-2\"]]}"
+  },
+  {
+    "instruction": "",
+    "input": "Sweet 's syndrome associated with sargramostim ( granulocyte - macrophage colony stimulating factor ) treatment .",
+    "output": "{\"entities\": {\"Sweet 's syndrome\": {\"type\": \"Adverse-Effect\"}, \"sargramostim\": {\"type\": \"Drug\"}}, \"relations\": [[\"Sweet 's syndrome\", \"adverse-reaction-of\", \"sargramostim\"]]}"
+  },
+  {
+    "instruction": "",
+    "input": "Captopril - associated \" pseudocholangitis ' .",
+    "output": "{\"entities\": {\"Captopril\": {\"type\": \"Drug\"}, \"pseudocholangitis\": {\"type\": \"Adverse-Effect\"}}, \"relations\": [[\"pseudocholangitis\", \"adverse-reaction-of\", \"Captopril\"]]}"
+  },
+  {
+    "instruction": "",
+    "input": "This case suggests that sarcoidosis and pravastatin , two entities not frequently associated with myotonia , may interact in a synergistic manner to produce severe clinical myotonia in humans .",
+    "output": "{\"entities\": {\"pravastatin\": {\"type\": \"Drug\"}, \"myotonia\": {\"type\": \"Adverse-Effect\"}}, \"relations\": [[\"myotonia\", \"adverse-reaction-of\", \"pravastatin\"]]}"
+  },
+  {
+    "instruction": "",
+    "input": "Cardiac arrest after esmolol administration : a review of acute beta - blocker toxicity .",
+    "output": "{\"entities\": {\"Cardiac arrest\": {\"type\": \"Adverse-Effect\"}, \"esmolol\": {\"type\": \"Drug\"}}, \"relations\": [[\"Cardiac arrest\", \"adverse-reaction-of\", \"esmolol\"]]}"
+  },
+  {
+    "instruction": "",
+    "input": "Review of the literature relating to methicillin - induced nephropathy suggests a hypersensitivity origin for this disorder , but immunologic and ultrastructural investigation to date has failed to elucidate pathogenesis .",
+    "output": "{\"entities\": {\"methicillin\": {\"type\": \"Drug\"}, \"nephropathy\": {\"type\": \"Adverse-Effect\"}}, \"relations\": [[\"nephropathy\", \"adverse-reaction-of\", \"methicillin\"]]}"
+  },
+  {
+    "instruction": "",
+    "input": "We report a case of acne fulminans occurring during treatment with 13-cis - retinoic acid for cystic acne .",
+    "output": "{\"entities\": {\"acne fulminans\": {\"type\": \"Adverse-Effect\"}, \"13-cis - retinoic acid\": {\"type\": \"Drug\"}}, \"relations\": [[\"acne fulminans\", \"adverse-reaction-of\", \"13-cis - retinoic acid\"]]}"
+  },
+  {
+    "instruction": "",
+    "input": "On the other hand , aspirin may have promoted the enlargement of spontaneous hemorrhage from meningioma .",
+    "output": "{\"entities\": {\"aspirin\": {\"type\": \"Drug\"}, \"enlargement of spontaneous hemorrhage\": {\"type\": \"Adverse-Effect\"}}, \"relations\": [[\"enlargement of spontaneous hemorrhage\", \"adverse-reaction-of\", \"aspirin\"]]}"
+  },
+  {
+    "instruction": "",
+    "input": "We are concerned that the macular lesion was a retinal toxic effect of gentamicin because of the recent description of similar lesions occurring after the inadvertent intraocular injection of massive doses of this drug .",
+    "output": "{\"entities\": {\"macular lesion\": {\"type\": \"Adverse-Effect\"}, \"gentamicin\": {\"type\": \"Drug\"}}, \"relations\": [[\"macular lesion\", \"adverse-reaction-of\", \"gentamicin\"]]}"
+  },
+  {
+    "instruction": "",
+    "input": "Beneficial effect of low - dose mianserin on fluvoxamine - induced akathisia in an obsessive - compulsive patient .",
+    "output": "{\"entities\": {\"fluvoxamine\": {\"type\": \"Drug\"}, \"akathisia\": {\"type\": \"Adverse-Effect\"}}, \"relations\": [[\"akathisia\", \"adverse-reaction-of\", \"fluvoxamine\"]]}"
+  },
+  {
+    "instruction": "",
+    "input": "In one case , the readministration of riluzole was followed by the relapse of hepatitis .",
+    "output": "{\"entities\": {\"riluzole\": {\"type\": \"Drug\"}, \"hepatitis\": {\"type\": \"Adverse-Effect\"}}, \"relations\": [[\"hepatitis\", \"adverse-reaction-of\", \"riluzole\"]]}"
+  },
+  {
+    "instruction": "",
+    "input": "Paraplegia following prophylactic intrathecal cytosine arabinoside ( Ara - C ) is described in a patient with acute myelogenous leukemia in remission who received doses of 100 mg / m2/d for 5 consecutive days .",
+    "output": "{\"entities\": {\"Paraplegia\": {\"type\": \"Adverse-Effect\"}, \"cytosine arabinoside\": {\"type\": \"Drug\"}, \"Ara - C\": {\"type\": \"Drug\"}}, \"relations\": [[\"Paraplegia\", \"adverse-reaction-of\", \"cytosine arabinoside\"], [\"Paraplegia\", \"adverse-reaction-of\", \"Ara - C\"]]}"
+  },
+  {
+    "instruction": "",
+    "input": "After identification of the index patient , additional inquiry revealed that the patient 's mother was hospitalized previously for overwhelming sepsis associated with metamizole use .",
+    "output": "{\"entities\": {\"sepsis\": {\"type\": \"Adverse-Effect\"}, \"metamizole\": {\"type\": \"Drug\"}}, \"relations\": [[\"sepsis\", \"adverse-reaction-of\", \"metamizole\"]]}"
+  },
+  {
+    "instruction": "",
+    "input": "CASE SUMMARIES : While conducting a protocol evaluating the efficacy of intraperitoneal cisplatin and hyperthermia in the treatment of recurrent ovarian cancer , 3 patients were noted to exhibit anaphylactoid reactions .",
+    "output": "{\"entities\": {\"cisplatin\": {\"type\": \"Drug\"}, \"anaphylactoid reactions\": {\"type\": \"Adverse-Effect\"}}, \"relations\": [[\"anaphylactoid reactions\", \"adverse-reaction-of\", \"cisplatin\"]]}"
+  },
+  {
+    "instruction": "",
+    "input": "Case report : dapsone hypersensitivity syndrome associated with treatment of the bite of a brown recluse spider .",
+    "output": "{\"entities\": {\"dapsone\": {\"type\": \"Drug\"}, \"hypersensitivity syndrome\": {\"type\": \"Adverse-Effect\"}}, \"relations\": [[\"hypersensitivity syndrome\", \"adverse-reaction-of\", \"dapsone\"]]}"
+  },
+  {
+    "instruction": "",
+    "input": "Conversely , diffuse interstitial pulmonary fibrosis should be considered in the differential diagnosis of patients receiving methotrexate who develop bilateral pulmonary infiltrates seen on chest roentgenograms .",
+    "output": "{\"entities\": {\"diffuse interstitial pulmonary fibrosis\": {\"type\": \"Adverse-Effect\"}, \"methotrexate\": {\"type\": \"Drug\"}, \"bilateral pulmonary infiltrates\": {\"type\": \"Adverse-Effect\"}}, \"relations\": [[\"diffuse interstitial pulmonary fibrosis\", \"adverse-reaction-of\", \"methotrexate\"], [\"bilateral pulmonary infiltrates\", \"adverse-reaction-of\", \"methotrexate\"]]}"
+  },
+  {
+    "instruction": "",
+    "input": "Allergic side effects of AZA are rare , and reported allergic skin eruptions from AZA are very limited in Japan .",
+    "output": "{\"entities\": {\"AZA\": {\"type\": \"Drug\"}, \"allergic skin eruptions\": {\"type\": \"Adverse-Effect\"}}, \"relations\": [[\"allergic skin eruptions\", \"adverse-reaction-of\", \"AZA\"]]}"
+  },
+  {
+    "instruction": "",
+    "input": "As linezolid has been shown to have hematologic side effects , blood count monitoring is recommended in patients receiving this drug for long - term therapy .",
+    "output": "{\"entities\": {\"linezolid\": {\"type\": \"Drug\"}, \"hematologic side effects\": {\"type\": \"Adverse-Effect\"}}, \"relations\": [[\"hematologic side effects\", \"adverse-reaction-of\", \"linezolid\"]]}"
+  },
+  {
+    "instruction": "",
+    "input": "Acute severe intoxication with carbamazepine is associated with seizures , coma and respiratory depression .",
+    "output": "{\"entities\": {\"carbamazepine\": {\"type\": \"Drug\"}, \"seizures\": {\"type\": \"Adverse-Effect\"}, \"coma\": {\"type\": \"Adverse-Effect\"}, \"respiratory depression\": {\"type\": \"Adverse-Effect\"}}, \"relations\": [[\"seizures\", \"adverse-reaction-of\", \"carbamazepine\"], [\"coma\", \"adverse-reaction-of\", \"carbamazepine\"], [\"respiratory depression\", \"adverse-reaction-of\", \"carbamazepine\"]]}"
+  },
+  {
+    "instruction": "",
+    "input": "CONCLUSIONS : This observation of \" on - off \" risperidone treatment suggests that risperidone may have worsened both psychiatric and physical manifestations of the mitochondrial disorder in this adolescent .",
+    "output": "{\"entities\": {\"risperidone\": {\"type\": \"Drug\"}, \"psychiatric and physical manifestations\": {\"type\": \"Adverse-Effect\"}}, \"relations\": [[\"psychiatric and physical manifestations\", \"adverse-reaction-of\", \"risperidone\"]]}"
+  },
+  {
+    "instruction": "",
+    "input": "CONCLUSIONS : This case report showed that the clinical appearance of Hashimoto 's disease after IFN - alpha therapy for chronic C hepatitis in our patient was associated with a specific genetic predisposition ( DR5 ) for this pathology .",
+    "output": "{\"entities\": {\"Hashimoto 's disease\": {\"type\": \"Adverse-Effect\"}, \"IFN - alpha\": {\"type\": \"Drug\"}}, \"relations\": [[\"Hashimoto 's disease\", \"adverse-reaction-of\", \"IFN - alpha\"]]}"
+  },
+  {
+    "instruction": "",
+    "input": "OBJECTIVE : We report a case of cutaneous KS lesions in a patient affected by CML treated with imatinib .",
+    "output": "{\"entities\": {\"cutaneous KS lesions\": {\"type\": \"Adverse-Effect\"}, \"imatinib\": {\"type\": \"Drug\"}}, \"relations\": [[\"cutaneous KS lesions\", \"adverse-reaction-of\", \"imatinib\"]]}"
+  },
+  {
+    "instruction": "",
+    "input": "OBJECTIVES : To describe the presentation and treatment of acute isoniazid ( INH ) neurotoxicity appearing at an inner - city municipal hospital .",
+    "output": "{\"entities\": {\"isoniazid\": {\"type\": \"Drug\"}, \"INH\": {\"type\": \"Drug\"}, \"neurotoxicity\": {\"type\": \"Adverse-Effect\"}}, \"relations\": [[\"neurotoxicity\", \"adverse-reaction-of\", \"isoniazid\"], [\"neurotoxicity\", \"adverse-reaction-of\", \"INH\"]]}"
+  },
+  {
+    "instruction": "",
+    "input": "One patient developed severe hyponatremia with serum Na+ of 108 mEq / L when hydrochlorothiazide was given to control hypertension .",
+    "output": "{\"entities\": {\"severe hyponatremia\": {\"type\": \"Adverse-Effect\"}, \"hydrochlorothiazide\": {\"type\": \"Drug\"}}, \"relations\": [[\"severe hyponatremia\", \"adverse-reaction-of\", \"hydrochlorothiazide\"]]}"
+  },
+  {
+    "instruction": "",
+    "input": "We report on a young adolescent with benign intracranial hypertension which we attribute to the use of minocycline for acne .",
+    "output": "{\"entities\": {\"benign intracranial hypertension\": {\"type\": \"Adverse-Effect\"}, \"minocycline\": {\"type\": \"Drug\"}}, \"relations\": [[\"benign intracranial hypertension\", \"adverse-reaction-of\", \"minocycline\"]]}"
+  },
+  {
+    "instruction": "",
+    "input": "Hepatolithiasis ( intrahepatic stone ) during octreotide therapy for acromegaly : a case report .",
+    "output": "{\"entities\": {\"Hepatolithiasis\": {\"type\": \"Adverse-Effect\"}, \"octreotide\": {\"type\": \"Drug\"}}, \"relations\": [[\"Hepatolithiasis\", \"adverse-reaction-of\", \"octreotide\"]]}"
+  },
+  {
+    "instruction": "",
+    "input": "Rifampin - associated thrombocytopenia secondary to poor compliance .",
+    "output": "{\"entities\": {\"Rifampin\": {\"type\": \"Drug\"}, \"thrombocytopenia\": {\"type\": \"Adverse-Effect\"}}, \"relations\": [[\"thrombocytopenia\", \"adverse-reaction-of\", \"Rifampin\"]]}"
+  },
+  {
+    "instruction": "",
+    "input": "Taxane - induced glaucoma .",
+    "output": "{\"entities\": {\"Taxane\": {\"type\": \"Drug\"}, \"glaucoma\": {\"type\": \"Adverse-Effect\"}}, \"relations\": [[\"glaucoma\", \"adverse-reaction-of\", \"Taxane\"]]}"
+  },
+  {
+    "instruction": "",
+    "input": "In addition , loading with one low oral dose of serine produced psychotic symptoms 5 h later which lasted 3 - 6 h .",
+    "output": "{\"entities\": {\"serine\": {\"type\": \"Drug\"}, \"psychotic symptoms\": {\"type\": \"Adverse-Effect\"}}, \"relations\": [[\"psychotic symptoms\", \"adverse-reaction-of\", \"serine\"]]}"
+  },
+  {
+    "instruction": "",
+    "input": "This case report illustrates the use of continuous high - dose intracoronary nitroglycerin infusion through a 6 French coronary guiding catheter in the treatment of a patient with cocaine - induced refractory coronary vasospasm .",
+    "output": "{\"entities\": {\"cocaine\": {\"type\": \"Drug\"}, \"refractory coronary vasospasm\": {\"type\": \"Adverse-Effect\"}}, \"relations\": [[\"refractory coronary vasospasm\", \"adverse-reaction-of\", \"cocaine\"]]}"
+  },
+  {
+    "instruction": "",
+    "input": "Gestational diabetes was no less severe ( degree of hyperglycaemia , need for insulin therapy ) when associated with norethisterone .",
+    "output": "{\"entities\": {\"Gestational diabetes\": {\"type\": \"Adverse-Effect\"}, \"norethisterone\": {\"type\": \"Drug\"}}, \"relations\": [[\"Gestational diabetes\", \"adverse-reaction-of\", \"norethisterone\"]]}"
+  },
+  {
+    "instruction": "",
+    "input": "This paper reports on a 6.9-year - old autistic male who developed repeated episodes of acute dystonic reactions associated with pimozide administration at the doses of 0.096 mg / kg / day and 0.032 mg / kg / day and 32 hours following pimozide withdrawal , as well as during subsequent thioridazine administration .",
+    "output": "{\"entities\": {\"acute dystonic reactions\": {\"type\": \"Adverse-Effect\"}, \"pimozide\": {\"type\": \"Drug\"}, \"thioridazine\": {\"type\": \"Drug\"}}, \"relations\": [[\"acute dystonic reactions\", \"adverse-reaction-of\", \"pimozide\"], [\"acute dystonic reactions\", \"adverse-reaction-of\", \"thioridazine\"]]}"
+  },
+  {
+    "instruction": "",
+    "input": "Recurrent septicemia with lethal outcome during and after cyclosporine therapy in severe ulcerative colitis .",
+    "output": "{\"entities\": {\"septicemia\": {\"type\": \"Adverse-Effect\"}, \"lethal\": {\"type\": \"Adverse-Effect\"}, \"cyclosporine\": {\"type\": \"Drug\"}}, \"relations\": [[\"septicemia\", \"adverse-reaction-of\", \"cyclosporine\"], [\"lethal\", \"adverse-reaction-of\", \"cyclosporine\"]]}"
+  },
+  {
+    "instruction": "",
+    "input": "An 11-day - old infant became lethargic and apneic after a single drop of brimonidine .",
+    "output": "{\"entities\": {\"lethargic\": {\"type\": \"Adverse-Effect\"}, \"apneic\": {\"type\": \"Adverse-Effect\"}, \"brimonidine\": {\"type\": \"Drug\"}}, \"relations\": [[\"lethargic\", \"adverse-reaction-of\", \"brimonidine\"], [\"apneic\", \"adverse-reaction-of\", \"brimonidine\"]]}"
+  },
+  {
+    "instruction": "",
+    "input": "We report on a patient with subarachnoid haemorrhage who developed an acute life - threatening pseudo - obstruction of the colon , a variant of adynamic ileus , while being treated with intravenous nimodipine .",
+    "output": "{\"entities\": {\"pseudo - obstruction of the colon\": {\"type\": \"Adverse-Effect\"}, \"adynamic ileus\": {\"type\": \"Adverse-Effect\"}, \"nimodipine\": {\"type\": \"Drug\"}}, \"relations\": [[\"pseudo - obstruction of the colon\", \"adverse-reaction-of\", \"nimodipine\"], [\"adynamic ileus\", \"adverse-reaction-of\", \"nimodipine\"]]}"
+  },
+  {
+    "instruction": "",
+    "input": "Ciprofloxacin - induced renal insufficiency in cystic fibrosis .",
+    "output": "{\"entities\": {\"Ciprofloxacin\": {\"type\": \"Drug\"}, \"renal insufficiency\": {\"type\": \"Adverse-Effect\"}}, \"relations\": [[\"renal insufficiency\", \"adverse-reaction-of\", \"Ciprofloxacin\"]]}"
+  },
+  {
+    "instruction": "",
+    "input": "Three cases of gold - related neuropathy are reported .",
+    "output": "{\"entities\": {\"gold\": {\"type\": \"Drug\"}, \"neuropathy\": {\"type\": \"Adverse-Effect\"}}, \"relations\": [[\"neuropathy\", \"adverse-reaction-of\", \"gold\"]]}"
+  },
+  {
+    "instruction": "",
+    "input": "Cholestyramine induced hyperchloremic metabolic acidosis .",
+    "output": "{\"entities\": {\"Cholestyramine\": {\"type\": \"Drug\"}, \"hyperchloremic metabolic acidosis\": {\"type\": \"Adverse-Effect\"}}, \"relations\": [[\"hyperchloremic metabolic acidosis\", \"adverse-reaction-of\", \"Cholestyramine\"]]}"
+  },
+  {
+    "instruction": "",
+    "input": "Delusional parasitosis associated with phenelzine .",
+    "output": "{\"entities\": {\"Delusional parasitosis\": {\"type\": \"Adverse-Effect\"}, \"phenelzine\": {\"type\": \"Drug\"}}, \"relations\": [[\"Delusional parasitosis\", \"adverse-reaction-of\", \"phenelzine\"]]}"
+  },
+  {
+    "instruction": "",
+    "input": "We report a case of Graves ' hyperthyroidism induced by long - term interferon ( IFN ) therapy .",
+    "output": "{\"entities\": {\"Graves ' hyperthyroidism\": {\"type\": \"Adverse-Effect\"}, \"interferon\": {\"type\": \"Drug\"}, \"IFN\": {\"type\": \"Drug\"}}, \"relations\": [[\"Graves ' hyperthyroidism\", \"adverse-reaction-of\", \"interferon\"], [\"Graves ' hyperthyroidism\", \"adverse-reaction-of\", \"IFN\"]]}"
+  },
+  {
+    "instruction": "",
+    "input": "This case represents the third example of erythroid aplasia associated with an anti - inflammatory agent and the first instance due to fenoprofen .",
+    "output": "{\"entities\": {\"erythroid aplasia\": {\"type\": \"Adverse-Effect\"}, \"fenoprofen\": {\"type\": \"Drug\"}}, \"relations\": [[\"erythroid aplasia\", \"adverse-reaction-of\", \"fenoprofen\"]]}"
+  },
+  {
+    "instruction": "",
+    "input": "Failure of plasmapheresis , corticosteroids and thionamides to ameliorate a case of protracted amiodarone - induced thyroiditis .",
+    "output": "{\"entities\": {\"amiodarone\": {\"type\": \"Drug\"}, \"thyroiditis\": {\"type\": \"Adverse-Effect\"}}, \"relations\": [[\"thyroiditis\", \"adverse-reaction-of\", \"amiodarone\"]]}"
+  },
+  {
+    "instruction": "",
+    "input": "We report an allogeneic bone marrow transplant recipient who developed CMV infection refractory to sequential therapy with ganciclovir , foscarnet , and cidofovir .",
+    "output": "{\"entities\": {\"CMV infection\": {\"type\": \"Adverse-Effect\"}, \"ganciclovir\": {\"type\": \"Drug\"}, \"foscarnet\": {\"type\": \"Drug\"}, \"cidofovir\": {\"type\": \"Drug\"}}, \"relations\": [[\"CMV infection\", \"adverse-reaction-of\", \"ganciclovir\"], [\"CMV infection\", \"adverse-reaction-of\", \"foscarnet\"], [\"CMV infection\", \"adverse-reaction-of\", \"cidofovir\"]]}"
+  },
+  {
+    "instruction": "",
+    "input": "Clinicians should be aware of the possibility that vinorelbine may cause SIADH and possibly hypokalemia .",
+    "output": "{\"entities\": {\"vinorelbine\": {\"type\": \"Drug\"}, \"SIADH\": {\"type\": \"Adverse-Effect\"}, \"hypokalemia\": {\"type\": \"Adverse-Effect\"}}, \"relations\": [[\"SIADH\", \"adverse-reaction-of\", \"vinorelbine\"], [\"hypokalemia\", \"adverse-reaction-of\", \"vinorelbine\"]]}"
+  },
+  {
+    "instruction": "",
+    "input": "Two patients treated with alprazolam had histories suggestive of a bipolar disorder and developed lithium - responsive manic episodes .",
+    "output": "{\"entities\": {\"alprazolam\": {\"type\": \"Drug\"}, \"manic episodes\": {\"type\": \"Adverse-Effect\"}}, \"relations\": [[\"manic episodes\", \"adverse-reaction-of\", \"alprazolam\"]]}"
+  },
+  {
+    "instruction": "",
+    "input": "We report the first case of an acute flare of eosinophilic cystitis in a 51-year - old woman after bladder instillation with dimethyl sulfoxide ( DMSO ) for presumed interstitial cystitis .",
+    "output": "{\"entities\": {\"eosinophilic cystitis\": {\"type\": \"Adverse-Effect\"}, \"dimethyl sulfoxide\": {\"type\": \"Drug\"}, \"DMSO\": {\"type\": \"Drug\"}}, \"relations\": [[\"eosinophilic cystitis\", \"adverse-reaction-of\", \"dimethyl sulfoxide\"], [\"eosinophilic cystitis\", \"adverse-reaction-of\", \"DMSO\"]]}"
+  },
+  {
+    "instruction": "",
+    "input": "METHODS : A 79-year - old woman being treated with imiquimod 5 days per week for a nodular basal cell developed a verrucous plaque over the treatment area after 7 weeks of therapy .",
+    "output": "{\"entities\": {\"imiquimod\": {\"type\": \"Drug\"}, \"verrucous plaque\": {\"type\": \"Adverse-Effect\"}}, \"relations\": [[\"verrucous plaque\", \"adverse-reaction-of\", \"imiquimod\"]]}"
+  },
+  {
+    "instruction": "",
+    "input": "A second possibility is an interaction between clarithromycin and isradipine , potentially increasing the hepatic toxicity of isradipine .",
+    "output": "{\"entities\": {\"clarithromycin\": {\"type\": \"Drug\"}, \"isradipine\": {\"type\": \"Drug\"}, \"increasing the hepatic toxicity\": {\"type\": \"Adverse-Effect\"}}, \"relations\": [[\"increasing the hepatic toxicity\", \"adverse-reaction-of\", \"clarithromycin\"], [\"increasing the hepatic toxicity\", \"adverse-reaction-of\", \"isradipine\"]]}"
+  },
+  {
+    "instruction": "",
+    "input": "Tremor : a newly described adverse event with long - term itraconazole therapy .",
+    "output": "{\"entities\": {\"Tremor\": {\"type\": \"Adverse-Effect\"}, \"itraconazole\": {\"type\": \"Drug\"}}, \"relations\": [[\"Tremor\", \"adverse-reaction-of\", \"itraconazole\"]]}"
+  },
+  {
+    "instruction": "",
+    "input": "Induction of rapid mood cycling during L - dopa treatment in a bipolar patient .",
+    "output": "{\"entities\": {\"rapid mood cycling\": {\"type\": \"Adverse-Effect\"}, \"L - dopa\": {\"type\": \"Drug\"}}, \"relations\": [[\"rapid mood cycling\", \"adverse-reaction-of\", \"L - dopa\"]]}"
+  },
+  {
+    "instruction": "",
+    "input": "Two patients treated with 5-fluorouracil ( 5-FU ) for disseminated adenocarcinoma of the colon developed cerebellar dysfunction typical of 5-FU neurotoxicity .",
+    "output": "{\"entities\": {\"5-fluorouracil\": {\"type\": \"Drug\"}, \"5-FU\": {\"type\": \"Drug\"}, \"cerebellar dysfunction\": {\"type\": \"Adverse-Effect\"}, \"neurotoxicity\": {\"type\": \"Adverse-Effect\"}}, \"relations\": [[\"cerebellar dysfunction\", \"adverse-reaction-of\", \"5-fluorouracil\"], [\"cerebellar dysfunction\", \"adverse-reaction-of\", \"5-FU\"], [\"neurotoxicity\", \"adverse-reaction-of\", \"5-fluorouracil\"], [\"neurotoxicity\", \"adverse-reaction-of\", \"5-FU\"]]}"
+  },
+  {
+    "instruction": "",
+    "input": "CONCLUSIONS : Although budesonide may be beneficial because of its anti - inflammatory effects , clinicians should be alert to its potential for causing contact dermatitis .",
+    "output": "{\"entities\": {\"budesonide\": {\"type\": \"Drug\"}, \"contact dermatitis\": {\"type\": \"Adverse-Effect\"}}, \"relations\": [[\"contact dermatitis\", \"adverse-reaction-of\", \"budesonide\"]]}"
+  },
+  {
+    "instruction": "",
+    "input": "We describe the first case of de novo asthma following treatment with the angiotensin converting enzyme ( ACE ) inhibitor captopril .",
+    "output": "{\"entities\": {\"asthma\": {\"type\": \"Adverse-Effect\"}, \"captopril\": {\"type\": \"Drug\"}}, \"relations\": [[\"asthma\", \"adverse-reaction-of\", \"captopril\"]]}"
+  },
+  {
+    "instruction": "",
+    "input": "De novo absence status of late onset following withdrawal of lorazepam : a case report .",
+    "output": "{\"entities\": {\"De novo absence status\": {\"type\": \"Adverse-Effect\"}, \"lorazepam\": {\"type\": \"Drug\"}}, \"relations\": [[\"De novo absence status\", \"adverse-reaction-of\", \"lorazepam\"]]}"
+  },
+  {
+    "instruction": "",
+    "input": "Docetaxel - induced Meibomian duct inflammation and blockage leading to chalazion formation .",
+    "output": "{\"entities\": {\"Docetaxel\": {\"type\": \"Drug\"}, \"Meibomian duct inflammation and blockage\": {\"type\": \"Adverse-Effect\"}, \"chalazion\": {\"type\": \"Adverse-Effect\"}}, \"relations\": [[\"Meibomian duct inflammation and blockage\", \"adverse-reaction-of\", \"Docetaxel\"], [\"chalazion\", \"adverse-reaction-of\", \"Docetaxel\"]]}"
+  },
+  {
+    "instruction": "",
+    "input": "Pneumocystis pneumonia should be considered in asthmatic patients taking methotrexate who present with fever , pulmonary infiltrates , and hypoxia .",
+    "output": "{\"entities\": {\"Pneumocystis pneumonia\": {\"type\": \"Adverse-Effect\"}, \"methotrexate\": {\"type\": \"Drug\"}, \"fever\": {\"type\": \"Adverse-Effect\"}, \"pulmonary infiltrates\": {\"type\": \"Adverse-Effect\"}, \"hypoxia\": {\"type\": \"Adverse-Effect\"}}, \"relations\": [[\"Pneumocystis pneumonia\", \"adverse-reaction-of\", \"methotrexate\"], [\"fever\", \"adverse-reaction-of\", \"methotrexate\"], [\"pulmonary infiltrates\", \"adverse-reaction-of\", \"methotrexate\"], [\"hypoxia\", \"adverse-reaction-of\", \"methotrexate\"]]}"
+  },
+  {
+    "instruction": "",
+    "input": "Although visual hallucinations have not been reported as an adverse effect of this agent , we describe three patients who experienced complex visual hallucinations and altered mental status after zonisamide treatment was begun or its dosage increased .",
+    "output": "{\"entities\": {\"visual hallucinations\": {\"type\": \"Adverse-Effect\"}, \"altered mental status\": {\"type\": \"Adverse-Effect\"}, \"zonisamide\": {\"type\": \"Drug\"}}, \"relations\": [[\"visual hallucinations\", \"adverse-reaction-of\", \"zonisamide\"], [\"altered mental status\", \"adverse-reaction-of\", \"zonisamide\"]]}"
+  },
+  {
+    "instruction": "",
+    "input": "METHODS : Repeated blood samples were drawn in a patient with severe acyclovir overdose who developed coma and nonoliguric renal failure .",
+    "output": "{\"entities\": {\"acyclovir\": {\"type\": \"Drug\"}, \"coma\": {\"type\": \"Adverse-Effect\"}, \"nonoliguric renal failure\": {\"type\": \"Adverse-Effect\"}}, \"relations\": [[\"coma\", \"adverse-reaction-of\", \"acyclovir\"], [\"nonoliguric renal failure\", \"adverse-reaction-of\", \"acyclovir\"]]}"
+  },
+  {
+    "instruction": "",
+    "input": "Lower extremity arterial thrombosis following sonographically guided thrombin injection of a femoral pseudoaneurysm .",
+    "output": "{\"entities\": {\"arterial thrombosis\": {\"type\": \"Adverse-Effect\"}, \"thrombin\": {\"type\": \"Drug\"}}, \"relations\": [[\"arterial thrombosis\", \"adverse-reaction-of\", \"thrombin\"]]}"
+  },
+  {
+    "instruction": "",
+    "input": "The development of cutaneous ecchymosis associated with a sudden fall in hemoglobin after the administration of alteplase should strongly suggest the possibility of diffuse subfascial hematoma .",
+    "output": "{\"entities\": {\"cutaneous ecchymosis\": {\"type\": \"Adverse-Effect\"}, \"sudden fall in hemoglobin\": {\"type\": \"Adverse-Effect\"}, \"alteplase\": {\"type\": \"Drug\"}, \"diffuse subfascial hematoma\": {\"type\": \"Adverse-Effect\"}}, \"relations\": [[\"cutaneous ecchymosis\", \"adverse-reaction-of\", \"alteplase\"], [\"sudden fall in hemoglobin\", \"adverse-reaction-of\", \"alteplase\"], [\"diffuse subfascial hematoma\", \"adverse-reaction-of\", \"alteplase\"]]}"
+  },
+  {
+    "instruction": "",
+    "input": "The authors ' results suggest that L - dopa may cause daytime somnolence in some patients with Parkinson 's disease .",
+    "output": "{\"entities\": {\"L - dopa\": {\"type\": \"Drug\"}, \"daytime somnolence\": {\"type\": \"Adverse-Effect\"}}, \"relations\": [[\"daytime somnolence\", \"adverse-reaction-of\", \"L - dopa\"]]}"
+  },
+  {
+    "instruction": "",
+    "input": "Two years later , 24 hours following an increase in the dose of disopyramide from 300 to 600 mg / day , AVT with syncope occurred ; isoproterenol abolished the arrhythmia instantly .",
+    "output": "{\"entities\": {\"disopyramide\": {\"type\": \"Drug\"}, \"AVT\": {\"type\": \"Adverse-Effect\"}, \"syncope\": {\"type\": \"Adverse-Effect\"}}, \"relations\": [[\"AVT\", \"adverse-reaction-of\", \"disopyramide\"], [\"syncope\", \"adverse-reaction-of\", \"disopyramide\"]]}"
+  },
+  {
+    "instruction": "",
+    "input": "A 67-year - old man developed diarrhea shortly after a 10-day course of oral ampicillin .",
+    "output": "{\"entities\": {\"diarrhea\": {\"type\": \"Adverse-Effect\"}, \"ampicillin\": {\"type\": \"Drug\"}}, \"relations\": [[\"diarrhea\", \"adverse-reaction-of\", \"ampicillin\"]]}"
+  },
+  {
+    "instruction": "",
+    "input": "Anaphylactoid reaction to 50 % solution of dextrose .",
+    "output": "{\"entities\": {\"Anaphylactoid reaction\": {\"type\": \"Adverse-Effect\"}, \"dextrose\": {\"type\": \"Drug\"}}, \"relations\": [[\"Anaphylactoid reaction\", \"adverse-reaction-of\", \"dextrose\"]]}"
+  },
+  {
+    "instruction": "",
+    "input": "A 58-year - old man with rheumatoid arthritis developed lichen planus during treatment with gold .",
+    "output": "{\"entities\": {\"lichen planus\": {\"type\": \"Adverse-Effect\"}, \"gold\": {\"type\": \"Drug\"}}, \"relations\": [[\"lichen planus\", \"adverse-reaction-of\", \"gold\"]]}"
+  },
+  {
+    "instruction": "",
+    "input": "BACKGROUND : To describe the occurrence of ocular hypertension in four patients following injection of ranibizumab intravitreally .",
+    "output": "{\"entities\": {\"ocular hypertension\": {\"type\": \"Adverse-Effect\"}, \"ranibizumab\": {\"type\": \"Drug\"}}, \"relations\": [[\"ocular hypertension\", \"adverse-reaction-of\", \"ranibizumab\"]]}"
+  },
+  {
+    "instruction": "",
+    "input": "We now present four cases of RSDS in kidney transplant recipients treated with tacrolimus .",
+    "output": "{\"entities\": {\"RSDS\": {\"type\": \"Adverse-Effect\"}, \"tacrolimus\": {\"type\": \"Drug\"}}, \"relations\": [[\"RSDS\", \"adverse-reaction-of\", \"tacrolimus\"]]}"
+  },
+  {
+    "instruction": "",
+    "input": "Drug - induced fever due to diltiazem .",
+    "output": "{\"entities\": {\"fever\": {\"type\": \"Adverse-Effect\"}, \"diltiazem\": {\"type\": \"Drug\"}}, \"relations\": [[\"fever\", \"adverse-reaction-of\", \"diltiazem\"]]}"
+  },
+  {
+    "instruction": "",
+    "input": "We describe a relatively healthy , 9-year - old boy who developed a CA - MRSA skin and soft tissue infection and was treated with TMP - SMX .",
+    "output": "{\"entities\": {\"soft tissue infection\": {\"type\": \"Adverse-Effect\"}, \"TMP - SMX\": {\"type\": \"Drug\"}}, \"relations\": [[\"soft tissue infection\", \"adverse-reaction-of\", \"TMP - SMX\"]]}"
+  },
+  {
+    "instruction": "",
+    "input": "This is a unique autopsy case of hepatocellular carcinoma closely related to diethylstilbestrol ( DES ) therapy for prostatic cancer .",
+    "output": "{\"entities\": {\"hepatocellular carcinoma\": {\"type\": \"Adverse-Effect\"}, \"diethylstilbestrol\": {\"type\": \"Drug\"}, \"DES\": {\"type\": \"Drug\"}}, \"relations\": [[\"hepatocellular carcinoma\", \"adverse-reaction-of\", \"diethylstilbestrol\"], [\"hepatocellular carcinoma\", \"adverse-reaction-of\", \"DES\"]]}"
+  },
+  {
+    "instruction": "",
+    "input": "Because sumatriptan can cause coronary artery vasospasm , patients with significant risk factors for coronary artery disease should be carefully evaluated for cardiovascular disease prior to the use of sumatriptan .",
+    "output": "{\"entities\": {\"sumatriptan\": {\"type\": \"Drug\"}, \"coronary artery vasospasm\": {\"type\": \"Adverse-Effect\"}}, \"relations\": [[\"coronary artery vasospasm\", \"adverse-reaction-of\", \"sumatriptan\"]]}"
+  },
+  {
+    "instruction": "",
+    "input": "Anaphylaxis to cisplatin is an infrequent life - threatening complication which may occur even in patients who have received prior treatment with cisplatin .",
+    "output": "{\"entities\": {\"Anaphylaxis\": {\"type\": \"Adverse-Effect\"}, \"cisplatin\": {\"type\": \"Drug\"}}, \"relations\": [[\"Anaphylaxis\", \"adverse-reaction-of\", \"cisplatin\"]]}"
+  },
+  {
+    "instruction": "",
+    "input": "Drug - induced hepatitis in an acromegalic patient during combined treatment with pegvisomant and octreotide long - acting repeatable attributed to the use of pegvisomant .",
+    "output": "{\"entities\": {\"hepatitis\": {\"type\": \"Adverse-Effect\"}, \"pegvisomant\": {\"type\": \"Drug\"}, \"octreotide\": {\"type\": \"Drug\"}}, \"relations\": [[\"hepatitis\", \"adverse-reaction-of\", \"pegvisomant\"], [\"hepatitis\", \"adverse-reaction-of\", \"octreotide\"]]}"
+  },
+  {
+    "instruction": "",
+    "input": "CONCLUSIONS : We have seen an increased incidence of acute INH neurotoxicity because of the resurgence of TB in New York City .",
+    "output": "{\"entities\": {\"INH\": {\"type\": \"Drug\"}, \"neurotoxicity\": {\"type\": \"Adverse-Effect\"}}, \"relations\": [[\"neurotoxicity\", \"adverse-reaction-of\", \"INH\"]]}"
+  },
+  {
+    "instruction": "",
+    "input": "The patient presented with fulminant microangiopathic hemolytic anemia and thrombocytopenia within 48 hr of initiating therapy with trimethoprim - sulfamethoxazole .",
+    "output": "{\"entities\": {\"fulminant microangiopathic hemolytic anemia\": {\"type\": \"Adverse-Effect\"}, \"thrombocytopenia\": {\"type\": \"Adverse-Effect\"}, \"trimethoprim\": {\"type\": \"Drug\"}, \"sulfamethoxazole\": {\"type\": \"Drug\"}}, \"relations\": [[\"fulminant microangiopathic hemolytic anemia\", \"adverse-reaction-of\", \"trimethoprim\"], [\"fulminant microangiopathic hemolytic anemia\", \"adverse-reaction-of\", \"sulfamethoxazole\"], [\"thrombocytopenia\", \"adverse-reaction-of\", \"trimethoprim\"], [\"thrombocytopenia\", \"adverse-reaction-of\", \"sulfamethoxazole\"]]}"
+  },
+  {
+    "instruction": "",
+    "input": "Telescoped digits of the hands and feet developed in a 69-year - old male with severe chronic tophaceous gout during allopurinol treatment .",
+    "output": "{\"entities\": {\"Telescoped digits of the hands and feet\": {\"type\": \"Adverse-Effect\"}, \"allopurinol\": {\"type\": \"Drug\"}}, \"relations\": [[\"Telescoped digits of the hands and feet\", \"adverse-reaction-of\", \"allopurinol\"]]}"
+  },
+  {
+    "instruction": "",
+    "input": "We report a 45-year - old psoriasis patient who developed eruptive mollusca contagiosa during an antipsoriatic treatment with efalizumab .",
+    "output": "{\"entities\": {\"eruptive mollusca contagiosa\": {\"type\": \"Adverse-Effect\"}, \"efalizumab\": {\"type\": \"Drug\"}}, \"relations\": [[\"eruptive mollusca contagiosa\", \"adverse-reaction-of\", \"efalizumab\"]]}"
+  },
+  {
+    "instruction": "",
+    "input": "Prolongation of the QT interval and ventricular tachyarrhymias have been described in patients on amiodarone therapy .",
+    "output": "{\"entities\": {\"Prolongation of the QT interval\": {\"type\": \"Adverse-Effect\"}, \"ventricular tachyarrhymias\": {\"type\": \"Adverse-Effect\"}, \"amiodarone\": {\"type\": \"Drug\"}}, \"relations\": [[\"Prolongation of the QT interval\", \"adverse-reaction-of\", \"amiodarone\"], [\"ventricular tachyarrhymias\", \"adverse-reaction-of\", \"amiodarone\"]]}"
+  },
+  {
+    "instruction": "",
+    "input": "We report 5 cases of acute reversible renal failure coinciding with the onset of treatment with captopril in patients with severe drug - resistant hypertension .",
+    "output": "{\"entities\": {\"acute reversible renal failure\": {\"type\": \"Adverse-Effect\"}, \"captopril\": {\"type\": \"Drug\"}}, \"relations\": [[\"acute reversible renal failure\", \"adverse-reaction-of\", \"captopril\"]]}"
+  },
+  {
+    "instruction": "",
+    "input": "A 68-year - old female patient with advanced ovarian carcinoma collapsed whilst receiving a carboplatin and cyclophosphamide infusion .",
+    "output": "{\"entities\": {\"collapsed\": {\"type\": \"Adverse-Effect\"}, \"carboplatin\": {\"type\": \"Drug\"}, \"cyclophosphamide\": {\"type\": \"Drug\"}}, \"relations\": [[\"collapsed\", \"adverse-reaction-of\", \"carboplatin\"], [\"collapsed\", \"adverse-reaction-of\", \"cyclophosphamide\"]]}"
+  },
+  {
+    "instruction": "",
+    "input": "This prompted us to suspect that ddI might be responsible for fulminant hepatitis in all three AIDS patients .",
+    "output": "{\"entities\": {\"ddI\": {\"type\": \"Drug\"}, \"fulminant hepatitis\": {\"type\": \"Adverse-Effect\"}}, \"relations\": [[\"fulminant hepatitis\", \"adverse-reaction-of\", \"ddI\"]]}"
+  },
+  {
+    "instruction": "",
+    "input": "Many clinicians appear to be concerned about the potential hepatotoxicity of the opiate antagonist naltrexone ( NTX ) and this may be one reason why it is not used more widely in treating both heroin and alcohol abusers .",
+    "output": "{\"entities\": {\"hepatotoxicity\": {\"type\": \"Adverse-Effect\"}, \"naltrexone\": {\"type\": \"Drug\"}, \"NTX\": {\"type\": \"Drug\"}}, \"relations\": [[\"hepatotoxicity\", \"adverse-reaction-of\", \"naltrexone\"], [\"hepatotoxicity\", \"adverse-reaction-of\", \"NTX\"]]}"
+  },
+  {
+    "instruction": "",
+    "input": "One patient required nursing home placement and a feeding gastrostomy as a result of the worsening parkinsonism during risperidone treatment , but was able to return home and have the gastrostomy removed after switching from risperidone to clozapine .",
+    "output": "{\"entities\": {\"feeding gastrostomy\": {\"type\": \"Adverse-Effect\"}, \"worsening parkinsonism\": {\"type\": \"Adverse-Effect\"}, \"risperidone\": {\"type\": \"Drug\"}}, \"relations\": [[\"feeding gastrostomy\", \"adverse-reaction-of\", \"risperidone\"], [\"worsening parkinsonism\", \"adverse-reaction-of\", \"risperidone\"]]}"
+  },
+  {
+    "instruction": "",
+    "input": "Clinicians should be aware of fasting hypoglycemia as an unusual but potentially serious complication of disopyramide therapy .",
+    "output": "{\"entities\": {\"fasting hypoglycemia\": {\"type\": \"Adverse-Effect\"}, \"disopyramide\": {\"type\": \"Drug\"}}, \"relations\": [[\"fasting hypoglycemia\", \"adverse-reaction-of\", \"disopyramide\"]]}"
+  },
+  {
+    "instruction": "",
+    "input": "Behavioral side effects associated with clonazepam may include agitation , aggression , hyperactivity , irritability , property destruction , and temper tantrums .",
+    "output": "{\"entities\": {\"clonazepam\": {\"type\": \"Drug\"}, \"agitation\": {\"type\": \"Adverse-Effect\"}, \"aggression\": {\"type\": \"Adverse-Effect\"}, \"hyperactivity\": {\"type\": \"Adverse-Effect\"}, \"irritability\": {\"type\": \"Adverse-Effect\"}, \"property destruction\": {\"type\": \"Adverse-Effect\"}, \"temper tantrums\": {\"type\": \"Adverse-Effect\"}}, \"relations\": [[\"agitation\", \"adverse-reaction-of\", \"clonazepam\"], [\"aggression\", \"adverse-reaction-of\", \"clonazepam\"], [\"hyperactivity\", \"adverse-reaction-of\", \"clonazepam\"], [\"irritability\", \"adverse-reaction-of\", \"clonazepam\"], [\"property destruction\", \"adverse-reaction-of\", \"clonazepam\"], [\"temper tantrums\", \"adverse-reaction-of\", \"clonazepam\"]]}"
+  },
+  {
+    "instruction": "",
+    "input": "In addition , the tachycardia persisted and was repeatedly spontaneously reinitiated for prolonged periods after procainamide .",
+    "output": "{\"entities\": {\"tachycardia\": {\"type\": \"Adverse-Effect\"}, \"procainamide\": {\"type\": \"Drug\"}}, \"relations\": [[\"tachycardia\", \"adverse-reaction-of\", \"procainamide\"]]}"
+  },
+  {
+    "instruction": "",
+    "input": "Treatment with infliximab is known to produce an increase of autoantibodies ( antinuclear antibodies , anti - double - stranded DNA ) , but not clinical disease .",
+    "output": "{\"entities\": {\"infliximab\": {\"type\": \"Drug\"}, \"increase of autoantibodies\": {\"type\": \"Adverse-Effect\"}, \"antinuclear antibodies\": {\"type\": \"Adverse-Effect\"}, \"anti - double - stranded DNA\": {\"type\": \"Adverse-Effect\"}}, \"relations\": [[\"increase of autoantibodies\", \"adverse-reaction-of\", \"infliximab\"], [\"antinuclear antibodies\", \"adverse-reaction-of\", \"infliximab\"], [\"anti - double - stranded DNA\", \"adverse-reaction-of\", \"infliximab\"]]}"
+  },
+  {
+    "instruction": "",
+    "input": "Tamoxifen retinopathy .",
+    "output": "{\"entities\": {\"Tamoxifen\": {\"type\": \"Drug\"}, \"retinopathy\": {\"type\": \"Adverse-Effect\"}}, \"relations\": [[\"retinopathy\", \"adverse-reaction-of\", \"Tamoxifen\"]]}"
+  },
+  {
+    "instruction": "",
+    "input": "Interferon - induced psychosis as a \" psychiatric contraindication \" to hepatitis C treatment : a review and case - based discussion .",
+    "output": "{\"entities\": {\"Interferon\": {\"type\": \"Drug\"}, \"psychosis\": {\"type\": \"Adverse-Effect\"}}, \"relations\": [[\"psychosis\", \"adverse-reaction-of\", \"Interferon\"]]}"
+  },
+  {
+    "instruction": "",
+    "input": "We report on a patient with renal artery stenosis who had only 1 kidney and in whom acute renal impairment developed with transient anuria after the administration of captopril .",
+    "output": "{\"entities\": {\"acute renal impairment\": {\"type\": \"Adverse-Effect\"}, \"transient anuria\": {\"type\": \"Adverse-Effect\"}, \"captopril\": {\"type\": \"Drug\"}}, \"relations\": [[\"acute renal impairment\", \"adverse-reaction-of\", \"captopril\"], [\"transient anuria\", \"adverse-reaction-of\", \"captopril\"]]}"
+  },
+  {
+    "instruction": "",
+    "input": "This report describes an individual with mental retardation who experienced behavioral exacerbation associated with clonazepam prescribed at 2 mg / day ( 0.02 mg / kg / day ) to treat aggression , self - injurious behavior , property destruction , and screaming , which was measured with a 15-minute partial interval recording measurement method .",
+    "output": "{\"entities\": {\"behavioral exacerbation\": {\"type\": \"Adverse-Effect\"}, \"clonazepam\": {\"type\": \"Drug\"}}, \"relations\": [[\"behavioral exacerbation\", \"adverse-reaction-of\", \"clonazepam\"]]}"
+  },
+  {
+    "instruction": "",
+    "input": "Carbamazepine - induced systemic lupus erythematosus .",
+    "output": "{\"entities\": {\"Carbamazepine\": {\"type\": \"Drug\"}, \"systemic lupus erythematosus\": {\"type\": \"Adverse-Effect\"}}, \"relations\": [[\"systemic lupus erythematosus\", \"adverse-reaction-of\", \"Carbamazepine\"]]}"
+  },
+  {
+    "instruction": "",
+    "input": "The patient whose case is reviewed had migraine headaches and received methysergide maleate for 13 years .",
+    "output": "{\"entities\": {\"migraine headaches\": {\"type\": \"Adverse-Effect\"}, \"methysergide\": {\"type\": \"Drug\"}}, \"relations\": [[\"migraine headaches\", \"adverse-reaction-of\", \"methysergide\"]]}"
+  },
+  {
+    "instruction": "",
+    "input": "We observed 5 reactions in 3 patients that appear to be related to a high dose - infusion time ratio , indicating that dose and rate of infusion may be important factors in precipitating anaphylactoid reactions with cisplatin .",
+    "output": "{\"entities\": {\"anaphylactoid reactions\": {\"type\": \"Adverse-Effect\"}, \"cisplatin\": {\"type\": \"Drug\"}}, \"relations\": [[\"anaphylactoid reactions\", \"adverse-reaction-of\", \"cisplatin\"]]}"
+  },
+  {
+    "instruction": "",
+    "input": "Linezolid - induced dyserythropoiesis : chloramphenicol toxicity revisited .",
+    "output": "{\"entities\": {\"Linezolid\": {\"type\": \"Drug\"}, \"dyserythropoiesis\": {\"type\": \"Adverse-Effect\"}}, \"relations\": [[\"dyserythropoiesis\", \"adverse-reaction-of\", \"Linezolid\"]]}"
+  },
+  {
+    "instruction": "",
+    "input": "Transtentorial herniation caused by an intracranial mass lesion following high - dose methotrexate .",
+    "output": "{\"entities\": {\"Transtentorial herniation\": {\"type\": \"Adverse-Effect\"}, \"intracranial mass lesion\": {\"type\": \"Adverse-Effect\"}, \"methotrexate\": {\"type\": \"Drug\"}}, \"relations\": [[\"Transtentorial herniation\", \"adverse-reaction-of\", \"methotrexate\"], [\"intracranial mass lesion\", \"adverse-reaction-of\", \"methotrexate\"]]}"
+  }
+]

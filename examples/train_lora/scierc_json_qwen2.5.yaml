@@ -1,0 +1,57 @@
+### model
+model_name_or_path: /data/wengxiaolong/huggingface/Qwen2.5-7B-Instruct
+trust_remote_code: true
+# padding_side: left  # 添加这一行
+
+### method
+stage: sft
+do_train: true
+finetuning_type: lora
+lora_rank: 8
+lora_target: all
+
+
+### dataset
+dataset: scierc_json_train
+template: qwen
+cutoff_len: 2048
+max_samples: 10000
+preprocessing_num_workers: 16
+dataloader_num_workers: 4
+
+### output
+output_dir: saves/Qwen2.5-7B/lora/sft-scierc-json
+logging_steps: 100
+
+plot_loss: true
+overwrite_output_dir: true
+save_only_model: false
+report_to: tensorboard  # choices: [none, wandb, tensorboard, swanlab, mlflow]
+
+### train
+per_device_train_batch_size: 4
+gradient_accumulation_steps: 4
+learning_rate: 1.0e-4
+num_train_epochs: 40
+lr_scheduler_type: cosine
+warmup_ratio: 0.1
+bf16: true
+ddp_timeout: 180000000
+resume_from_checkpoint: null
+
+### eval
+eval_dataset: scierc_json_dev, scierc_json_test
+eval_on_each_dataset: true
+per_device_eval_batch_size: 4
+max_new_tokens: 1024
+eval_strategy: steps
+eval_steps: 500
+save_steps: 500
+metric_for_best_model: eval_scierc_json_dev_rel_f1
+greater_is_better: true
+save_total_limit: 3
+predict_with_generate: true  # 用于控制模型在评估（Evaluation）和预测（Prediction）阶段，是直接输出 logits，还是调用 model.generate() 进行序列生成
+load_best_model_at_end: true
+
+compute_relation_f1: true
+f1_format: json

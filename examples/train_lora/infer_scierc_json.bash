@@ -1,0 +1,1 @@
+CUDA_VISIBLE_DEVICES=1 ALLOW_EXTRA_ARGS=true llamafactory-cli train examples/train_lora/infer_scierc_json_qwen2.5.yaml

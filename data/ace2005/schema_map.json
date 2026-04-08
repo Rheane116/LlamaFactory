@@ -1,0 +1,15 @@
+{
+  "PER": "Person",
+  "ORG": "Organization",
+  "GPE": "GeographicalSocialPolitical",
+  "LOC": "Location",
+  "FAC": "Facility",
+  "VEH": "Vehicle",
+  "WEA": "Weapon",
+  "ORG-AFF": "OrganizationAffiliation",
+  "PER-SOC": "PersonalSocial",
+  "PHYS": "Physical",
+  "ART": "Artifact",
+  "GEN-AFF": "GeneralAffiliation",
+  "PART-WHOLE": "PartWhole"
+}
