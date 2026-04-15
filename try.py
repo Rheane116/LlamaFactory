@@ -18,3 +18,6 @@ debug_log_file = os.path.join(debug_log_dir, f"llamafactory_debug_rank_{os.geten
 with open(debug_log_file, "a") as f:
     f.write(f"[DEBUG workflow] LOCAL_RANK: {os.getenv('LOCAL_RANK')}\n")
     f.write(f"[DEBUG workflow] Tokenizer (after loading): {tokenizer.padding_side}\n\n")
+
+
+    

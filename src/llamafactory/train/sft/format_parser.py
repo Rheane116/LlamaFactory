@@ -6,13 +6,6 @@ class JsonBaseParser:
     def __init__(self, ans: str):
         self.ans = ans
 
-    def _rm_duplicated_rels(self):
-      unique_rels = []
-      for r in self.relations:
-        if r not in unique_rels:
-          unique_rels.append(r)
-      self.relations = unique_rels
-
     def _fix_json(self, s):
       if s.endswith("\"]}]}") or s.endswith("\"]]}}") or s.endswith("\"}]]}"):
           return s[:-4] + "]]}"
@@ -41,7 +34,8 @@ class JsonBaseParser:
 
     def parse(self):
         try:
-          ans_fixed = self._fix_json(self.ans)
+          #ans_fixed = self._fix_json(self.ans)
+          ans_fixed = self.ans
           json_item = json.loads(ans_fixed)
         except Exception as e:
           print(f"Invalid Json Format: {e}")
@@ -52,7 +46,6 @@ class JsonBaseParser:
 
         self._parse_entities(json_item)
         self._parse_relations(json_item)
-        self._rm_duplicated_rels()
         return {"entities": self.entities, "relations": self.relations}  
 
 class JsonNaiveParser(JsonBaseParser):
@@ -137,17 +130,11 @@ class DfsjsonParser:
         
         for target in item.get("targets", []):
             self._traverse(target, node_span)
-
-    def _rm_duplicated_rels(self):
-      unique_rels = []
-      for r in self.relations:
-        if r not in unique_rels:
-          unique_rels.append(r)
-      self.relations = unique_rels
      
     def parse(self):
         try:
-          ans_fixed = self._fix_dfsjson(self.ans)
+          ans_fixed = self.ans
+          #ans_fixed = self._fix_dfsjson(self.ans)
           json_list = json.loads(ans_fixed)
         except Exception as e:
           print(f"Invalid Json Format: {e}")
@@ -157,7 +144,6 @@ class DfsjsonParser:
           return {"entities": {}, "relations": []}
         for root_item in json_list:
           self._traverse(root_item)
-        self._rm_duplicated_rels()
         return {"entities": self.entities, "relations": self.relations}
 
     def _fix_dfsjson(self, s):
@@ -290,13 +276,25 @@ class DfsjsonParser:
 
 class DfsParser:
     def __init__(self, ans: str):
-        self.ans = ans
-        self.TOKEN_RE = re.compile(r"\[|\]|[^\[\]\s]+")
-        self.tokens = self.TOKEN_RE.findall(ans)
+        self.ans = self._fix_unclosed_brackets(ans)
+        self.TOKEN_RE = re.compile(r"\[|\]|[^\[\]\|]+")
+        self.tokens = self.TOKEN_RE.findall(self.ans)
         self.i = 0
         self.nodes = {}
         self.edges = []
 
+    def _fix_unclosed_brackets(self, s: str) -> str:
+        """
+        防止末端右括号不闭合导致解析死循环：
+        若 '[' 数量多于 ']'，则在末尾补齐缺失数量的 ']'.
+        """
+        if not isinstance(s, str):
+            return s
+        diff = s.count("[") - s.count("]")
+        if diff > 0:
+            return s + ("]" * diff)
+        return s    
+    
     def _next(self):
         t = self.tokens[self.i] if self.i < len(self.tokens) else None
         self.i += 1
@@ -306,62 +304,82 @@ class DfsParser:
         return self.tokens[self.i] if self.i < len(self.tokens) else None
 
     def _parse_node(self):
+        #if self._peek() == "[":
+        #    self._next()
         tok = self._next()
       
-        parts = tok.split(":")
-        if len(parts) == 0:
-            return
-        elif len(parts) == 1:
-            mention = parts[0]
-            typ = "UNKNOWN"
+        parts = tok.rsplit(":", 1)
+        #print(parts)
+        if len(parts) != 2:
+            return False
         else:
-            mention = parts[0]
-            typ = parts[1]
-         
-           
+            mention = parts[0].strip()
+            typ = parts[-1].strip()
+            
         if typ != "REF":
-            self.nodes[mention.replace("_", " ")] = typ
-
+            self.nodes[mention] = typ
+        
+        # 严格检查：只要后面不是 ')'，就说明有 [关系 (子节点)] 结构
         while self._peek() and self._peek() != "]":
-            rel = self._next()
+            rel = self._next().strip()
             if self._peek() == "[":
-                self._next()
+                self._next() # 消耗 '('
                 child = self._parse_node()
-                if (
-                    [mention, rel, child] not in self.edges
-                    and mention.replace("_", " ") in self.nodes.keys()
-                    and child.replace("_", " ") in self.nodes.keys()
-                ):
-                    self.edges.append([mention.replace("_", " "), rel, child.replace("_", " ")])
-
+                '''if not child:
+                    # 核心修复：更新指针跳过当前出错的实体块，直到遇到右括号
+                    while self._peek() is not None and self._peek() != "]":
+                        self._next()
+                    if self._peek() == "]":
+                        self._next() # 消耗掉该错误实体的右括号
+                    return False'''
+                if [mention, rel, child] not in self.edges:
+                    self.edges.append([mention, rel, child]) # 存入 set
+        
+        # 消耗自己的 ']'
         if self._peek() == "]":
             self._next()
         return mention
 
     def parse(self):
-        while self._peek():
-            t = self._next()
-            if t == "[" and self._peek() == "ROOT":
+        try:
+            if self._peek() == "[":
                 self._next()
-                while self._peek() and self._peek() != "]":
-                    if self._peek() == "[":
-                        self._next()
-                        self._parse_node()
-                    else:
-                        self._next()
-                if self._peek() == "]":
-                    self._next()
-        return {"entities": self.nodes, "relations": list(self.edges)}
+            while self._peek() and self._peek() != "]":
+                if self._peek() == "[":
+                    self._next() # 消耗顶级节点的 '('
+                    self._parse_node()
+                    '''if not self.parse_node():
+                        # 核心修复：更新指针跳过当前出错的实体块，直到遇到右括号
+                        while self._peek() is not None and self._peek() != "]":
+                            self._next()
+                        if self._peek() == "]":
+                            self._next() # 消耗掉该错误实体的右括号'''
+                else: self._next() # 跳过
+            return {"entities": self.nodes, "relations": list(self.edges)}
+        except Exception:
+            return {"entities": {}, "relations": []}
 
 
 class SelParser:
     def __init__(self, ans: str):
-        self.ans = ans
-        self.TOKEN_RE = re.compile(r"\[|\]|[^\s\[\]]+")
-        self.tokens = self.TOKEN_RE.findall(ans or "")
+        self.ans = self._fix_unclosed_brackets(ans)
+        self.TOKEN_RE = re.compile(r"\[|\]|[^\[\]]+")
+        self.tokens = self.TOKEN_RE.findall(self.ans or "")
         self.i = 0
         self.nodes = {}
         self.edges = []
+
+    def _fix_unclosed_brackets(self, s: str) -> str:
+        """
+        防止末端右括号不闭合导致解析死循环：
+        若 '[' 数量多于 ']'，则在末尾补齐缺失数量的 ']'.
+        """
+        if not isinstance(s, str):
+            return s
+        diff = s.count("[") - s.count("]")
+        if diff > 0:
+            return s + ("]" * diff)
+        return s    
 
     def _peek(self):
         return self.tokens[self.i] if self.i < len(self.tokens) else None
@@ -371,69 +389,71 @@ class SelParser:
         self.i += 1
         return t
 
-    def _expect(self, tok):
-        t = self._next()
-        if t != tok:
-            raise ValueError(f"Parse error: expect {tok}, got {t}")
-
     def _parse_entity(self):
+        """
+        已经消耗了实体块起始的 '['，当前 token 形如 'mention:TYPE'，
+        之后是若干个关系块，每个为 '[REL:TAIL]'，最后以 ']' 结束。
+        返回 True 表示解析成功，返回 False 表示遇到格式错误。
+        """
         mt = self._next()
+        #print(f"Debug for mt : {mt}")
+        # 格式错误判断：避免原本的 NameError 和 ValueError
         if not mt or ":" not in mt:
-            raise ValueError(f"Parse error: bad entity header token: {mt}")
+            return False
+        parts = mt.rsplit(":", 1)
+        if len(parts) != 2:
+            return False
+        mention, typ = parts[0].strip(), parts[1].strip()
+        self.nodes[mention] = typ
 
-        mention, typ = mt.split(":", 1)
-        self.nodes[mention.replace("_", " ")] = typ
-
-        while True:
-            t = self._peek()
-            if t is None:
-                raise ValueError("Parse error: unexpected EOF in entity block")
-            if t == "]":
-                self._next()
-                return
-            if t == "[":
-                self._next()
+        while self._peek() and self._peek() != "]":
+            if self._peek() == "[":
+                # 关系块：[REL:TAIL]
+                self._next()           # 消耗 '['
                 rt = self._next()
+                
+                # 校验关系 token 是否合法
                 if not rt or ":" not in rt:
-                    raise ValueError(f"Parse error: bad relation token: {rt}")
-                rel, tail = rt.split(":", 1)
-                self._expect("]")
-                edge = [mention.replace("_", " "), rel, tail.replace("_", " ")]
+                    return False
+                
+                parts = rt.split(":", 1)
+                if len(parts) != 2:
+                    return
+                rel, tail =parts[0].strip(), parts[1].strip()
+                edge = [mention, rel, tail]
                 if edge not in self.edges:
                     self.edges.append(edge)
-                continue
-
+                if self._peek() == "]":
+                    self._next()
+            # 容错：跳过意外 token
+            else: self._next()
+            
+        if self._peek() == "]":
             self._next()
 
     def parse(self):
-        while self._peek() is not None:
+        try:
             if self._peek() == "[":
                 self._next()
-                if self._peek() == "ROOT":
-                    self._next()
-                    break
-            else:
-                self._next()
-
-        if self._peek() is None:
-            return {"entities": {}, "relations": []}
-
-        while True:
-            t = self._peek()
-            if t is None:
-                raise ValueError("Parse error: unexpected EOF in ROOT block")
-            if t == "]":
-                self._next()
-                break
-            if t == "[":
-                self._next()
-                try:
+            # 解析 ROOT 内部的若干实体块，直到遇到对应的 ']'
+            while self._peek() and self._peek() != "]":
+                #print(self._peek())
+                if self._peek() == "[":
+                    self._next()  # 消耗实体块起始 '['
+                    # 尝试解析实体，如果不规范则安全跳过，避免死循环
                     self._parse_entity()
-                except Exception as e:
-                    while t != "]":
-                        self._next()
-                continue
-            self._next()
+                    '''if not self._parse_entity():
+                        # 核心修复：更新指针跳过当前出错的实体块，直到遇到右括号
+                        while self._peek() is not None and self._peek() != "]":
+                            self._next()
+                        if self._peek() == "]":
+                            self._next() # 消耗掉该错误实体的右括号'''
+                # 其他 token（例如多余空白）直接跳过
+                else:self._next()
 
-        return {"entities": self.nodes, "relations": list(self.edges)}
+            return {"entities": self.nodes, "relations": list(self.edges)}
+            
+        except Exception:
+            # 终极兜底：万一发生任何预料之外的严重错误（不 raise，按要求返回空结果）
+            return {"entities": {}, "relations": []}  
         

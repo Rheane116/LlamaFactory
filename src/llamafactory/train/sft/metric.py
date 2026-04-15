@@ -219,19 +219,19 @@ class BaseF1Metric:
         if not isinstance(ents, dict):
             return set(), set()
         ent_set = set()
-        for name, typ in ents.items():
-            span = name.replace("_", " ")
+        for span, typ in ents.items():
             ent_set.add((span, typ))
 
+        ent_span_list = [ent[0] for ent in ent_set]
         if not isinstance(rels, list):
             return ent_set, list()
         rel_set = set()
         for rel in rels:
             if not isinstance(rel, list) or len(rel) != 3:
                 continue
-            head, rel_type, tail = rel[0], rel[1], rel[2]
-            head_span = head.replace("_", " ")
-            tail_span = tail.replace("_", " ")
+            head_span, rel_type, tail_span = rel[0], rel[1], rel[2]
+            if head_span not in ent_span_list or tail_span not in ent_span_list:
+                continue
             head_type = ents.get(head_span, "UNKNOWN")
             tail_type = ents.get(tail_span, "UNKNOWN")
             rel_ = (head_span, head_type, rel_type, tail_span, tail_type)
@@ -382,7 +382,7 @@ class DfsF1Metric(BaseF1Metric):
     """
 
     def _parse_output(self, output_str: str) -> dict:
-        from .format_parser_copy import DfsParser
+        from .format_parser import DfsParser
 
         try:
             parser = DfsParser(output_str)

@@ -322,7 +322,8 @@ DATASET_2_EXAMPLE_sel = {
       (2)Annotation of entities and relations:
       G = {"entities": {"Mirjana Markovic": {"type": "PER"}, "power": {"type": "PER"}, "Milosevic": {"type": "PER"}, "their": {"type": "PER"}, "grandson": {"type": "PER"}, "nanny": {"type": "PER"}, "state": {"type": "GPE"}, "apartment": {"type": "FAC"}, "Belgrade": {"type": "GPE"}}, "relations": [["power", "PER-SOC", "Milosevic"], ["their", "PER-SOC", "grandson"], ["nanny", "ART", "apartment"], ["state", "ART", "apartment"], ["apartment", "PART-WHOLE", "Belgrade"]]}
 
-      (3)The serialized output is:[ROOT [Mirjana_Markovic:PER] [power:PER [PER-SOC:Milosevic]] [Milosevic:PER] [their:PER [PER-SOC:grandson]] [grandson:PER] [nanny:PER [ART:apartment]] [state:GPE [ART:apartment]] [apartment:FAC [PART-WHOLE:Belgrade]] [Belgrade:GPE]]
+      (3)The serialized output is:
+      [ROOT [Mirjana_Markovic:PER] [power:PER [PER-SOC:Milosevic]] [Milosevic:PER] [their:PER [PER-SOC:grandson]] [grandson:PER] [nanny:PER [ART:apartment]] [state:GPE [ART:apartment]] [apartment:FAC [PART-WHOLE:Belgrade]] [Belgrade:GPE]]
         
       # 4.Demonstrations of input and output
 

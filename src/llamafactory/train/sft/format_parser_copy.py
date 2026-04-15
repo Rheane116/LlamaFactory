@@ -1,4 +1,4 @@
-vimport json
+import json
 import re
 
 
@@ -41,7 +41,8 @@ class JsonBaseParser:
 
     def parse(self):
         try:
-          ans_fixed = self._fix_json(self.ans)
+          # ans_fixed = self._fix_json(self.ans)
+          ans_fixed = self.ans
           json_item = json.loads(ans_fixed)
         except Exception as e:
           print(f"Invalid Json Format: {e}")

@@ -51,6 +51,9 @@ def run_sft(
     # sys.exit("DEBUG: Reached run_sft! Exiting early to check for output.")
     tokenizer_module = load_tokenizer(model_args)
     tokenizer = tokenizer_module["tokenizer"]
+
+    print(training_args.seed)
+    
     import os
     debug_log_dir = "/data/wengxiaolong/zhouyuanyun/LlamaFactory/tmp"
     os.makedirs(debug_log_dir, exist_ok=True)
@@ -61,6 +64,8 @@ def run_sft(
     template = get_template_and_fix_tokenizer(tokenizer, data_args)
     dataset_module = get_dataset(template, model_args, data_args, training_args, stage="sft", **tokenizer_module)
     model = load_model(tokenizer, model_args, finetuning_args, training_args.do_train)
+
+    print(f"\n--------------DEBUG: eval_dataset:{dataset_module['eval_dataset']}")
 
     ref_model = None
     if finetuning_args.use_asft_loss:

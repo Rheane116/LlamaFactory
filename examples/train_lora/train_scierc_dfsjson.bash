@@ -1,1 +1,0 @@
-CUDA_VISIBLE_DEVICES=0 ALLOW_EXTRA_ARGS=true llamafactory-cli train examples/train_lora/scierc_dfsjson_qwen2.5.yaml >  /data/wengxiaolong/zhouyuanyun/LlamaFactory/logs/train_scierc_dfsjson_2.log 2>&1

@@ -1,0 +1,1 @@
+CUDA_VISIBLE_DEVICES=0 ALLOW_EXTRA_ARGS=true llamafactory-cli train examples/train_lora/conll04/infer/infer_conll04_json_qwen2.5.yaml > ./tmp.logs 2>&1

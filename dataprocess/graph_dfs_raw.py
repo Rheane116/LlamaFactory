@@ -13,7 +13,7 @@ def get_text_order(main_str, sub_str):
     :param sub_str: 子串（需全字匹配，可包含空格、单引号等特殊字符）
     :return: int，第一个匹配的起始索引；无匹配返回 -1
     """
-    sub_str = sub_str.replace("_", " ")
+    #sub_str = sub_str.replace("_", " ")
     # 1. 转义子串中的正则特殊字符（如'、.、*等），确保按字面量匹配
     escaped_sub = re.escape(sub_str)
     
@@ -85,18 +85,18 @@ def serialize_graph(graph, text): # 增加 text 参数
     def expand(node):
         has_expanded.add(node)
         typ = nodes[node]
-        parts = ["[", f"{node.replace(' ', '_')}:{typ}"]
+        parts = ["[", f"{node}:{typ}"]
 
         # 核心修改：分支展开的顺序也要符合文本序
         neighbors = adj.get(node, [])
         sorted_neighbors = sorted(neighbors, key=lambda x: (get_text_order(text, x[1]), x[0]))
 
         for rel, tgt in sorted_neighbors:
-            parts.append(f" {rel} ")
+            parts.append(f"|{rel}")
             if (node, rel, tgt) in tree_edges and tgt not in has_expanded:
                 parts.append(expand(tgt))
             else:
-                parts.append(f"[{tgt.replace(' ', '_')}:REF]")
+                parts.append(f"[{tgt}:REF]")
         
         parts.append("]")
         return "".join(parts)
@@ -106,7 +106,7 @@ def serialize_graph(graph, text): # 增加 text 参数
     all_nodes_sorted = sorted(nodes.keys(), key=lambda n: get_text_order(text, n))
     for n in all_nodes_sorted:
         if n not in has_expanded:
-            if body_parts: body_parts.append(" ")
+
             body_parts.append(expand(n))
 
     return f"[{''.join(body_parts)}]"
@@ -119,7 +119,7 @@ def serialize_graph(graph, text): # 增加 text 参数
 #SPECIAL_TOKENS = {"[", "]", ":"}
 
 # \s 代表任意空白符（空格、制表符、换行等），[^...] 是「非匹配」，+ 表示「至少一个」
-TOKEN_RE = re.compile(r'\[|\]|[^\s\[\]]+')
+TOKEN_RE = re.compile(r'\[|\]|[^\|\[\]]+')
 #s = "[ROOT [Moscow:loc] [Leningrad:loc] [Armenian:other] [Yerevan:loc] [U.S.:loc] [British:other] [Bolshoi Ballet:org orgbased_in [Moscow:REF]] [Kirov_Ballet:org orgbased_in [Leningrad:REF]] [June_Anderson:peop live_in [U.S.:REF]] [Carol_Vaness:peop live_in [U.S.:REF]]]"
 #print(TOKEN_RE.findall(s))
 
@@ -140,24 +140,36 @@ class Parser_dfs:
         return self.tokens[self.i] if self.i < len(self.tokens) else None
 
     def parse_node(self):
-        tok = self.next() # ID:TYPE
-        try:
-            mention, typ = tok.split(":", 1)
-        except Exception as e:
-            print(f"错误：{e}")
-            return "ERROR"
-
+        #if self.peek() == "[":
+        #    self.next()
+        tok = self.next()
+      
+        parts = tok.rsplit(":", 1)
+        #print(parts)
+        if len(parts) != 2:
+            return False
+        else:
+            mention = parts[0].strip()
+            typ = parts[-1].strip()
+            
         if typ != "REF":
-            self.nodes[mention.replace('_', ' ')] = typ
+            self.nodes[mention] = typ
         
         # 严格检查：只要后面不是 ')'，就说明有 [关系 (子节点)] 结构
         while self.peek() and self.peek() != "]":
-            rel = self.next()
+            rel = self.next().strip()
             if self.peek() == "[":
                 self.next() # 消耗 '('
                 child = self.parse_node()
-                if [mention, rel, child] not in self.edges and mention.replace('_', ' ') in self.nodes.keys() and child.replace('_', ' ') in self.nodes.keys():
-                    self.edges.append([mention.replace('_', ' '), rel, child.replace('_', ' ')]) # 存入 set
+                '''if not child:
+                    # 核心修复：更新指针跳过当前出错的实体块，直到遇到右括号
+                    while self.peek() is not None and self.peek() != "]":
+                        self.next()
+                    if self.peek() == "]":
+                        self.next() # 消耗掉该错误实体的右括号
+                    return False'''
+                if [mention, rel, child] not in self.edges and mention in self.nodes.keys() and child in self.nodes.keys():
+                    self.edges.append([mention, rel, child]) # 存入 set
         
         # 消耗自己的 ']'
         if self.peek() == "]":
@@ -165,18 +177,19 @@ class Parser_dfs:
         return mention
 
     def parse(self):
-        while self.peek():
-            t = self.next()
-            if t == "[" and self.peek() == "ROOT":
-                self.next() # 消耗 ROOT
-                while self.peek() and self.peek() != "]":
-                    if self.peek() == "[":
-                        self.next() # 消耗顶级节点的 '('
-                        self.parse_node()
-                    else: self.next() # 跳过空格
-                # 消耗 ROOT 的 ']'
-                if self.peek() == "]":
-                    self.next()
+        if self.peek() == "[":
+            self.next()
+        while self.peek() and self.peek() != "]":
+            if self.peek() == "[":
+                self.next() # 消耗顶级节点的 '('
+                self.parse_node()
+                '''if not self.parse_node():
+                    # 核心修复：更新指针跳过当前出错的实体块，直到遇到右括号
+                    while self.peek() is not None and self.peek() != "]":
+                        self.next()
+                    if self.peek() == "]":
+                        self.next() # 消耗掉该错误实体的右括号'''
+            else: self.next() # 跳过
         return {"entities": self.nodes, "relations": list(self.edges)}
 
 # =============== VALIDATION ==================
@@ -205,7 +218,7 @@ if __name__ == "__main__":
     split = args[2]'''
     from tqdm import tqdm
 
-    '''datasets = ["conll04", "scierc", "ace2005"]
+    datasets = ["ace2005"]
     splits = ["train", "dev", "test"]
 
     for dataset in datasets:
@@ -215,7 +228,7 @@ if __name__ == "__main__":
             for i, data in tqdm(enumerate(datalist)):
                 print(f"Processing {i}th data...")
                 if len(data['sentences']) < 1 or len(data['entities']) < 1:
-                    seq = "[ROOT]"
+                    seq = "[]"
                 else:
                     text = data['sentences']
                     G = {"entities": data['entities'], "relations": data['relations']}
@@ -230,14 +243,14 @@ if __name__ == "__main__":
                     if_match = verify(G, G2)
                     if not if_match:
                         print("Not match!!!!")
-                        break
+                        sys.exit(0)
                     print("--------------------------------")
                 data_new = copy.deepcopy(data)
                 data_new["serialized"] = seq
                 datalist_new.append(data_new)
-            write_jsonl_w(f"data_raw/{dataset}/{split}_graph_serialized_dfs.jsonl", datalist_new)'''
+            write_jsonl_w(f"data_raw/{dataset}/{split}_graph_serialized_dfs.jsonl", datalist_new)
 
-    text = "<entity_span_1> <entity_span_2> <entity_span_3> <entity_span_4> <entity_span_5> ."
+    '''text = "<entity_span_1> <entity_span_2> <entity_span_3> <entity_span_4> <entity_span_5> ."
 
     G = {
     "entities": {
@@ -264,4 +277,4 @@ if __name__ == "__main__":
     if is_perfect:
         print("SUCCESS: The graph was recovered perfectly!")
     else:
-        print("FAILURE: There are discrepancies between the graphs.") 
+        print("FAILURE: There are discrepancies between the graphs.") '''

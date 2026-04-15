@@ -1,0 +1,1 @@
+CUDA_VISIBLE_DEVICES=1 ALLOW_EXTRA_ARGS=true llamafactory-cli train examples/train_lora/scierc/sscierc_jsontype_qwen2.5.yaml > /data/wengxiaolong/zhouyuanyun/LlamaFactory/logs/train_scierc_jsontype.log 2>&1

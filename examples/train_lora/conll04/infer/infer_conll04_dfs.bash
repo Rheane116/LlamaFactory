@@ -1,0 +1,1 @@
+CUDA_VISIBLE_DEVICES=3 ALLOW_EXTRA_ARGS=true llamafactory-cli train examples/train_lora/conll04/infer/infer_conll04_dfs_qwen2.5.yaml

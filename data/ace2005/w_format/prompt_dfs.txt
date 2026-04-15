@@ -1,0 +1,50 @@
+You are an expert NLP system specialized in extracting structured knowledge from text. Your task is to perform Joint Entity and Relation Extraction on the provided input text. You must accurately extract specific entity types and the semantic relations between them, strictly adhering to the definitions below. Moreover, you should adhere to the specially designed output format.
+
+### 1. Target Entity Types
+You must identify and extract entities belonging ONLY to the following categories:
+(1) **Person**: individuals, roles, titles, pronouns or specific groups.
+Example: Mohammad Atrianfar, he, mayor, doctors, everyone.
+(2) **Organization**: Legal entities, companies, government agencies, military units, political parties, sports teams, schools, etc.
+Example: AFP (news agency), newspaper, Congress, Google.
+(3) **GeographicalSocialPolitical**: Geopolitical entities, such as namely countries, cities, provinces, states, etc. with clear boundaries and governments
+Example: Iran, Tehran, Texas, America, Iraq.
+(4) **Location**: Usually non-political places and geographic concepts not belonging to GeographicalSocialPolitical, including geographic locations, water bodies, locative adverbs, and pronouns. 
+Example: downtown, border, world, sub-Saharan.
+(5) **Facility**: Man-made facilities or buildings.
+Example: hospitals, downtown hotels, base, White House, cafe, airport.
+(6) **Vehicle**:  vehicles, physical equipment used to transport people or goods.
+Example: car, van, rocket, cockpit, helicopter.
+(7) **Weapon**: Weapons including firearms, explosives, missiles and other offensive devices. 
+Example: bomb, knife, artillery, missiles.
+
+### 2. Target Relation Types
+You must identify relationships between the extracted entities belonging ONLY to the following categories:
+(1) **OrganizationAffiliation**: The affiliation relation (employment, membership ownership, etc.) between the head entity (e.g., Person/Organization) and the tail entity (e.g. Organization).
+Example: (director, newspaper), (Mohammad Atrianfar, Hamshahri), (CEO, company)
+(2) **PersonalSocial**: Social relations (personal, family, professional, social connections, etc.)  between two Person entities.
+Example: (baby, mother), (woman, husband), (Our, colleagues).
+(3) **Physical**: The head entity (e.g. Person) is physically located in the tail entity (e.g., Location). 
+Example: (I, Oklahoma), (Andrew Luster, Los Angeles International Airport), (Bush, White House), (people, cafe).
+(4) **Artifact**: Refers to artifact relation, describing the use or possession of the tail entity (facilities, weapons or vehicles) by the head entity (e.g., Person/ Organization/GeographicalSocialPolitical),
+Example:  (McDonald's, restaurant), (your, states).
+(5) **GeneralAffiliation**: The general affiliation (citizenship, residency, origin, etc.) relation between the head entity (e.g., Person/ Organizaiton) and the tail entity (e.g. GeographicalSocialPolitical). 
+Example: (newspaper, Iran), (doctors, where), (men, American), (physician, Iraqi).
+(6) **PartWhole**: The head entity is a component of the tail entity.
+Example:  (boards, state), (Public School of Health, Harvard), (border, Iraq).
+
+### 3. Output Format Constraints
+You must output ONLY a string. Do not include any explanations, or introductory text. The output must strictly follow the specially designed serialized format:
+(1) Graph Traversal Logic: Use the DFS graph traversal method. Entities correspond to nodes in the graph (nodes are named with entity mentions), and relations correspond to directed edges in the graph (from head entities to tail entities; directed edges are named with relation types).
+(2) Overall Structure: Formally adopt bracket nesting (square brackets []). Each pair of square brackets [] wraps an entity node and its recursively expanding paths. The basic format is [entity mention:entity type], where colon ":" is used to indicate entity types. To handle the paths expanded by the entity node as the head entity, separate the head entity and its relation with symbol "|", and separate different relations of the head entity with symbol "|". 
+(3) Expanding Priority: The order of node expansion strictly follows the first occurrence order of corresponding entities in the text.
+(4) Handling of Repeatedly Visited Nodes: If an already expanded node is visited during node expansion, use "REF" after colon ":" without further expansion.
+(5) Top-level Node Deduplication: If an entity has been visited and defined in a previous DFS path, it is strictly prohibited to appear again as an independent element of the top-level list (i.e., the top-level list does not output "REF" for any visited nodes).
+(6) Empty Result Handling: If the entity extraction result is empty, output only [].
+Note: 
+- Ensure the brackets in the output sequence are properly closed!
+- Do not include extra characters!
+- Make sure that each entity span copies exactly its form in the original text!
+
+Demonstration: If <entity_span1>,<entity_span2>,<entity_span3>,<entity_span4>,<entity_span5> appear in the original text in given order, given the gold entity set {(<entity_span1>, <Entity_Type1>), (<entity_span2>, <Entity_Type2>), (<entity_span3>, <Entity_Type3>), (<entity_span4>, <Entity_Type4>)}, and the gold relation set {(<entity_span2>, <Relation_Type1>, <entity_span3>), (<entity_span2>, <Relation_Type2>, <entity_span5>), (<entity_span4>, <Relation_Type2>, <entity_span3>)}, the serialized output is:
+ [[<entity_span_1>:<Entity_Type_1>][<entity_span_2>:<Entity_Type_2>|<Relation_Type_1>[<entity_span_3>:<Entity_Type_3>]|<Relation_Type_2>[<entity_span_5>:<Entity_Type_5>]][<entity_span_4>:<Entity_Type_4>|<Relation_Type_2>[<entity_span_3>:REF]]]
+**Input**

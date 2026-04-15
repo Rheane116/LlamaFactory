@@ -1,5 +1,33 @@
 [
   {
+    "sent_id": 0,
+    "sentences": "CNN_IP_20030329 .1600.00 -6",
+    "entities": {},
+    "relations": [],
+    "serialized": []
+  },
+  {
+    "sent_id": 1,
+    "sentences": "STORY",
+    "entities": {},
+    "relations": [],
+    "serialized": []
+  },
+  {
+    "sent_id": 2,
+    "sentences": "2003-03-29T16 :00:00 -05:00",
+    "entities": {},
+    "relations": [],
+    "serialized": []
+  },
+  {
+    "sent_id": 3,
+    "sentences": "New Explosions in Mosul , Baghdad",
+    "entities": {},
+    "relations": [],
+    "serialized": []
+  },
+  {
     "sent_id": 4,
     "sentences": "WOODRUFF",
     "entities": {
@@ -12,6 +40,13 @@
         "type": "Person"
       }
     ]
+  },
+  {
+    "sent_id": 5,
+    "sentences": "That report filed just a short time ago .",
+    "entities": {},
+    "relations": [],
+    "serialized": []
   },
   {
     "sent_id": 6,
@@ -254,6 +289,13 @@
         "type": "Person"
       }
     ]
+  },
+  {
+    "sent_id": 11,
+    "sentences": "Right .",
+    "entities": {},
+    "relations": [],
+    "serialized": []
   },
   {
     "sent_id": 12,
@@ -562,6 +604,13 @@
     ]
   },
   {
+    "sent_id": 21,
+    "sentences": "Absolutely .",
+    "entities": {},
+    "relations": [],
+    "serialized": []
+  },
+  {
     "sent_id": 22,
     "sentences": "One of the things I think we 're likely to see is that the Iraqis are going to have a tougher time adapting than U.S . forces are .",
     "entities": {
@@ -642,6 +691,13 @@
         ]
       }
     ]
+  },
+  {
+    "sent_id": 24,
+    "sentences": "It does n't come from the ground up .",
+    "entities": {},
+    "relations": [],
+    "serialized": []
   },
   {
     "sent_id": 25,
@@ -1052,6 +1108,13 @@
     ]
   },
   {
+    "sent_id": 36,
+    "sentences": "All right .",
+    "entities": {},
+    "relations": [],
+    "serialized": []
+  },
+  {
     "sent_id": 37,
     "sentences": "Well , this is something that we 've been trying to get a grip on for years , exactly what the Iraqi people feel and also that I think the best evidence that we had before the attack began was that Iraqis do , they despise .",
     "entities": {
@@ -1264,6 +1327,13 @@
     ]
   },
   {
+    "sent_id": 45,
+    "sentences": "Which raises questions going forward .",
+    "entities": {},
+    "relations": [],
+    "serialized": []
+  },
+  {
     "sent_id": 46,
     "sentences": "One last thing , Ken Pollack I want to ask about this British officials saying that they have information that Saddam Hussein has fired his air defense chief .",
     "entities": {
@@ -1346,6 +1416,13 @@
     ]
   },
   {
+    "sent_id": 47,
+    "sentences": "What 's the significance of that ?",
+    "entities": {},
+    "relations": [],
+    "serialized": []
+  },
+  {
     "sent_id": 48,
     "sentences": "POLLACK",
     "entities": {
@@ -1420,6 +1497,13 @@
         "type": "Person"
       }
     ]
+  },
+  {
+    "sent_id": 51,
+    "sentences": "( INAUDIBLE )",
+    "entities": {},
+    "relations": [],
+    "serialized": []
   },
   {
     "sent_id": 52,
@@ -1523,6 +1607,34 @@
     ]
   },
   {
+    "sent_id": 55,
+    "sentences": "AGGRESSIVEVOICEDAILY_20050124 .1354",
+    "entities": {},
+    "relations": [],
+    "serialized": []
+  },
+  {
+    "sent_id": 56,
+    "sentences": "WEB TEXT",
+    "entities": {},
+    "relations": [],
+    "serialized": []
+  },
+  {
+    "sent_id": 57,
+    "sentences": "2005-01-24T13 :54:00",
+    "entities": {},
+    "relations": [],
+    "serialized": []
+  },
+  {
+    "sent_id": 58,
+    "sentences": "March Against Death",
+    "entities": {},
+    "relations": [],
+    "serialized": []
+  },
+  {
     "sent_id": 59,
     "sentences": "Scott",
     "entities": {
@@ -1535,6 +1647,13 @@
         "type": "Person"
       }
     ]
+  },
+  {
+    "sent_id": 60,
+    "sentences": "2005-01-24T13 :54:00",
+    "entities": {},
+    "relations": [],
+    "serialized": []
   },
   {
     "sent_id": 61,
@@ -1669,6 +1788,34 @@
         "type": "Person"
       }
     ]
+  },
+  {
+    "sent_id": 66,
+    "sentences": "AFP_ENG_20030502 .0614",
+    "entities": {},
+    "relations": [],
+    "serialized": []
+  },
+  {
+    "sent_id": 67,
+    "sentences": "NEWS STORY",
+    "entities": {},
+    "relations": [],
+    "serialized": []
+  },
+  {
+    "sent_id": 68,
+    "sentences": "20030502",
+    "entities": {},
+    "relations": [],
+    "serialized": []
+  },
+  {
+    "sent_id": 69,
+    "sentences": "Troubled French media group Vivendi set to sell theme parks : report",
+    "entities": {},
+    "relations": [],
+    "serialized": []
   },
   {
     "sent_id": 70,
@@ -2360,6 +2507,41 @@
         "type": "GeographicalSocialPolitical"
       }
     ]
+  },
+  {
+    "sent_id": 82,
+    "sentences": "APW_ENG_20030602 .0037",
+    "entities": {},
+    "relations": [],
+    "serialized": []
+  },
+  {
+    "sent_id": 83,
+    "sentences": "NEWS STORY",
+    "entities": {},
+    "relations": [],
+    "serialized": []
+  },
+  {
+    "sent_id": 84,
+    "sentences": "20030602",
+    "entities": {},
+    "relations": [],
+    "serialized": []
+  },
+  {
+    "sent_id": 85,
+    "sentences": "U.S. lawmaker : North Korea says it will produce more nukes",
+    "entities": {},
+    "relations": [],
+    "serialized": []
+  },
+  {
+    "sent_id": 86,
+    "sentences": "SEOUL , South Korea ( AP )",
+    "entities": {},
+    "relations": [],
+    "serialized": []
   },
   {
     "sent_id": 87,
@@ -4129,6 +4311,27 @@
     ]
   },
   {
+    "sent_id": 125,
+    "sentences": "CNN_ENG_20030516_123543 .8",
+    "entities": {},
+    "relations": [],
+    "serialized": []
+  },
+  {
+    "sent_id": 126,
+    "sentences": "NEWS STORY",
+    "entities": {},
+    "relations": [],
+    "serialized": []
+  },
+  {
+    "sent_id": 127,
+    "sentences": "2003-05-16 13:54:48",
+    "entities": {},
+    "relations": [],
+    "serialized": []
+  },
+  {
     "sent_id": 128,
     "sentences": "he went to scapegoat at breath-taking speed .",
     "entities": {
@@ -4295,6 +4498,13 @@
     ]
   },
   {
+    "sent_id": 134,
+    "sentences": "that is right .",
+    "entities": {},
+    "relations": [],
+    "serialized": []
+  },
+  {
     "sent_id": 135,
     "sentences": "here in northern virginia , a few miles from aol headquarters .",
     "entities": {
@@ -4431,6 +4641,13 @@
     ]
   },
   {
+    "sent_id": 138,
+    "sentences": "this is a stock down more than 70 % over the last three years .",
+    "entities": {},
+    "relations": [],
+    "serialized": []
+  },
+  {
     "sent_id": 139,
     "sentences": "now , we spoke to a number of individual investors who voiced their con",
     "entities": {
@@ -4460,6 +4677,41 @@
     ]
   },
   {
+    "sent_id": 140,
+    "sentences": "2003-05-16 13:55:39",
+    "entities": {},
+    "relations": [],
+    "serialized": []
+  },
+  {
+    "sent_id": 141,
+    "sentences": "MARKETVIEW_20041213 .0722",
+    "entities": {},
+    "relations": [],
+    "serialized": []
+  },
+  {
+    "sent_id": 142,
+    "sentences": "WEB TEXT",
+    "entities": {},
+    "relations": [],
+    "serialized": []
+  },
+  {
+    "sent_id": 143,
+    "sentences": "2004-12-13T07 :22:00",
+    "entities": {},
+    "relations": [],
+    "serialized": []
+  },
+  {
+    "sent_id": 144,
+    "sentences": "They 're Kidding , Right ?",
+    "entities": {},
+    "relations": [],
+    "serialized": []
+  },
+  {
     "sent_id": 145,
     "sentences": "Byrne",
     "entities": {
@@ -4472,6 +4724,13 @@
         "type": "Person"
       }
     ]
+  },
+  {
+    "sent_id": 146,
+    "sentences": "2004-12-13T07 :22:00",
+    "entities": {},
+    "relations": [],
+    "serialized": []
   },
   {
     "sent_id": 147,
@@ -4549,6 +4808,13 @@
     ]
   },
   {
+    "sent_id": 149,
+    "sentences": "It 's been a pretty grueling fight ( was it worth it ?",
+    "entities": {},
+    "relations": [],
+    "serialized": []
+  },
+  {
     "sent_id": 150,
     "sentences": "How much of Peoplesoft 's most valuable -- human -- resources will walk out the door the day their options vest ? )",
     "entities": {
@@ -4597,6 +4863,13 @@
         "type": "Person"
       }
     ]
+  },
+  {
+    "sent_id": 152,
+    "sentences": "So it 's over .",
+    "entities": {},
+    "relations": [],
+    "serialized": []
   },
   {
     "sent_id": 153,
@@ -4767,6 +5040,27 @@
         "type": "Person"
       }
     ]
+  },
+  {
+    "sent_id": 158,
+    "sentences": "CNN_ENG_20030501_160459 .0",
+    "entities": {},
+    "relations": [],
+    "serialized": []
+  },
+  {
+    "sent_id": 159,
+    "sentences": "NEWS STORY",
+    "entities": {},
+    "relations": [],
+    "serialized": []
+  },
+  {
+    "sent_id": 160,
+    "sentences": "2003-05-01 17:05:56",
+    "entities": {},
+    "relations": [],
+    "serialized": []
   },
   {
     "sent_id": 161,
@@ -5039,6 +5333,41 @@
     ]
   },
   {
+    "sent_id": 168,
+    "sentences": "2003-05-01 17:07:02",
+    "entities": {},
+    "relations": [],
+    "serialized": []
+  },
+  {
+    "sent_id": 169,
+    "sentences": "MARKETVIEW_20050210 .2138",
+    "entities": {},
+    "relations": [],
+    "serialized": []
+  },
+  {
+    "sent_id": 170,
+    "sentences": "WEB TEXT",
+    "entities": {},
+    "relations": [],
+    "serialized": []
+  },
+  {
+    "sent_id": 171,
+    "sentences": "2005-02-10T21 :38:00",
+    "entities": {},
+    "relations": [],
+    "serialized": []
+  },
+  {
+    "sent_id": 172,
+    "sentences": "Out come the long knives",
+    "entities": {},
+    "relations": [],
+    "serialized": []
+  },
+  {
     "sent_id": 173,
     "sentences": "Byrne",
     "entities": {
@@ -5051,6 +5380,13 @@
         "type": "Person"
       }
     ]
+  },
+  {
+    "sent_id": 174,
+    "sentences": "2005-02-10T21 :38:00",
+    "entities": {},
+    "relations": [],
+    "serialized": []
   },
   {
     "sent_id": 175,
@@ -5216,6 +5552,13 @@
     ]
   },
   {
+    "sent_id": 178,
+    "sentences": "It just , well , happened .",
+    "entities": {},
+    "relations": [],
+    "serialized": []
+  },
+  {
     "sent_id": 179,
     "sentences": "So , right , Carly was a bad manager , and she eventually got what she deserved , but she is n't evil incarnate .",
     "entities": {
@@ -5240,6 +5583,34 @@
     ]
   },
   {
+    "sent_id": 180,
+    "sentences": "MARKETVIEW_20050226 .1444",
+    "entities": {},
+    "relations": [],
+    "serialized": []
+  },
+  {
+    "sent_id": 181,
+    "sentences": "WEB TEXT",
+    "entities": {},
+    "relations": [],
+    "serialized": []
+  },
+  {
+    "sent_id": 182,
+    "sentences": "2005-02-26T14 :44:00",
+    "entities": {},
+    "relations": [],
+    "serialized": []
+  },
+  {
+    "sent_id": 183,
+    "sentences": "Southern states considering higher cigarette taxes ?",
+    "entities": {},
+    "relations": [],
+    "serialized": []
+  },
+  {
     "sent_id": 184,
     "sentences": "Byrne",
     "entities": {
@@ -5252,6 +5623,13 @@
         "type": "Person"
       }
     ]
+  },
+  {
+    "sent_id": 185,
+    "sentences": "2005-02-26T14 :44:00",
+    "entities": {},
+    "relations": [],
+    "serialized": []
   },
   {
     "sent_id": 186,
@@ -5408,6 +5786,34 @@
     ]
   },
   {
+    "sent_id": 192,
+    "sentences": "In short : Good plan .",
+    "entities": {},
+    "relations": [],
+    "serialized": []
+  },
+  {
+    "sent_id": 193,
+    "sentences": "CNN_ENG_20030527_195948 .3",
+    "entities": {},
+    "relations": [],
+    "serialized": []
+  },
+  {
+    "sent_id": 194,
+    "sentences": "NEWS STORY",
+    "entities": {},
+    "relations": [],
+    "serialized": []
+  },
+  {
+    "sent_id": 195,
+    "sentences": "2003-05-27 20:08:39",
+    "entities": {},
+    "relations": [],
+    "serialized": []
+  },
+  {
     "sent_id": 196,
     "sentences": "first an update on a long running air safety investigation a year and a half near an airline crashed near new york 's kennedy airport there is controversy whether the disaster could have been averted .",
     "entities": {
@@ -5461,6 +5867,13 @@
         "type": "Vehicle"
       }
     ]
+  },
+  {
+    "sent_id": 198,
+    "sentences": "hard to forget those images .",
+    "entities": {},
+    "relations": [],
+    "serialized": []
   },
   {
     "sent_id": 199,
@@ -5695,6 +6108,34 @@
     ]
   },
   {
+    "sent_id": 209,
+    "sentences": "2003-05-27 20:09:43",
+    "entities": {},
+    "relations": [],
+    "serialized": []
+  },
+  {
+    "sent_id": 210,
+    "sentences": "CNN_ENG_20030401_073033 .14",
+    "entities": {},
+    "relations": [],
+    "serialized": []
+  },
+  {
+    "sent_id": 211,
+    "sentences": "NEWS STORY",
+    "entities": {},
+    "relations": [],
+    "serialized": []
+  },
+  {
+    "sent_id": 212,
+    "sentences": "2003-04-01 08:59:49",
+    "entities": {},
+    "relations": [],
+    "serialized": []
+  },
+  {
     "sent_id": 213,
     "sentences": "meanwhile , as war is fought a world away , federal , state and local authorities face their own battle keeping americans safe at home .",
     "entities": {
@@ -5870,6 +6311,13 @@
     ]
   },
   {
+    "sent_id": 219,
+    "sentences": "congratulations .",
+    "entities": {},
+    "relations": [],
+    "serialized": []
+  },
+  {
     "sent_id": 220,
     "sentences": "thank you .",
     "entities": {
@@ -5882,6 +6330,20 @@
         "type": "Person"
       }
     ]
+  },
+  {
+    "sent_id": 221,
+    "sentences": "what comes out yesterday , on two best-sellers list .",
+    "entities": {},
+    "relations": [],
+    "serialized": []
+  },
+  {
+    "sent_id": 222,
+    "sentences": "so far , so good .",
+    "entities": {},
+    "relations": [],
+    "serialized": []
   },
   {
     "sent_id": 223,
@@ -6182,6 +6644,48 @@
         "type": "GeographicalSocialPolitical"
       }
     ]
+  },
+  {
+    "sent_id": 237,
+    "sentences": "can the",
+    "entities": {},
+    "relations": [],
+    "serialized": []
+  },
+  {
+    "sent_id": 238,
+    "sentences": "2003-04-01 09:01:28",
+    "entities": {},
+    "relations": [],
+    "serialized": []
+  },
+  {
+    "sent_id": 239,
+    "sentences": "APW_ENG_20030324 .0768",
+    "entities": {},
+    "relations": [],
+    "serialized": []
+  },
+  {
+    "sent_id": 240,
+    "sentences": "NEWS STORY",
+    "entities": {},
+    "relations": [],
+    "serialized": []
+  },
+  {
+    "sent_id": 241,
+    "sentences": "20030324",
+    "entities": {},
+    "relations": [],
+    "serialized": []
+  },
+  {
+    "sent_id": 242,
+    "sentences": "Canadian premier fined for drunken driving on Hawaiian vacation",
+    "entities": {},
+    "relations": [],
+    "serialized": []
   },
   {
     "sent_id": 243,
@@ -6607,6 +7111,27 @@
     ]
   },
   {
+    "sent_id": 257,
+    "sentences": "CNN_ENG_20030624_153103 .16",
+    "entities": {},
+    "relations": [],
+    "serialized": []
+  },
+  {
+    "sent_id": 258,
+    "sentences": "NEWS STORY",
+    "entities": {},
+    "relations": [],
+    "serialized": []
+  },
+  {
+    "sent_id": 259,
+    "sentences": "2003-06-24 15:48:54",
+    "entities": {},
+    "relations": [],
+    "serialized": []
+  },
+  {
     "sent_id": 260,
     "sentences": "we 're told the russian president vladimir putin was greeted by prince charles as he arrived in london today .",
     "entities": {
@@ -6699,6 +7224,13 @@
         "type": "Person"
       }
     ]
+  },
+  {
+    "sent_id": 262,
+    "sentences": "part of the formalities of a royal reception such as this .",
+    "entities": {},
+    "relations": [],
+    "serialized": []
   },
   {
     "sent_id": 263,
@@ -7044,6 +7576,13 @@
     ]
   },
   {
+    "sent_id": 273,
+    "sentences": "same type of fan fare and pomp to take place .",
+    "entities": {},
+    "relations": [],
+    "serialized": []
+  },
+  {
     "sent_id": 274,
     "sentences": "walter rodgers , let ' s talk about if we could , the guest list .",
     "entities": {
@@ -7114,6 +7653,48 @@
         "type": "Person"
       }
     ]
+  },
+  {
+    "sent_id": 277,
+    "sentences": "2003-06-24 15:50:58",
+    "entities": {},
+    "relations": [],
+    "serialized": []
+  },
+  {
+    "sent_id": 278,
+    "sentences": "CNN_IP_20030404 .1600.00 -1",
+    "entities": {},
+    "relations": [],
+    "serialized": []
+  },
+  {
+    "sent_id": 279,
+    "sentences": "STORY",
+    "entities": {},
+    "relations": [],
+    "serialized": []
+  },
+  {
+    "sent_id": 280,
+    "sentences": "2003-04-04T16 :00:00 -05:00",
+    "entities": {},
+    "relations": [],
+    "serialized": []
+  },
+  {
+    "sent_id": 281,
+    "sentences": "Iraq Warns of Unconventional Counter Attack Tonight ; Saddam Sends",
+    "entities": {},
+    "relations": [],
+    "serialized": []
+  },
+  {
+    "sent_id": 282,
+    "sentences": "Message Suggesting he is Alive , Still Defiant",
+    "entities": {},
+    "relations": [],
+    "serialized": []
   },
   {
     "sent_id": 283,
@@ -7568,6 +8149,13 @@
         "type": "Facility"
       }
     ]
+  },
+  {
+    "sent_id": 294,
+    "sentences": "( BEGIN VIDEOTAPE )",
+    "entities": {},
+    "relations": [],
+    "serialized": []
   },
   {
     "sent_id": 295,
@@ -8456,6 +9044,34 @@
     ]
   },
   {
+    "sent_id": 318,
+    "sentences": "( END VIDEOTAPE )",
+    "entities": {},
+    "relations": [],
+    "serialized": []
+  },
+  {
+    "sent_id": 319,
+    "sentences": "CNN_ENG_20030415_173752 .0",
+    "entities": {},
+    "relations": [],
+    "serialized": []
+  },
+  {
+    "sent_id": 320,
+    "sentences": "NEWS STORY",
+    "entities": {},
+    "relations": [],
+    "serialized": []
+  },
+  {
+    "sent_id": 321,
+    "sentences": "2003-04-15 17:35:05",
+    "entities": {},
+    "relations": [],
+    "serialized": []
+  },
+  {
     "sent_id": 322,
     "sentences": "spy to help free private jessica lynch .",
     "entities": {
@@ -8798,6 +9414,34 @@
     ]
   },
   {
+    "sent_id": 331,
+    "sentences": "2003-04-15 17:36:17",
+    "entities": {},
+    "relations": [],
+    "serialized": []
+  },
+  {
+    "sent_id": 332,
+    "sentences": "CNN_ENG_20030416_100042 .7",
+    "entities": {},
+    "relations": [],
+    "serialized": []
+  },
+  {
+    "sent_id": 333,
+    "sentences": "NEWS STORY",
+    "entities": {},
+    "relations": [],
+    "serialized": []
+  },
+  {
+    "sent_id": 334,
+    "sentences": "2003-04-16 11:19:44",
+    "entities": {},
+    "relations": [],
+    "serialized": []
+  },
+  {
     "sent_id": 335,
     "sentences": "all one of the many young faces that bear the heavy mark of war .",
     "entities": {
@@ -9085,6 +9729,76 @@
     ]
   },
   {
+    "sent_id": 346,
+    "sentences": "wall street stocks are mixed .",
+    "entities": {},
+    "relations": [],
+    "serialized": []
+  },
+  {
+    "sent_id": 347,
+    "sentences": "the dow industrials down 64 points .",
+    "entities": {},
+    "relations": [],
+    "serialized": []
+  },
+  {
+    "sent_id": 348,
+    "sentences": "nasdaq up about 13 points .",
+    "entities": {},
+    "relations": [],
+    "serialized": []
+  },
+  {
+    "sent_id": 349,
+    "sentences": "that 's the latest from wall street .",
+    "entities": {},
+    "relations": [],
+    "serialized": []
+  },
+  {
+    "sent_id": 350,
+    "sentences": "cnn live today continues after this .",
+    "entities": {},
+    "relations": [],
+    "serialized": []
+  },
+  {
+    "sent_id": 351,
+    "sentences": "2003-04-16 11:25:21",
+    "entities": {},
+    "relations": [],
+    "serialized": []
+  },
+  {
+    "sent_id": 352,
+    "sentences": "MARKETVIEW_20050217 .2115",
+    "entities": {},
+    "relations": [],
+    "serialized": []
+  },
+  {
+    "sent_id": 353,
+    "sentences": "WEB TEXT",
+    "entities": {},
+    "relations": [],
+    "serialized": []
+  },
+  {
+    "sent_id": 354,
+    "sentences": "2005-02-17T21 :15:00",
+    "entities": {},
+    "relations": [],
+    "serialized": []
+  },
+  {
+    "sent_id": 355,
+    "sentences": "An Airline Passenger 's Bill of Rights ?",
+    "entities": {},
+    "relations": [],
+    "serialized": []
+  },
+  {
     "sent_id": 356,
     "sentences": "Byrne",
     "entities": {
@@ -9097,6 +9811,13 @@
         "type": "Person"
       }
     ]
+  },
+  {
+    "sent_id": 357,
+    "sentences": "2005-02-17T21 :15:00",
+    "entities": {},
+    "relations": [],
+    "serialized": []
   },
   {
     "sent_id": 358,
@@ -9222,6 +9943,41 @@
     ]
   },
   {
+    "sent_id": 362,
+    "sentences": "And now ?",
+    "entities": {},
+    "relations": [],
+    "serialized": []
+  },
+  {
+    "sent_id": 363,
+    "sentences": "Not a chance .",
+    "entities": {},
+    "relations": [],
+    "serialized": []
+  },
+  {
+    "sent_id": 364,
+    "sentences": "CNN_ENG_20030424_073006 .4",
+    "entities": {},
+    "relations": [],
+    "serialized": []
+  },
+  {
+    "sent_id": 365,
+    "sentences": "NEWS STORY",
+    "entities": {},
+    "relations": [],
+    "serialized": []
+  },
+  {
+    "sent_id": 366,
+    "sentences": "2003-04-24 09:37:31",
+    "entities": {},
+    "relations": [],
+    "serialized": []
+  },
+  {
     "sent_id": 367,
     "sentences": "a cruise ship is being searched off the hawaii coast after two notes threatening terrorist attack were found on board .",
     "entities": {
@@ -9337,6 +10093,34 @@
         "type": "Weapon"
       }
     ]
+  },
+  {
+    "sent_id": 370,
+    "sentences": "2003-04-24 09:37:38",
+    "entities": {},
+    "relations": [],
+    "serialized": []
+  },
+  {
+    "sent_id": 371,
+    "sentences": "CNNHL_ENG_20030407_193547 .5",
+    "entities": {},
+    "relations": [],
+    "serialized": []
+  },
+  {
+    "sent_id": 372,
+    "sentences": "NEWS STORY",
+    "entities": {},
+    "relations": [],
+    "serialized": []
+  },
+  {
+    "sent_id": 373,
+    "sentences": "2003-04-07 19:35:24",
+    "entities": {},
+    "relations": [],
+    "serialized": []
   },
   {
     "sent_id": 374,
@@ -9481,6 +10265,13 @@
     ]
   },
   {
+    "sent_id": 377,
+    "sentences": "- - initial tests on the chemicals - were inconclusive .",
+    "entities": {},
+    "relations": [],
+    "serialized": []
+  },
+  {
     "sent_id": 378,
     "sentences": "- - - f | no car a higher level test indicated no carrier the presence of nerve no carrier - - - - - and blister agents , but those - f | tests are not always accurate .",
     "entities": {
@@ -9526,6 +10317,55 @@
         ]
       }
     ]
+  },
+  {
+    "sent_id": 380,
+    "sentences": "- - f | - - - - - - - -",
+    "entities": {},
+    "relations": [],
+    "serialized": []
+  },
+  {
+    "sent_id": 381,
+    "sentences": "2003-04-07 19:35:55",
+    "entities": {},
+    "relations": [],
+    "serialized": []
+  },
+  {
+    "sent_id": 382,
+    "sentences": "CNN_IP_20030402 .1600.02 -2",
+    "entities": {},
+    "relations": [],
+    "serialized": []
+  },
+  {
+    "sent_id": 383,
+    "sentences": "STORY",
+    "entities": {},
+    "relations": [],
+    "serialized": []
+  },
+  {
+    "sent_id": 384,
+    "sentences": "2003-04-02T16 :00:00 -05:00",
+    "entities": {},
+    "relations": [],
+    "serialized": []
+  },
+  {
+    "sent_id": 385,
+    "sentences": "Push to Baghdad Begins ; POW Safe in Army 's Care",
+    "entities": {},
+    "relations": [],
+    "serialized": []
+  },
+  {
+    "sent_id": 386,
+    "sentences": "( NEWSBREAK )",
+    "entities": {},
+    "relations": [],
+    "serialized": []
   },
   {
     "sent_id": 387,
@@ -9581,6 +10421,13 @@
         "type": "Organization"
       }
     ]
+  },
+  {
+    "sent_id": 389,
+    "sentences": "But , as it has from the beginning , air power remains an important part of the battle .",
+    "entities": {},
+    "relations": [],
+    "serialized": []
   },
   {
     "sent_id": 390,
@@ -10043,6 +10890,13 @@
         "type": "Person"
       }
     ]
+  },
+  {
+    "sent_id": 404,
+    "sentences": "( BEGIN VIDEOTAPE )",
+    "entities": {},
+    "relations": [],
+    "serialized": []
   },
   {
     "sent_id": 405,
@@ -10538,6 +11392,13 @@
     ]
   },
   {
+    "sent_id": 420,
+    "sentences": "( END VIDEOTAPE )",
+    "entities": {},
+    "relations": [],
+    "serialized": []
+  },
+  {
     "sent_id": 421,
     "sentences": "TUCHMAN",
     "entities": {
@@ -10664,6 +11525,13 @@
         "type": "Weapon"
       }
     ]
+  },
+  {
+    "sent_id": 424,
+    "sentences": "( BEGIN VIDEO CLIP )",
+    "entities": {},
+    "relations": [],
+    "serialized": []
   },
   {
     "sent_id": 425,
@@ -10809,6 +11677,13 @@
     ]
   },
   {
+    "sent_id": 431,
+    "sentences": "( END VIDEO CLIP )",
+    "entities": {},
+    "relations": [],
+    "serialized": []
+  },
+  {
     "sent_id": 432,
     "sentences": "TUCHMAN",
     "entities": {
@@ -10889,6 +11764,13 @@
         "type": "GeographicalSocialPolitical"
       }
     ]
+  },
+  {
+    "sent_id": 435,
+    "sentences": "A total over the last two weeks now of close to 24,000 sorties .",
+    "entities": {},
+    "relations": [],
+    "serialized": []
   },
   {
     "sent_id": 436,
@@ -10985,6 +11867,13 @@
         "type": "Person"
       }
     ]
+  },
+  {
+    "sent_id": 439,
+    "sentences": "They come in a bag .",
+    "entities": {},
+    "relations": [],
+    "serialized": []
   },
   {
     "sent_id": 440,
@@ -11580,6 +12469,27 @@
     ]
   },
   {
+    "sent_id": 461,
+    "sentences": "CNN_ENG_20030617_065838 .21",
+    "entities": {},
+    "relations": [],
+    "serialized": []
+  },
+  {
+    "sent_id": 462,
+    "sentences": "NEWS STORY",
+    "entities": {},
+    "relations": [],
+    "serialized": []
+  },
+  {
+    "sent_id": 463,
+    "sentences": "2003-06-17 07:32:18",
+    "entities": {},
+    "relations": [],
+    "serialized": []
+  },
+  {
     "sent_id": 464,
     "sentences": "the same part of the world , high winds , high seas , three fishermen rescued near vancouver by a royal caribbean cruise ship .",
     "entities": {
@@ -11788,6 +12698,20 @@
     ]
   },
   {
+    "sent_id": 468,
+    "sentences": "that is chilly .",
+    "entities": {},
+    "relations": [],
+    "serialized": []
+  },
+  {
+    "sent_id": 469,
+    "sentences": "that 's a job , huh ?",
+    "entities": {},
+    "relations": [],
+    "serialized": []
+  },
+  {
     "sent_id": 470,
     "sentences": "here is jack .",
     "entities": {
@@ -11800,6 +12724,13 @@
         "type": "Person"
       }
     ]
+  },
+  {
+    "sent_id": 471,
+    "sentences": "question of the day .",
+    "entities": {},
+    "relations": [],
+    "serialized": []
   },
   {
     "sent_id": 472,
@@ -12057,6 +12988,34 @@
     ]
   },
   {
+    "sent_id": 481,
+    "sentences": "2003-06-17 07:33:38",
+    "entities": {},
+    "relations": [],
+    "serialized": []
+  },
+  {
+    "sent_id": 482,
+    "sentences": "CNN_ENG_20030408_123613 .0",
+    "entities": {},
+    "relations": [],
+    "serialized": []
+  },
+  {
+    "sent_id": 483,
+    "sentences": "NEWS STORY",
+    "entities": {},
+    "relations": [],
+    "serialized": []
+  },
+  {
+    "sent_id": 484,
+    "sentences": "2003-04-08 12:34:47",
+    "entities": {},
+    "relations": [],
+    "serialized": []
+  },
+  {
     "sent_id": 485,
     "sentences": "* * hamburg , germany .",
     "entities": {
@@ -12174,6 +13133,13 @@
     ]
   },
   {
+    "sent_id": 489,
+    "sentences": "hands .",
+    "entities": {},
+    "relations": [],
+    "serialized": []
+  },
+  {
     "sent_id": 490,
     "sentences": "pilot said they 're doing well .",
     "entities": {
@@ -12191,6 +13157,13 @@
         "type": "Person"
       }
     ]
+  },
+  {
+    "sent_id": 491,
+    "sentences": "all right .",
+    "entities": {},
+    "relations": [],
+    "serialized": []
   },
   {
     "sent_id": 492,
@@ -12252,6 +13225,13 @@
         "type": "Facility"
       }
     ]
+  },
+  {
+    "sent_id": 494,
+    "sentences": "material has been haiftly abandon .",
+    "entities": {},
+    "relations": [],
+    "serialized": []
   },
   {
     "sent_id": 495,
@@ -12352,6 +13332,41 @@
         "type": "GeographicalSocialPolitical"
       }
     ]
+  },
+  {
+    "sent_id": 500,
+    "sentences": "2003-04-08 12:35:50",
+    "entities": {},
+    "relations": [],
+    "serialized": []
+  },
+  {
+    "sent_id": 501,
+    "sentences": "CNN_IP_20030405 .1600.00 -3",
+    "entities": {},
+    "relations": [],
+    "serialized": []
+  },
+  {
+    "sent_id": 502,
+    "sentences": "STORY",
+    "entities": {},
+    "relations": [],
+    "serialized": []
+  },
+  {
+    "sent_id": 503,
+    "sentences": "2003-04-05T16 :00:00 -05:00",
+    "entities": {},
+    "relations": [],
+    "serialized": []
+  },
+  {
+    "sent_id": 504,
+    "sentences": "Coalition Troops Penetrate Outskirts of Baghdad",
+    "entities": {},
+    "relations": [],
+    "serialized": []
   },
   {
     "sent_id": 505,
@@ -12694,6 +13709,13 @@
     ]
   },
   {
+    "sent_id": 516,
+    "sentences": "Get down , get down !",
+    "entities": {},
+    "relations": [],
+    "serialized": []
+  },
+  {
     "sent_id": 517,
     "sentences": "BREMNER",
     "entities": {
@@ -12849,6 +13871,13 @@
     ]
   },
   {
+    "sent_id": 522,
+    "sentences": "( UNINTELLIGIBLE ) , get up !",
+    "entities": {},
+    "relations": [],
+    "serialized": []
+  },
+  {
     "sent_id": 523,
     "sentences": "BREMNER",
     "entities": {
@@ -12995,6 +14024,13 @@
     ]
   },
   {
+    "sent_id": 530,
+    "sentences": "There was no shots fired .",
+    "entities": {},
+    "relations": [],
+    "serialized": []
+  },
+  {
     "sent_id": 531,
     "sentences": "We gave a good warning before we came in .",
     "entities": {
@@ -13132,6 +14168,13 @@
     ]
   },
   {
+    "sent_id": 537,
+    "sentences": "( END VIDEOTAPE )",
+    "entities": {},
+    "relations": [],
+    "serialized": []
+  },
+  {
     "sent_id": 538,
     "sentences": "WOODRUFF",
     "entities": {
@@ -13236,6 +14279,27 @@
         "type": "GeographicalSocialPolitical"
       }
     ]
+  },
+  {
+    "sent_id": 542,
+    "sentences": "CNNHL_ENG_20030611_133445 .24",
+    "entities": {},
+    "relations": [],
+    "serialized": []
+  },
+  {
+    "sent_id": 543,
+    "sentences": "NEWS STORY",
+    "entities": {},
+    "relations": [],
+    "serialized": []
+  },
+  {
+    "sent_id": 544,
+    "sentences": "2003-06-11 13:56:03",
+    "entities": {},
+    "relations": [],
+    "serialized": []
   },
   {
     "sent_id": 545,
@@ -13369,6 +14433,34 @@
         "type": "Person"
       }
     ]
+  },
+  {
+    "sent_id": 548,
+    "sentences": "2003-06-11 13:56:17",
+    "entities": {},
+    "relations": [],
+    "serialized": []
+  },
+  {
+    "sent_id": 549,
+    "sentences": "CNN_ENG_20030618_065839 .11",
+    "entities": {},
+    "relations": [],
+    "serialized": []
+  },
+  {
+    "sent_id": 550,
+    "sentences": "NEWS STORY",
+    "entities": {},
+    "relations": [],
+    "serialized": []
+  },
+  {
+    "sent_id": 551,
+    "sentences": "2003-06-18 07:16:10",
+    "entities": {},
+    "relations": [],
+    "serialized": []
   },
   {
     "sent_id": 552,
@@ -13506,6 +14598,41 @@
     ]
   },
   {
+    "sent_id": 556,
+    "sentences": "2003-06-18 07:16:27",
+    "entities": {},
+    "relations": [],
+    "serialized": []
+  },
+  {
+    "sent_id": 557,
+    "sentences": "APW_ENG_20030410 .0906",
+    "entities": {},
+    "relations": [],
+    "serialized": []
+  },
+  {
+    "sent_id": 558,
+    "sentences": "NEWS STORY",
+    "entities": {},
+    "relations": [],
+    "serialized": []
+  },
+  {
+    "sent_id": 559,
+    "sentences": "20030410",
+    "entities": {},
+    "relations": [],
+    "serialized": []
+  },
+  {
+    "sent_id": 560,
+    "sentences": "Iraq 's U.N. ambassador meets Annan , wo n't discuss future plans",
+    "entities": {},
+    "relations": [],
+    "serialized": []
+  },
+  {
     "sent_id": 561,
     "sentences": "UNITED NATIONS ( AP )",
     "entities": {
@@ -13638,6 +14765,20 @@
         "type": "Person"
       }
     ]
+  },
+  {
+    "sent_id": 565,
+    "sentences": "`` No Answer . ''",
+    "entities": {},
+    "relations": [],
+    "serialized": []
+  },
+  {
+    "sent_id": 566,
+    "sentences": "`` No comment at all .",
+    "entities": {},
+    "relations": [],
+    "serialized": []
   },
   {
     "sent_id": 567,
@@ -15015,6 +16156,34 @@
     ]
   },
   {
+    "sent_id": 602,
+    "sentences": "APW_ENG_20030610 .0010",
+    "entities": {},
+    "relations": [],
+    "serialized": []
+  },
+  {
+    "sent_id": 603,
+    "sentences": "NEWS STORY",
+    "entities": {},
+    "relations": [],
+    "serialized": []
+  },
+  {
+    "sent_id": 604,
+    "sentences": "20030610",
+    "entities": {},
+    "relations": [],
+    "serialized": []
+  },
+  {
+    "sent_id": 605,
+    "sentences": "Seven convicted in Vietnamese crime boss ' trial to appeal their sentences",
+    "entities": {},
+    "relations": [],
+    "serialized": []
+  },
+  {
     "sent_id": 606,
     "sentences": "HANOI , Vietnam ( AP )",
     "entities": {
@@ -15563,6 +16732,27 @@
     ]
   },
   {
+    "sent_id": 620,
+    "sentences": "CNN_ENG_20030607_170312 .6",
+    "entities": {},
+    "relations": [],
+    "serialized": []
+  },
+  {
+    "sent_id": 621,
+    "sentences": "NEWS STORY",
+    "entities": {},
+    "relations": [],
+    "serialized": []
+  },
+  {
+    "sent_id": 622,
+    "sentences": "2003-06-07 17:30:04",
+    "entities": {},
+    "relations": [],
+    "serialized": []
+  },
+  {
     "sent_id": 623,
     "sentences": "we now return to \" people in the news . \"",
     "entities": {
@@ -15589,6 +16779,13 @@
         "type": "Person"
       }
     ]
+  },
+  {
+    "sent_id": 625,
+    "sentences": "and everywhere .",
+    "entities": {},
+    "relations": [],
+    "serialized": []
   },
   {
     "sent_id": 626,
@@ -15736,6 +16933,34 @@
         "type": "Person"
       }
     ]
+  },
+  {
+    "sent_id": 634,
+    "sentences": "it 's good .",
+    "entities": {},
+    "relations": [],
+    "serialized": []
+  },
+  {
+    "sent_id": 635,
+    "sentences": "it 's useful .",
+    "entities": {},
+    "relations": [],
+    "serialized": []
+  },
+  {
+    "sent_id": 636,
+    "sentences": "it 's appealing .",
+    "entities": {},
+    "relations": [],
+    "serialized": []
+  },
+  {
+    "sent_id": 637,
+    "sentences": "it 's attractive and it 's cheap .",
+    "entities": {},
+    "relations": [],
+    "serialized": []
   },
   {
     "sent_id": 638,
@@ -16077,6 +17302,13 @@
         "type": "Person"
       }
     ]
+  },
+  {
+    "sent_id": 651,
+    "sentences": "that 's the criminal side .",
+    "entities": {},
+    "relations": [],
+    "serialized": []
   },
   {
     "sent_id": 652,
@@ -16597,6 +17829,41 @@
     ]
   },
   {
+    "sent_id": 679,
+    "sentences": "2003-06-07 17:34:15",
+    "entities": {},
+    "relations": [],
+    "serialized": []
+  },
+  {
+    "sent_id": 680,
+    "sentences": "MARKETVIEW_20050206 .2009",
+    "entities": {},
+    "relations": [],
+    "serialized": []
+  },
+  {
+    "sent_id": 681,
+    "sentences": "WEB TEXT",
+    "entities": {},
+    "relations": [],
+    "serialized": []
+  },
+  {
+    "sent_id": 682,
+    "sentences": "2005-02-06T20 :09:00",
+    "entities": {},
+    "relations": [],
+    "serialized": []
+  },
+  {
+    "sent_id": 683,
+    "sentences": "Even more blogospheric M&amp;A ?",
+    "entities": {},
+    "relations": [],
+    "serialized": []
+  },
+  {
     "sent_id": 684,
     "sentences": "Byrne",
     "entities": {
@@ -16609,6 +17876,13 @@
         "type": "Person"
       }
     ]
+  },
+  {
+    "sent_id": 685,
+    "sentences": "2005-02-06T20 :09:00",
+    "entities": {},
+    "relations": [],
+    "serialized": []
   },
   {
     "sent_id": 686,
@@ -16745,6 +18019,41 @@
     ]
   },
   {
+    "sent_id": 691,
+    "sentences": "????",
+    "entities": {},
+    "relations": [],
+    "serialized": []
+  },
+  {
+    "sent_id": 692,
+    "sentences": "- ??",
+    "entities": {},
+    "relations": [],
+    "serialized": []
+  },
+  {
+    "sent_id": 693,
+    "sentences": "- ??",
+    "entities": {},
+    "relations": [],
+    "serialized": []
+  },
+  {
+    "sent_id": 694,
+    "sentences": "T10 :49:00",
+    "entities": {},
+    "relations": [],
+    "serialized": []
+  },
+  {
+    "sent_id": 695,
+    "sentences": "Well said !",
+    "entities": {},
+    "relations": [],
+    "serialized": []
+  },
+  {
     "sent_id": 696,
     "sentences": "Like somebody commented on the Napsterization post , 0 + 0 = 0 .",
     "entities": {
@@ -16757,6 +18066,34 @@
         "type": "Person"
       }
     ]
+  },
+  {
+    "sent_id": 697,
+    "sentences": ":-)",
+    "entities": {},
+    "relations": [],
+    "serialized": []
+  },
+  {
+    "sent_id": 698,
+    "sentences": "CNN_ENG_20030416_180808 .15",
+    "entities": {},
+    "relations": [],
+    "serialized": []
+  },
+  {
+    "sent_id": 699,
+    "sentences": "NEWS STORY",
+    "entities": {},
+    "relations": [],
+    "serialized": []
+  },
+  {
+    "sent_id": 700,
+    "sentences": "2003-04-16 18:29:42",
+    "entities": {},
+    "relations": [],
+    "serialized": []
   },
   {
     "sent_id": 701,
@@ -17249,6 +18586,13 @@
     ]
   },
   {
+    "sent_id": 714,
+    "sentences": "reporter : the tests were a success .",
+    "entities": {},
+    "relations": [],
+    "serialized": []
+  },
+  {
     "sent_id": 715,
     "sentences": "reporter : taha then described the success of their tests using an anthrax sim lant and artillery rockets .",
     "entities": {
@@ -17482,6 +18826,41 @@
     ]
   },
   {
+    "sent_id": 723,
+    "sentences": "2003-04-16 18:32:04",
+    "entities": {},
+    "relations": [],
+    "serialized": []
+  },
+  {
+    "sent_id": 724,
+    "sentences": "CNN_CF_20030303 .1900.05",
+    "entities": {},
+    "relations": [],
+    "serialized": []
+  },
+  {
+    "sent_id": 725,
+    "sentences": "STORY",
+    "entities": {},
+    "relations": [],
+    "serialized": []
+  },
+  {
+    "sent_id": 726,
+    "sentences": "2003-03-03T19 :00:00 -05:00",
+    "entities": {},
+    "relations": [],
+    "serialized": []
+  },
+  {
+    "sent_id": 727,
+    "sentences": "New Questions About Attacking Iraq ; Is Torturing Terrorists Necessary ?",
+    "entities": {},
+    "relations": [],
+    "serialized": []
+  },
+  {
     "sent_id": 728,
     "sentences": "NOVAK",
     "entities": {
@@ -17617,6 +18996,20 @@
         "type": "Person"
       }
     ]
+  },
+  {
+    "sent_id": 734,
+    "sentences": "It is extraordinary .",
+    "entities": {},
+    "relations": [],
+    "serialized": []
+  },
+  {
+    "sent_id": 735,
+    "sentences": "It is wonderful .",
+    "entities": {},
+    "relations": [],
+    "serialized": []
   },
   {
     "sent_id": 736,
@@ -17858,6 +19251,13 @@
     ]
   },
   {
+    "sent_id": 744,
+    "sentences": "That 's true , though , is n't it ?",
+    "entities": {},
+    "relations": [],
+    "serialized": []
+  },
+  {
     "sent_id": 745,
     "sentences": "Johnson was right , was n't he ?",
     "entities": {
@@ -17917,6 +19317,13 @@
         "type": "Person"
       }
     ]
+  },
+  {
+    "sent_id": 749,
+    "sentences": "Yes .",
+    "entities": {},
+    "relations": [],
+    "serialized": []
   },
   {
     "sent_id": 750,
@@ -18108,6 +19515,13 @@
     ]
   },
   {
+    "sent_id": 759,
+    "sentences": "Is n't that a great argument for term limits ?",
+    "entities": {},
+    "relations": [],
+    "serialized": []
+  },
+  {
     "sent_id": 760,
     "sentences": "I know very few senators or any who are as good in their third term as they are in their first term .",
     "entities": {
@@ -18250,6 +19664,13 @@
     ]
   },
   {
+    "sent_id": 767,
+    "sentences": "( APPLAUSE )",
+    "entities": {},
+    "relations": [],
+    "serialized": []
+  },
+  {
     "sent_id": 768,
     "sentences": "BEGALA",
     "entities": {
@@ -18262,6 +19683,13 @@
         "type": "Person"
       }
     ]
+  },
+  {
+    "sent_id": 769,
+    "sentences": "Amen .",
+    "entities": {},
+    "relations": [],
+    "serialized": []
   },
   {
     "sent_id": 770,
@@ -19122,6 +20550,13 @@
     ]
   },
   {
+    "sent_id": 798,
+    "sentences": "But that 's all changed and memories have dimmed .",
+    "entities": {},
+    "relations": [],
+    "serialized": []
+  },
+  {
     "sent_id": 799,
     "sentences": "And people , you know , they do n't remember that .",
     "entities": {
@@ -19208,6 +20643,13 @@
     ]
   },
   {
+    "sent_id": 803,
+    "sentences": "( CROSSTALK )",
+    "entities": {},
+    "relations": [],
+    "serialized": []
+  },
+  {
     "sent_id": 804,
     "sentences": "NOVAK",
     "entities": {
@@ -19250,6 +20692,13 @@
     ]
   },
   {
+    "sent_id": 806,
+    "sentences": "Is n't that the truth ?",
+    "entities": {},
+    "relations": [],
+    "serialized": []
+  },
+  {
     "sent_id": 807,
     "sentences": "BUMPERS",
     "entities": {
@@ -19262,6 +20711,13 @@
         "type": "Person"
       }
     ]
+  },
+  {
+    "sent_id": 808,
+    "sentences": "Well , that 's true .",
+    "entities": {},
+    "relations": [],
+    "serialized": []
   },
   {
     "sent_id": 809,
@@ -19533,6 +20989,20 @@
     ]
   },
   {
+    "sent_id": 818,
+    "sentences": "And now ...",
+    "entities": {},
+    "relations": [],
+    "serialized": []
+  },
+  {
+    "sent_id": 819,
+    "sentences": "( APPLAUSE )",
+    "entities": {},
+    "relations": [],
+    "serialized": []
+  },
+  {
     "sent_id": 820,
     "sentences": "BEGALA",
     "entities": {
@@ -19684,6 +21154,13 @@
     ]
   },
   {
+    "sent_id": 828,
+    "sentences": "That was just terrific .",
+    "entities": {},
+    "relations": [],
+    "serialized": []
+  },
+  {
     "sent_id": 829,
     "sentences": "The book again is Dale Bumpers , \" The Best Lawyer in a One-Lawyer Town . \"",
     "entities": {
@@ -19758,6 +21235,48 @@
     ]
   },
   {
+    "sent_id": 832,
+    "sentences": "Stay tuned .",
+    "entities": {},
+    "relations": [],
+    "serialized": []
+  },
+  {
+    "sent_id": 833,
+    "sentences": "( APPLAUSE )",
+    "entities": {},
+    "relations": [],
+    "serialized": []
+  },
+  {
+    "sent_id": 834,
+    "sentences": "AGGRESSIVEVOICEDAILY_20041208 .2133",
+    "entities": {},
+    "relations": [],
+    "serialized": []
+  },
+  {
+    "sent_id": 835,
+    "sentences": "WEB TEXT",
+    "entities": {},
+    "relations": [],
+    "serialized": []
+  },
+  {
+    "sent_id": 836,
+    "sentences": "2004-12-08T21 :33:00",
+    "entities": {},
+    "relations": [],
+    "serialized": []
+  },
+  {
+    "sent_id": 837,
+    "sentences": "It 's Just Armor",
+    "entities": {},
+    "relations": [],
+    "serialized": []
+  },
+  {
     "sent_id": 838,
     "sentences": "Scott",
     "entities": {
@@ -19770,6 +21289,13 @@
         "type": "Person"
       }
     ]
+  },
+  {
+    "sent_id": 839,
+    "sentences": "2004-12-08T21 :33:00",
+    "entities": {},
+    "relations": [],
+    "serialized": []
   },
   {
     "sent_id": 840,
@@ -20017,6 +21543,13 @@
     ]
   },
   {
+    "sent_id": 847,
+    "sentences": ", concluded after asking again .",
+    "entities": {},
+    "relations": [],
+    "serialized": []
+  },
+  {
     "sent_id": 848,
     "sentences": "Wilson , an airplane mechanic whose unit , the 278th Regimental Combat Team of the Tennessee Army National Guard , is about to drive north into Iraq for a one-year tour of duty , put his finger on a problem that has bedeviled the Pentagon for more than a year .",
     "entities": {
@@ -20083,6 +21616,13 @@
         "type": "Organization"
       }
     ]
+  },
+  {
+    "sent_id": 849,
+    "sentences": "Rarely , though , is it put so bluntly in a public forum .",
+    "entities": {},
+    "relations": [],
+    "serialized": []
   },
   {
     "sent_id": 850,
@@ -20180,6 +21720,41 @@
         "type": "Person"
       }
     ]
+  },
+  {
+    "sent_id": 853,
+    "sentences": "Ca n't say that 's the most comforting answer .",
+    "entities": {},
+    "relations": [],
+    "serialized": []
+  },
+  {
+    "sent_id": 854,
+    "sentences": "APW_ENG_20030318 .0689",
+    "entities": {},
+    "relations": [],
+    "serialized": []
+  },
+  {
+    "sent_id": 855,
+    "sentences": "NEWS STORY",
+    "entities": {},
+    "relations": [],
+    "serialized": []
+  },
+  {
+    "sent_id": 856,
+    "sentences": "20030318",
+    "entities": {},
+    "relations": [],
+    "serialized": []
+  },
+  {
+    "sent_id": 857,
+    "sentences": "EU rift over Iraq remains as France , Germany denounce U.S. move to war",
+    "entities": {},
+    "relations": [],
+    "serialized": []
   },
   {
     "sent_id": 858,
@@ -21478,6 +23053,13 @@
     ]
   },
   {
+    "sent_id": 890,
+    "sentences": "_",
+    "entities": {},
+    "relations": [],
+    "serialized": []
+  },
+  {
     "sent_id": 891,
     "sentences": "Greece began evacuating its embassy in Baghdad , saying all its personnel would be out of Iraq within a couple of days .",
     "entities": {
@@ -21679,6 +23261,34 @@
     ]
   },
   {
+    "sent_id": 895,
+    "sentences": "( rw-pa-rac )",
+    "entities": {},
+    "relations": [],
+    "serialized": []
+  },
+  {
+    "sent_id": 896,
+    "sentences": "CNN_ENG_20030327_163556 .20",
+    "entities": {},
+    "relations": [],
+    "serialized": []
+  },
+  {
+    "sent_id": 897,
+    "sentences": "NEWS STORY",
+    "entities": {},
+    "relations": [],
+    "serialized": []
+  },
+  {
+    "sent_id": 898,
+    "sentences": "2003-03-27 16:58:58",
+    "entities": {},
+    "relations": [],
+    "serialized": []
+  },
+  {
     "sent_id": 899,
     "sentences": "for some americans who find themselves spending hours on end watching television coverage of the war , it can be hard to break away .",
     "entities": {
@@ -21817,6 +23427,13 @@
         "type": "Location"
       }
     ]
+  },
+  {
+    "sent_id": 905,
+    "sentences": "and that may be the point .",
+    "entities": {},
+    "relations": [],
+    "serialized": []
   },
   {
     "sent_id": 906,
@@ -22115,6 +23732,13 @@
     ]
   },
   {
+    "sent_id": 918,
+    "sentences": "sales fell 2 percent from the previous week .",
+    "entities": {},
+    "relations": [],
+    "serialized": []
+  },
+  {
     "sent_id": 919,
     "sentences": "air travel has fallen 10 mers since the war began and some hotel chains say cancellations are up .",
     "entities": {
@@ -22229,6 +23853,13 @@
     ]
   },
   {
+    "sent_id": 924,
+    "sentences": "there 's no one economic statistics to point to a downturn , it 's an overall feeling , a psychological feeling that everything is frozen , everything is on hold .",
+    "entities": {},
+    "relations": [],
+    "serialized": []
+  },
+  {
     "sent_id": 925,
     "sentences": "consumers are n't spending , people are n't buying stock , everything is",
     "entities": {
@@ -22246,6 +23877,34 @@
         "type": "Person"
       }
     ]
+  },
+  {
+    "sent_id": 926,
+    "sentences": "2003-03-27 17:01:17",
+    "entities": {},
+    "relations": [],
+    "serialized": []
+  },
+  {
+    "sent_id": 927,
+    "sentences": "CNN_ENG_20030403_080032 .9",
+    "entities": {},
+    "relations": [],
+    "serialized": []
+  },
+  {
+    "sent_id": 928,
+    "sentences": "NEWS STORY",
+    "entities": {},
+    "relations": [],
+    "serialized": []
+  },
+  {
+    "sent_id": 929,
+    "sentences": "2003-04-03 09:29:44",
+    "entities": {},
+    "relations": [],
+    "serialized": []
   },
   {
     "sent_id": 930,
@@ -22826,6 +24485,13 @@
     ]
   },
   {
+    "sent_id": 953,
+    "sentences": "it 's a great word .",
+    "entities": {},
+    "relations": [],
+    "serialized": []
+  },
+  {
     "sent_id": 954,
     "sentences": "when you heard her father talk .",
     "entities": {
@@ -22885,6 +24551,41 @@
         "type": "Person"
       }
     ]
+  },
+  {
+    "sent_id": 957,
+    "sentences": "2003-04-03 09:31:10",
+    "entities": {},
+    "relations": [],
+    "serialized": []
+  },
+  {
+    "sent_id": 958,
+    "sentences": "CNN_IP_20030405 .1600.00 -2",
+    "entities": {},
+    "relations": [],
+    "serialized": []
+  },
+  {
+    "sent_id": 959,
+    "sentences": "STORY",
+    "entities": {},
+    "relations": [],
+    "serialized": []
+  },
+  {
+    "sent_id": 960,
+    "sentences": "2003-04-05T16 :00:00 -05:00",
+    "entities": {},
+    "relations": [],
+    "serialized": []
+  },
+  {
+    "sent_id": 961,
+    "sentences": "Coalition Troops Penetrate Outskirts of Baghdad",
+    "entities": {},
+    "relations": [],
+    "serialized": []
   },
   {
     "sent_id": 962,
@@ -23383,6 +25084,13 @@
         "type": "Organization"
       }
     ]
+  },
+  {
+    "sent_id": 974,
+    "sentences": "It 's not clear exactly what the target was .",
+    "entities": {},
+    "relations": [],
+    "serialized": []
   },
   {
     "sent_id": 975,
@@ -23959,6 +25667,13 @@
     ]
   },
   {
+    "sent_id": 983,
+    "sentences": "( BEGIN VIDEO CLIP )",
+    "entities": {},
+    "relations": [],
+    "serialized": []
+  },
+  {
     "sent_id": 984,
     "sentences": "MOHAMMED SAEED AL-SAHAF , IRAQI INFORMATION MINISTER ( through translator )",
     "entities": {
@@ -24040,6 +25755,13 @@
         "type": "Person"
       }
     ]
+  },
+  {
+    "sent_id": 988,
+    "sentences": "( END VIDEO CLIP )",
+    "entities": {},
+    "relations": [],
+    "serialized": []
   },
   {
     "sent_id": 989,
@@ -24139,6 +25861,13 @@
         ]
       }
     ]
+  },
+  {
+    "sent_id": 991,
+    "sentences": "( BEGIN VIDEO CLIP )",
+    "entities": {},
+    "relations": [],
+    "serialized": []
   },
   {
     "sent_id": 992,
@@ -24265,6 +25994,13 @@
         ]
       }
     ]
+  },
+  {
+    "sent_id": 994,
+    "sentences": "( END VIDEO CLIP )",
+    "entities": {},
+    "relations": [],
+    "serialized": []
   },
   {
     "sent_id": 995,
@@ -25086,6 +26822,13 @@
     ]
   },
   {
+    "sent_id": 1013,
+    "sentences": "All right .",
+    "entities": {},
+    "relations": [],
+    "serialized": []
+  },
+  {
     "sent_id": 1014,
     "sentences": "Nic Robertson , giving us a better understanding of exactly what the Iraqis are doing to prepare for any further moves by coalition forces .",
     "entities": {
@@ -25320,6 +27063,27 @@
     ]
   },
   {
+    "sent_id": 1018,
+    "sentences": "CNNHL_ENG_20030513_220910 .32",
+    "entities": {},
+    "relations": [],
+    "serialized": []
+  },
+  {
+    "sent_id": 1019,
+    "sentences": "NEWS STORY",
+    "entities": {},
+    "relations": [],
+    "serialized": []
+  },
+  {
+    "sent_id": 1020,
+    "sentences": "2003-05-13 23:26:07",
+    "entities": {},
+    "relations": [],
+    "serialized": []
+  },
+  {
     "sent_id": 1021,
     "sentences": "i 'm alisha davis .",
     "entities": {
@@ -25527,6 +27291,34 @@
     ]
   },
   {
+    "sent_id": 1028,
+    "sentences": "2003-05-13 23:26:39",
+    "entities": {},
+    "relations": [],
+    "serialized": []
+  },
+  {
+    "sent_id": 1029,
+    "sentences": "CNN_ENG_20030528_172957 .18",
+    "entities": {},
+    "relations": [],
+    "serialized": []
+  },
+  {
+    "sent_id": 1030,
+    "sentences": "NEWS STORY",
+    "entities": {},
+    "relations": [],
+    "serialized": []
+  },
+  {
+    "sent_id": 1031,
+    "sentences": "2003-05-28 17:57:28",
+    "entities": {},
+    "relations": [],
+    "serialized": []
+  },
+  {
     "sent_id": 1032,
     "sentences": "a defense attorney calls it his worst nightmare .",
     "entities": {
@@ -25577,6 +27369,13 @@
         "type": "Person"
       }
     ]
+  },
+  {
+    "sent_id": 1034,
+    "sentences": "it happened last week .",
+    "entities": {},
+    "relations": [],
+    "serialized": []
   },
   {
     "sent_id": 1035,
@@ -26308,6 +28107,55 @@
     ]
   },
   {
+    "sent_id": 1053,
+    "sentences": "it does n't get more shocking than this .",
+    "entities": {},
+    "relations": [],
+    "serialized": []
+  },
+  {
+    "sent_id": 1054,
+    "sentences": "how could this happen ?",
+    "entities": {},
+    "relations": [],
+    "serialized": []
+  },
+  {
+    "sent_id": 1055,
+    "sentences": "2003-05-28 17:59:42",
+    "entities": {},
+    "relations": [],
+    "serialized": []
+  },
+  {
+    "sent_id": 1056,
+    "sentences": "APW_ENG_20030325 .0786",
+    "entities": {},
+    "relations": [],
+    "serialized": []
+  },
+  {
+    "sent_id": 1057,
+    "sentences": "NEWS STORY",
+    "entities": {},
+    "relations": [],
+    "serialized": []
+  },
+  {
+    "sent_id": 1058,
+    "sentences": "20030325",
+    "entities": {},
+    "relations": [],
+    "serialized": []
+  },
+  {
+    "sent_id": 1059,
+    "sentences": "Jack Welch seeks details on estranged wife 's work in divorce case",
+    "entities": {},
+    "relations": [],
+    "serialized": []
+  },
+  {
     "sent_id": 1060,
     "sentences": "BRIDGEPORT , Connecticut ( AP )",
     "entities": {
@@ -26908,6 +28756,27 @@
     ]
   },
   {
+    "sent_id": 1074,
+    "sentences": "CNN_ENG_20030411_070039 .21",
+    "entities": {},
+    "relations": [],
+    "serialized": []
+  },
+  {
+    "sent_id": 1075,
+    "sentences": "NEWS STORY",
+    "entities": {},
+    "relations": [],
+    "serialized": []
+  },
+  {
+    "sent_id": 1076,
+    "sentences": "2003-04-11 08:29:16",
+    "entities": {},
+    "relations": [],
+    "serialized": []
+  },
+  {
     "sent_id": 1077,
     "sentences": "now that saddam hussein 's regime has fallen is democracy the answer to iraq and its people .",
     "entities": {
@@ -27357,6 +29226,13 @@
     ]
   },
   {
+    "sent_id": 1093,
+    "sentences": "there 's no proof of that .",
+    "entities": {},
+    "relations": [],
+    "serialized": []
+  },
+  {
     "sent_id": 1094,
     "sentences": "well , the key here is the only way to get that kind of legitimate government to have it look good is to hold elections .",
     "entities": {
@@ -27559,6 +29435,13 @@
     ]
   },
   {
+    "sent_id": 1100,
+    "sentences": "is that going to work ?",
+    "entities": {},
+    "relations": [],
+    "serialized": []
+  },
+  {
     "sent_id": 1101,
     "sentences": "i think it will work if it 's truly broad-based and truly consensual , try and include all different people and including them in creating a constitution which would take a few years .",
     "entities": {
@@ -27600,6 +29483,34 @@
         "type": "Person"
       }
     ]
+  },
+  {
+    "sent_id": 1103,
+    "sentences": "2003-04-11 08:31:54",
+    "entities": {},
+    "relations": [],
+    "serialized": []
+  },
+  {
+    "sent_id": 1104,
+    "sentences": "CNN_ENG_20030515_193533 .6",
+    "entities": {},
+    "relations": [],
+    "serialized": []
+  },
+  {
+    "sent_id": 1105,
+    "sentences": "NEWS STORY",
+    "entities": {},
+    "relations": [],
+    "serialized": []
+  },
+  {
+    "sent_id": 1106,
+    "sentences": "2003-05-15 21:01:42",
+    "entities": {},
+    "relations": [],
+    "serialized": []
   },
   {
     "sent_id": 1107,
@@ -27795,6 +29706,13 @@
     ]
   },
   {
+    "sent_id": 1114,
+    "sentences": "technically correct but why quibble over details ?",
+    "entities": {},
+    "relations": [],
+    "serialized": []
+  },
+  {
     "sent_id": 1115,
     "sentences": "is n't it possible deep down , that you also slept with jfk ?",
     "entities": {
@@ -27938,6 +29856,13 @@
     ]
   },
   {
+    "sent_id": 1122,
+    "sentences": "a thought to end on tonight .",
+    "entities": {},
+    "relations": [],
+    "serialized": []
+  },
+  {
     "sent_id": 1123,
     "sentences": "thanks for being with us tonight .",
     "entities": {
@@ -27966,6 +29891,48 @@
     ]
   },
   {
+    "sent_id": 1125,
+    "sentences": "larry king live \" is next .",
+    "entities": {},
+    "relations": [],
+    "serialized": []
+  },
+  {
+    "sent_id": 1126,
+    "sentences": "2003-05-15 21:03:09",
+    "entities": {},
+    "relations": [],
+    "serialized": []
+  },
+  {
+    "sent_id": 1127,
+    "sentences": "AGGRESSIVEVOICEDAILY_20041116 .1347",
+    "entities": {},
+    "relations": [],
+    "serialized": []
+  },
+  {
+    "sent_id": 1128,
+    "sentences": "WEB TEXT",
+    "entities": {},
+    "relations": [],
+    "serialized": []
+  },
+  {
+    "sent_id": 1129,
+    "sentences": "2004-11-16T13 :47:00",
+    "entities": {},
+    "relations": [],
+    "serialized": []
+  },
+  {
+    "sent_id": 1130,
+    "sentences": "Get Off Their Backs",
+    "entities": {},
+    "relations": [],
+    "serialized": []
+  },
+  {
     "sent_id": 1131,
     "sentences": "Scott",
     "entities": {
@@ -27978,6 +29945,13 @@
         "type": "Person"
       }
     ]
+  },
+  {
+    "sent_id": 1132,
+    "sentences": "2004-11-16T13 :47:00",
+    "entities": {},
+    "relations": [],
+    "serialized": []
   },
   {
     "sent_id": 1133,
@@ -28549,6 +30523,27 @@
     ]
   },
   {
+    "sent_id": 1149,
+    "sentences": "CNN_ENG_20030508_170552 .18",
+    "entities": {},
+    "relations": [],
+    "serialized": []
+  },
+  {
+    "sent_id": 1150,
+    "sentences": "NEWS STORY",
+    "entities": {},
+    "relations": [],
+    "serialized": []
+  },
+  {
+    "sent_id": 1151,
+    "sentences": "2003-05-08 18:28:53 \"",
+    "entities": {},
+    "relations": [],
+    "serialized": []
+  },
+  {
     "sent_id": 1152,
     "sentences": "vanity fair 's \" come lumist daniel fair is here .",
     "entities": {
@@ -28793,6 +30788,13 @@
     ]
   },
   {
+    "sent_id": 1163,
+    "sentences": "not much of a trip .",
+    "entities": {},
+    "relations": [],
+    "serialized": []
+  },
+  {
     "sent_id": 1164,
     "sentences": "i was n't up the sharp end .",
     "entities": {
@@ -29028,6 +31030,13 @@
     ]
   },
   {
+    "sent_id": 1174,
+    "sentences": "absolutely .",
+    "entities": {},
+    "relations": [],
+    "serialized": []
+  },
+  {
     "sent_id": 1175,
     "sentences": "we 'd be 11 years into nation building by now if we 'd done that .",
     "entities": {
@@ -29045,6 +31054,13 @@
         "type": "GeographicalSocialPolitical"
       }
     ]
+  },
+  {
+    "sent_id": 1176,
+    "sentences": "that seems to be the core of the argument .",
+    "entities": {},
+    "relations": [],
+    "serialized": []
   },
   {
     "sent_id": 1177,
@@ -29553,6 +31569,13 @@
     ]
   },
   {
+    "sent_id": 1197,
+    "sentences": "yes .",
+    "entities": {},
+    "relations": [],
+    "serialized": []
+  },
+  {
     "sent_id": 1198,
     "sentences": "and , well , we know now the harvest of all that .",
     "entities": {
@@ -29689,6 +31712,34 @@
         "type": "GeographicalSocialPolitical"
       }
     ]
+  },
+  {
+    "sent_id": 1204,
+    "sentences": "2003-05-08 18:33:04",
+    "entities": {},
+    "relations": [],
+    "serialized": []
+  },
+  {
+    "sent_id": 1205,
+    "sentences": "CNNHL_ENG_20030331_193419 .9",
+    "entities": {},
+    "relations": [],
+    "serialized": []
+  },
+  {
+    "sent_id": 1206,
+    "sentences": "NEWS STORY",
+    "entities": {},
+    "relations": [],
+    "serialized": []
+  },
+  {
+    "sent_id": 1207,
+    "sentences": "2003-03-31 19:37:15",
+    "entities": {},
+    "relations": [],
+    "serialized": []
   },
   {
     "sent_id": 1208,
@@ -29878,6 +31929,41 @@
     ]
   },
   {
+    "sent_id": 1211,
+    "sentences": "2003-03-31 19:37:30",
+    "entities": {},
+    "relations": [],
+    "serialized": []
+  },
+  {
+    "sent_id": 1212,
+    "sentences": "FLOPPINGACES_20041114 .1240.039",
+    "entities": {},
+    "relations": [],
+    "serialized": []
+  },
+  {
+    "sent_id": 1213,
+    "sentences": "WEB TEXT",
+    "entities": {},
+    "relations": [],
+    "serialized": []
+  },
+  {
+    "sent_id": 1214,
+    "sentences": "2004-11-14T12 :40:00",
+    "entities": {},
+    "relations": [],
+    "serialized": []
+  },
+  {
+    "sent_id": 1215,
+    "sentences": "al-Qaeda & Nukes",
+    "entities": {},
+    "relations": [],
+    "serialized": []
+  },
+  {
     "sent_id": 1216,
     "sentences": "Curt",
     "entities": {
@@ -29890,6 +31976,13 @@
         "type": "Person"
       }
     ]
+  },
+  {
+    "sent_id": 1217,
+    "sentences": "2004-11-14T12 :40:00",
+    "entities": {},
+    "relations": [],
+    "serialized": []
   },
   {
     "sent_id": 1218,
@@ -30053,6 +32146,34 @@
     ]
   },
   {
+    "sent_id": 1221,
+    "sentences": "AGGRESSIVEVOICEDAILY_20050205 .1954",
+    "entities": {},
+    "relations": [],
+    "serialized": []
+  },
+  {
+    "sent_id": 1222,
+    "sentences": "WEB TEXT",
+    "entities": {},
+    "relations": [],
+    "serialized": []
+  },
+  {
+    "sent_id": 1223,
+    "sentences": "2005-02-05T19 :54:00",
+    "entities": {},
+    "relations": [],
+    "serialized": []
+  },
+  {
+    "sent_id": 1224,
+    "sentences": "Worst Neighbor in the World",
+    "entities": {},
+    "relations": [],
+    "serialized": []
+  },
+  {
     "sent_id": 1225,
     "sentences": "Scott",
     "entities": {
@@ -30065,6 +32186,13 @@
         "type": "Person"
       }
     ]
+  },
+  {
+    "sent_id": 1226,
+    "sentences": "2005-02-05T19 :54:00",
+    "entities": {},
+    "relations": [],
+    "serialized": []
   },
   {
     "sent_id": 1227,
@@ -30405,6 +32533,34 @@
     ]
   },
   {
+    "sent_id": 1234,
+    "sentences": "Maybe delinquency does pay off better .",
+    "entities": {},
+    "relations": [],
+    "serialized": []
+  },
+  {
+    "sent_id": 1235,
+    "sentences": "CNN_ENG_20030418_083040 .11",
+    "entities": {},
+    "relations": [],
+    "serialized": []
+  },
+  {
+    "sent_id": 1236,
+    "sentences": "NEWS STORY",
+    "entities": {},
+    "relations": [],
+    "serialized": []
+  },
+  {
+    "sent_id": 1237,
+    "sentences": "2003-04-18 09:50:44",
+    "entities": {},
+    "relations": [],
+    "serialized": []
+  },
+  {
     "sent_id": 1238,
     "sentences": "in a moment , check in the pentagon and get the latest on the iraqi prisoners of war .",
     "entities": {
@@ -30529,6 +32685,34 @@
         ]
       }
     ]
+  },
+  {
+    "sent_id": 1241,
+    "sentences": "2003-04-18 09:53:39",
+    "entities": {},
+    "relations": [],
+    "serialized": []
+  },
+  {
+    "sent_id": 1242,
+    "sentences": "CNNHL_ENG_20030304_142751 .10",
+    "entities": {},
+    "relations": [],
+    "serialized": []
+  },
+  {
+    "sent_id": 1243,
+    "sentences": "NEWS STORY",
+    "entities": {},
+    "relations": [],
+    "serialized": []
+  },
+  {
+    "sent_id": 1244,
+    "sentences": "2003-03-04 14:40:44",
+    "entities": {},
+    "relations": [],
+    "serialized": []
   },
   {
     "sent_id": 1245,
@@ -30756,6 +32940,13 @@
     ]
   },
   {
+    "sent_id": 1253,
+    "sentences": "but it looked like a survivable crash .",
+    "entities": {},
+    "relations": [],
+    "serialized": []
+  },
+  {
     "sent_id": 1254,
     "sentences": "initially the wreckage was spotted , and there was no person spotted .",
     "entities": {
@@ -30967,6 +33158,13 @@
     ]
   },
   {
+    "sent_id": 1261,
+    "sentences": "the pace of job cuts is quickening .",
+    "entities": {},
+    "relations": [],
+    "serialized": []
+  },
+  {
     "sent_id": 1262,
     "sentences": "the survey by challenger gray and christmas says layoffs rose about 5 % in february .",
     "entities": {
@@ -30979,6 +33177,13 @@
         "type": "Organization"
       }
     ]
+  },
+  {
+    "sent_id": 1263,
+    "sentences": "that 's the second straight monthly increase .",
+    "entities": {},
+    "relations": [],
+    "serialized": []
   },
   {
     "sent_id": 1264,
@@ -31045,6 +33250,13 @@
         "type": "GeographicalSocialPolitical"
       }
     ]
+  },
+  {
+    "sent_id": 1266,
+    "sentences": "economy has lost more than 2 million jobs in the past two years .",
+    "entities": {},
+    "relations": [],
+    "serialized": []
   },
   {
     "sent_id": 1267,
@@ -31141,6 +33353,13 @@
     ]
   },
   {
+    "sent_id": 1273,
+    "sentences": "and one other note of improvement .",
+    "entities": {},
+    "relations": [],
+    "serialized": []
+  },
+  {
     "sent_id": 1274,
     "sentences": "airlines reported fewer complaints about lost , damaged or delayed luggage .",
     "entities": {
@@ -31214,6 +33433,55 @@
     ]
   },
   {
+    "sent_id": 1278,
+    "sentences": "the dow has slipped 116 points .",
+    "entities": {},
+    "relations": [],
+    "serialized": []
+  },
+  {
+    "sent_id": 1279,
+    "sentences": "the nasdaq is @ down three",
+    "entities": {},
+    "relations": [],
+    "serialized": []
+  },
+  {
+    "sent_id": 1280,
+    "sentences": "2003-03-04 14:43:22",
+    "entities": {},
+    "relations": [],
+    "serialized": []
+  },
+  {
+    "sent_id": 1281,
+    "sentences": "AGGRESSIVEVOICEDAILY_20050116 .2149",
+    "entities": {},
+    "relations": [],
+    "serialized": []
+  },
+  {
+    "sent_id": 1282,
+    "sentences": "WEB TEXT",
+    "entities": {},
+    "relations": [],
+    "serialized": []
+  },
+  {
+    "sent_id": 1283,
+    "sentences": "2005-01-16T21 :49:00",
+    "entities": {},
+    "relations": [],
+    "serialized": []
+  },
+  {
+    "sent_id": 1284,
+    "sentences": "There 's Always Plan B",
+    "entities": {},
+    "relations": [],
+    "serialized": []
+  },
+  {
     "sent_id": 1285,
     "sentences": "Scott",
     "entities": {
@@ -31226,6 +33494,13 @@
         "type": "Person"
       }
     ]
+  },
+  {
+    "sent_id": 1286,
+    "sentences": "2005-01-16T21 :49:00",
+    "entities": {},
+    "relations": [],
+    "serialized": []
   },
   {
     "sent_id": 1287,
@@ -31345,6 +33620,34 @@
         "type": "Person"
       }
     ]
+  },
+  {
+    "sent_id": 1293,
+    "sentences": "AFP_ENG_20030323 .0020",
+    "entities": {},
+    "relations": [],
+    "serialized": []
+  },
+  {
+    "sent_id": 1294,
+    "sentences": "NEWS STORY",
+    "entities": {},
+    "relations": [],
+    "serialized": []
+  },
+  {
+    "sent_id": 1295,
+    "sentences": "20030323",
+    "entities": {},
+    "relations": [],
+    "serialized": []
+  },
+  {
+    "sent_id": 1296,
+    "sentences": "At least 200,000 in US , Canadian anti-war demonstrations = ( PICTURES ) = ATTENTION - UPDATES , ADDS details / / /",
+    "entities": {},
+    "relations": [],
+    "serialized": []
   },
   {
     "sent_id": 1297,
@@ -32105,6 +34408,13 @@
         "type": "GeographicalSocialPolitical"
       }
     ]
+  },
+  {
+    "sent_id": 1315,
+    "sentences": "read one .",
+    "entities": {},
+    "relations": [],
+    "serialized": []
   },
   {
     "sent_id": 1316,
@@ -33136,6 +35446,34 @@
     ]
   },
   {
+    "sent_id": 1341,
+    "sentences": "AFP_ENG_20030304 .0250",
+    "entities": {},
+    "relations": [],
+    "serialized": []
+  },
+  {
+    "sent_id": 1342,
+    "sentences": "NEWS STORY",
+    "entities": {},
+    "relations": [],
+    "serialized": []
+  },
+  {
+    "sent_id": 1343,
+    "sentences": "20030304",
+    "entities": {},
+    "relations": [],
+    "serialized": []
+  },
+  {
+    "sent_id": 1344,
+    "sentences": "Death toll in Philippine blast could hit 30 : radio ATTENTION - ADDS fears of toll rising / / /",
+    "entities": {},
+    "relations": [],
+    "serialized": []
+  },
+  {
     "sent_id": 1345,
     "sentences": "DAVAO , Philippines , March 4 ( AFP )",
     "entities": {
@@ -33355,6 +35693,13 @@
     ]
   },
   {
+    "sent_id": 1351,
+    "sentences": "There were no reports of injuries in the second blast . \"",
+    "entities": {},
+    "relations": [],
+    "serialized": []
+  },
+  {
     "sent_id": 1352,
     "sentences": "It 's a very powerful bomb .",
     "entities": {
@@ -33491,6 +35836,34 @@
     ]
   },
   {
+    "sent_id": 1356,
+    "sentences": "MARKETVIEW_20041215 .2128",
+    "entities": {},
+    "relations": [],
+    "serialized": []
+  },
+  {
+    "sent_id": 1357,
+    "sentences": "WEB TEXT",
+    "entities": {},
+    "relations": [],
+    "serialized": []
+  },
+  {
+    "sent_id": 1358,
+    "sentences": "2004-12-15T21 :28:00",
+    "entities": {},
+    "relations": [],
+    "serialized": []
+  },
+  {
+    "sent_id": 1359,
+    "sentences": "Casino Stock Is n't Quite Blue-Chip",
+    "entities": {},
+    "relations": [],
+    "serialized": []
+  },
+  {
     "sent_id": 1360,
     "sentences": "Byrne",
     "entities": {
@@ -33503,6 +35876,13 @@
         "type": "Person"
       }
     ]
+  },
+  {
+    "sent_id": 1361,
+    "sentences": "2004-12-15T21 :28:00",
+    "entities": {},
+    "relations": [],
+    "serialized": []
   },
   {
     "sent_id": 1362,
@@ -33594,6 +35974,13 @@
         "type": "Organization"
       }
     ]
+  },
+  {
+    "sent_id": 1366,
+    "sentences": "But , well , the business is complicated and the business is tough .",
+    "entities": {},
+    "relations": [],
+    "serialized": []
   },
   {
     "sent_id": 1367,
@@ -33815,6 +36202,34 @@
     ]
   },
   {
+    "sent_id": 1374,
+    "sentences": "FLOPPINGACES_20041115 .1613.032",
+    "entities": {},
+    "relations": [],
+    "serialized": []
+  },
+  {
+    "sent_id": 1375,
+    "sentences": "WEB TEXT",
+    "entities": {},
+    "relations": [],
+    "serialized": []
+  },
+  {
+    "sent_id": 1376,
+    "sentences": "2004-11-15T16 :13:00",
+    "entities": {},
+    "relations": [],
+    "serialized": []
+  },
+  {
+    "sent_id": 1377,
+    "sentences": "Condi the New Secretary of State",
+    "entities": {},
+    "relations": [],
+    "serialized": []
+  },
+  {
     "sent_id": 1378,
     "sentences": "Curt",
     "entities": {
@@ -33827,6 +36242,13 @@
         "type": "Person"
       }
     ]
+  },
+  {
+    "sent_id": 1379,
+    "sentences": "2004-11-15T16 :13:00",
+    "entities": {},
+    "relations": [],
+    "serialized": []
   },
   {
     "sent_id": 1380,
@@ -33984,6 +36406,34 @@
     ]
   },
   {
+    "sent_id": 1384,
+    "sentences": "OIADVANTAGE_20050204 .1155",
+    "entities": {},
+    "relations": [],
+    "serialized": []
+  },
+  {
+    "sent_id": 1385,
+    "sentences": "WEB TEXT",
+    "entities": {},
+    "relations": [],
+    "serialized": []
+  },
+  {
+    "sent_id": 1386,
+    "sentences": "2005-02-04T11 :55:00",
+    "entities": {},
+    "relations": [],
+    "serialized": []
+  },
+  {
+    "sent_id": 1387,
+    "sentences": "I 'll take a double shot",
+    "entities": {},
+    "relations": [],
+    "serialized": []
+  },
+  {
     "sent_id": 1388,
     "sentences": "John A",
     "entities": {
@@ -33996,6 +36446,13 @@
         "type": "Person"
       }
     ]
+  },
+  {
+    "sent_id": 1389,
+    "sentences": "2005-02-04T11 :55:00",
+    "entities": {},
+    "relations": [],
+    "serialized": []
   },
   {
     "sent_id": 1390,
@@ -34106,6 +36563,34 @@
     ]
   },
   {
+    "sent_id": 1395,
+    "sentences": "Really not a bad lifestyle .",
+    "entities": {},
+    "relations": [],
+    "serialized": []
+  },
+  {
+    "sent_id": 1396,
+    "sentences": "Anyway , back on topic here .",
+    "entities": {},
+    "relations": [],
+    "serialized": []
+  },
+  {
+    "sent_id": 1397,
+    "sentences": "Market over reaction ?",
+    "entities": {},
+    "relations": [],
+    "serialized": []
+  },
+  {
+    "sent_id": 1398,
+    "sentences": "Hard to say .",
+    "entities": {},
+    "relations": [],
+    "serialized": []
+  },
+  {
     "sent_id": 1399,
     "sentences": "Both companies have pricey stocks and those valuations are based on optimistic expectations of future growth .",
     "entities": {
@@ -34189,6 +36674,13 @@
         "type": "Person"
       }
     ]
+  },
+  {
+    "sent_id": 1404,
+    "sentences": "This may partially justify a higher P/E ratio .",
+    "entities": {},
+    "relations": [],
+    "serialized": []
   },
   {
     "sent_id": 1405,
@@ -34336,6 +36828,13 @@
     ]
   },
   {
+    "sent_id": 1412,
+    "sentences": "This is a strategic shift that has short-term costs and adds some uncertainty to the financial statements .",
+    "entities": {},
+    "relations": [],
+    "serialized": []
+  },
+  {
     "sent_id": 1413,
     "sentences": "Beyond the strong Organizational Indicator analysis , several additional factors favor Starbucks ability to continue to grow revenues .",
     "entities": {
@@ -34348,6 +36847,13 @@
         "type": "Organization"
       }
     ]
+  },
+  {
+    "sent_id": 1414,
+    "sentences": "1 .",
+    "entities": {},
+    "relations": [],
+    "serialized": []
   },
   {
     "sent_id": 1415,
@@ -34435,6 +36941,13 @@
     ]
   },
   {
+    "sent_id": 1420,
+    "sentences": "2 .",
+    "entities": {},
+    "relations": [],
+    "serialized": []
+  },
+  {
     "sent_id": 1421,
     "sentences": "Starbucks has a healthy cashflow and current cash position .",
     "entities": {
@@ -34504,6 +37017,13 @@
         "type": "Organization"
       }
     ]
+  },
+  {
+    "sent_id": 1425,
+    "sentences": "3 .",
+    "entities": {},
+    "relations": [],
+    "serialized": []
   },
   {
     "sent_id": 1426,
@@ -34602,6 +37122,13 @@
     ]
   },
   {
+    "sent_id": 1428,
+    "sentences": "From a managerial perspective this greatly simplifies cost structures , product changes , and quality control .",
+    "entities": {},
+    "relations": [],
+    "serialized": []
+  },
+  {
     "sent_id": 1429,
     "sentences": "Taken together all of these factors paint a picture of a company with a very strong future .",
     "entities": {
@@ -34628,6 +37155,13 @@
         "type": "Person"
       }
     ]
+  },
+  {
+    "sent_id": 1431,
+    "sentences": "Risk is lower .",
+    "entities": {},
+    "relations": [],
+    "serialized": []
   },
   {
     "sent_id": 1432,
@@ -34741,6 +37275,41 @@
     ]
   },
   {
+    "sent_id": 1435,
+    "sentences": "MARKETVIEW_20050201 .0748",
+    "entities": {},
+    "relations": [],
+    "serialized": []
+  },
+  {
+    "sent_id": 1436,
+    "sentences": "WEB TEXT",
+    "entities": {},
+    "relations": [],
+    "serialized": []
+  },
+  {
+    "sent_id": 1437,
+    "sentences": "2005-02-01T07 :48:00",
+    "entities": {},
+    "relations": [],
+    "serialized": []
+  },
+  {
+    "sent_id": 1438,
+    "sentences": "Off the hook ?",
+    "entities": {},
+    "relations": [],
+    "serialized": []
+  },
+  {
+    "sent_id": 1439,
+    "sentences": "Give us a break !",
+    "entities": {},
+    "relations": [],
+    "serialized": []
+  },
+  {
     "sent_id": 1440,
     "sentences": "Byrne",
     "entities": {
@@ -34753,6 +37322,13 @@
         "type": "Person"
       }
     ]
+  },
+  {
+    "sent_id": 1441,
+    "sentences": "2005-02-01T07 :48:00",
+    "entities": {},
+    "relations": [],
+    "serialized": []
   },
   {
     "sent_id": 1442,
@@ -34903,6 +37479,13 @@
     ]
   },
   {
+    "sent_id": 1446,
+    "sentences": "Crazy .",
+    "entities": {},
+    "relations": [],
+    "serialized": []
+  },
+  {
     "sent_id": 1447,
     "sentences": "Full Disclosure : I own shares of Marsh , and I would not be particularly dissapointed if Eliot Spitzer 's career took a sudden nosedive thanks to , say , questions about his business relationship to money manager and alleged stock manipulator Jim Cramer .",
     "entities": {
@@ -34980,6 +37563,34 @@
     ]
   },
   {
+    "sent_id": 1449,
+    "sentences": "AGGRESSIVEVOICEDAILY_20050109 .1627",
+    "entities": {},
+    "relations": [],
+    "serialized": []
+  },
+  {
+    "sent_id": 1450,
+    "sentences": "WEB TEXT",
+    "entities": {},
+    "relations": [],
+    "serialized": []
+  },
+  {
+    "sent_id": 1451,
+    "sentences": "2005-01-09T16 :27:00",
+    "entities": {},
+    "relations": [],
+    "serialized": []
+  },
+  {
+    "sent_id": 1452,
+    "sentences": "Dangerous Colors",
+    "entities": {},
+    "relations": [],
+    "serialized": []
+  },
+  {
     "sent_id": 1453,
     "sentences": "Scott",
     "entities": {
@@ -34992,6 +37603,13 @@
         "type": "Person"
       }
     ]
+  },
+  {
+    "sent_id": 1454,
+    "sentences": "2005-01-09T16 :27:00",
+    "entities": {},
+    "relations": [],
+    "serialized": []
   },
   {
     "sent_id": 1455,
@@ -35207,6 +37825,13 @@
     ]
   },
   {
+    "sent_id": 1460,
+    "sentences": "The \" Lollipop \" got an overall \" excellent \" rating .",
+    "entities": {},
+    "relations": [],
+    "serialized": []
+  },
+  {
     "sent_id": 1461,
     "sentences": "Pretty scary that poorly rated condoms have been available to teens , both those looking for free sex and those who happen to attend public school .",
     "entities": {
@@ -35281,6 +37906,27 @@
         "type": "Person"
       }
     ]
+  },
+  {
+    "sent_id": 1464,
+    "sentences": "CNNHL_ENG_20030610_133347 .6",
+    "entities": {},
+    "relations": [],
+    "serialized": []
+  },
+  {
+    "sent_id": 1465,
+    "sentences": "NEWS STORY",
+    "entities": {},
+    "relations": [],
+    "serialized": []
+  },
+  {
+    "sent_id": 1466,
+    "sentences": "2003-06-10 13:41:52",
+    "entities": {},
+    "relations": [],
+    "serialized": []
   },
   {
     "sent_id": 1467,
@@ -35507,6 +38153,41 @@
         "type": "Person"
       }
     ]
+  },
+  {
+    "sent_id": 1474,
+    "sentences": "2003-06-10 13:42:43",
+    "entities": {},
+    "relations": [],
+    "serialized": []
+  },
+  {
+    "sent_id": 1475,
+    "sentences": "AFP_ENG_20030427 .0118",
+    "entities": {},
+    "relations": [],
+    "serialized": []
+  },
+  {
+    "sent_id": 1476,
+    "sentences": "NEWS STORY",
+    "entities": {},
+    "relations": [],
+    "serialized": []
+  },
+  {
+    "sent_id": 1477,
+    "sentences": "20030427",
+    "entities": {},
+    "relations": [],
+    "serialized": []
+  },
+  {
+    "sent_id": 1478,
+    "sentences": "Pakistani Christian gets life imprisonment for blasphemy",
+    "entities": {},
+    "relations": [],
+    "serialized": []
   },
   {
     "sent_id": 1479,
@@ -36077,6 +38758,34 @@
     ]
   },
   {
+    "sent_id": 1490,
+    "sentences": "CNN_IP_20030405 .1600.01 -3",
+    "entities": {},
+    "relations": [],
+    "serialized": []
+  },
+  {
+    "sent_id": 1491,
+    "sentences": "STORY",
+    "entities": {},
+    "relations": [],
+    "serialized": []
+  },
+  {
+    "sent_id": 1492,
+    "sentences": "2003-04-05T16 :00:00 -05:00",
+    "entities": {},
+    "relations": [],
+    "serialized": []
+  },
+  {
+    "sent_id": 1493,
+    "sentences": "Coalition Troops Penetrate Outskirts of Baghdad",
+    "entities": {},
+    "relations": [],
+    "serialized": []
+  },
+  {
     "sent_id": 1494,
     "sentences": "WOODRUFF",
     "entities": {
@@ -36089,6 +38798,13 @@
         "type": "Person"
       }
     ]
+  },
+  {
+    "sent_id": 1495,
+    "sentences": "Thanks very much .",
+    "entities": {},
+    "relations": [],
+    "serialized": []
   },
   {
     "sent_id": 1496,
@@ -36198,6 +38914,13 @@
         ]
       }
     ]
+  },
+  {
+    "sent_id": 1498,
+    "sentences": "( BEGIN VIDEOTAPE )",
+    "entities": {},
+    "relations": [],
+    "serialized": []
   },
   {
     "sent_id": 1499,
@@ -36453,6 +39176,13 @@
         "type": "Person"
       }
     ]
+  },
+  {
+    "sent_id": 1508,
+    "sentences": "The coffins were there .",
+    "entities": {},
+    "relations": [],
+    "serialized": []
   },
   {
     "sent_id": 1509,
@@ -36746,6 +39476,13 @@
     ]
   },
   {
+    "sent_id": 1521,
+    "sentences": "( END VIDEOTAPE )",
+    "entities": {},
+    "relations": [],
+    "serialized": []
+  },
+  {
     "sent_id": 1522,
     "sentences": "WOODRUFF",
     "entities": {
@@ -36834,6 +39571,27 @@
     ]
   },
   {
+    "sent_id": 1525,
+    "sentences": "TTRACY_20050223 .1049",
+    "entities": {},
+    "relations": [],
+    "serialized": []
+  },
+  {
+    "sent_id": 1526,
+    "sentences": "WEB TEXT",
+    "entities": {},
+    "relations": [],
+    "serialized": []
+  },
+  {
+    "sent_id": 1527,
+    "sentences": "2005-02-23T10 :49:00",
+    "entities": {},
+    "relations": [],
+    "serialized": []
+  },
+  {
     "sent_id": 1528,
     "sentences": "tracy",
     "entities": {
@@ -36846,6 +39604,20 @@
         "type": "Person"
       }
     ]
+  },
+  {
+    "sent_id": 1529,
+    "sentences": "2005-02-23T10 :49:00",
+    "entities": {},
+    "relations": [],
+    "serialized": []
+  },
+  {
+    "sent_id": 1530,
+    "sentences": "Got job ?",
+    "entities": {},
+    "relations": [],
+    "serialized": []
   },
   {
     "sent_id": 1531,
@@ -37647,6 +40419,20 @@
     ]
   },
   {
+    "sent_id": 1561,
+    "sentences": "New clothes .",
+    "entities": {},
+    "relations": [],
+    "serialized": []
+  },
+  {
+    "sent_id": 1562,
+    "sentences": "New everything .",
+    "entities": {},
+    "relations": [],
+    "serialized": []
+  },
+  {
     "sent_id": 1563,
     "sentences": "But I want family more .",
     "entities": {
@@ -37711,6 +40497,27 @@
         "type": "Person"
       }
     ]
+  },
+  {
+    "sent_id": 1567,
+    "sentences": "CNNHL_ENG_20030624_230338 .34",
+    "entities": {},
+    "relations": [],
+    "serialized": []
+  },
+  {
+    "sent_id": 1568,
+    "sentences": "NEWS STORY",
+    "entities": {},
+    "relations": [],
+    "serialized": []
+  },
+  {
+    "sent_id": 1569,
+    "sentences": "2003-06-24 23:32:10",
+    "entities": {},
+    "relations": [],
+    "serialized": []
   },
   {
     "sent_id": 1570,
@@ -38435,6 +41242,41 @@
     ]
   },
   {
+    "sent_id": 1589,
+    "sentences": "2003-06-24 23:33:57",
+    "entities": {},
+    "relations": [],
+    "serialized": []
+  },
+  {
+    "sent_id": 1590,
+    "sentences": "AGGRESSIVEVOICEDAILY_20050114 .1922",
+    "entities": {},
+    "relations": [],
+    "serialized": []
+  },
+  {
+    "sent_id": 1591,
+    "sentences": "WEB TEXT",
+    "entities": {},
+    "relations": [],
+    "serialized": []
+  },
+  {
+    "sent_id": 1592,
+    "sentences": "2005-01-14T19 :22:00",
+    "entities": {},
+    "relations": [],
+    "serialized": []
+  },
+  {
+    "sent_id": 1593,
+    "sentences": "The Grinch Loses Again",
+    "entities": {},
+    "relations": [],
+    "serialized": []
+  },
+  {
     "sent_id": 1594,
     "sentences": "Scott",
     "entities": {
@@ -38447,6 +41289,13 @@
         "type": "Person"
       }
     ]
+  },
+  {
+    "sent_id": 1595,
+    "sentences": "2005-01-14T19 :22:00",
+    "entities": {},
+    "relations": [],
+    "serialized": []
   },
   {
     "sent_id": 1596,
@@ -38616,6 +41465,34 @@
         "type": "Person"
       }
     ]
+  },
+  {
+    "sent_id": 1602,
+    "sentences": "XIN_ENG_20030415 .0379",
+    "entities": {},
+    "relations": [],
+    "serialized": []
+  },
+  {
+    "sent_id": 1603,
+    "sentences": "NEWS STORY",
+    "entities": {},
+    "relations": [],
+    "serialized": []
+  },
+  {
+    "sent_id": 1604,
+    "sentences": "20030415",
+    "entities": {},
+    "relations": [],
+    "serialized": []
+  },
+  {
+    "sent_id": 1605,
+    "sentences": "hka -- Macao traces passengers on flight with suspected SARS infector",
+    "entities": {},
+    "relations": [],
+    "serialized": []
   },
   {
     "sent_id": 1606,
@@ -38907,6 +41784,34 @@
     ]
   },
   {
+    "sent_id": 1613,
+    "sentences": "AGGRESSIVEVOICEDAILY_20050125 .0136",
+    "entities": {},
+    "relations": [],
+    "serialized": []
+  },
+  {
+    "sent_id": 1614,
+    "sentences": "WEB TEXT",
+    "entities": {},
+    "relations": [],
+    "serialized": []
+  },
+  {
+    "sent_id": 1615,
+    "sentences": "2005-01-25T01 :36:00",
+    "entities": {},
+    "relations": [],
+    "serialized": []
+  },
+  {
+    "sent_id": 1616,
+    "sentences": "Courts Say ' No ' to Choose Life Plates",
+    "entities": {},
+    "relations": [],
+    "serialized": []
+  },
+  {
     "sent_id": 1617,
     "sentences": "Scott",
     "entities": {
@@ -38919,6 +41824,13 @@
         "type": "Person"
       }
     ]
+  },
+  {
+    "sent_id": 1618,
+    "sentences": "2005-01-25T01 :36:00",
+    "entities": {},
+    "relations": [],
+    "serialized": []
   },
   {
     "sent_id": 1619,
@@ -38982,6 +41894,13 @@
         "type": "Person"
       }
     ]
+  },
+  {
+    "sent_id": 1621,
+    "sentences": "Say what ??",
+    "entities": {},
+    "relations": [],
+    "serialized": []
   },
   {
     "sent_id": 1622,
@@ -39055,6 +41974,13 @@
     ]
   },
   {
+    "sent_id": 1625,
+    "sentences": "Oh that 's right .",
+    "entities": {},
+    "relations": [],
+    "serialized": []
+  },
+  {
     "sent_id": 1626,
     "sentences": "The dastardly people at Planned Parenthood .",
     "entities": {
@@ -39117,6 +42043,27 @@
         ]
       }
     ]
+  },
+  {
+    "sent_id": 1628,
+    "sentences": "CNN_ENG_20030407_170605 .7",
+    "entities": {},
+    "relations": [],
+    "serialized": []
+  },
+  {
+    "sent_id": 1629,
+    "sentences": "NEWS STORY",
+    "entities": {},
+    "relations": [],
+    "serialized": []
+  },
+  {
+    "sent_id": 1630,
+    "sentences": "2003-04-07 17:30:31",
+    "entities": {},
+    "relations": [],
+    "serialized": []
   },
   {
     "sent_id": 1631,
@@ -39230,6 +42177,13 @@
         "type": "Facility"
       }
     ]
+  },
+  {
+    "sent_id": 1633,
+    "sentences": "initial tests were inconclusive .",
+    "entities": {},
+    "relations": [],
+    "serialized": []
   },
   {
     "sent_id": 1634,
@@ -39478,6 +42432,41 @@
         "type": "Person"
       }
     ]
+  },
+  {
+    "sent_id": 1642,
+    "sentences": "2003-04-07 17:31:43",
+    "entities": {},
+    "relations": [],
+    "serialized": []
+  },
+  {
+    "sent_id": 1643,
+    "sentences": "AFP_ENG_20030514 .0706",
+    "entities": {},
+    "relations": [],
+    "serialized": []
+  },
+  {
+    "sent_id": 1644,
+    "sentences": "NEWS STORY",
+    "entities": {},
+    "relations": [],
+    "serialized": []
+  },
+  {
+    "sent_id": 1645,
+    "sentences": "20030514",
+    "entities": {},
+    "relations": [],
+    "serialized": []
+  },
+  {
+    "sent_id": 1646,
+    "sentences": "Israeli FM meets Qatari counterpart in Paris",
+    "entities": {},
+    "relations": [],
+    "serialized": []
   },
   {
     "sent_id": 1647,
@@ -40002,6 +42991,34 @@
         ]
       }
     ]
+  },
+  {
+    "sent_id": 1657,
+    "sentences": "AFP_ENG_20030509 .0345",
+    "entities": {},
+    "relations": [],
+    "serialized": []
+  },
+  {
+    "sent_id": 1658,
+    "sentences": "NEWS STORY",
+    "entities": {},
+    "relations": [],
+    "serialized": []
+  },
+  {
+    "sent_id": 1659,
+    "sentences": "20030509",
+    "entities": {},
+    "relations": [],
+    "serialized": []
+  },
+  {
+    "sent_id": 1660,
+    "sentences": "Budget cinema launched by eastJet founder finally gets some films",
+    "entities": {},
+    "relations": [],
+    "serialized": []
   },
   {
     "sent_id": 1661,
@@ -40589,6 +43606,34 @@
     ]
   },
   {
+    "sent_id": 1674,
+    "sentences": "APW_ENG_20030416 .0581",
+    "entities": {},
+    "relations": [],
+    "serialized": []
+  },
+  {
+    "sent_id": 1675,
+    "sentences": "NEWS STORY",
+    "entities": {},
+    "relations": [],
+    "serialized": []
+  },
+  {
+    "sent_id": 1676,
+    "sentences": "20030416",
+    "entities": {},
+    "relations": [],
+    "serialized": []
+  },
+  {
+    "sent_id": 1677,
+    "sentences": "Appeal launched against Russian journalist 's treason conviction",
+    "entities": {},
+    "relations": [],
+    "serialized": []
+  },
+  {
     "sent_id": 1678,
     "sentences": "MOSCOW ( AP )",
     "entities": {
@@ -41124,6 +44169,34 @@
         "type": "Organization"
       }
     ]
+  },
+  {
+    "sent_id": 1689,
+    "sentences": "( sbg )",
+    "entities": {},
+    "relations": [],
+    "serialized": []
+  },
+  {
+    "sent_id": 1690,
+    "sentences": "CNNHL_ENG_20030609_133335 .37",
+    "entities": {},
+    "relations": [],
+    "serialized": []
+  },
+  {
+    "sent_id": 1691,
+    "sentences": "NEWS STORY",
+    "entities": {},
+    "relations": [],
+    "serialized": []
+  },
+  {
+    "sent_id": 1692,
+    "sentences": "2003-06-09 14:02:37",
+    "entities": {},
+    "relations": [],
+    "serialized": []
   },
   {
     "sent_id": 1693,
@@ -41701,6 +44774,41 @@
         "type": "Organization"
       }
     ]
+  },
+  {
+    "sent_id": 1710,
+    "sentences": "2003-06-09 14:04:08",
+    "entities": {},
+    "relations": [],
+    "serialized": []
+  },
+  {
+    "sent_id": 1711,
+    "sentences": "APW_ENG_20030527 .0232",
+    "entities": {},
+    "relations": [],
+    "serialized": []
+  },
+  {
+    "sent_id": 1712,
+    "sentences": "NEWS STORY",
+    "entities": {},
+    "relations": [],
+    "serialized": []
+  },
+  {
+    "sent_id": 1713,
+    "sentences": "20030527",
+    "entities": {},
+    "relations": [],
+    "serialized": []
+  },
+  {
+    "sent_id": 1714,
+    "sentences": "Israeli troops kill Palestinian boy and injure two other children in West Bank violence",
+    "entities": {},
+    "relations": [],
+    "serialized": []
   },
   {
     "sent_id": 1715,
@@ -43028,6 +46136,13 @@
     ]
   },
   {
+    "sent_id": 1735,
+    "sentences": "There were no injuries from the incident .",
+    "entities": {},
+    "relations": [],
+    "serialized": []
+  },
+  {
     "sent_id": 1736,
     "sentences": "Peter Lundberg , an official from the Swedish Consulate in Jerusalem , said that two bullets hit the windshield of the Swiss Consulate 's armored car , and that small - arms fire also was directed at other cars from Sweden , Denmark and the European Union .",
     "entities": {
@@ -43353,6 +46468,13 @@
         "type": "GeographicalSocialPolitical"
       }
     ]
+  },
+  {
+    "sent_id": 1740,
+    "sentences": "- backed `` road map '' peace plan .",
+    "entities": {},
+    "relations": [],
+    "serialized": []
   },
   {
     "sent_id": 1741,
@@ -43784,6 +46906,13 @@
     ]
   },
   {
+    "sent_id": 1750,
+    "sentences": "`` This ca n't continue endlessly .",
+    "entities": {},
+    "relations": [],
+    "serialized": []
+  },
+  {
     "sent_id": 1751,
     "sentences": "Do you want to remain forever in Ramallah , Jenin , Nablus ? ''",
     "entities": {
@@ -43927,6 +47056,20 @@
     ]
   },
   {
+    "sent_id": 1756,
+    "sentences": "Nothing .",
+    "entities": {},
+    "relations": [],
+    "serialized": []
+  },
+  {
+    "sent_id": 1757,
+    "sentences": "Nothing will happen .",
+    "entities": {},
+    "relations": [],
+    "serialized": []
+  },
+  {
     "sent_id": 1758,
     "sentences": "The Palestinians will get nothing , '' he said .",
     "entities": {
@@ -44043,6 +47186,13 @@
     ]
   },
   {
+    "sent_id": 1762,
+    "sentences": "pressure .",
+    "entities": {},
+    "relations": [],
+    "serialized": []
+  },
+  {
     "sent_id": 1763,
     "sentences": "`` Ariel Sharon likes to walk in the fog , because then no one knows where he is headed , '' Sarid wrote in the Yediot Ahronot daily .",
     "entities": {
@@ -44080,6 +47230,34 @@
         "type": "Organization"
       }
     ]
+  },
+  {
+    "sent_id": 1764,
+    "sentences": "pvs-lja",
+    "entities": {},
+    "relations": [],
+    "serialized": []
+  },
+  {
+    "sent_id": 1765,
+    "sentences": "CNNHL_ENG_20030416_133739 .9",
+    "entities": {},
+    "relations": [],
+    "serialized": []
+  },
+  {
+    "sent_id": 1766,
+    "sentences": "NEWS STORY",
+    "entities": {},
+    "relations": [],
+    "serialized": []
+  },
+  {
+    "sent_id": 1767,
+    "sentences": "2003-04-16 13:37:49",
+    "entities": {},
+    "relations": [],
+    "serialized": []
   },
   {
     "sent_id": 1768,
@@ -44334,6 +47512,41 @@
         ]
       }
     ]
+  },
+  {
+    "sent_id": 1775,
+    "sentences": "2003-04-16 13:38:20",
+    "entities": {},
+    "relations": [],
+    "serialized": []
+  },
+  {
+    "sent_id": 1776,
+    "sentences": "CNN_IP_20030402 .1600.00 -2",
+    "entities": {},
+    "relations": [],
+    "serialized": []
+  },
+  {
+    "sent_id": 1777,
+    "sentences": "STORY",
+    "entities": {},
+    "relations": [],
+    "serialized": []
+  },
+  {
+    "sent_id": 1778,
+    "sentences": "2003-04-02T16 :00:00 -05:00",
+    "entities": {},
+    "relations": [],
+    "serialized": []
+  },
+  {
+    "sent_id": 1779,
+    "sentences": "Push to Baghdad Begins ; POW Safe in Army 's Care",
+    "entities": {},
+    "relations": [],
+    "serialized": []
   },
   {
     "sent_id": 1780,
@@ -44788,6 +48001,13 @@
         "type": "Person"
       }
     ]
+  },
+  {
+    "sent_id": 1794,
+    "sentences": "Thanks very much .",
+    "entities": {},
+    "relations": [],
+    "serialized": []
   },
   {
     "sent_id": 1795,
@@ -45249,6 +48469,13 @@
     ]
   },
   {
+    "sent_id": 1806,
+    "sentences": "( BEGIN VIDEO CLIP )",
+    "entities": {},
+    "relations": [],
+    "serialized": []
+  },
+  {
     "sent_id": 1807,
     "sentences": "MAJOR GENERAL STANLEY MCCHRYSTAL , JOINT CHIEFS , VICE DIR .",
     "entities": {
@@ -45462,6 +48689,13 @@
         ]
       }
     ]
+  },
+  {
+    "sent_id": 1814,
+    "sentences": "( END VIDEO CLIP )",
+    "entities": {},
+    "relations": [],
+    "serialized": []
   },
   {
     "sent_id": 1815,
@@ -45954,6 +49188,13 @@
     ]
   },
   {
+    "sent_id": 1828,
+    "sentences": "And that might be a good thing .",
+    "entities": {},
+    "relations": [],
+    "serialized": []
+  },
+  {
     "sent_id": 1829,
     "sentences": "They are taking it very cautiously .",
     "entities": {
@@ -45985,6 +49226,13 @@
         "type": "Person"
       }
     ]
+  },
+  {
+    "sent_id": 1831,
+    "sentences": "Could be urban combat .",
+    "entities": {},
+    "relations": [],
+    "serialized": []
   },
   {
     "sent_id": 1832,
@@ -46032,6 +49280,13 @@
         ]
       }
     ]
+  },
+  {
+    "sent_id": 1834,
+    "sentences": "Could be a very dangerous time .",
+    "entities": {},
+    "relations": [],
+    "serialized": []
   },
   {
     "sent_id": 1835,
@@ -46146,6 +49401,27 @@
         ]
       }
     ]
+  },
+  {
+    "sent_id": 1840,
+    "sentences": "CNN_ENG_20030312_083725 .3",
+    "entities": {},
+    "relations": [],
+    "serialized": []
+  },
+  {
+    "sent_id": 1841,
+    "sentences": "NEWS STORY",
+    "entities": {},
+    "relations": [],
+    "serialized": []
+  },
+  {
+    "sent_id": 1842,
+    "sentences": "2003-03-12 08:36:01",
+    "entities": {},
+    "relations": [],
+    "serialized": []
   },
   {
     "sent_id": 1843,
@@ -46343,6 +49619,41 @@
     ]
   },
   {
+    "sent_id": 1849,
+    "sentences": "2003-03-12 08:36:37",
+    "entities": {},
+    "relations": [],
+    "serialized": []
+  },
+  {
+    "sent_id": 1850,
+    "sentences": "CNN_ENG_20030501_063017 .15",
+    "entities": {},
+    "relations": [],
+    "serialized": []
+  },
+  {
+    "sent_id": 1851,
+    "sentences": "NEWS STORY",
+    "entities": {},
+    "relations": [],
+    "serialized": []
+  },
+  {
+    "sent_id": 1852,
+    "sentences": "2003-05-01 09:01:16",
+    "entities": {},
+    "relations": [],
+    "serialized": []
+  },
+  {
+    "sent_id": 1853,
+    "sentences": "welcome back .",
+    "entities": {},
+    "relations": [],
+    "serialized": []
+  },
+  {
     "sent_id": 1854,
     "sentences": "check in with jack cafferty as we look at the fountains outside of time answer life .",
     "entities": {
@@ -46379,6 +49690,27 @@
         "type": "GeographicalSocialPolitical"
       }
     ]
+  },
+  {
+    "sent_id": 1856,
+    "sentences": "there is the picture .",
+    "entities": {},
+    "relations": [],
+    "serialized": []
+  },
+  {
+    "sent_id": 1857,
+    "sentences": "the golden real estate treever on the left had a litter of pups and the chicken got in the pen , a real story , they 're all hanging out .",
+    "entities": {},
+    "relations": [],
+    "serialized": []
+  },
+  {
+    "sent_id": 1858,
+    "sentences": "it looks as though the puppies in one of the shots is trying to get lunch from the chicken .",
+    "entities": {},
+    "relations": [],
+    "serialized": []
   },
   {
     "sent_id": 1859,
@@ -46485,6 +49817,13 @@
     ]
   },
   {
+    "sent_id": 1865,
+    "sentences": "the question should be what is the chicken getting out of this .",
+    "entities": {},
+    "relations": [],
+    "serialized": []
+  },
+  {
     "sent_id": 1866,
     "sentences": "i do n't want to go there .",
     "entities": {
@@ -46540,6 +49879,20 @@
     ]
   },
   {
+    "sent_id": 1868,
+    "sentences": "only mammals that have distinct biological feature .",
+    "entities": {},
+    "relations": [],
+    "serialized": []
+  },
+  {
+    "sent_id": 1869,
+    "sentences": "chickens are also the void of hen 's teeth , much to the satisfaction of those little puppies .",
+    "entities": {},
+    "relations": [],
+    "serialized": []
+  },
+  {
     "sent_id": 1870,
     "sentences": "you do n't -- city people ?",
     "entities": {
@@ -46576,6 +49929,13 @@
     ]
   },
   {
+    "sent_id": 1871,
+    "sentences": "no .",
+    "entities": {},
+    "relations": [],
+    "serialized": []
+  },
+  {
     "sent_id": 1872,
     "sentences": "our viewers are nice .",
     "entities": {
@@ -46593,6 +49953,27 @@
         "type": "Person"
       }
     ]
+  },
+  {
+    "sent_id": 1873,
+    "sentences": "not nasty .",
+    "entities": {},
+    "relations": [],
+    "serialized": []
+  },
+  {
+    "sent_id": 1874,
+    "sentences": "here is the explanation .",
+    "entities": {},
+    "relations": [],
+    "serialized": []
+  },
+  {
+    "sent_id": 1875,
+    "sentences": "this is the real deal .",
+    "entities": {},
+    "relations": [],
+    "serialized": []
   },
   {
     "sent_id": 1876,
@@ -46626,6 +50007,27 @@
     ]
   },
   {
+    "sent_id": 1877,
+    "sentences": "the puppies try to nurse the chicken hen .",
+    "entities": {},
+    "relations": [],
+    "serialized": []
+  },
+  {
+    "sent_id": 1878,
+    "sentences": "they do that by feel , not sight .",
+    "entities": {},
+    "relations": [],
+    "serialized": []
+  },
+  {
+    "sent_id": 1879,
+    "sentences": "a chicken hen is warm and comfortable , so they try their luck and eventually feel their way back to the mother dog where things work out better for them .",
+    "entities": {},
+    "relations": [],
+    "serialized": []
+  },
+  {
     "sent_id": 1880,
     "sentences": "i 'm so glad that 's cleared up .",
     "entities": {
@@ -46652,6 +50054,34 @@
         "type": "Organization"
       }
     ]
+  },
+  {
+    "sent_id": 1882,
+    "sentences": "2003-05-01 09:02:44",
+    "entities": {},
+    "relations": [],
+    "serialized": []
+  },
+  {
+    "sent_id": 1883,
+    "sentences": "CNN_ENG_20030410_183644 .8",
+    "entities": {},
+    "relations": [],
+    "serialized": []
+  },
+  {
+    "sent_id": 1884,
+    "sentences": "NEWS STORY",
+    "entities": {},
+    "relations": [],
+    "serialized": []
+  },
+  {
+    "sent_id": 1885,
+    "sentences": "2003-04-10 18:45:02",
+    "entities": {},
+    "relations": [],
+    "serialized": []
   },
   {
     "sent_id": 1886,
@@ -47094,6 +50524,34 @@
     ]
   },
   {
+    "sent_id": 1899,
+    "sentences": "2003-04-10 18:48:58",
+    "entities": {},
+    "relations": [],
+    "serialized": []
+  },
+  {
+    "sent_id": 1900,
+    "sentences": "CNN_ENG_20030506_053020 .14",
+    "entities": {},
+    "relations": [],
+    "serialized": []
+  },
+  {
+    "sent_id": 1901,
+    "sentences": "NEWS STORY",
+    "entities": {},
+    "relations": [],
+    "serialized": []
+  },
+  {
+    "sent_id": 1902,
+    "sentences": "2003-05-06 07:58:56",
+    "entities": {},
+    "relations": [],
+    "serialized": []
+  },
+  {
     "sent_id": 1903,
     "sentences": "our founder here at cnn , ted turner , has sold more than half 0 his stake in aol time warner .",
     "entities": {
@@ -47151,6 +50609,13 @@
         ]
       }
     ]
+  },
+  {
+    "sent_id": 1904,
+    "sentences": "that 's a lot of shares and a lot of money .",
+    "entities": {},
+    "relations": [],
+    "serialized": []
   },
   {
     "sent_id": 1905,
@@ -47243,6 +50708,13 @@
         "type": "Person"
       }
     ]
+  },
+  {
+    "sent_id": 1908,
+    "sentences": "question is , why ?",
+    "entities": {},
+    "relations": [],
+    "serialized": []
   },
   {
     "sent_id": 1909,
@@ -47367,6 +50839,13 @@
         "type": "Person"
       }
     ]
+  },
+  {
+    "sent_id": 1915,
+    "sentences": "hind sight would have like to have gotten that .",
+    "entities": {},
+    "relations": [],
+    "serialized": []
   },
   {
     "sent_id": 1916,
@@ -47623,6 +51102,13 @@
     ]
   },
   {
+    "sent_id": 1929,
+    "sentences": "it 's been in the neighborhood for a while .",
+    "entities": {},
+    "relations": [],
+    "serialized": []
+  },
+  {
     "sent_id": 1930,
     "sentences": "i done see the thing going down a lot .",
     "entities": {
@@ -47773,6 +51259,13 @@
     ]
   },
   {
+    "sent_id": 1937,
+    "sentences": "thank you .",
+    "entities": {},
+    "relations": [],
+    "serialized": []
+  },
+  {
     "sent_id": 1938,
     "sentences": "thank you .",
     "entities": {
@@ -47842,6 +51335,20 @@
         "type": "Person"
       }
     ]
+  },
+  {
+    "sent_id": 1942,
+    "sentences": "80 of them .",
+    "entities": {},
+    "relations": [],
+    "serialized": []
+  },
+  {
+    "sent_id": 1943,
+    "sentences": "$ 13 and change , out .",
+    "entities": {},
+    "relations": [],
+    "serialized": []
   },
   {
     "sent_id": 1944,
@@ -48012,6 +51519,27 @@
         "type": "Person"
       }
     ]
+  },
+  {
+    "sent_id": 1951,
+    "sentences": "many , many responses .",
+    "entities": {},
+    "relations": [],
+    "serialized": []
+  },
+  {
+    "sent_id": 1952,
+    "sentences": "hypocrite would be a word present in many e-mails .",
+    "entities": {},
+    "relations": [],
+    "serialized": []
+  },
+  {
+    "sent_id": 1953,
+    "sentences": "hypocrite .",
+    "entities": {},
+    "relations": [],
+    "serialized": []
   },
   {
     "sent_id": 1954,
@@ -48238,6 +51766,13 @@
     ]
   },
   {
+    "sent_id": 1963,
+    "sentences": "am@cnn.com is the address .",
+    "entities": {},
+    "relations": [],
+    "serialized": []
+  },
+  {
     "sent_id": 1964,
     "sentences": "unburden yourself .",
     "entities": {
@@ -48269,6 +51804,34 @@
         "type": "Person"
       }
     ]
+  },
+  {
+    "sent_id": 1966,
+    "sentences": "2003-05-06 08:02:44",
+    "entities": {},
+    "relations": [],
+    "serialized": []
+  },
+  {
+    "sent_id": 1967,
+    "sentences": "CNN_ENG_20030325_220534 .6",
+    "entities": {},
+    "relations": [],
+    "serialized": []
+  },
+  {
+    "sent_id": 1968,
+    "sentences": "NEWS STORY",
+    "entities": {},
+    "relations": [],
+    "serialized": []
+  },
+  {
+    "sent_id": 1969,
+    "sentences": "2003-03-25 22:28:57",
+    "entities": {},
+    "relations": [],
+    "serialized": []
   },
   {
     "sent_id": 1970,
@@ -48340,6 +51903,13 @@
     ]
   },
   {
+    "sent_id": 1973,
+    "sentences": "today the evidence is somewhat more tangible .",
+    "entities": {},
+    "relations": [],
+    "serialized": []
+  },
+  {
     "sent_id": 1974,
     "sentences": "reporting for us , cnn 's david ensor .",
     "entities": {
@@ -48402,6 +51972,13 @@
         ]
       }
     ]
+  },
+  {
+    "sent_id": 1976,
+    "sentences": "gas masks turning up in abandoned trenches .",
+    "entities": {},
+    "relations": [],
+    "serialized": []
   },
   {
     "sent_id": 1977,
@@ -48994,6 +52571,55 @@
     ]
   },
   {
+    "sent_id": 1988,
+    "sentences": "2003-03-25 22:31:09",
+    "entities": {},
+    "relations": [],
+    "serialized": []
+  },
+  {
+    "sent_id": 1989,
+    "sentences": "CNN_IP_20030422 .1600.05",
+    "entities": {},
+    "relations": [],
+    "serialized": []
+  },
+  {
+    "sent_id": 1990,
+    "sentences": "STORY",
+    "entities": {},
+    "relations": [],
+    "serialized": []
+  },
+  {
+    "sent_id": 1991,
+    "sentences": "2003-04-22T16 :00:00 -05:00",
+    "entities": {},
+    "relations": [],
+    "serialized": []
+  },
+  {
+    "sent_id": 1992,
+    "sentences": "Santorum Comes Under Heat After Comments Liken Homosexuality to",
+    "entities": {},
+    "relations": [],
+    "serialized": []
+  },
+  {
+    "sent_id": 1993,
+    "sentences": "Incest , Other Crimes",
+    "entities": {},
+    "relations": [],
+    "serialized": []
+  },
+  {
+    "sent_id": 1994,
+    "sentences": "( MARKET UPDATE )",
+    "entities": {},
+    "relations": [],
+    "serialized": []
+  },
+  {
     "sent_id": 1995,
     "sentences": "WOODRUFF",
     "entities": {
@@ -49250,6 +52876,20 @@
     ]
   },
   {
+    "sent_id": 2001,
+    "sentences": "Smiles .",
+    "entities": {},
+    "relations": [],
+    "serialized": []
+  },
+  {
+    "sent_id": 2002,
+    "sentences": "That 's it for INSIDE POLITICS .",
+    "entities": {},
+    "relations": [],
+    "serialized": []
+  },
+  {
     "sent_id": 2003,
     "sentences": "I 'm Judy Woodruff .",
     "entities": {
@@ -49281,6 +52921,34 @@
         "type": "Organization"
       }
     ]
+  },
+  {
+    "sent_id": 2005,
+    "sentences": "APW_ENG_20030520 .0757",
+    "entities": {},
+    "relations": [],
+    "serialized": []
+  },
+  {
+    "sent_id": 2006,
+    "sentences": "NEWS STORY",
+    "entities": {},
+    "relations": [],
+    "serialized": []
+  },
+  {
+    "sent_id": 2007,
+    "sentences": "20030520",
+    "entities": {},
+    "relations": [],
+    "serialized": []
+  },
+  {
+    "sent_id": 2008,
+    "sentences": "Australia to keep open its embassy in Saudi Arabia With BC-ME-GEN -- Saudi-Attacks",
+    "entities": {},
+    "relations": [],
+    "serialized": []
   },
   {
     "sent_id": 2009,
@@ -49900,6 +53568,27 @@
     ]
   },
   {
+    "sent_id": 2020,
+    "sentences": "CNN_ENG_20030528_125956 .8",
+    "entities": {},
+    "relations": [],
+    "serialized": []
+  },
+  {
+    "sent_id": 2021,
+    "sentences": "NEWS STORY",
+    "entities": {},
+    "relations": [],
+    "serialized": []
+  },
+  {
+    "sent_id": 2022,
+    "sentences": "2003-05-28 13:31:47",
+    "entities": {},
+    "relations": [],
+    "serialized": []
+  },
+  {
     "sent_id": 2023,
     "sentences": "well , security is tight as exxon mobil shareholders meet today in dallas .",
     "entities": {
@@ -50368,6 +54057,13 @@
     ]
   },
   {
+    "sent_id": 2040,
+    "sentences": "stocks are struggling to hold on to modest gains right now .",
+    "entities": {},
+    "relations": [],
+    "serialized": []
+  },
+  {
     "sent_id": 2041,
     "sentences": "we 've got solid corporate profit reports today .",
     "entities": {
@@ -50382,6 +54078,13 @@
     ]
   },
   {
+    "sent_id": 2042,
+    "sentences": "and of course a little momentum after yesterday 's rally .",
+    "entities": {},
+    "relations": [],
+    "serialized": []
+  },
+  {
     "sent_id": 2043,
     "sentences": "and let ' s have a look at the dow jones industrial average .",
     "entities": {
@@ -50394,6 +54097,27 @@
         "type": "Person"
       }
     ]
+  },
+  {
+    "sent_id": 2044,
+    "sentences": "it is up by a little more than five points .",
+    "entities": {},
+    "relations": [],
+    "serialized": []
+  },
+  {
+    "sent_id": 2045,
+    "sentences": "it 's been zigging and zagging between green and red .",
+    "entities": {},
+    "relations": [],
+    "serialized": []
+  },
+  {
+    "sent_id": 2046,
+    "sentences": "right now , holding on to the green .",
+    "entities": {},
+    "relations": [],
+    "serialized": []
   },
   {
     "sent_id": 2047,
@@ -50422,5 +54146,12 @@
         "type": "Organization"
       }
     ]
+  },
+  {
+    "sent_id": 2049,
+    "sentences": "2003-05-28 13:33:48",
+    "entities": {},
+    "relations": [],
+    "serialized": []
   }
 ]

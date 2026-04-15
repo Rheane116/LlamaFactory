@@ -1,0 +1,35 @@
+### model
+model_name_or_path: /data/wengxiaolong/huggingface/Qwen2.5-7B-Instruct
+adapter_name_or_path: /data/wengxiaolong/zhouyuanyun/LlamaFactory/saves/Qwen2.5-7B/lora/sft-scierc-dfsjson-1/checkpoint-1500
+trust_remote_code: true
+
+### method
+stage: sft
+do_train: false
+finetuning_type: lora
+lora_rank: 8
+lora_target: all
+
+### dataset
+dataset: scierc_dfsjson_train_wfmt
+template: qwen
+cutoff_len: 2048
+
+### output
+output_dir: saves/Qwen2.5-7B/lora/sft-scierc-dfsjson-1/output-1500
+overwrite_output_dir: true
+predict_with_generate: true
+
+### eval
+eval_dataset: scierc_dfsjson_test_wfmt
+per_device_eval_batch_size: 4
+max_new_tokens: 1024
+do_eval: false
+do_predict: true
+load_best_model_at_end: false
+
+compute_relation_f1: true
+f1_format: dfsjson
+
+### resume
+#resume_from_checkpoint: saves/Qwen2.5-7B/lora/sft-scierc-dfsjson/checkpoint-1500

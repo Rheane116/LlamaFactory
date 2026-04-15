@@ -48,15 +48,16 @@ if __name__ == "__main__":
     split = args[2]'''
 
     #datasets = ["conll04", "scierc", "ace2005"]
-    datasets = ["scierc"]
+    datasets = ["scierc", "conll04"]
     splits = ["train", "dev", "test"]
-    #formats = ["dfsjson", "dfs", "sel"]
-    #formats = ["dfs"]
-    formats = ["json", "jsonspantype"]
+    #formats = ["dfsjson"]
+    formats = ["json", "dfsjson", "dfs", "sel"]
+    #formats = ["json", "jsonspantype"]
     for dataset in tqdm(datasets):
         for split in splits:
             for fmt in formats:
-                instruction = read_txt_formatted(f"data/{dataset}/prompt_{fmt}.txt")
+                #instruction = read_txt_formatted(f"data/{dataset}/prompt_{fmt}.txt")
+                instruction = read_txt_formatted(f"data/{dataset}/prompt.txt")
                 if fmt == "json":
                     samplelist = read_jsonl(f"data_raw/{dataset}/{split}_graph_mapped.jsonl")
                 else:
@@ -66,12 +67,16 @@ if __name__ == "__main__":
                     #print(sample)
                     if fmt == "json":
                         answer = {"entities": sample["entities"], "relations": sample["relations"]}
+                        answer = json.dumps(answer, ensure_ascii=False)
                     elif fmt in ["jsontype", "jsonspantype", "dfsjson"]:
+                        answer = sample["serialized"]
+                        answer = json.dumps(answer, ensure_ascii=False)
+                    else:
                         answer = sample["serialized"]
                     sample_new = {
                     "instruction": instruction,
                     "input": sample["sentences"],
-                    "output": json.dumps(answer, ensure_ascii=False)
+                    "output": answer
                     }
                     samplelist_new.append(sample_new)
 

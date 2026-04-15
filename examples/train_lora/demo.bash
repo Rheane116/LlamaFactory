@@ -1,0 +1,1 @@
+CUDA_VISIBLE_DEVICES=3 ALLOW_EXTRA_ARGS=true llamafactory-cli train examples/train_lora/demo.yaml > /data/wengxiaolong/zhouyuanyun/LlamaFactory/logs/demo.log 2>&1

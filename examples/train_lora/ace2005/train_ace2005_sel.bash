@@ -1,0 +1,1 @@
+CUDA_VISIBLE_DEVICES=2 ALLOW_EXTRA_ARGS=true llamafactory-cli train /data/wengxiaolong/zhouyuanyun/LlamaFactory/examples/train_lora/ace2005/train_ace2005_sel_qwen2.5.yaml > /data/wengxiaolong/zhouyuanyun/LlamaFactory/logs/wfmt/train_ace2005_sel.log 2>&1

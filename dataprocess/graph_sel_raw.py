@@ -14,7 +14,7 @@ def get_text_order(main_str, sub_str):
     :param sub_str: 子串（需全字匹配，可包含空格、单引号等特殊字符）
     :return: int，第一个匹配的起始索引；无匹配返回 -1
     """
-    sub_str = sub_str.replace("_", " ")
+    #sub_str = sub_str.replace("_", " ")
     # 1. 转义子串中的正则特殊字符（如'、.、*等），确保按字面量匹配
     escaped_sub = re.escape(sub_str)
     
@@ -86,25 +86,26 @@ def serialize_graph(graph, text): # 增加 text 参数
     all_nodes_sorted = sorted(nodes.keys(), key=lambda n: get_text_order(text, n))
     #print(all_nodes_sorted)
     for mention in all_nodes_sorted:
-        body_parts.append(f" [{mention.replace(' ', '_')}:{nodes[mention]}")
+        body_parts.append(f"[{mention}:{nodes[mention]}")
         #print(f"{mention}:{adj[mention]}")
         edges_sorted = sorted(adj[mention], key = lambda x: get_text_order(text, x[1]))
         #print(f"{mention}:{edges_sorted}")
         #print("\n")
         for edge in edges_sorted:
-            body_parts.append(f" [{edge[0]}:{edge[1].replace(' ', '_')}]")
+            body_parts.append(f"[{edge[0]}:{edge[1]}]")
         body_parts.append("]")
 
-    return f"[ROOT{''.join(body_parts)}]"
+    return f"[{''.join(body_parts)}]"
 
 
 
 
 # =============== DESERIALIZATION（SEL 新格式） ==================
 
-# \s 代表任意空白符（空格、制表符、换行等），[^...] 是「非匹配」，+ 表示「至少一个」
-TOKEN_RE_SEL = re.compile(r'\[|\]|[^\s\[\]]+')
+import re
 
+# \s 代表任意空白符（空格、制表符、换行等），[^...] 是「非匹配」，+ 表示「至少一个」
+TOKEN_RE_SEL = re.compile(r'\[|\]|[^\[\]]+')
 
 class Parser_sel:
     """
@@ -123,107 +124,86 @@ class Parser_sel:
 
     def next(self):
         t = self.peek()
-        self.i += 1
+        # 安全递增：确保在文件末尾时不会越界
+        if t is not None:
+            self.i += 1
         return t
-
-    def _expect(self, tok):
-        t = self.next()
-        if t != tok:
-            raise ValueError(f"Parse error: expect {tok}, got {t}")
 
     def _parse_entity(self):
         """
         已经消耗了实体块起始的 '['，当前 token 形如 'mention:TYPE'，
         之后是若干个关系块，每个为 '[REL:TAIL]'，最后以 ']' 结束。
+        返回 True 表示解析成功，返回 False 表示遇到格式错误。
         """
         mt = self.next()
+        #print(f"Debug for mt : {mt}")
+        # 格式错误判断：避免原本的 NameError 和 ValueError
         if not mt or ":" not in mt:
-            raise ValueError(f"Parse error: bad entity header token: {mt}")
-            #print(f"Parse error: bad entity header token: {mt}")
-            
-        mention, typ = mt.split(":", 1)
-        self.nodes[mention.replace('_', ' ')] = typ
+            return False
+        parts = mt.rsplit(":", 1)
+        if len(parts) != 2:
+            return False
+        mention, typ = parts[0].strip(), parts[1].strip()
+        self.nodes[mention] = typ
 
-        while True:
-            t = self.peek()
-            if t is None:
-                raise ValueError("Parse error: unexpected EOF in entity block")
-            if t == "]":
-                self.next()  # 结束当前实体块
-                return
-            if t == "[":
+        while self.peek() and self.peek() != "]":
+            if self.peek() == "[":
                 # 关系块：[REL:TAIL]
                 self.next()           # 消耗 '['
                 rt = self.next()
+                
+                # 校验关系 token 是否合法
                 if not rt or ":" not in rt:
-                    raise ValueError(f"Parse error: bad relation token: {rt}")
-                rel, tail = rt.split(":", 1)
-                self._expect("]")
-                edge = [mention.replace('_', ' '), rel, tail.replace('_', ' ')]
+                    return False
+                
+                parts = rt.split(":", 1)
+                if len(parts) != 2:
+                    return
+                rel, tail =parts[0].strip(), parts[1].strip()
+                edge = [mention, rel, tail]
                 if edge not in self.edges:
                     self.edges.append(edge)
-                continue
-
+                if self.peek() == "]":
+                    self.next()
             # 容错：跳过意外 token
+            else: self.next()
+            
+        if self.peek() == "]":
             self.next()
 
     def parse(self):
-        # 寻找 ROOT 起点
-        while self.peek() is not None:
+        try:
+            print("22222222222")
             if self.peek() == "[":
                 self.next()
-                if self.peek() == "ROOT":
-                    self.next()  # 消耗 ROOT
-                    break
-            else:
-                self.next()
+            # 解析 ROOT 内部的若干实体块，直到遇到对应的 ']'
+            while self.peek() and self.peek() != "]":
+                #print(self.peek())
+                if self.peek() == "[":
+                    self.next()  # 消耗实体块起始 '['
+                    # 尝试解析实体，如果不规范则安全跳过，避免死循环
+                    self._parse_entity()
+                    '''if not self._parse_entity():
+                        # 核心修复：更新指针跳过当前出错的实体块，直到遇到右括号
+                        while self.peek() is not None and self.peek() != "]":
+                            self.next()
+                        if self.peek() == "]":
+                            self.next() # 消耗掉该错误实体的右括号'''
+                # 其他 token（例如多余空白）直接跳过
+                else:self.next()
 
-        # 未找到 ROOT，则认为是空图
-        if self.peek() is None:
+            return {"entities": self.nodes, "relations": list(self.edges)}
+            
+        except Exception:
+            # 终极兜底：万一发生任何预料之外的严重错误（不 raise，按要求返回空结果）
             return {"entities": {}, "relations": []}
-
-        # 解析 ROOT 内部的若干实体块，直到遇到对应的 ']'
-        while True:
-            t = self.peek()
-            if t is None:
-                raise ValueError("Parse error: unexpected EOF in ROOT block")
-            if t == "]":
-                self.next()  # 结束 ROOT
-                break
-            if t == "[":
-                self.next()          # 消耗实体块起始 '['
-                try:
-                    self._parse_entity() # 解析实体及其所有关系
-                except Exception as e:
-                    while t != "]":
-                        self.next()
-                continue
-            # 其他 token（例如多余空白）直接跳过
-            self.next()
-
-        return {"entities": self.nodes, "relations": list(self.edges)}
 
 
 # =============== VALIDATION ==================
 def verify(original, recovered):
     orig_edges = sorted(original["relations"])
     reco_edges = sorted(recovered["relations"])
-    '''for i in range(len(orig_edges)):
-        orig_edges[i][0] = orig_edges[i][0].replace("_", " ")
-        orig_edges[i][-1] = orig_edges[i][-1].replace("_", " ")
-    for i in range(len(reco_edges)):
-        reco_edges[i][0] = reco_edges[i][0].replace("_", " ")
-        reco_edges[i][-1] = reco_edges[i][-1].replace("_", " ")
-    for k, v in original["entities"].items():
-        original["entities"][k.replace("_", " ")] = v
-        del original["entities"][k]
-    for k, v in recovered["entities"].items():
-        recovered["entities"][k.replace("_", " ")] = v
-        del recovered["entities"][k]
-    print(orig_edges)
-    print(reco_edges)
-    print(original["entities"])
-    print(recovered["entities"])'''
+
     nodes_match = original["entities"] == recovered["entities"]
     edges_match = orig_edges == reco_edges
     
@@ -238,8 +218,8 @@ def verify(original, recovered):
 # =============== DEMO ==================
 if __name__ == "__main__":
 
-    args = sys.argv
-    '''if len(args) != 3:
+    '''args = sys.argv
+    if len(args) != 3:
         print("Usage: python build_graph.py <dataset> <split>")
         sys.exit(1)
 
@@ -247,7 +227,7 @@ if __name__ == "__main__":
     split = args[2]'''
 
     from tqdm import tqdm
-    datasets = ["conll04", "scierc", "ace2005"]
+    datasets = ["ace2005"]
     splits = ["train", "dev", "test"]
 
     for dataset in datasets:
@@ -257,7 +237,7 @@ if __name__ == "__main__":
             for i, data in tqdm(enumerate(datalist)):
                 print(f"Processing {i}th data...")
                 if len(data['sentences']) < 1 or len(data['entities']) < 1:
-                    seq = "[ROOT]"
+                    seq = "[]"
                 else:
                     text = data['sentences']
                     G = {"entities": data['entities'], "relations": data['relations']}
@@ -272,17 +252,29 @@ if __name__ == "__main__":
                     if_match = verify(G, G2)
                     if not if_match:
                         print("Not match!!!!")
-                        break
+                        sys.exit(0)
                     print("--------------------------------")
                 data_new = copy.deepcopy(data)
                 data_new["serialized"] = seq
                 datalist_new.append(data_new)
             write_jsonl_w(f"data_raw/{dataset}/{split}_graph_serialized_sel.jsonl", datalist_new)
 
-    '''text = "A 49-year - old man with Crohn 's disease treated with prednisone and mesalamine ( 5-ASA ) developed worsening respiratory distress and fever ."
+    '''text = "<entity_span_1> <entity_span_2> <entity_span_3> <entity_span_4> <entity_span_5> ."
 
     G = {
-            "entities": {"5-ASA": {"type": "Drug"}, "fever": {"type": "Adverse-Effect"}, "mesalamine": {"type": "Drug"}, "prednisone": {"type": "Drug"}, "worsening respiratory distress": {"type": "Adverse-Effect"}}, "relations": [["fever", "adverse_effect", "5-ASA"], ["fever", "adverse_effect", "mesalamine"], ["fever", "adverse_effect", "prednisone"], ["worsening respiratory distress", "adverse_effect", "5-ASA"], ["worsening respiratory distress", "adverse_effect", "mesalamine"], ["worsening respiratory distress", "adverse_effect", "prednisone"]]}
+    "entities": {
+        "<entity_span_1>": "<Entity_Type_1>",
+        "<entity_span_2>": "<Entity_Type_2>",
+        "<entity_span_3>": "<Entity_Type_3>",
+        "<entity_span_4>": "<Entity_Type_4>",
+        "<entity_span_5>": "<Entity_Type_5>",
+    },
+    "relations": [
+        ["<entity_span_2>", "<Relation_Type_1>", "<entity_span_3>"],
+        ["<entity_span_2>", "<Relation_Type_2>", "<entity_span_5>"],
+        ["<entity_span_4>", "<Relation_Type_2>", "<entity_span_3>"],
+    ]
+    }
 
     seq = serialize_graph(G, text)
     print("Serialized:\n", seq)

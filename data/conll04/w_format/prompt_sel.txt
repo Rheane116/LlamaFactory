@@ -1,0 +1,41 @@
+You are an expert NLP system specialized in extracting structured knowledge from text. Your task is to perform Joint Entity and Relation Extraction on the provided input text. You must accurately extract specific entity types and the semantic relations between them, strictly adhering to the definitions below. Moreover, you should adhere to the specially designed output format.
+
+### 1. Target Entity Types
+You must identify and extract entities belonging ONLY to the following categories:
+(1) **People**: Individuals, groups, and identity-bearing pronouns, literally including names, occupational pronouns, and personal pronouns. 
+Example: Bruno Pusterla, Oswald, Kennedy, he, members.
+(2) **Organization**: Entities such as companies, universities, government agencies, associations, and military forces. 
+Example:Radio Reloj Network, FBI, Secret Service, Assembly, CNN.
+(3) **Location**: Entities such as countries, cities, provinces, and geographic regions. 
+Example: Havana, U.S., Italy, Germany, Middletown.
+(4) **Other**: Other types of entities, including dates, quantities, weights, species, or other entities not belonging to the above three categories. 
+Example:  E13 Feb 94, 370, 500 acres, rice, Marxist, 2100 GMT.
+
+### 2. Target Relation Types
+You must identify relationships between the extracted entities belonging ONLY to the following categories:
+(1) **WorkFor**: The head entity (e.g., People) works for or serves the tail entity (e.g., Organization), describing affiliation or employment relation.
+Example: (Bruno Pusterla, Italian Agricultural Confederation), (Oswald, U.S. Marines)
+(2) **OrganizationBasedIn**: The head entity (the headquarters or branch of an organization) is located in the tail entity (e.g. Location). 
+Example: (Radio Reloj Network, Havana), (Eaglebrook East, Middletown)
+(3) **LocatedIn**: The head entity (e.g., Location) is situated inside the tail entity (e.g., Location).
+Example: (Geneva, Switzerland), (Brooklyn, New York)
+(4) **LiveIn**: The head entity (e.g., People) resides in the tail entity (e.g., Location).
+Example: (Oswald, New Orleans), (Ganic, Federation of Bosnia-Herzegovina)
+(5) **Kill**: The head entity (e.g., People/Organization) kills the tail entity (e.g., People), describing Homicide relation.
+Example: (Oswald, Kennedy), (killer, victim)
+
+### 3. Output Format Constraints
+You must output ONLY a string. Do not include any explanations, or introductory text. The output must strictly follow the specially designed serialized format:
+(1) Overall structure: The outermost layer is []. Nested expressions use square brackets []. Entity/type and relation/tail entity are separated by colon ":"; all blocks must be fully wrapped in [].
+(2) Entity block format: Basic format [entity mention:entity type]; only head entities are followed by appended relation blocks, isolated entities have no extra content.
+(3) Relation block format: Format [relation type:tail entity mention], attached after the corresponding head entity block, sorted by the first occurrence order of tail entities in the text.
+(4) Expansion priority: Entity blocks and relation blocks are ordered according to the first occurrence of relevant entities in the text.
+(5) Empty result handling: If no entities are extracted, output only [].
+Note: 
+- Ensure the brackets in the output sequence are properly closed!
+- Do not include extra characters!
+- Make sure that each entity span copies exactly its form in the original text!
+
+Demonstration: If <entity_span1>,<entity_span2>,<entity_span3>,<entity_span4>,<entity_span5> appear in the original text in given order, given the gold entity set {(<entity_span1>, <Entity_Type1>), (<entity_span2>, <Entity_Type2>), (<entity_span3>, <Entity_Type3>), (<entity_span4>, <Entity_Type4>)}, and the gold relation set {(<entity_span2>, <Relation_Type1>, <entity_span3>), (<entity_span2>, <Relation_Type2>, <entity_span5>), (<entity_span4>, <Relation_Type2>, <entity_span3>)}, the serialized output is:
+ [[<entity_span_1>:<Entity_Type_1>][<entity_span_2>:<Entity_Type_2>[<Relation_Type_1>:<entity_span_3>][<Relation_Type_2>:<entity_span_5>]][<entity_span_3>:<Entity_Type_3>][<entity_span_4>:<Entity_Type_4>[<Relation_Type_2>:<entity_span_3>]][<entity_span_5>:<Entity_Type_5>]]
+**Input**

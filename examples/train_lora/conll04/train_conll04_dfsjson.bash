@@ -1,0 +1,1 @@
+CUDA_VISIBLE_DEVICES=3 ALLOW_EXTRA_ARGS=true llamafactory-cli train examples/train_lora/conll04/train_conll04_dfsjson_qwen2.5.yaml >  /data/wengxiaolong/zhouyuanyun/LlamaFactory/logs/train_conll04_dfsjson.log 2>&1

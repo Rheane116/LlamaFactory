@@ -160,7 +160,7 @@ if __name__ == "__main__":
 
     from tqdm import tqdm
     #datasets = ["conll04", "scierc", "ace2005"]
-    datasets = ["scierc"]
+    datasets = ["ace2005"]
     splits = ["train", "dev", "test"]
 
     for dataset in datasets:
@@ -171,7 +171,7 @@ if __name__ == "__main__":
             for i, data in tqdm(enumerate(datalist)):
                 print(f"Processing {i + 1}th data...")
                 if len(data['entities']) < 1:
-                    serialized_list = "[]"
+                    serialized_list = []
                 else:       
                     text = data['sentences']
                     G = {"entities": data['entities'], "relations": data['relations']}
