@@ -24,6 +24,7 @@ from typing import TYPE_CHECKING, Any, Optional, Union
 import numpy as np
 import torch
 from transformers import Seq2SeqTrainer
+#from transformers.trainer_utils import PredictionOutput
 from typing_extensions import override
 
 from ...extras import logging
@@ -178,6 +179,26 @@ class CustomSeq2SeqTrainer(Seq2SeqTrainer):
 
         return result
 
+    def predict_list(
+        self, test_dataset, ignore_keys: list[str] | None = None, metric_key_prefix: str = "predict",
+        skip_special_tokens:bool = True, 
+        **gen_kwargs,     
+    ):
+        #predict_results_list = list()
+        if isinstance(test_dataset, dict):
+            print(f"\n---------DEBUG:test_dataset:{test_dataset}")
+            for test_dataset_name, _test_dataset in test_dataset.items():
+                print(f"\n--------------DEBUG:test_dataset_name:{test_dataset_name}")
+                split = "dev" if "dev" in test_dataset_name else "test"
+                self.predict_list(_test_dataset, metric_key_prefix=f"predict_{split}", **gen_kwargs)
+                #predict_results_list.append(predict_results)
+            return
+        
+        predict_results = self.predict(test_dataset, metric_key_prefix=metric_key_prefix, **gen_kwargs)
+        self.log_metrics(metric_key_prefix, predict_results.metrics)
+        self.save_metrics(metric_key_prefix, predict_results.metrics)
+        self.save_predictions(test_dataset, predict_results, skip_special_tokens, save_prefix=metric_key_prefix)
+
     @override
     def create_optimizer(self) -> "torch.optim.Optimizer":
         if self.optimizer is None:
@@ -240,7 +261,7 @@ class CustomSeq2SeqTrainer(Seq2SeqTrainer):
         return loss, generated_tokens, labels
 
     def save_predictions(
-        self, dataset: "Dataset", predict_results: "PredictionOutput", skip_special_tokens: bool = True
+        self, dataset: "Dataset", predict_results: "PredictionOutput", skip_special_tokens: bool = True, save_prefix: str="generated"
     ) -> None:
         r"""Save model predictions to `output_dir`.
 
@@ -249,7 +270,7 @@ class CustomSeq2SeqTrainer(Seq2SeqTrainer):
         if not self.is_world_process_zero():
             return
 
-        output_prediction_file = os.path.join(self.args.output_dir, "generated_predictions.jsonl")
+        output_prediction_file = os.path.join(self.args.output_dir, f"{save_prefix}_predictions.jsonl")
         logger.info_rank0(f"Saving prediction results to {output_prediction_file}")
 
         labels = np.where(

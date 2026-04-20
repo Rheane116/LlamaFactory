@@ -65,7 +65,7 @@ def run_sft(
     dataset_module = get_dataset(template, model_args, data_args, training_args, stage="sft", **tokenizer_module)
     model = load_model(tokenizer, model_args, finetuning_args, training_args.do_train)
 
-    print(f"\n--------------DEBUG: eval_dataset:{dataset_module['eval_dataset']}")
+    #print(f"\n--------------DEBUG: eval_dataset:{dataset_module['eval_dataset']}")
 
     ref_model = None
     if finetuning_args.use_asft_loss:
@@ -207,10 +207,12 @@ def run_sft(
     # Predict
     if training_args.do_predict:
         logger.warning_rank0_once("Batch generation can be very slow. Consider using `scripts/vllm_infer.py` instead.")
-        predict_results = trainer.predict(dataset_module["eval_dataset"], metric_key_prefix="predict", **gen_kwargs)
-        trainer.log_metrics("predict", predict_results.metrics)
+        #predict_results = trainer.predict(dataset_module["eval_dataset"], metric_key_prefix="predict", **gen_kwargs)
+        trainer.predict_list(dataset_module["eval_dataset"], metric_key_prefix="predict", skip_special_tokens=generating_args.skip_special_tokens, **gen_kwargs, )
+        
+        '''trainer.log_metrics("predict", predict_results.metrics)
         trainer.save_metrics("predict", predict_results.metrics)
-        trainer.save_predictions(dataset_module["eval_dataset"], predict_results, generating_args.skip_special_tokens)
+        trainer.save_predictions(dataset_module["eval_dataset"], predict_results, generating_args.skip_special_tokens)'''
 
     # Create model card
     create_modelcard_and_push(trainer, model_args, data_args, training_args, finetuning_args)

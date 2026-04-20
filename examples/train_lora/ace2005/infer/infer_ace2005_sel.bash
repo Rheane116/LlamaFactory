@@ -1,1 +1,0 @@
-CUDA_VISIBLE_DEVICES=1 ALLOW_EXTRA_ARGS=true llamafactory-cli train examples/train_lora/ace2005/infer_ace2005_sel_qwen2.5.yaml

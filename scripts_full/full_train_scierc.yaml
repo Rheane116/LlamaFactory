@@ -1,0 +1,62 @@
+### model
+model_name_or_path: /data/wengxiaolong/huggingface/Qwen2.5-7B-Instruct
+trust_remote_code: true
+
+### method
+stage: sft
+do_train: true
+finetuning_type: full
+deepspeed: examples/deepspeed/ds_z2_config.json  # choices: [ds_z0_config.json, ds_z2_config.json, ds_z3_config.json]
+
+### dataset
+dataset: scierc_dfs_train_wfmt
+template: qwen
+cutoff_len: 2048
+max_samples: 1000
+preprocessing_num_workers: 16
+dataloader_num_workers: 4
+
+### output
+output_dir: saves/Qwen2.5-7B/lora/full-sft-scierc-dfs
+logging_steps: 100
+plot_loss: true
+overwrite_output_dir: true
+save_only_model: false
+report_to: tensorboard  # choices: [none, wandb, tensorboard, swanlab, mlflow]
+
+### train
+per_device_train_batch_size: 1
+gradient_accumulation_steps: 2
+learning_rate: 1.0e-5
+num_train_epochs: 40
+lr_scheduler_type: cosine
+warmup_ratio: 0.1
+bf16: true
+ddp_timeout: 180000000
+resume_from_checkpoint: null
+
+### eval
+# eval_dataset: alpaca_en_demo
+# val_size: 0.1
+# per_device_eval_batch_size: 1
+# eval_strategy: steps
+# eval_steps: 500
+
+### eval
+#eval_dataset: scierc_dfs_dev_wfmt, scierc_dfs_test_wfmt
+#eval_on_each_dataset: true
+#per_device_eval_batch_size: 4
+#max_new_tokens: 1024
+#eval_strategy: steps
+#eval_steps: 500
+save_steps: 500
+#metric_for_best_model: eval_scierc_dfs_dev_wfmt_rel_f1
+#reater_is_better: true
+#save_total_limit: 3
+#predict_with_generate: true  # 用于控制模型在评估（Evaluation）和预测（Prediction）阶段，是直接输出 logits，还是调用 model.generate() 进行序列生成
+#load_best_model_at_end: true
+
+#do_predict: true 
+
+#compute_relation_f1: true
+#f1_format: dfs

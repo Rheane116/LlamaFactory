@@ -1,0 +1,1 @@
+CUDA_VISIBLE_DEVICES=2 ALLOW_EXTRA_ARGS=true llamafactory-cli train /data/wengxiaolong/zhouyuanyun/LlamaFactory/scripts_lora/ace2005/infer/infer_ace2005_dfs_qwen2.5.yaml

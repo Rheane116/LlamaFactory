@@ -1,0 +1,1 @@
+FORCE_TORCHRUN=1 CUDA_VISIBLE_DEVICES=3 ALLOW_EXTRA_ARGS=true llamafactory-cli train /data/wengxiaolong/zhouyuanyun/LlamaFactory/scripts_full/full_train_scierc.yaml > /data/wengxiaolong/zhouyuanyun/LlamaFactory/logs/full_train_scierc_dfs.log 2>&1

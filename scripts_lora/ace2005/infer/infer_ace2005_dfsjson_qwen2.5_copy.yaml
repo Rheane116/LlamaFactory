@@ -1,6 +1,6 @@
 ### model
 model_name_or_path: /data/wengxiaolong/huggingface/Qwen2.5-7B-Instruct
-adapter_name_or_path: /data/wengxiaolong/zhouyuanyun/LlamaFactory/saves/Qwen2.5-7B/lora/sft-ace2005-dfsjson/checkpoint-2500
+adapter_name_or_path: /data/wengxiaolong/zhouyuanyun/LlamaFactory/saves/Qwen2.5-7B/lora/sft-ace2005-dfsjson/checkpoint-18000
 trust_remote_code: true
 
 ### method
@@ -11,7 +11,7 @@ lora_rank: 8
 lora_target: all
 
 ### dataset
-dataset: ace2005_dfsjson_train
+dataset: ace2005_dfsjson_train_wfmt
 template: qwen
 cutoff_len: 2048
 max_samples: 10000
@@ -19,12 +19,12 @@ preprocessing_num_workers: 16
 dataloader_num_workers: 4
 
 ### output
-output_dir: saves/Qwen2.5-7B/lora/sft-ace2005-dfsjson/output-2500
+output_dir: saves/Qwen2.5-7B/lora/sft-ace2005-dfsjson/output-18000-1
 overwrite_output_dir: true
 predict_with_generate: true
 
 ### eval
-eval_dataset: ace2005_dfsjson_test
+eval_dataset: ace2005_dfsjson_test_wfmt
 per_device_eval_batch_size: 4
 max_new_tokens: 1024
 do_eval: false
@@ -34,5 +34,4 @@ load_best_model_at_end: false
 compute_relation_f1: true
 f1_format: dfsjson
 
-### resume
-resume_from_checkpoint: saves/Qwen2.5-7B/lora/sft-ace2005-dfsjson/checkpoint-2500
+

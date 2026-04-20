@@ -600,29 +600,28 @@ FMT_2_ID_scierc = {
     "dfs": 1500, 
     "sel": 2000
 }
-VERSION_2_MAP = {
-    "-1": FMT_2_ID_scierc,
-    #"-wofmt": FMT_2_ID_wofmt_scierc
+FMT_2_ID_ace2005 = {
+    "json": 18000, 
+    "dfsjson": 18000, 
+    "dfs": 15000, 
+    "sel": 18000
 }
+
 if __name__ == "__main__":
     import sys
     args = sys.argv
 
-    version = "-1"
-    dataset = ""
-    if len(args) >= 2:
-        dataset = args[1]
-        #version = "-" + args[1]
+    dataset = "ace2005"
+ 
         
     #datasets = ["conll04"]
-    fmts = ["json", "dfsjson", "dfs", "sel"]
-    mapp = VERSION_2_MAP[version]
+    fmts = ["dfsjson"]
+    #fmts = ["json", "dfs", "sel"]
     #for dataset in datasets:
     for fmt in fmts:
-        id = mapp[fmt]
-
-        in_path = f"/data/wengxiaolong/zhouyuanyun/LlamaFactory/saves/Qwen2.5-7B/lora/sft-{dataset}-{fmt}{version}/output-{id}/generated_predictions.jsonl"
-        out_path = f"/data/wengxiaolong/zhouyuanyun/LlamaFactory/saves/Qwen2.5-7B/lora/sft-{dataset}-{fmt}{version}/output-{id}/parsed_generated_predictions.jsonl"
+        ckpt = FMT_2_ID_ace2005[fmt]
+        in_path = f"/data/wengxiaolong/zhouyuanyun/LlamaFactory/saves/Qwen2.5-7B/lora/sft-{dataset}-{fmt}/output-{ckpt}-3/predict_test_predictions.jsonl"
+        out_path = f"/data/wengxiaolong/zhouyuanyun/LlamaFactory/saves/Qwen2.5-7B/lora/sft-{dataset}-{fmt}/output-{ckpt}-3/parsed_predict_test_predictions.jsonl"
 
         outputs = read_jsonl(in_path)
         outputs_new = list()

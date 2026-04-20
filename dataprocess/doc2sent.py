@@ -4,11 +4,11 @@ from file_utils import *
 
 import sys
 args = sys.argv
-if len(args) != 3:
+if len(args) < 2:
     print("Usage: python build_graph.py <dataset> <split>")
     sys.exit(1)
 dataset = args[1]
-split = args[2]
+#split = args[2]
 
 def transform_doc_to_sentences(data):
     """
@@ -71,6 +71,7 @@ def transform_doc_to_sentences(data):
                             new_ner_item.extend(ner_item[3:])
                         
                         sent_data["ner"].append(new_ner_item)
+
         
         # 获取当前句子的关系标注
         if sent_idx < len(relations):
@@ -111,6 +112,9 @@ def transform_doc_to_sentences(data):
                             new_rel_item.extend(rel_item[5:])
                         
                         sent_data["relations"].append(new_rel_item)
+                    else:
+                        print(f"DEBUG: 关系的头尾实体存在跨句：doc_key:{data['doc_key']},三元组：{rel_item}")
+                        
         
         sent_data["ner"] = sorted(sent_data["ner"], key = lambda x: (x[0], x[1]))
         sent_data["relations"] = sorted(sent_data["relations"], key = lambda x: (x[0], x[1], x[2], x[3]))
@@ -127,10 +131,12 @@ def transform_doc_to_sentences(data):
 
 output_list = list()
 sample_list = list()
-with open(f"./data_raw/{dataset}/{split}.json", "r") as f:
-    for line in tqdm(list(map(json.loads, f.readlines()))):
-        assert len(line["sentences"]) == len(line['ner'])
-        assert len(line["sentences"]) == len(line['relations'])
-        sample_list += transform_doc_to_sentences(line)
-write_jsonl_w(f'./data_raw/{dataset}/{split}_new.jsonl', sample_list)
+splits = ["train", "dev", "test"]
+for split in splits:
+    with open(f"./data_raw/{dataset}/{split}.json", "r") as f:
+        for line in tqdm(list(map(json.loads, f.readlines()))):
+            assert len(line["sentences"]) == len(line['ner'])
+            assert len(line["sentences"]) == len(line['relations'])
+            sample_list += transform_doc_to_sentences(line)
+    write_jsonl_w(f'./data_raw/{dataset}/{split}_new.jsonl', sample_list)
            
